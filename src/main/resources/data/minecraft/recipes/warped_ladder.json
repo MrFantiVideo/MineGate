@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minegate:warped_stick"
+    }
+  },
+  "result": {
+    "item": "minegate:warped_ladder",
+    "count": 3
+  }
+}

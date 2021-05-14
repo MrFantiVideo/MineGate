@@ -1,0 +1,10 @@
+{
+  "variants": {
+      "type=default": {
+        "model": "minecraft:block/dark_oak_sapling"
+      },
+      "type=plant": {
+        "model": "minecraft:block/dark_oak_sapling_slab"
+      }
+  }
+}

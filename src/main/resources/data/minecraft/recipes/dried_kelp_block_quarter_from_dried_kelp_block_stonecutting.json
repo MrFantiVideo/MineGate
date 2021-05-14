@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dried_kelp_block"
+  },
+  "result": "minegate:dried_kelp_block_quarter",
+  "count": 4
+}

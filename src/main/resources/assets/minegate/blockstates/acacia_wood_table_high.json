@@ -1,0 +1,22 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north":
+        {
+            "model": "minegate:block/acacia_wood_table_high"
+        },
+        "facing=south":
+        {
+            "model": "minegate:block/acacia_wood_table_high"
+        },
+        "facing=east":
+        {
+            "model": "minegate:block/acacia_wood_table_high", "y": 90
+        },
+        "facing=west":
+        {
+            "model": "minegate:block/acacia_wood_table_high", "y": 90
+        }
+    }
+}

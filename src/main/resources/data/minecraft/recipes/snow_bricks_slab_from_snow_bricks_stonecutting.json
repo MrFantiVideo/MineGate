@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:snow_bricks"
+  },
+  "result": "minegate:snow_bricks_slab",
+  "count": 2
+}

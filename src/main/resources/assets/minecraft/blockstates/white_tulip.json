@@ -1,0 +1,10 @@
+﻿{
+    "variants": {
+        "type=default": {
+            "model": "minecraft:block/white_tulip"
+        },
+        "type=plant": {
+            "model": "minecraft:block/white_tulip_slab"
+        }
+    }
+}

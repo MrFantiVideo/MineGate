@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth",
+    "textures":
+    {
+        "particle": "minecraft:block/terracotta",
+        "bottom": "minecraft:block/terracotta",
+        "top": "minecraft:block/terracotta",
+        "side": "minecraft:block/terracotta"
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_x",
+    "textures":
+    {
+        "particle": "minecraft:block/iron_block",
+        "bottom": "minecraft:block/iron_block",
+        "top": "minecraft:block/iron_block",
+        "side": "minecraft:block/iron_block"
+    }
+}

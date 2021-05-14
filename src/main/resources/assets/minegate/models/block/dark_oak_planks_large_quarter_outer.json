@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_quarter",
+    "textures":
+    {
+        "particle": "minegate:block/dark_oak_planks_large",
+        "bottom": "minegate:block/dark_oak_planks_large",
+        "top": "minegate:block/dark_oak_planks_large",
+        "side": "minegate:block/dark_oak_planks_large"
+    }
+}

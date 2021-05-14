@@ -1,0 +1,9 @@
+﻿{
+	"credit": "MineGate - Tous droits réservés.",
+	"parent": "minegate:block/chair_vertical",
+	"textures":
+	{
+		"0": "minecraft:block/jungle_planks",
+		"particle": "minecraft:block/jungle_planks"
+	}
+}

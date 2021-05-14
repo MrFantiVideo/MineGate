@@ -1,0 +1,18 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minegate:warped_stick"
+    },
+    "P": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "result": {
+    "item": "minegate:warped_wood_stool"
+  }
+}

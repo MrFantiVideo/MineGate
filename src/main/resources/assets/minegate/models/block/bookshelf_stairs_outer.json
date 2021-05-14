@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/outer_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/oak_planks",
+        "top": "minecraft:block/oak_planks",
+        "side": "minecraft:block/bookshelf"
+    }
+}

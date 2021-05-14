@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/inner_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/cyan_terracotta",
+        "bottom": "minecraft:block/cyan_terracotta",
+        "top": "minecraft:block/cyan_terracotta",
+        "side": "minecraft:block/cyan_terracotta"
+    }
+}

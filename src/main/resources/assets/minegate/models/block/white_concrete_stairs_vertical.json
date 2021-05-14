@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/stairs_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/white_concrete",
+        "bottom": "minecraft:block/white_concrete",
+        "top": "minecraft:block/white_concrete",
+        "side": "minecraft:block/white_concrete"
+    }
+}

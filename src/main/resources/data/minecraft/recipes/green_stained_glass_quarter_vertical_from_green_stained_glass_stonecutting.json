@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:green_stained_glass"
+  },
+  "result": "minegate:green_stained_glass_quarter_vertical",
+  "count": 4
+}

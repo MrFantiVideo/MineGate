@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_x",
+    "textures":
+    {
+        "particle": "minecraft:block/white_wool",
+        "bottom": "minecraft:block/white_wool",
+        "top": "minecraft:block/white_wool",
+        "side": "minecraft:block/white_wool"
+    }
+}

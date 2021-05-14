@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:jungle_planks_smooth"
+  },
+  "result": "minegate:jungle_planks_smooth_stairs",
+  "count": 1
+}

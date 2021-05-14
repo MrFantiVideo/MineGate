@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_x",
+    "textures":
+    {
+        "particle": "minecraft:block/fire_coral_block",
+        "bottom": "minecraft:block/fire_coral_block",
+        "top": "minecraft:block/fire_coral_block",
+        "side": "minecraft:block/fire_coral_block"
+    }
+}

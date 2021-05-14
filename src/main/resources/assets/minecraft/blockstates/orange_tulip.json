@@ -1,0 +1,10 @@
+﻿{
+    "variants": {
+        "type=default": {
+            "model": "minecraft:block/orange_tulip"
+        },
+        "type=plant": {
+            "model": "minecraft:block/orange_tulip_slab"
+        }
+    }
+}

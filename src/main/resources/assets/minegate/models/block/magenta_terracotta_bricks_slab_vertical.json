@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minegate:block/magenta_terracotta_bricks",
+        "top": "minegate:block/magenta_terracotta_bricks",
+        "side": "minegate:block/magenta_terracotta_bricks"
+    }
+}

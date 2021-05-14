@@ -1,0 +1,8 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/cube_all",
+    "textures":
+    {
+        "all": "minegate:block/brown_tiles"
+    }
+}

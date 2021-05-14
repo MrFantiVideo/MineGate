@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minegate:block/birch_planks_large",
+        "top": "minegate:block/birch_planks_large",
+        "side": "minegate:block/birch_planks_large"
+    }
+}

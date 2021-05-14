@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/inner_glass_stairs",
+    "textures":
+    {
+      "main": "minecraft:block/yellow_stained_glass",
+      "top": "minecraft:block/yellow_stained_glass",
+      "bottom": "minecraft:block/yellow_stained_glass",
+      "particle": "minecraft:block/yellow_stained_glass"
+    }
+}

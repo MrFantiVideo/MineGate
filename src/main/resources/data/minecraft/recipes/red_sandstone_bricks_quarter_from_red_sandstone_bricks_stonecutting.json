@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:red_sandstone_bricks"
+  },
+  "result": "minegate:red_sandstone_bricks_quarter",
+  "count": 4
+}

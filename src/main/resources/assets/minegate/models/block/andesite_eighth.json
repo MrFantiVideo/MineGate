@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth",
+    "textures":
+    {
+        "particle": "minecraft:block/andesite",
+        "bottom": "minecraft:block/andesite",
+        "top": "minecraft:block/andesite",
+        "side": "minecraft:block/andesite"
+    }
+}

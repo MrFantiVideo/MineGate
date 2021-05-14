@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:bookshelf"
+  },
+  "result": "minegate:bookshelf_slab",
+  "count": 2
+}

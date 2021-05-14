@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/netherite_block",
+        "bottom": "minecraft:block/netherite_block",
+        "top": "minecraft:block/netherite_block",
+        "side": "minecraft:block/netherite_block"
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top",
+    "textures":
+    {
+        "particle": "minecraft:block/polished_blackstone",
+        "bottom": "minecraft:block/polished_blackstone",
+        "top": "minecraft:block/polished_blackstone",
+        "side": "minecraft:block/polished_blackstone"
+    }
+}

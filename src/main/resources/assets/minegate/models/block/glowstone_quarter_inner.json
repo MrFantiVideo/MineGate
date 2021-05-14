@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/inner_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/glowstone",
+        "bottom": "minecraft:block/glowstone",
+        "top": "minecraft:block/glowstone",
+        "side": "minecraft:block/glowstone"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+      "type=default": {
+        "model": "minecraft:block/acacia_sapling"
+      },
+      "type=plant": {
+        "model": "minecraft:block/acacia_sapling_slab"
+      }
+  }
+}

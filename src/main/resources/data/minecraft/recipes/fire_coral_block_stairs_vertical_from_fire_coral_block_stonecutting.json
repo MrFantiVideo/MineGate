@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:fire_coral_block"
+  },
+  "result": "minegate:fire_coral_block_stairs_vertical",
+  "count": 1
+}

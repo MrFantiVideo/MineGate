@@ -1,0 +1,10 @@
+﻿{
+    "variants": {
+        "type=default": {
+            "model": "minecraft:block/blue_orchid"
+        },
+        "type=plant": {
+            "model": "minecraft:block/blue_orchid_slab"
+        }
+    }
+}

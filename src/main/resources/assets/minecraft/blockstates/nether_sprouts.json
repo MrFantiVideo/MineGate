@@ -1,0 +1,10 @@
+{
+  "variants": {
+      "type=default": {
+          "model": "minecraft:block/nether_sprouts"
+      },
+      "type=plant": {
+          "model": "minecraft:block/nether_sprouts_slab"
+      }
+  }
+}

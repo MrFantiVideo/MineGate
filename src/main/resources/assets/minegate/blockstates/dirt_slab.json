@@ -1,0 +1,29 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+      "multipart": [
+        {
+          "when": {
+            "type": "bottom"
+          },
+          "apply": {
+            "model": "minegate:block/dirt_slab"
+          }
+        },
+        {
+          "when": {
+            "type": "top"
+          },
+          "apply": {
+            "model": "minegate:block/dirt_slab_top"
+          }
+        },
+        {
+          "when": {
+            "type": "double"
+          },
+          "apply": {
+            "model": "minecraft:block/dirt"
+          }
+        }
+      ]
+}

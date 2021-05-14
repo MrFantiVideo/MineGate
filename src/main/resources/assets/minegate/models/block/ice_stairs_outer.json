@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_glass_stairs",
+    "textures":
+    {
+      "main": "minecraft:block/ice",
+      "top": "minecraft:block/ice",
+      "bottom": "minecraft:block/ice",
+      "particle": "minecraft:block/ice"
+    }
+}

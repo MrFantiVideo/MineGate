@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth",
+    "textures":
+    {
+        "particle": "minegate:block/dark_oak_planks_smooth",
+        "bottom": "minegate:block/dark_oak_planks_smooth",
+        "top": "minegate:block/dark_oak_planks_smooth",
+        "side": "minegate:block/dark_oak_planks_smooth"
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_z",
+    "textures":
+    {
+        "particle": "minecraft:block/prismarine",
+        "bottom": "minecraft:block/prismarine",
+        "top": "minecraft:block/prismarine",
+        "side": "minecraft:block/prismarine"
+    }
+}

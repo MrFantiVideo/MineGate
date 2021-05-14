@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:gold_block"
+  },
+  "result": "minegate:gold_block_quarter",
+  "count": 4
+}

@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/stairs",
+    "textures":
+    {
+        "bottom": "minegate:block/spruce_planks_smooth",
+        "top": "minegate:block/spruce_planks_smooth",
+        "side": "minegate:block/spruce_planks_smooth"
+    }
+}

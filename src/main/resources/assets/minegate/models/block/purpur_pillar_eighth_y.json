@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_y",
+    "textures":
+    {
+        "particle": "minecraft:block/purpur_pillar",
+        "bottom": "minecraft:block/purpur_pillar",
+        "top": "minecraft:block/purpur_pillar",
+        "side": "minecraft:block/purpur_pillar"
+    }
+}

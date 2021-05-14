@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minegate:block/warped_planks_herringbone",
+        "top": "minegate:block/warped_planks_herringbone",
+        "side": "minegate:block/warped_planks_herringbone"
+    }
+}

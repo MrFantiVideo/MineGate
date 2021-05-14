@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "type=default": {
+            "model": "minecraft:block/fern"
+        },
+        "type=plant": {
+            "model": "minecraft:block/fern_slab"
+        }
+    }
+}

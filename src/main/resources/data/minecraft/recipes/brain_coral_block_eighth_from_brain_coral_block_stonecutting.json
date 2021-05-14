@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:brain_coral_block"
+  },
+  "result": "minegate:brain_coral_block_eighth",
+  "count": 8
+}

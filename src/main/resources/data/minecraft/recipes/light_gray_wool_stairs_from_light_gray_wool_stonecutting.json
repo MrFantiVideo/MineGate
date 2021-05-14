@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:light_gray_wool"
+  },
+  "result": "minegate:light_gray_wool_stairs",
+  "count": 1
+}

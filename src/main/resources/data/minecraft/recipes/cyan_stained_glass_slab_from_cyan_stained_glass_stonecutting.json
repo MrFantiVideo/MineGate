@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cyan_stained_glass"
+  },
+  "result": "minegate:cyan_stained_glass_slab",
+  "count": 2
+}

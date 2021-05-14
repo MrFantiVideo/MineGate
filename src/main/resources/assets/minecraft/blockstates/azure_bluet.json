@@ -1,0 +1,10 @@
+﻿{
+    "variants": {
+        "type=default": {
+            "model": "minecraft:block/azure_bluet"
+        },
+        "type=plant": {
+            "model": "minecraft:block/azure_bluet_slab"
+        }
+    }
+}

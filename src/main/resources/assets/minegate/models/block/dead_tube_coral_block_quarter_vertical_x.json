@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_x",
+    "textures":
+    {
+        "particle": "minecraft:block/dead_tube_coral_block",
+        "bottom": "minecraft:block/dead_tube_coral_block",
+        "top": "minecraft:block/dead_tube_coral_block",
+        "side": "minecraft:block/dead_tube_coral_block"
+    }
+}

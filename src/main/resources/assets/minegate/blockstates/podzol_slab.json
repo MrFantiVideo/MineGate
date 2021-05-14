@@ -1,0 +1,59 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+      "multipart": [
+        {
+          "when": {
+            "snowy": "false",
+            "type": "bottom"
+          },
+          "apply": {
+            "model": "minegate:block/podzol_slab"
+          }
+        },
+        {
+          "when": {
+            "snowy": "false",
+            "type": "top"
+          },
+          "apply": {
+            "model": "minegate:block/podzol_slab_top"
+          }
+        },
+        {
+          "when": {
+            "snowy": "false",
+            "type": "double"
+          },
+          "apply": {
+            "model": "minecraft:block/podzol"
+          }
+        },
+        {
+          "when": {
+            "snowy": "true",
+            "type": "bottom"
+          },
+          "apply": {
+            "model": "minegate:block/dirt_snow_slab"
+          }
+        },
+        {
+          "when": {
+            "snowy": "true",
+            "type": "top"
+          },
+          "apply": {
+            "model": "minegate:block/dirt_snow_slab_top"
+          }
+        },
+        {
+          "when": {
+            "snowy": "true",
+            "type": "double"
+          },
+          "apply": {
+            "model": "minecraft:block/grass_block_snow"
+          }
+        }
+      ]
+}

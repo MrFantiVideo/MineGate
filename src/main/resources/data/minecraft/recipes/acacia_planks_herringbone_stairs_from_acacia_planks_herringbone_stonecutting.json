@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:acacia_planks_herringbone"
+  },
+  "result": "minegate:acacia_planks_herringbone_stairs",
+  "count": 1
+}

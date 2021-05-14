@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top",
+    "textures":
+    {
+        "particle": "minecraft:block/red_nether_bricks",
+        "bottom": "minecraft:block/red_nether_bricks",
+        "top": "minecraft:block/red_nether_bricks",
+        "side": "minecraft:block/red_nether_bricks"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/vase",
+    "textures":
+    {
+        "dirt": "minecraft:block/dirt",
+        "vase": "minecraft:block/polished_andesite",
+        "particle": "minecraft:block/polished_andesite"
+    }
+}

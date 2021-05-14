@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:jungle_leaves"
+  },
+  "result": "minegate:jungle_leaves_slab",
+  "count": 2
+}

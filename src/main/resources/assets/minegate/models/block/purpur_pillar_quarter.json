@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/purpur_pillar",
+        "bottom": "minecraft:block/purpur_pillar_top",
+        "top": "minecraft:block/purpur_pillar_top",
+        "side": "minecraft:block/purpur_pillar"
+    }
+}

@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/inner_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/white_wool",
+        "top": "minecraft:block/white_wool",
+        "side": "minecraft:block/white_wool"
+    }
+}

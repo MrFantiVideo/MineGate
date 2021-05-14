@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:warped_planks_large"
+  },
+  "result": "minegate:warped_planks_large_stairs_vertical",
+  "count": 1
+}

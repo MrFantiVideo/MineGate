@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:oak_planks_large"
+  },
+  "result": "minegate:oak_planks_large_slab",
+  "count": 2
+}

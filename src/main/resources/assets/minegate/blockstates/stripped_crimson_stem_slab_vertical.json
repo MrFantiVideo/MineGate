@@ -1,0 +1,38 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north,type=single":
+        {
+            "model": "minegate:block/stripped_crimson_stem_slab_vertical", "y": 0, "uvlock": true
+        },
+        "facing=east,type=single":
+        {
+            "model": "minegate:block/stripped_crimson_stem_slab_vertical", "y": 90, "uvlock": true
+        },
+        "facing=south,type=single":
+        {
+            "model": "minegate:block/stripped_crimson_stem_slab_vertical", "y": 180, "uvlock": true
+        },
+        "facing=west,type=single":
+        {
+            "model": "minegate:block/stripped_crimson_stem_slab_vertical", "y": 270, "uvlock": true
+        },
+        "facing=north,type=double":
+        {
+            "model": "minecraft:block/stripped_crimson_stem"
+        },
+        "facing=east,type=double":
+        {
+            "model": "minecraft:block/stripped_crimson_stem"
+        },
+        "facing=south,type=double":
+        {
+            "model": "minecraft:block/stripped_crimson_stem"
+        },
+        "facing=west,type=double":
+        {
+            "model": "minecraft:block/stripped_crimson_stem"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:purpur_pillar"
+  },
+  "result": "minegate:purpur_pillar_slab_vertical",
+  "count": 2
+}

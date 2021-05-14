@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:black_wool"
+  },
+  "result": "minegate:black_wool_eighth",
+  "count": 8
+}

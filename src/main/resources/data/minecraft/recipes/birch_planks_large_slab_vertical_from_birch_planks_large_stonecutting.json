@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:birch_planks_large"
+  },
+  "result": "minegate:birch_planks_large_slab_vertical",
+  "count": 2
+}

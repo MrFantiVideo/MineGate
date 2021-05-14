@@ -1,0 +1,22 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north":
+        {
+            "model": "minegate:block/warped_wood_stool"
+        },
+        "facing=south":
+        {
+            "model": "minegate:block/warped_wood_stool"
+        },
+        "facing=east":
+        {
+            "model": "minegate:block/warped_wood_stool", "y": 90
+        },
+        "facing=west":
+        {
+            "model": "minegate:block/warped_wood_stool", "y": 90
+        }
+    }
+}

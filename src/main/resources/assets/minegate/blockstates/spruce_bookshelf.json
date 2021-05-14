@@ -1,0 +1,78 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "type=empty":
+        {
+            "model": "minegate:block/spruce_bookshelf"
+        },
+        "type=default":
+        {
+            "model": "minegate:block/spruce_bookshelf_default"
+        },
+        "type=black":
+        {
+            "model": "minegate:block/spruce_bookshelf_black"
+        },
+        "type=blue":
+        {
+            "model": "minegate:block/spruce_bookshelf_blue"
+        },
+        "type=brown":
+        {
+            "model": "minegate:block/spruce_bookshelf_brown"
+        },
+        "type=cyan":
+        {
+            "model": "minegate:block/spruce_bookshelf_cyan"
+        },
+        "type=gray":
+        {
+            "model": "minegate:block/spruce_bookshelf_gray"
+        },
+        "type=green":
+        {
+            "model": "minegate:block/spruce_bookshelf_green"
+        },
+        "type=light_blue":
+        {
+            "model": "minegate:block/spruce_bookshelf_light_blue"
+        },
+        "type=light_gray":
+        {
+            "model": "minegate:block/spruce_bookshelf_light_gray"
+        },
+        "type=lime":
+        {
+            "model": "minegate:block/spruce_bookshelf_lime"
+        },
+        "type=magenta":
+        {
+            "model": "minegate:block/spruce_bookshelf_magenta"
+        },
+        "type=orange":
+        {
+            "model": "minegate:block/spruce_bookshelf_orange"
+        },
+        "type=pink":
+        {
+            "model": "minegate:block/spruce_bookshelf_pink"
+        },
+        "type=purple":
+        {
+            "model": "minegate:block/spruce_bookshelf_purple"
+        },
+        "type=red":
+        {
+            "model": "minegate:block/spruce_bookshelf_red"
+        },
+        "type=white":
+        {
+            "model": "minegate:block/spruce_bookshelf_white"
+        },
+        "type=yellow":
+        {
+            "model": "minegate:block/spruce_bookshelf_yellow"
+        }
+    }
+}

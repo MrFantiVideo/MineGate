@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:blue_wool"
+  },
+  "result": "minegate:blue_wool_stairs_vertical",
+  "count": 1
+}

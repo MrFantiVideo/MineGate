@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:mushroom_stem"
+  },
+  "result": "minegate:mushroom_stem_stairs",
+  "count": 1
+}

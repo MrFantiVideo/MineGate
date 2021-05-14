@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:purple_terracotta"
+  },
+  "result": "minegate:purple_terracotta_stairs_vertical",
+  "count": 1
+}

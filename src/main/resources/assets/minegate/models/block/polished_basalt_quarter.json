@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/polished_basalt_side",
+        "bottom": "minecraft:block/polished_basalt_side",
+        "top": "minecraft:block/polished_basalt_side",
+        "side": "minecraft:block/polished_basalt_side"
+    }
+}

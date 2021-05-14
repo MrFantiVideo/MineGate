@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minecraft:block/stripped_warped_stem",
+        "top": "minecraft:block/stripped_warped_stem",
+        "side": "minecraft:block/stripped_warped_stem"
+    }
+}

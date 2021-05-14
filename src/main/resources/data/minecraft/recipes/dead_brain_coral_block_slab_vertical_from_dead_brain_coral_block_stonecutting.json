@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dead_brain_coral_block"
+  },
+  "result": "minegate:dead_brain_coral_block_slab_vertical",
+  "count": 2
+}

@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "":
+        {
+            "model": "minegate:block/gray_terracotta_bricks"
+        }
+    }
+}

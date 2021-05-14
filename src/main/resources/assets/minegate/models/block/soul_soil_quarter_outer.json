@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/soul_soil",
+        "bottom": "minecraft:block/soul_soil",
+        "top": "minecraft:block/soul_soil",
+        "side": "minecraft:block/soul_soil"
+    }
+}

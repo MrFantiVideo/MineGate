@@ -1,0 +1,22 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north":
+        {
+            "model": "minegate:block/birch_wood_bench"
+        },
+        "facing=south":
+        {
+            "model": "minegate:block/birch_wood_bench"
+        },
+        "facing=east":
+        {
+            "model": "minegate:block/birch_wood_bench", "y": 90
+        },
+        "facing=west":
+        {
+            "model": "minegate:block/birch_wood_bench", "y": 90
+        }
+    }
+}

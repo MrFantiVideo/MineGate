@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minecraft:block/magenta_terracotta",
+        "top": "minecraft:block/magenta_terracotta",
+        "side": "minecraft:block/magenta_terracotta"
+    }
+}

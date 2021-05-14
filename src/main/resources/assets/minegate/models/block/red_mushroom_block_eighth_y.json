@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_y",
+    "textures":
+    {
+        "particle": "minecraft:block/red_mushroom_block",
+        "bottom": "minecraft:block/red_mushroom_block",
+        "top": "minecraft:block/red_mushroom_block",
+        "side": "minecraft:block/red_mushroom_block"
+    }
+}

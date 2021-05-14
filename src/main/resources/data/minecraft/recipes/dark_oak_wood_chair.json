@@ -1,0 +1,19 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P ",
+    "PP",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minegate:dark_oak_stick"
+    },
+    "P": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "result": {
+    "item": "minegate:dark_oak_wood_chair"
+  }
+}

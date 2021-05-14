@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top",
+    "textures":
+    {
+        "particle": "minecraft:block/spruce_log",
+        "bottom": "minecraft:block/spruce_log",
+        "top": "minecraft:block/spruce_log",
+        "side": "minecraft:block/spruce_log"
+    }
+}

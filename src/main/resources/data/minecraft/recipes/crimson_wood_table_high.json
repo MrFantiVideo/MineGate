@@ -1,0 +1,19 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "minegate:crimson_stick"
+    },
+    "P": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "result": {
+    "item": "minegate:crimson_wood_table_high"
+  }
+}

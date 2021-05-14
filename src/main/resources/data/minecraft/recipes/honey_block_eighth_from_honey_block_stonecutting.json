@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:honey_block"
+  },
+  "result": "minegate:honey_block_eighth",
+  "count": 8
+}

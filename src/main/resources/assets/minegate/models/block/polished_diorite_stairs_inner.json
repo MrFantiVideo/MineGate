@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/inner_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/polished_diorite",
+        "top": "minecraft:block/polished_diorite",
+        "side": "minecraft:block/polished_diorite"
+    }
+}

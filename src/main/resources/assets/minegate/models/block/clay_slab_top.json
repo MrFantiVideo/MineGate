@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab_top",
+    "textures":
+    {
+        "bottom": "minecraft:block/clay",
+        "top": "minecraft:block/clay",
+        "side": "minecraft:block/clay"
+    }
+}

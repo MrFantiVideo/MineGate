@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/chiseled_red_sandstone",
+        "bottom": "minecraft:block/red_sandstone_bottom",
+        "top": "minecraft:block/red_sandstone_top",
+        "side": "minecraft:block/chiseled_red_sandstone"
+    }
+}

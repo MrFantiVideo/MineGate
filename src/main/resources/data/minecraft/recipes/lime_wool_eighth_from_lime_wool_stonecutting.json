@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:lime_wool"
+  },
+  "result": "minegate:lime_wool_eighth",
+  "count": 8
+}

@@ -1,0 +1,10 @@
+﻿{
+    "variants": {
+        "type=default": {
+            "model": "minecraft:block/dandelion"
+        },
+        "type=plant": {
+            "model": "minecraft:block/dandelion_slab"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/inner_quarter",
+    "textures":
+    {
+        "particle": "minegate:block/spruce_planks_large",
+        "bottom": "minegate:block/spruce_planks_large",
+        "top": "minegate:block/spruce_planks_large",
+        "side": "minegate:block/spruce_planks_large"
+    }
+}

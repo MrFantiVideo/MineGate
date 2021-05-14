@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:stripped_acacia_wood"
+  },
+  "result": "minegate:stripped_acacia_wood_quarter_vertical",
+  "count": 4
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:obsidian_bricks"
+  },
+  "result": "minegate:obsidian_bricks_slab_vertical",
+  "count": 2
+}

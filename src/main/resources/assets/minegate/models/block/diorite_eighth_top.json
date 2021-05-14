@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top",
+    "textures":
+    {
+        "particle": "minecraft:block/diorite",
+        "bottom": "minecraft:block/diorite",
+        "top": "minecraft:block/diorite",
+        "side": "minecraft:block/diorite"
+    }
+}

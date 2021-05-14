@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minecraft:block/red_concrete",
+        "top": "minecraft:block/red_concrete",
+        "side": "minecraft:block/red_concrete"
+    }
+}

@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/inner_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/cobblestone",
+        "top": "minecraft:block/cobblestone",
+        "side": "minecraft:block/cobblestone"
+    }
+}

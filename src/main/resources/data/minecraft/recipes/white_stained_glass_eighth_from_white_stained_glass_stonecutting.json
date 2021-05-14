@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:white_stained_glass"
+  },
+  "result": "minegate:white_stained_glass_eighth",
+  "count": 8
+}

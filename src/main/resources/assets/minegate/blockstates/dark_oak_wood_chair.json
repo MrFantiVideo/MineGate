@@ -1,0 +1,22 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north":
+        {
+            "model": "minegate:block/dark_oak_wood_chair"
+        },
+        "facing=south":
+        {
+            "model": "minegate:block/dark_oak_wood_chair", "uvlock": true, "y": 180
+        },
+        "facing=east":
+        {
+            "model": "minegate:block/dark_oak_wood_chair_vertical", "y": 180
+        },
+        "facing=west":
+        {
+            "model": "minegate:block/dark_oak_wood_chair_vertical", "uvlock": true
+        }
+    }
+}

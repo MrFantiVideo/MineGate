@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/cyan_concrete",
+        "top": "minecraft:block/cyan_concrete",
+        "side": "minecraft:block/cyan_concrete"
+    }
+}

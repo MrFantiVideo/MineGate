@@ -1,0 +1,10 @@
+{
+  "variants": {
+      "type=default": {
+          "model": "minecraft:block/warped_fungus"
+      },
+      "type=plant": {
+          "model": "minecraft:block/warped_fungus_slab"
+      }
+  }
+}

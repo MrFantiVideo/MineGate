@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:stick",
+      "minegate:spruce_stick",
+      "minegate:birch_stick",
+      "minegate:jungle_stick",
+      "minegate:acacia_stick",
+      "minegate:dark_oak_stick",
+      "minegate:crimson_stick",
+      "minegate:warped_stick"
+    ]
+  }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minegate:obsidian_ore"
+  },
+  "result": "minegate:obsidian_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/stairs_vertical",
+    "textures":
+    {
+        "particle": "minegate:block/crimson_planks_smooth",
+        "bottom": "minegate:block/crimson_planks_smooth",
+        "top": "minegate:block/crimson_planks_smooth",
+        "side": "minegate:block/crimson_planks_smooth"
+    }
+}

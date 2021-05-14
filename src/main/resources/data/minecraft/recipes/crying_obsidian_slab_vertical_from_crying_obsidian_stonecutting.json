@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:crying_obsidian"
+  },
+  "result": "minegate:crying_obsidian_slab_vertical",
+  "count": 2
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_z",
+    "textures":
+    {
+        "particle": "minecraft:block/light_gray_wool",
+        "bottom": "minecraft:block/light_gray_wool",
+        "top": "minecraft:block/light_gray_wool",
+        "side": "minecraft:block/light_gray_wool"
+    }
+}

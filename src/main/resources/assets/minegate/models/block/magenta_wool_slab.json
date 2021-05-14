@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab",
+    "textures":
+    {
+        "bottom": "minecraft:block/magenta_wool",
+        "top": "minecraft:block/magenta_wool",
+        "side": "minecraft:block/magenta_wool"
+    }
+}

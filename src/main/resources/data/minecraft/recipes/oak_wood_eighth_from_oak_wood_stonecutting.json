@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:oak_wood"
+  },
+  "result": "minegate:oak_wood_eighth",
+  "count": 8
+}

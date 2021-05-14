@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/inner_stairs",
+    "textures":
+    {
+        "bottom": "minegate:block/birch_planks_smooth",
+        "top": "minegate:block/birch_planks_smooth",
+        "side": "minegate:block/birch_planks_smooth"
+    }
+}

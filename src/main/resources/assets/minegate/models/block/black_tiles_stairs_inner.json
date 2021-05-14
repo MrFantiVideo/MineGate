@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/inner_stairs",
+    "textures":
+    {
+        "bottom": "minegate:block/black_tiles",
+        "top": "minegate:block/black_tiles",
+        "side": "minegate:block/black_tiles"
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_y",
+    "textures":
+    {
+        "particle": "minegate:block/packed_obsidian_bricks",
+        "bottom": "minegate:block/packed_obsidian_bricks",
+        "top": "minegate:block/packed_obsidian_bricks",
+        "side": "minegate:block/packed_obsidian_bricks"
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/birch_log",
+        "bottom": "minecraft:block/birch_log",
+        "top": "minecraft:block/birch_log",
+        "side": "minecraft:block/birch_log"
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/vase_cross",
+    "textures":
+    {
+        "plant": "minecraft:block/red_mushroom",
+        "dirt": "minecraft:block/dirt",
+        "vase": "minecraft:block/smooth_stone",
+        "particle": "minecraft:block/smooth_stone"
+    }
+}

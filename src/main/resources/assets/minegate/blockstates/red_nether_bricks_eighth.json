@@ -1,0 +1,62 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north,type=top":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth_top", "y": 0, "uvlock": true
+        },
+        "facing=east,type=top":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth_top", "y": 90, "uvlock": true
+        },
+        "facing=south,type=top":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth_top", "y": 180, "uvlock": true
+        },
+        "facing=west,type=top":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth_top", "y": 270, "uvlock": true
+        },
+        "facing=north,type=bottom":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth", "y": 0, "uvlock": true
+        },
+        "facing=east,type=bottom":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth", "y": 90, "uvlock": true
+        },
+        "facing=south,type=bottom":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth", "y": 180, "uvlock": true
+        },
+        "facing=west,type=bottom":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth", "y": 270, "uvlock": true
+        },
+        "facing=north,type=x":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth_x", "y": 0, "uvlock": true
+        },
+        "facing=east,type=x":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth_x", "y": 90, "uvlock": true
+        },
+        "facing=south,type=x":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth_x", "y": 180, "uvlock": true
+        },
+        "facing=west,type=x":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth_x", "y": 270, "uvlock": true
+        },
+        "type=y":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth_y", "uvlock": true
+        },
+        "type=z":
+        {
+            "model": "minegate:block/red_nether_bricks_eighth_z", "uvlock": true
+        }
+    }
+}

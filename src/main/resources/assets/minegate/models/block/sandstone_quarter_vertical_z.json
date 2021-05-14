@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_z",
+    "textures":
+    {
+        "particle": "minecraft:block/sandstone",
+        "bottom": "minecraft:block/sandstone",
+        "top": "minecraft:block/sandstone",
+        "side": "minecraft:block/sandstone"
+    }
+}

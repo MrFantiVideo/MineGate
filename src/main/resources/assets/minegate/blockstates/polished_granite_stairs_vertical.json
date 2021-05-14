@@ -1,0 +1,22 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north":
+        {
+           "model": "minegate:block/polished_granite_stairs_vertical", "y": 0, "uvlock": true
+        },
+        "facing=east":
+        {
+           "model": "minegate:block/polished_granite_stairs_vertical", "y": 90, "uvlock": true
+        },
+        "facing=south":
+        {
+            "model": "minegate:block/polished_granite_stairs_vertical", "y": 180, "uvlock": true
+        },
+        "facing=west":
+        {
+           "model": "minegate:block/polished_granite_stairs_vertical", "y": 270, "uvlock": true
+        }
+    }
+}

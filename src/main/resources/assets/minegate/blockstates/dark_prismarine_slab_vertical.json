@@ -1,0 +1,38 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north,type=single":
+        {
+            "model": "minegate:block/dark_prismarine_slab_vertical", "y": 0, "uvlock": true
+        },
+        "facing=east,type=single":
+        {
+            "model": "minegate:block/dark_prismarine_slab_vertical", "y": 90, "uvlock": true
+        },
+        "facing=south,type=single":
+        {
+            "model": "minegate:block/dark_prismarine_slab_vertical", "y": 180, "uvlock": true
+        },
+        "facing=west,type=single":
+        {
+            "model": "minegate:block/dark_prismarine_slab_vertical", "y": 270, "uvlock": true
+        },
+        "facing=north,type=double":
+        {
+            "model": "minecraft:block/dark_prismarine"
+        },
+        "facing=east,type=double":
+        {
+            "model": "minecraft:block/dark_prismarine"
+        },
+        "facing=south,type=double":
+        {
+            "model": "minecraft:block/dark_prismarine"
+        },
+        "facing=west,type=double":
+        {
+            "model": "minecraft:block/dark_prismarine"
+        }
+    }
+}

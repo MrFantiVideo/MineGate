@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:crimson_hyphae"
+  },
+  "result": "minegate:crimson_hyphae_slab_vertical",
+  "count": 2
+}

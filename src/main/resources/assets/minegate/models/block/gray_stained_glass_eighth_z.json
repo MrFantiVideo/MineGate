@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_z",
+    "textures":
+    {
+        "particle": "minecraft:block/gray_stained_glass",
+        "bottom": "minecraft:block/gray_stained_glass",
+        "top": "minecraft:block/gray_stained_glass",
+        "side": "minecraft:block/gray_stained_glass"
+    }
+}

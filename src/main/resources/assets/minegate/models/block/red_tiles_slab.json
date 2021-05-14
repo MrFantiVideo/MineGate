@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab",
+    "textures":
+    {
+        "bottom": "minegate:block/red_tiles",
+        "top": "minegate:block/red_tiles",
+        "side": "minegate:block/red_tiles"
+    }
+}

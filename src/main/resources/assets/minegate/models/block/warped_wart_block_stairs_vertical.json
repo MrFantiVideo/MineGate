@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/stairs_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/warped_wart_block",
+        "bottom": "minecraft:block/warped_wart_block",
+        "top": "minecraft:block/warped_wart_block",
+        "side": "minecraft:block/warped_wart_block"
+    }
+}

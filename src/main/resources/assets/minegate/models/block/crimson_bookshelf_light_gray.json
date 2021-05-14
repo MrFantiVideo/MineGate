@@ -1,0 +1,10 @@
+﻿{
+	"credit": "MineGate - Tous droits réservés.",
+	"parent": "minegate:block/bookshelf_book",
+	"textures":
+	{
+		"1": "minecraft:block/crimson_planks",
+        "2": "minegate:block/bookshelf_light_gray",
+		"particle": "minegate:block/bookshelf_light_gray"
+	}
+}

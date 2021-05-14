@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/stone",
+        "bottom": "minecraft:block/stone",
+        "top": "minecraft:block/stone",
+        "side": "minecraft:block/stone"
+    }
+}

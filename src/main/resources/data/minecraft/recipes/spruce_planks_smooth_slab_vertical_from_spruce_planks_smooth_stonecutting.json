@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:spruce_planks_smooth"
+  },
+  "result": "minegate:spruce_planks_smooth_slab_vertical",
+  "count": 2
+}

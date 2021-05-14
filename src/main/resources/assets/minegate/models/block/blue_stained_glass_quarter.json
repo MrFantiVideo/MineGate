@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/blue_stained_glass",
+        "bottom": "minecraft:block/blue_stained_glass",
+        "top": "minecraft:block/blue_stained_glass",
+        "side": "minecraft:block/blue_stained_glass"
+    }
+}

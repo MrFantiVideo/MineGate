@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:ancient_debris"
+  },
+  "result": "minegate:ancient_debris_quarter",
+  "count": 4
+}

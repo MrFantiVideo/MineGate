@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:birch_planks_herringbone"
+  },
+  "result": "minegate:birch_planks_herringbone_slab_vertical",
+  "count": 2
+}

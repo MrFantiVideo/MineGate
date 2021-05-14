@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top",
+    "textures":
+    {
+        "particle": "minecraft:block/cyan_wool",
+        "bottom": "minecraft:block/cyan_wool",
+        "top": "minecraft:block/cyan_wool",
+        "side": "minecraft:block/cyan_wool"
+    }
+}

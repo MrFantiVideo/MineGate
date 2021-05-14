@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/inner_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/honeycomb_block",
+        "top": "minecraft:block/honeycomb_block",
+        "side": "minecraft:block/honeycomb_block"
+    }
+}

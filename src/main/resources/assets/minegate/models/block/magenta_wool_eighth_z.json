@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_z",
+    "textures":
+    {
+        "particle": "minecraft:block/magenta_wool",
+        "bottom": "minecraft:block/magenta_wool",
+        "top": "minecraft:block/magenta_wool",
+        "side": "minecraft:block/magenta_wool"
+    }
+}

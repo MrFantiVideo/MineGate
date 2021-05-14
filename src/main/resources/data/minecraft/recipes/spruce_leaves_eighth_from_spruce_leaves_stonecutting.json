@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:spruce_leaves"
+  },
+  "result": "minegate:spruce_leaves_eighth",
+  "count": 8
+}

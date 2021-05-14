@@ -1,0 +1,10 @@
+{
+  "variants": {
+      "type=default": {
+          "model": "minecraft:block/crimson_roots"
+      },
+      "type=plant": {
+          "model": "minecraft:block/crimson_roots_slab"
+      }
+  }
+}

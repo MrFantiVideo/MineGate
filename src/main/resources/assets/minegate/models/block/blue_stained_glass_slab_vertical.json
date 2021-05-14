@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minecraft:block/blue_stained_glass",
+        "top": "minecraft:block/blue_stained_glass",
+        "side": "minecraft:block/blue_stained_glass"
+    }
+}

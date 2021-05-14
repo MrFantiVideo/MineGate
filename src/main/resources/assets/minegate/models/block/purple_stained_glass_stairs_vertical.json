@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/glass_stairs_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/purple_stained_glass",
+        "bottom": "minecraft:block/purple_stained_glass",
+        "top": "minecraft:block/purple_stained_glass",
+        "side": "minecraft:block/purple_stained_glass"
+    }
+}

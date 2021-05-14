@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:jungle_planks_herringbone"
+  },
+  "result": "minegate:jungle_planks_herringbone_slab",
+  "count": 2
+}

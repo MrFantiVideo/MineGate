@@ -1,0 +1,22 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north":
+        {
+            "model": "minegate:block/oak_wood_stool_high"
+        },
+        "facing=south":
+        {
+            "model": "minegate:block/oak_wood_stool_high"
+        },
+        "facing=east":
+        {
+            "model": "minegate:block/oak_wood_stool_high", "y": 90
+        },
+        "facing=west":
+        {
+            "model": "minegate:block/oak_wood_stool_high", "y": 90
+        }
+    }
+}

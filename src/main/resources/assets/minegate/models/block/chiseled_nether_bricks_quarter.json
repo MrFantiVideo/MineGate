@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/chiseled_nether_bricks",
+        "bottom": "minecraft:block/chiseled_nether_bricks",
+        "top": "minecraft:block/chiseled_nether_bricks",
+        "side": "minecraft:block/chiseled_nether_bricks"
+    }
+}

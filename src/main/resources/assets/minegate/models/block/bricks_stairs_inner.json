@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/inner_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/bricks",
+        "top": "minecraft:block/bricks",
+        "side": "minecraft:block/bricks"
+    }
+}

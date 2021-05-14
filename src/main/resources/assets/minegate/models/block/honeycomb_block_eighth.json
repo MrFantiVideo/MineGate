@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth",
+    "textures":
+    {
+        "particle": "minecraft:block/honeycomb_block",
+        "bottom": "minecraft:block/honeycomb_block",
+        "top": "minecraft:block/honeycomb_block",
+        "side": "minecraft:block/honeycomb_block"
+    }
+}

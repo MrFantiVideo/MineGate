@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/nether_bricks",
+        "bottom": "minecraft:block/nether_bricks",
+        "top": "minecraft:block/nether_bricks",
+        "side": "minecraft:block/nether_bricks"
+    }
+}

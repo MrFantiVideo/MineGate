@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:magma_block"
+  },
+  "result": "minegate:magma_block_eighth",
+  "count": 8
+}

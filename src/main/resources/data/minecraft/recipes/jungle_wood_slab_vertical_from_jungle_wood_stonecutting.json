@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:jungle_wood"
+  },
+  "result": "minegate:jungle_wood_slab_vertical",
+  "count": 2
+}

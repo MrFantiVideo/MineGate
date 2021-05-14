@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:crimson_nylium"
+  },
+  "result": "minegate:crimson_nylium_slab",
+  "count": 2
+}

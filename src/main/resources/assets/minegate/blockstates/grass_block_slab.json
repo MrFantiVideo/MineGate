@@ -1,0 +1,86 @@
+{
+  "credit": "MineGate - Tous droits réservés.",
+    "multipart": [
+      {
+        "when": {
+          "snowy": "false",
+          "type": "bottom"
+        },
+        "apply": [{
+          "model": "minegate:block/grass_block_slab"
+        }, {
+          "model": "minegate:block/grass_block_slab",
+          "y": 90
+        }, {
+          "model": "minegate:block/grass_block_slab",
+          "y": 180
+        }, {
+            "model": "minegate:block/grass_block_slab",
+            "y": 270
+        }]
+      },
+      {
+        "when": {
+          "snowy": "false",
+          "type": "top"
+        },
+        "apply": [{
+          "model": "minegate:block/grass_block_slab_top"
+        }, {
+          "model": "minegate:block/grass_block_slab_top",
+          "y": 90
+        }, {
+          "model": "minegate:block/grass_block_slab_top",
+          "y": 180
+        }, {
+            "model": "minegate:block/grass_block_slab_top",
+            "y": 270
+        }]
+      },
+      {
+        "when": {
+          "snowy": "false",
+          "type": "double"
+        },
+        "apply": [{
+          "model": "minegate:block/grass_block_slab_double"
+        }, {
+          "model": "minegate:block/grass_block_slab_double",
+          "y": 90
+        }, {
+          "model": "minegate:block/grass_block_slab_double",
+          "y": 180
+        }, {
+            "model": "minegate:block/grass_block_slab_double",
+            "y": 270
+        }]
+      },
+      {
+        "when": {
+          "snowy": "true",
+          "type": "bottom"
+        },
+        "apply": {
+          "model": "minegate:block/dirt_snow_slab"
+        }
+      },
+      {
+        "when": {
+          "snowy": "true",
+          "type": "top"
+        },
+        "apply": {
+          "model": "minegate:block/dirt_snow_slab_top"
+        }
+      },
+      {
+        "when": {
+          "snowy": "true",
+          "type": "double"
+        },
+        "apply": {
+          "model": "minecraft:block/grass_block_snow"
+        }
+      }
+    ]
+}

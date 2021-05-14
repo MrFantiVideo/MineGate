@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:sea_lantern"
+  },
+  "result": "minegate:sea_lantern_slab_vertical",
+  "count": 2
+}

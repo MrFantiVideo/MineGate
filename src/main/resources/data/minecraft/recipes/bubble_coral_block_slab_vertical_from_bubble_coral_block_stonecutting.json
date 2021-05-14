@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:bubble_coral_block"
+  },
+  "result": "minegate:bubble_coral_block_slab_vertical",
+  "count": 2
+}

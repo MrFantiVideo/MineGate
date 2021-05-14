@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/stairs",
+    "textures":
+    {
+        "bottom": "minegate:block/birch_planks_herringbone",
+        "top": "minegate:block/birch_planks_herringbone",
+        "side": "minegate:block/birch_planks_herringbone"
+    }
+}

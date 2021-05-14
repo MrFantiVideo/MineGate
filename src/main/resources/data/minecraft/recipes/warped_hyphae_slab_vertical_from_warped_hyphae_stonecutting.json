@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:warped_hyphae"
+  },
+  "result": "minegate:warped_hyphae_slab_vertical",
+  "count": 2
+}

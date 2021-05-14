@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "":
+        {
+            "model": "minegate:block/jungle_planks_herringbone"
+        }
+    }
+}

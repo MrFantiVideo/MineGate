@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:nether_wart_block"
+  },
+  "result": "minegate:nether_wart_block_eighth",
+  "count": 8
+}

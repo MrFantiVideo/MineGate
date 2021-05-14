@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dark_oak_leaves"
+  },
+  "result": "minegate:dark_oak_leaves_eighth",
+  "count": 8
+}

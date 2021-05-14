@@ -1,0 +1,10 @@
+﻿{
+    "variants": {
+        "type=default": {
+            "model": "minecraft:block/cornflower"
+        },
+        "type=plant": {
+            "model": "minecraft:block/cornflower_slab"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab_top",
+    "textures":
+    {
+        "bottom": "minecraft:block/red_sandstone_bottom",
+        "top": "minecraft:block/red_sandstone_top",
+        "side": "minecraft:block/chiseled_red_sandstone"
+    }
+}

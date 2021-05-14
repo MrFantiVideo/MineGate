@@ -1,0 +1,93 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "east=false,north=false,south=false,west=false":
+        {
+            "model": "minegate:block/spruce_wood_table"
+        },
+        "east=false,north=true,south=true,west=false":
+        { 
+            "model": "minegate:block/spruce_wood_table_empty",
+            "uvlock": true
+        },
+        "east=true,north=false,south=false,west=true":
+        { 
+            "model": "minegate:block/spruce_wood_table_empty",
+            "uvlock": true
+        },
+        "east=true,north=true,south=true,west=false":
+        { 
+            "model": "minegate:block/spruce_wood_table_empty",
+            "uvlock": true 
+        },
+        "east=true,north=false,south=true,west=true":
+        { 
+            "model": "minegate:block/spruce_wood_table_empty",
+            "uvlock": true
+        },
+        "east=false,north=true,south=true,west=true":
+        { 
+            "model": "minegate:block/spruce_wood_table_empty",
+            "uvlock": true 
+        },
+        "east=true,north=true,south=false,west=true":
+        { 
+            "model": "minegate:block/spruce_wood_table_empty",
+            "uvlock": true
+        },
+        "east=true,north=true,south=true,west=true":
+        { 
+            "model": "minegate:block/spruce_wood_table_empty",
+            "uvlock": true
+        },
+        "east=false,north=true,south=false,west=false":
+        {
+            "model": "minegate:block/spruce_wood_table_half",
+            "y": 0,
+            "uvlock": true
+        },
+        "east=true,north=false,south=false,west=false":
+        { 
+            "model": "minegate:block/spruce_wood_table_half",
+            "y": 90,
+            "uvlock": true
+        },
+        "east=false,north=false,south=true,west=false":
+        { 
+            "model": "minegate:block/spruce_wood_table_half",
+            "y": 180,
+            "uvlock": true
+        },
+        "east=false,north=false,south=false,west=true":
+        { 
+            "model": "minegate:block/spruce_wood_table_half",
+            "y": 270,
+            "uvlock": true
+        },
+        "east=true,north=true,south=false,west=false":
+        { 
+            "model": "minegate:block/spruce_wood_table_quarter",
+            "y": 0,
+            "uvlock": true
+        },
+        "east=true,north=false,south=true,west=false":
+        { 
+            "model": "minegate:block/spruce_wood_table_quarter",
+            "y": 90,
+            "uvlock": true
+        },
+        "east=false,north=false,south=true,west=true":
+        { 
+            "model": "minegate:block/spruce_wood_table_quarter",
+            "y": 180,
+            "uvlock": true
+        },
+        "east=false,north=true,south=false,west=true":
+        { 
+            "model": "minegate:block/spruce_wood_table_quarter",
+            "y": 270,
+            "uvlock": true
+        }
+    }
+}

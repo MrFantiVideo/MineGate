@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/inner_quarter",
+    "textures":
+    {
+        "particle": "minegate:block/oak_planks_smooth",
+        "bottom": "minegate:block/oak_planks_smooth",
+        "top": "minegate:block/oak_planks_smooth",
+        "side": "minegate:block/oak_planks_smooth"
+    }
+}

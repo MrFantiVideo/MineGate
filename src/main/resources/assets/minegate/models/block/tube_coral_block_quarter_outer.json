@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/tube_coral_block",
+        "bottom": "minecraft:block/tube_coral_block",
+        "top": "minecraft:block/tube_coral_block",
+        "side": "minecraft:block/tube_coral_block"
+    }
+}

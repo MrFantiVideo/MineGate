@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical",
+    "textures":
+    {
+        "particle": "minegate:block/blue_tiles",
+        "bottom": "minegate:block/blue_tiles",
+        "top": "minegate:block/blue_tiles",
+        "side": "minegate:block/blue_tiles"
+    }
+}

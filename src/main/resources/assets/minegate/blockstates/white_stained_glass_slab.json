@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "minegate:block/white_stained_glass_slab" },
+        "type=top": { "model": "minegate:block/white_stained_glass_slab_top" },
+        "type=double": { "model": "minecraft:block/white_stained_glass" }
+    }
+}

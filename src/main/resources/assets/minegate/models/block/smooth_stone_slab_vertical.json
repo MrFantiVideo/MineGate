@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minecraft:block/smooth_stone",
+        "top": "minecraft:block/smooth_stone",
+        "side": "minecraft:block/smooth_stone"
+    }
+}

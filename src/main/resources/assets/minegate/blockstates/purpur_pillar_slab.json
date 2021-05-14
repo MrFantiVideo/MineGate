@@ -1,0 +1,18 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "type=bottom":
+        {
+            "model": "minegate:block/purpur_pillar_slab"
+        },
+        "type=top":
+        {
+            "model": "minegate:block/purpur_pillar_slab_top"
+        },
+        "type=double":
+        {
+            "model": "minecraft:block/purpur_pillar"
+        }
+    }
+}

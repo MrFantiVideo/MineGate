@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/outer_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/chiseled_polished_blackstone",
+        "top": "minecraft:block/chiseled_polished_blackstone",
+        "side": "minecraft:block/chiseled_polished_blackstone"
+    }
+}

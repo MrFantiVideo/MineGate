@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "":
+        {
+            "model": "minegate:block/oak_planks_herringbone"
+        }
+    }
+}

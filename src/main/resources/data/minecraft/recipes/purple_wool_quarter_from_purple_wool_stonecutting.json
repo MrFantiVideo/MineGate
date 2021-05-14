@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:purple_wool"
+  },
+  "result": "minegate:purple_wool_quarter",
+  "count": 4
+}

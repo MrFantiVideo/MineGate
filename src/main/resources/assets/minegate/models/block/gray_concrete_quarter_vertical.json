@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/gray_concrete",
+        "bottom": "minecraft:block/gray_concrete",
+        "top": "minecraft:block/gray_concrete",
+        "side": "minecraft:block/gray_concrete"
+    }
+}

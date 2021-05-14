@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:blue_ice"
+  },
+  "result": "minegate:blue_ice_stairs_vertical",
+  "count": 1
+}

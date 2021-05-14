@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:black_stained_glass"
+  },
+  "result": "minegate:black_stained_glass_quarter_vertical",
+  "count": 4
+}

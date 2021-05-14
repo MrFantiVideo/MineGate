@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:polished_diorite"
+  },
+  "result": "minegate:polished_diorite_eighth",
+  "count": 8
+}

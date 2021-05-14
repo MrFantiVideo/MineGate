@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:birch_planks_smooth"
+  },
+  "result": "minegate:birch_planks_smooth_quarter_vertical",
+  "count": 4
+}

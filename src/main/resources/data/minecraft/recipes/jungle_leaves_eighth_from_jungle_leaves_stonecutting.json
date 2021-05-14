@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:jungle_leaves"
+  },
+  "result": "minegate:jungle_leaves_eighth",
+  "count": 8
+}

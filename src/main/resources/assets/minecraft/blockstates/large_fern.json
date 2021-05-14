@@ -1,0 +1,16 @@
+﻿{
+  "variants": {
+    "type=default,half=lower": {
+      "model": "minecraft:block/large_fern_bottom"
+    },
+    "type=default,half=upper": {
+      "model": "minecraft:block/large_fern_top"
+    },
+    "type=plant,half=lower": {
+      "model": "minecraft:block/large_fern_bottom_slab"
+    },
+    "type=plant,half=upper": {
+      "model": "minecraft:block/large_fern_top_slab"
+    }
+  }
+}

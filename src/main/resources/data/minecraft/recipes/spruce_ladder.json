@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minegate:spruce_stick"
+    }
+  },
+  "result": {
+    "item": "minegate:spruce_ladder",
+    "count": 3
+  }
+}

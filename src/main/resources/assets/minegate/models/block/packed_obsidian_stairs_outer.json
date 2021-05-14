@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/outer_stairs",
+    "textures":
+    {
+        "bottom": "minegate:block/packed_obsidian",
+        "top": "minegate:block/packed_obsidian",
+        "side": "minegate:block/packed_obsidian"
+    }
+}

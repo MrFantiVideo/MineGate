@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/outer_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/hay_block_top",
+        "top": "minecraft:block/hay_block_top",
+        "side": "minecraft:block/hay_block_side"
+    }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minegate:spruce_stick"
+    },
+    "P": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "minegate:spruce_wood_stool_high"
+  }
+}

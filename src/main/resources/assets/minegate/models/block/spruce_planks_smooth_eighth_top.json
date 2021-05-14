@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top",
+    "textures":
+    {
+        "particle": "minegate:block/spruce_planks_smooth",
+        "bottom": "minegate:block/spruce_planks_smooth",
+        "top": "minegate:block/spruce_planks_smooth",
+        "side": "minegate:block/spruce_planks_smooth"
+    }
+}

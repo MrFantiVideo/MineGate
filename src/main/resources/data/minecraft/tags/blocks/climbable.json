@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minegate:spruce_ladder",
+    "minegate:birch_ladder",
+    "minegate:jungle_ladder",
+    "minegate:acacia_ladder",
+    "minegate:dark_oak_ladder",
+    "minegate:crimson_ladder",
+    "minegate:warped_ladder"
+  ]
+}

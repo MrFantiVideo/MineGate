@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:soul_soil"
+  },
+  "result": "minegate:soul_soil_eighth",
+  "count": 8
+}

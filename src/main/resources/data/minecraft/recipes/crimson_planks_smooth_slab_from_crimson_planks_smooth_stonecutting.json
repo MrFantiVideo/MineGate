@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:crimson_planks_smooth"
+  },
+  "result": "minegate:crimson_planks_smooth_slab",
+  "count": 2
+}

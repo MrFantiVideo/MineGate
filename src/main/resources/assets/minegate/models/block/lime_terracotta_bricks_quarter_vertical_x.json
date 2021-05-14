@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_x",
+    "textures":
+    {
+        "particle": "minegate:block/lime_terracotta_bricks",
+        "bottom": "minegate:block/lime_terracotta_bricks",
+        "top": "minegate:block/lime_terracotta_bricks",
+        "side": "minegate:block/lime_terracotta_bricks"
+    }
+}

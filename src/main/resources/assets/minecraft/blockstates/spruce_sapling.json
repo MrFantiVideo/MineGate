@@ -1,0 +1,10 @@
+{
+  "variants": {
+      "type=default": {
+        "model": "minecraft:block/spruce_sapling"
+      },
+      "type=plant": {
+        "model": "minecraft:block/spruce_sapling_slab"
+      }
+  }
+}

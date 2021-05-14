@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "type=default": {
+            "model": "minecraft:block/grass"
+        },
+        "type=plant": {
+            "model": "minecraft:block/grass_slab"
+        }
+    }
+}

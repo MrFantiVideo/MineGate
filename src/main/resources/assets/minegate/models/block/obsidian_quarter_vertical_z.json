@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_z",
+    "textures":
+    {
+        "particle": "minecraft:block/obsidian",
+        "bottom": "minecraft:block/obsidian",
+        "top": "minecraft:block/obsidian",
+        "side": "minecraft:block/obsidian"
+    }
+}

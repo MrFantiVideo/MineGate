@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/netherite_block",
+        "top": "minecraft:block/netherite_block",
+        "side": "minecraft:block/netherite_block"
+    }
+}

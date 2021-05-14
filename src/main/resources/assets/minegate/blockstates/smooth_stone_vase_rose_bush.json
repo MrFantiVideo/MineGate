@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "":
+        {
+            "model": "minegate:block/smooth_stone_vase_rose_bush"
+        }
+    }
+}

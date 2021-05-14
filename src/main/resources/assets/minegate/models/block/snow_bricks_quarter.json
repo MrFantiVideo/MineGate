@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter",
+    "textures":
+    {
+        "particle": "minegate:block/snow_bricks",
+        "bottom": "minegate:block/snow_bricks",
+        "top": "minegate:block/snow_bricks",
+        "side": "minegate:block/snow_bricks"
+    }
+}

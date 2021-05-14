@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minegate:crimson_stick"
+    }
+  },
+  "result": {
+    "item": "minegate:crimson_ladder",
+    "count": 3
+  }
+}

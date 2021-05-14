@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:coal_block"
+  },
+  "result": "minegate:coal_block_stairs_vertical",
+  "count": 1
+}

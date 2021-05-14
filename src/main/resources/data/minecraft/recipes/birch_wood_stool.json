@@ -1,0 +1,18 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minegate:birch_stick"
+    },
+    "P": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "item": "minegate:birch_wood_stool"
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/stairs_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/dead_bubble_coral_block",
+        "bottom": "minecraft:block/dead_bubble_coral_block",
+        "top": "minecraft:block/dead_bubble_coral_block",
+        "side": "minecraft:block/dead_bubble_coral_block"
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/birch_leaves",
+        "bottom": "minecraft:block/birch_leaves",
+        "top": "minecraft:block/birch_leaves",
+        "side": "minecraft:block/birch_leaves"
+    }
+}

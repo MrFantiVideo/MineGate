@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_z",
+    "textures":
+    {
+        "particle": "minecraft:block/chiseled_stone_bricks",
+        "bottom": "minecraft:block/chiseled_stone_bricks",
+        "top": "minecraft:block/chiseled_stone_bricks",
+        "side": "minecraft:block/chiseled_stone_bricks"
+    }
+}

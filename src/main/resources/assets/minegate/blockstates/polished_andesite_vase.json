@@ -1,0 +1,10 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "":
+        {
+            "model": "minegate:block/polished_andesite_vase"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "minegate:block/woodcutter",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "minegate:block/woodcutter"
+    },
+    "facing=south": {
+      "model": "minegate:block/woodcutter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "minegate:block/woodcutter",
+      "y": 270
+    }
+  }
+}

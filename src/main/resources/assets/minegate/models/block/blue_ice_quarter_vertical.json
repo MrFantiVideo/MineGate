@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/blue_ice",
+        "bottom": "minecraft:block/blue_ice",
+        "top": "minecraft:block/blue_ice",
+        "side": "minecraft:block/blue_ice"
+    }
+}

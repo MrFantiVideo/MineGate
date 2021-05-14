@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_z",
+    "textures":
+    {
+        "particle": "minegate:block/black_tiles",
+        "bottom": "minegate:block/black_tiles",
+        "top": "minegate:block/black_tiles",
+        "side": "minegate:block/black_tiles"
+    }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:grass_block"
+  },
+  "result": "minegate:grass_block_slab",
+  "count": 2
+}

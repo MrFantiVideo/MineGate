@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/inner_stairs",
+    "textures":
+    {
+        "bottom": "minegate:block/pink_terracotta_bricks",
+        "top": "minegate:block/pink_terracotta_bricks",
+        "side": "minegate:block/pink_terracotta_bricks"
+    }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:birch_leaves"
+  },
+  "result": "minegate:birch_leaves_eighth",
+  "count": 8
+}

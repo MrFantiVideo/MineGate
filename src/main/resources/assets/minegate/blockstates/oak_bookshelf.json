@@ -1,0 +1,78 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "type=empty":
+        {
+            "model": "minegate:block/oak_bookshelf"
+        },
+        "type=default":
+        {
+            "model": "minegate:block/oak_bookshelf_default"
+        },
+        "type=black":
+        {
+            "model": "minegate:block/oak_bookshelf_black"
+        },
+        "type=blue":
+        {
+            "model": "minegate:block/oak_bookshelf_blue"
+        },
+        "type=brown":
+        {
+            "model": "minegate:block/oak_bookshelf_brown"
+        },
+        "type=cyan":
+        {
+            "model": "minegate:block/oak_bookshelf_cyan"
+        },
+        "type=gray":
+        {
+            "model": "minegate:block/oak_bookshelf_gray"
+        },
+        "type=green":
+        {
+            "model": "minegate:block/oak_bookshelf_green"
+        },
+        "type=light_blue":
+        {
+            "model": "minegate:block/oak_bookshelf_light_blue"
+        },
+        "type=light_gray":
+        {
+            "model": "minegate:block/oak_bookshelf_light_gray"
+        },
+        "type=lime":
+        {
+            "model": "minegate:block/oak_bookshelf_lime"
+        },
+        "type=magenta":
+        {
+            "model": "minegate:block/oak_bookshelf_magenta"
+        },
+        "type=orange":
+        {
+            "model": "minegate:block/oak_bookshelf_orange"
+        },
+        "type=pink":
+        {
+            "model": "minegate:block/oak_bookshelf_pink"
+        },
+        "type=purple":
+        {
+            "model": "minegate:block/oak_bookshelf_purple"
+        },
+        "type=red":
+        {
+            "model": "minegate:block/oak_bookshelf_red"
+        },
+        "type=white":
+        {
+            "model": "minegate:block/oak_bookshelf_white"
+        },
+        "type=yellow":
+        {
+            "model": "minegate:block/oak_bookshelf_yellow"
+        }
+    }
+}

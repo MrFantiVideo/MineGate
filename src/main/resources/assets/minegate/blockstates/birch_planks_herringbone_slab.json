@@ -1,0 +1,18 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "type=bottom":
+        {
+            "model": "minegate:block/birch_planks_herringbone_slab"
+        },
+        "type=top":
+        {
+            "model": "minegate:block/birch_planks_herringbone_slab_top"
+        },
+        "type=double":
+        {
+            "model": "minegate:block/birch_planks_herringbone"
+        }
+    }
+}

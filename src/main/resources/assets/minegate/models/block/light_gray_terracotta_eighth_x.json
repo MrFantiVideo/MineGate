@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_x",
+    "textures":
+    {
+        "particle": "minecraft:block/light_gray_terracotta",
+        "bottom": "minecraft:block/light_gray_terracotta",
+        "top": "minecraft:block/light_gray_terracotta",
+        "side": "minecraft:block/light_gray_terracotta"
+    }
+}

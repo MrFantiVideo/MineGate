@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/stairs_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/cut_sandstone",
+        "top": "minecraft:block/sandstone_top",
+        "bottom": "minecraft:block/sandstone_bottom",
+        "side": "minecraft:block/cut_sandstone"
+    }
+}

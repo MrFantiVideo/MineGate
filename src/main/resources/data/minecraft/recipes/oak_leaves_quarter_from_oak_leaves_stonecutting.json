@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:oak_leaves"
+  },
+  "result": "minegate:oak_leaves_quarter",
+  "count": 4
+}

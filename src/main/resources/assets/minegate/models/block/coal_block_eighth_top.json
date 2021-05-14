@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top",
+    "textures":
+    {
+        "particle": "minecraft:block/coal_block",
+        "bottom": "minecraft:block/coal_block",
+        "top": "minecraft:block/coal_block",
+        "side": "minecraft:block/coal_block"
+    }
+}

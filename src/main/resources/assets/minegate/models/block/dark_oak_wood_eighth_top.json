@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top",
+    "textures":
+    {
+        "particle": "minecraft:block/dark_oak_log",
+        "bottom": "minecraft:block/dark_oak_log",
+        "top": "minecraft:block/dark_oak_log",
+        "side": "minecraft:block/dark_oak_log"
+    }
+}

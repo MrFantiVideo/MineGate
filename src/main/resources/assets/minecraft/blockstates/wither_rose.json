@@ -1,0 +1,10 @@
+﻿{
+    "variants": {
+        "type=default": {
+            "model": "minecraft:block/wither_rose"
+        },
+        "type=plant": {
+            "model": "minecraft:block/wither_rose_slab"
+        }
+    }
+}

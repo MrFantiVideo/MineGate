@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/inner_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/orange_concrete",
+        "bottom": "minecraft:block/orange_concrete",
+        "top": "minecraft:block/orange_concrete",
+        "side": "minecraft:block/orange_concrete"
+    }
+}

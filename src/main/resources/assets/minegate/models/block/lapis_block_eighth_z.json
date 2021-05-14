@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_z",
+    "textures":
+    {
+        "particle": "minecraft:block/lapis_block",
+        "bottom": "minecraft:block/lapis_block",
+        "top": "minecraft:block/lapis_block",
+        "side": "minecraft:block/lapis_block"
+    }
+}

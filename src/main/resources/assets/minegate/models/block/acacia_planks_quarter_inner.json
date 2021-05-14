@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/inner_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/acacia_planks",
+        "bottom": "minecraft:block/acacia_planks",
+        "top": "minecraft:block/acacia_planks",
+        "side": "minecraft:block/acacia_planks"
+    }
+}

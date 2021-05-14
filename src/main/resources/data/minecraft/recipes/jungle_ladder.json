@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minegate:jungle_stick"
+    }
+  },
+  "result": {
+    "item": "minegate:jungle_ladder",
+    "count": 3
+  }
+}

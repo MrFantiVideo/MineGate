@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:stripped_birch_wood"
+  },
+  "result": "minegate:stripped_birch_wood_quarter",
+  "count": 4
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_x",
+    "textures":
+    {
+        "particle": "minegate:block/acacia_planks_large",
+        "bottom": "minegate:block/acacia_planks_large",
+        "top": "minegate:block/acacia_planks_large",
+        "side": "minegate:block/acacia_planks_large"
+    }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:honeycomb_block"
+  },
+  "result": "minegate:honeycomb_block_slab",
+  "count": 2
+}

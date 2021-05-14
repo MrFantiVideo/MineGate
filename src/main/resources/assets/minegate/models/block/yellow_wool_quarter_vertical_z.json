@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_z",
+    "textures":
+    {
+        "particle": "minecraft:block/yellow_wool",
+        "bottom": "minecraft:block/yellow_wool",
+        "top": "minecraft:block/yellow_wool",
+        "side": "minecraft:block/yellow_wool"
+    }
+}

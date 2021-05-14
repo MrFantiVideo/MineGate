@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/jungle_log",
+        "bottom": "minecraft:block/jungle_log",
+        "top": "minecraft:block/jungle_log",
+        "side": "minecraft:block/jungle_log"
+    }
+}

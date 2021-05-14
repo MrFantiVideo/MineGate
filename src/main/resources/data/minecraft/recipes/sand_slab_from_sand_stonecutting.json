@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "result": "minegate:sand_slab",
+  "count": 2
+}

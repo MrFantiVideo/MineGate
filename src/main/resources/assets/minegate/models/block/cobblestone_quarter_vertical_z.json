@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_z",
+    "textures":
+    {
+        "particle": "minecraft:block/cobblestone",
+        "bottom": "minecraft:block/cobblestone",
+        "top": "minecraft:block/cobblestone",
+        "side": "minecraft:block/cobblestone"
+    }
+}

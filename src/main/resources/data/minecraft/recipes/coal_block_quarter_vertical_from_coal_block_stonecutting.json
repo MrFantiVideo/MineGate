@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:coal_block"
+  },
+  "result": "minegate:coal_block_quarter_vertical",
+  "count": 4
+}

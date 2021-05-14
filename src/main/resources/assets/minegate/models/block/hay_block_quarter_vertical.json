@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/hay_block_side",
+        "bottom": "minecraft:block/hay_block_top",
+        "top": "minecraft:block/hay_block_top",
+        "side": "minecraft:block/hay_block_side"
+    }
+}

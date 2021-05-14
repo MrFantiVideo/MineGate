@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:hay_block"
+  },
+  "result": "minegate:hay_block_quarter",
+  "count": 4
+}

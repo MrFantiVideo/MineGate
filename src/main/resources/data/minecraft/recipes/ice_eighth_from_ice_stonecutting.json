@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:ice"
+  },
+  "result": "minegate:ice_eighth",
+  "count": 8
+}

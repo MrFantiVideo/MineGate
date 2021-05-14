@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/brown_mushroom_block",
+        "bottom": "minecraft:block/brown_mushroom_block",
+        "top": "minecraft:block/brown_mushroom_block",
+        "side": "minecraft:block/brown_mushroom_block"
+    }
+}

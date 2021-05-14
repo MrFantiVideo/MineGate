@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab",
+    "textures":
+    {
+        "bottom": "minegate:block/dark_oak_planks_herringbone",
+        "top": "minegate:block/dark_oak_planks_herringbone",
+        "side": "minegate:block/dark_oak_planks_herringbone"
+    }
+}

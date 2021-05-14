@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth",
+    "textures":
+    {
+        "particle": "minecraft:block/light_blue_concrete",
+        "bottom": "minecraft:block/light_blue_concrete",
+        "top": "minecraft:block/light_blue_concrete",
+        "side": "minecraft:block/light_blue_concrete"
+    }
+}

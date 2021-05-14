@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth",
+    "textures":
+    {
+        "particle": "minecraft:block/crimson_stem",
+        "bottom": "minecraft:block/crimson_stem",
+        "top": "minecraft:block/crimson_stem",
+        "side": "minecraft:block/crimson_stem"
+    }
+}

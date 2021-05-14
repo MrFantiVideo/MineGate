@@ -1,0 +1,22 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north":
+        {
+            "model": "minegate:block/acacia_ladder"
+        },
+        "facing=east":
+        {
+            "model": "minegate:block/acacia_ladder", "y": 90
+        },
+        "facing=south":
+        {
+            "model": "minegate:block/acacia_ladder", "y": 180
+        },
+        "facing=west":
+        {
+            "model": "minegate:block/acacia_ladder", "y": 270
+        }
+    }
+}

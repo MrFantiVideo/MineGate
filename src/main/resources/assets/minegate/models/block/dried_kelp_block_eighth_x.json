@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_x",
+    "textures":
+    {
+        "particle": "minecraft:block/dried_kelp_block",
+        "bottom": "minecraft:block/dried_kelp_block",
+        "top": "minecraft:block/dried_kelp_block",
+        "side": "minecraft:block/dried_kelp_block"
+    }
+}

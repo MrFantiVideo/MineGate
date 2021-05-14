@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:acacia_leaves"
+  },
+  "result": "minegate:acacia_leaves_slab_vertical",
+  "count": 2
+}

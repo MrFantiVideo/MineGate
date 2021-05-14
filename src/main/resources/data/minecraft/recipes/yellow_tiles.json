@@ -1,0 +1,15 @@
+﻿{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wool",
+  "ingredients": [
+    {
+      "item": "minecraft:yellow_dye"
+    },
+    {
+      "item": "minegate:black_tiles"
+    }
+  ],
+  "result": {
+    "item": "minegate:yellow_tiles"
+  }
+}

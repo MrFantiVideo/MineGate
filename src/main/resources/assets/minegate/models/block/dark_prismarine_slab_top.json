@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab_top",
+    "textures":
+    {
+        "bottom": "minecraft:block/dark_prismarine",
+        "top": "minecraft:block/dark_prismarine",
+        "side": "minecraft:block/dark_prismarine"
+    }
+}

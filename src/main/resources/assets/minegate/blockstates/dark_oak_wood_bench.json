@@ -1,0 +1,22 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north":
+        {
+            "model": "minegate:block/dark_oak_wood_bench"
+        },
+        "facing=south":
+        {
+            "model": "minegate:block/dark_oak_wood_bench"
+        },
+        "facing=east":
+        {
+            "model": "minegate:block/dark_oak_wood_bench", "y": 90
+        },
+        "facing=west":
+        {
+            "model": "minegate:block/dark_oak_wood_bench", "y": 90
+        }
+    }
+}

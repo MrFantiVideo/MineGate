@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:brown_tiles"
+  },
+  "result": "minegate:brown_tiles_stairs_vertical",
+  "count": 1
+}

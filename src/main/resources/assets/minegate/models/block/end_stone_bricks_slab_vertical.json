@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minecraft:block/end_stone_bricks",
+        "top": "minecraft:block/end_stone_bricks",
+        "side": "minecraft:block/end_stone_bricks"
+    }
+}
