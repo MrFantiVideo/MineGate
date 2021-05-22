@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "tag": "minecraft:sticks"
+      "tag": "minegate:sticks"
     },
     "X": {
       "tag": "minecraft:stone_tool_materials"

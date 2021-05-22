@@ -3,6 +3,7 @@ package net.minegate.fr.moreblocks.mixin;
 import java.util.Random;
 
 import net.minegate.fr.moreblocks.MoreBlocksClient;
+import net.minegate.fr.moreblocks.block.SlabGrassBlock;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
@@ -19,18 +20,18 @@ public class FarmlandBlockMixin
     @Inject(method = "scheduledTick", at = @At(value = "INVOKE", target = "net/minecraft/block/FarmlandBlock.setToDirt(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V"))
     private void onHydrate(BlockState state, ServerWorld world, BlockPos pos, Random random, CallbackInfo callbackInfo)
     {
-        MoreBlocksClient.waterParticles(world, pos, 2);
+        SlabGrassBlock.waterParticles(world, pos, 2);
     }
 
     @Inject(method = "scheduledTick", at = @At(value = "INVOKE", target = "net/minecraft/block/FarmlandBlock.setToDirt(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V"))
     private void onDehydrate(BlockState state, ServerWorld world, BlockPos pos, Random random, CallbackInfo callbackInfo)
     {
-        MoreBlocksClient.dirtParticles(world, pos, 1);
+        SlabGrassBlock.dirtParticles(world, pos, 1);
     }
 
     @Inject(method = "scheduledTick", at = @At(value = "INVOKE", target = "net/minecraft/block/FarmlandBlock.setToDirt(Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V"))
     private void onSetToDirt(BlockState state, ServerWorld world, BlockPos pos, Random random, CallbackInfo callbackInfo)
     {
-        MoreBlocksClient.dirtParticles(world, pos, 3);
+        SlabGrassBlock.dirtParticles(world, pos, 3);
     }
 }

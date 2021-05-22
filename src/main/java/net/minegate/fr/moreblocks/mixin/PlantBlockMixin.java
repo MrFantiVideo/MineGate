@@ -3,8 +3,8 @@ package net.minegate.fr.moreblocks.mixin;
 import net.minecraft.block.Block;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.EnumProperty;
-import net.minegate.fr.moreblocks.MoreBlocksClient;
 import net.minegate.fr.moreblocks.block.Blocks;
+import net.minegate.fr.moreblocks.block.SlabGrassBlock;
 import net.minegate.fr.moreblocks.block.enums.FernType;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -29,7 +29,7 @@ public class PlantBlockMixin extends Block
     @Inject(at = @At("TAIL"), method = "canPlantOnTop", cancellable = true)
     public void canPlantOnTop(BlockState state, BlockView view, BlockPos pos, CallbackInfoReturnable<Boolean> info)
     {
-        if ((MoreBlocksClient.isDirtType(state.getBlock()) || state.getBlock() == Blocks.GRASS_BLOCK_SLAB) && MoreBlocksClient.hasTopSlab(state))
+        if ((SlabGrassBlock.isDirtType(state.getBlock()) || state.getBlock() == Blocks.GRASS_BLOCK_SLAB) && SlabGrassBlock.hasTopSlab(state))
             info.setReturnValue(true);
     }
 

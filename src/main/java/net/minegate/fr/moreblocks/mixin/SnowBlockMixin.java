@@ -1,9 +1,6 @@
 package net.minegate.fr.moreblocks.mixin;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.ShapeContext;
-import net.minecraft.block.SnowBlock;
+import net.minecraft.block.*;
 import net.minecraft.block.enums.SlabType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemStack;
@@ -35,6 +32,12 @@ public class SnowBlockMixin extends Block
     public SnowBlockMixin(Settings settings)
     {
         super(settings);
+    }
+
+    @Inject(at = @At("RETURN"), method = "<init>")
+    protected void SnowBlock(Settings settings, CallbackInfo ci)
+    {
+        this.setDefaultState(this.stateManager.getDefaultState().with(SNOWY, false));
     }
 
     @Override
@@ -143,12 +146,16 @@ public class SnowBlockMixin extends Block
     @Override
     public void onPlaced(World world, BlockPos pos, BlockState state, LivingEntity placer, ItemStack itemStack)
     {
-        Block block = world.getBlockState(pos.down()).getBlock();
-        BlockState blockState = world.getBlockState(pos.down());
+        Block downBlock = world.getBlockState(pos.down()).getBlock();
+        BlockState downState = world.getBlockState(pos.down());
 
-        if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
+        if (downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) ||
+                downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) ||
+                downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) ||
+                downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) ||
+                downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
         {
-            if (blockState == blockState.with(TYPE, SlabType.BOTTOM))
+            if (downState == downState.with(Properties.SLAB_TYPE, SlabType.BOTTOM))
             {
                 world.setBlockState(pos, state.with(SNOWY, true));
             }
@@ -157,9 +164,12 @@ public class SnowBlockMixin extends Block
                 world.setBlockState(pos, state.with(SNOWY, false));
             }
         }
-        else
+        if (downBlock.equals(net.minecraft.block.Blocks.GRASS_BLOCK))
         {
-            world.setBlockState(pos, state.with(SNOWY, false));
+            if (downState == downState.with(SNOWY, true))
+            {
+                world.setBlockState(pos, state.with(SNOWY, false));
+            }
         }
     }
 

@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "tag": "minecraft:sticks"
+      "tag": "minegate:sticks"
     },
     "X": {
       "item": "minecraft:diamond"

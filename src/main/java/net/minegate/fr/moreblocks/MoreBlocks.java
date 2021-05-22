@@ -17,7 +17,7 @@ public class MoreBlocks implements ModInitializer
 
     public static final boolean DebugClient   = false;
     public static final String  NameClient    = "MineGate";
-    public static final String  VersionClient = "1.1.2";
+    public static final String  VersionClient = "1.1.3";
     public static final Logger  ConsoleClient = LogManager.getLogger();
 
     // Initialization.

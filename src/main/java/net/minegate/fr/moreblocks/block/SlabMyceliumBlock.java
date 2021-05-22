@@ -5,24 +5,16 @@ import net.fabricmc.api.Environment;
 import net.minecraft.block.*;
 import net.minecraft.block.enums.SlabType;
 import net.minecraft.entity.ai.pathing.NavigationType;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.world.ServerWorld;
-import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.EnumProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.tag.FluidTags;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
@@ -35,8 +27,6 @@ import net.minecraft.world.chunk.light.ChunkLightProvider;
 import net.minegate.fr.moreblocks.MoreBlocksClient;
 
 import java.util.Random;
-
-import static net.minecraft.state.property.Properties.SLAB_TYPE;
 
 public class SlabMyceliumBlock extends SlabBlock implements Waterloggable
 {
@@ -135,9 +125,9 @@ public class SlabMyceliumBlock extends SlabBlock implements Waterloggable
     @Override
     public void scheduledTick(BlockState spreader, ServerWorld world, BlockPos pos, Random random)
     {
-        if (!canSurvive(spreader, world, pos)) MoreBlocksClient.setToDirt(world, pos);
+        if (!canSurvive(spreader, world, pos)) SlabGrassBlock.setToDirt(world, pos);
 
-        else MoreBlocksClient.spreadableTick(spreader, world, pos, random);
+        else SlabGrassBlock.spreadableTick(spreader, world, pos, random);
     }
 
     public static boolean canSurvive(BlockState state, WorldView world, BlockPos pos)

@@ -10,7 +10,7 @@
       "item": "minecraft:redstone"
     },
     "#": {
-      "tag": "minecraft:sticks"
+      "tag": "minegate:sticks"
     },
     "X": {
       "item": "minecraft:gold_ingot"

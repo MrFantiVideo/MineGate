@@ -83,7 +83,7 @@ public class SlabGrassPathBlock extends SlabBlock
 
     public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random)
     {
-        MoreBlocksClient.setToDirt(world, pos);
+        SlabGrassBlock.setToDirt(world, pos);
     }
 
     static

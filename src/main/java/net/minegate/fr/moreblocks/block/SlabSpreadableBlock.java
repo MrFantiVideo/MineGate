@@ -6,17 +6,8 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemPlacementContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.tag.FluidTags;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
@@ -32,7 +23,6 @@ import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.chunk.light.ChunkLightProvider;
 import net.minegate.fr.moreblocks.MoreBlocksClient;
-import net.minegate.fr.moreblocks.block.enums.FernType;
 
 public class SlabSpreadableBlock extends SlabPlantableBlock
 {
@@ -58,9 +48,9 @@ public class SlabSpreadableBlock extends SlabPlantableBlock
     @Override
     public void scheduledTick(BlockState spreader, ServerWorld world, BlockPos pos, Random random)
     {
-        if (!canSurvive(spreader, world, pos)) MoreBlocksClient.setToDirt(world, pos);
+        if (!canSurvive(spreader, world, pos)) SlabGrassBlock.setToDirt(world, pos);
 
-        else MoreBlocksClient.spreadableTick(spreader, world, pos, random);
+        else SlabGrassBlock.spreadableTick(spreader, world, pos, random);
     }
 
     public static boolean canSurvive(BlockState state, WorldView world, BlockPos pos)

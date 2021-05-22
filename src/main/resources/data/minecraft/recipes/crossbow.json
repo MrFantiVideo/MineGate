@@ -10,7 +10,7 @@
       "item": "minecraft:string"
     },
     "#": {
-      "tag": "minecraft:sticks"
+      "tag": "minegate:sticks"
     },
     "\u0026": {
       "item": "minecraft:iron_ingot"

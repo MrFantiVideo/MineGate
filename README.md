@@ -34,7 +34,7 @@ repositories
      maven
      {
           name = "MineGate"
-          url "http://libraries.minegate.fr/maven/"
+          url "https://libraries.minegate.fr/maven/"
      }
 }
 
@@ -47,7 +47,7 @@ dependencies
 
 ainsi que ceci dans le « gradle.properties » :
 
-	minegate_moreblocks_version=1.1.2
+	minegate_moreblocks_version=1.1.3
 
 Vous devrez modifier ce fichier lorsqu'une nouvelle version du mod est publiée.<br>
 Les anciennes versions resteront disponibles, mais pas recommandées à l'utilisation.

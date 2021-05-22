@@ -10,7 +10,7 @@
       "item": "minecraft:redstone_torch"
     },
     "S": {
-      "tag": "minecraft:sticks"
+      "tag": "minegate:sticks"
     },
     "X": {
       "item": "minecraft:iron_ingot"

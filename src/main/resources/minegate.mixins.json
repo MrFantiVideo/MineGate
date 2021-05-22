@@ -4,25 +4,26 @@
   "package": "net.minegate.fr.moreblocks.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "FungusBlockMixin",
-    "RootsBlockMixin",
-    "SaplingBlockMixin",
-    "SnowBlockMixin",
-    "SproutsBlockMixin",
-    "SweetBerryBushBlockMixin"
-  ],
-  "client": [
     "FarmlandBlockMixin",
     "FernBlockMixin",
     "FlowerBlockMixin",
+    "FungusBlockMixin",
     "GlassBlockMixin",
     "GrassBlockMixin",
     "IceBlockMixin",
     "PistonBlockMixin",
     "PlantBlockMixin",
+    "RootsBlockMixin",
+    "SaplingBlockMixin",
     "ShovelMixin",
+    "SnowBlockMixin",
+    "SproutsBlockMixin",
     "StainedGlassBlocksMixin",
+    "SweetBerryBushBlockMixin",
     "TallPlantBlockMixin"
+  ],
+  "client": [
+    "ClientWorldMixin"
   ],
   "injectors": {
     "defaultRequire": 1
