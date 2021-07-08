@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth",
+    "textures":
+    {
+        "particle": "minecraft:block/calcite",
+        "bottom": "minecraft:block/calcite",
+        "top": "minecraft:block/calcite",
+        "side": "minecraft:block/calcite"
+    }
+}

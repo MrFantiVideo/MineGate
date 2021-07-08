@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:spruce_log"
+  },
+  "result": "minegate:spruce_log_stairs_vertical",
+  "count": 1
+}

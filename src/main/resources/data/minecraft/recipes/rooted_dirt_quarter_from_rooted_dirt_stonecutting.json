@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:rooted_dirt"
+  },
+  "result": "minegate:rooted_dirt_quarter",
+  "count": 4
+}

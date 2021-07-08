@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/outer_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/raw_copper_block",
+        "top": "minecraft:block/raw_copper_block",
+        "side": "minecraft:block/raw_copper_block"
+    }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:stripped_crimson_stem"
+  },
+  "result": "minegate:stripped_crimson_stem_quarter",
+  "count": 4
+}

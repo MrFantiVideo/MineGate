@@ -1,0 +1,18 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "type=bottom":
+        {
+            "model": "minegate:block/amethyst_block_slab"
+        },
+        "type=top":
+        {
+            "model": "minegate:block/amethyst_block_slab_top"
+        },
+        "type=double":
+        {
+            "model": "minecraft:block/amethyst_block"
+        }
+    }
+}

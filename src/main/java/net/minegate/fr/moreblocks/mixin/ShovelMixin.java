@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 
 import net.minecraft.particle.BlockStateParticleEffect;
 import net.minegate.fr.moreblocks.block.Blocks;
-import net.minegate.fr.moreblocks.block.SlabGrassPathBlock;
+import net.minegate.fr.moreblocks.block.SlabDirtPathBlock;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -21,8 +21,8 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
 import net.minecraft.item.ShovelItem;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.nbt.ListTag;
+import net.minecraft.nbt.NbtCompound;
+import net.minecraft.nbt.NbtList;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.sound.SoundCategory;
@@ -41,7 +41,7 @@ public class ShovelMixin {
         BlockPos pos = context.getBlockPos();
         BlockState state = world.getBlockState(pos);
 
-        if(context.getSide() != Direction.DOWN && SlabGrassPathBlock.canExistAt(state, world, pos)){
+        if(context.getSide() != Direction.DOWN && SlabDirtPathBlock.canExistAt(state, world, pos)){
             PlayerEntity player = context.getPlayer();
             Block block = state.getBlock();
             Boolean isPlayerSneaking = player.isSneaking();
@@ -74,7 +74,7 @@ public class ShovelMixin {
                     success = true;
                 }
 
-                else if(block == Blocks.GRASS_PATH_SLAB && slabType == SlabType.BOTTOM || slabType == SlabType.TOP){
+                else if(block == Blocks.DIRT_PATH_SLAB && slabType == SlabType.BOTTOM || slabType == SlabType.TOP){
                     newState = block.getDefaultState().with(SlabBlock.TYPE, slabType == SlabType.BOTTOM ? SlabType.TOP : SlabType.BOTTOM).with(SlabBlock.WATERLOGGED, state.get(SlabBlock.WATERLOGGED));
 
                     success = true;
@@ -94,11 +94,11 @@ public class ShovelMixin {
             }
 
             else if(isPlayerSneaking && ((block instanceof SlabBlock && slabType == SlabType.DOUBLE) || block instanceof Block)){ // doubles to singles
-                ListTag enchantments = context.getStack().getEnchantments();
+                NbtList enchantments = context.getStack().getEnchantments();
                 Boolean isSilkTouch = false;
 
                 for(int x = 0; x < enchantments.size(); ++x) {
-                    CompoundTag compoundTag = enchantments.getCompound(x);
+                    NbtCompound compoundTag = enchantments.getCompound(x);
 
                     if(compoundTag.getString("id") == String.valueOf(Registry.ENCHANTMENT.getId(Enchantments.SILK_TOUCH))) isSilkTouch = true;
                 }
@@ -129,8 +129,8 @@ public class ShovelMixin {
                     success = true;
                 }
 
-                else if(block == net.minecraft.block.Blocks.GRASS_PATH || block == Blocks.GRASS_PATH_SLAB){
-                    newState = Blocks.GRASS_PATH_SLAB.getDefaultState();
+                else if(block == net.minecraft.block.Blocks.DIRT_PATH || block == Blocks.DIRT_PATH_SLAB){
+                    newState = Blocks.DIRT_PATH_SLAB.getDefaultState();
 
                     success = true;
                 }
@@ -156,13 +156,13 @@ public class ShovelMixin {
 
             else if(!isPlayerSneaking){
                 if(block == net.minecraft.block.Blocks.DIRT){
-                    newState = net.minecraft.block.Blocks.GRASS_PATH.getDefaultState();
+                    newState = net.minecraft.block.Blocks.DIRT_PATH.getDefaultState();
 
                     success = true;
                 }
 
                 else if((block == Blocks.GRASS_BLOCK_SLAB || block == Blocks.DIRT_SLAB)){
-                    newState = Blocks.GRASS_PATH_SLAB.getDefaultState().with(SlabBlock.TYPE, state.get(SlabBlock.TYPE)).with(SlabBlock.WATERLOGGED, state.get(SlabBlock.WATERLOGGED));
+                    newState = Blocks.DIRT_PATH_SLAB.getDefaultState().with(SlabBlock.TYPE, state.get(SlabBlock.TYPE)).with(SlabBlock.WATERLOGGED, state.get(SlabBlock.WATERLOGGED));
 
                     success = true;
                 }

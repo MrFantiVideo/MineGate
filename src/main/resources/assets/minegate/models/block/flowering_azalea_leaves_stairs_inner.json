@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/inner_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/flowering_azalea_leaves",
+        "top": "minecraft:block/flowering_azalea_leaves",
+        "side": "minecraft:block/flowering_azalea_leaves"
+    }
+}

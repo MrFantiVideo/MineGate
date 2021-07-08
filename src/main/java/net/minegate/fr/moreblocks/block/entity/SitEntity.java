@@ -8,7 +8,7 @@ import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.NbtCompound;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.util.Arm;
@@ -53,12 +53,12 @@ public class SitEntity extends LivingEntity
 
             if (pos != null)
             {
-                remove();
+                remove(RemovalReason.DISCARDED);
                 return new Vec3d(pos.getX(), pos.getY(), pos.getZ());
             }
         }
 
-        remove();
+        remove(RemovalReason.DISCARDED);
         return super.updatePassengerForDismount(passenger);
     }
 
@@ -83,7 +83,7 @@ public class SitEntity extends LivingEntity
         if (_removable && !hasPassengers())
         {
             SitEntity.OCCUPIED.remove(getPos());
-            remove();
+            remove(RemovalReason.DISCARDED);
         }
         if (hasPassengers() && !location)
         {
@@ -135,19 +135,13 @@ public class SitEntity extends LivingEntity
     }
 
     @Override
-    public void readCustomDataFromTag(CompoundTag tag)
+    public void readCustomDataFromNbt(NbtCompound nbt)
     {
     }
 
     @Override
-    public void writeCustomDataToTag(CompoundTag tag)
+    public void writeCustomDataToNbt(NbtCompound nbt)
     {
-    }
-
-    @Override
-    protected boolean canClimb()
-    {
-        return false;
     }
 
     @Override
@@ -172,12 +166,6 @@ public class SitEntity extends LivingEntity
     public float getHealth()
     {
         return 0F;
-    }
-
-    @Override
-    protected boolean canDropLootAndXp()
-    {
-        return false;
     }
 
     @Override

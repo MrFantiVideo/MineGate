@@ -1,0 +1,42 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north,type=bottom":
+        {
+            "model": "minegate:block/weathered_copper_quarter_vertical", "y": 90, "uvlock": true
+        },
+        "facing=east,type=bottom":
+        {
+            "model": "minegate:block/weathered_copper_quarter_vertical", "y": 180, "uvlock": true
+        },
+        "facing=south,type=bottom":
+        {
+            "model": "minegate:block/weathered_copper_quarter_vertical", "y": 270, "uvlock": true
+        },
+        "facing=west,type=bottom":
+        {
+            "model": "minegate:block/weathered_copper_quarter_vertical", "y": 0, "uvlock": true
+        },
+        "type=z":
+        {
+            "model": "minegate:block/weathered_copper_quarter_vertical_z", "uvlock": true
+        },
+        "facing=north,type=x":
+        {
+            "model": "minegate:block/weathered_copper_quarter_vertical_x", "y": 90, "uvlock": true
+        },
+        "facing=east,type=x":
+        {
+            "model": "minegate:block/weathered_copper_quarter_vertical_x", "y": 180, "uvlock": true
+        },
+        "facing=south,type=x":
+        {
+            "model": "minegate:block/weathered_copper_quarter_vertical_x", "y": 270, "uvlock": true
+        },
+        "facing=west,type=x":
+        {
+            "model": "minegate:block/weathered_copper_quarter_vertical_x", "y": 0, "uvlock": true
+        }
+    }
+}

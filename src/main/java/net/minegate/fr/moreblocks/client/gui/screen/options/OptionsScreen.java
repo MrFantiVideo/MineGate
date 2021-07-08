@@ -4,7 +4,6 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.ScreenTexts;
-import net.minecraft.client.gui.widget.AbstractButtonWidget;
 import net.minecraft.client.gui.widget.ButtonListWidget;
 import net.minecraft.client.gui.widget.ButtonWidget;
 import net.minecraft.client.util.math.MatrixStack;
@@ -18,7 +17,10 @@ import java.util.List;
 public class OptionsScreen extends Screen
 {
     private final Screen           parent;
-    private       ButtonListWidget buttonList;
+    private       ButtonListWidget buttonBackground;
+    private       ButtonWidget     buttonGenerationOres;
+    private       ButtonWidget     buttonDebugMode;
+
 
     public OptionsScreen(Screen parent)
     {
@@ -28,44 +30,49 @@ public class OptionsScreen extends Screen
 
     protected void init()
     {
-        this.buttonList = new ButtonListWidget(this.client, this.width, this.height, 32, this.height - 32, 25);
-        Text generationOres = new TranslatableText("options.minegate.generation.ores." + DefaultConfig.get("generationOres"));
-        this.addButton(new ButtonWidget(this.width / 2 - 100, this.height / 6, 200, 20, generationOres, (button) ->
+        buttonBackground = new ButtonListWidget(this.client, this.width, this.height, 32, this.height - 32, 25);
+        buttonGenerationOres = button("generationOres", 0);
+        buttonDebugMode = button("debugMode", 24);
+        addDrawableChild(new ButtonWidget(this.width / 2 - 100, this.height - 27, 200, 20, ScreenTexts.DONE, (button) ->
         {
-            if (DefaultConfig.get("generationOres"))
+            client.options.write();
+            client.getWindow().applyVideoMode();
+            client.openScreen(this.parent);
+        }));
+    }
+
+    public ButtonWidget button(String name, int placement)
+    {
+        Text buttonName = new TranslatableText("options.minegate." + name + "." + DefaultConfig.get(name));
+        return addDrawableChild(new ButtonWidget(this.width / 2 - 100, this.height / 6 + placement, 200, 20, buttonName, (button) ->
+        {
+            if (DefaultConfig.get(name))
             {
-                button.setMessage(new TranslatableText("options.minegate.generation.ores.false"));
-                DefaultConfig.replace("generationOres", false);
+                button.setMessage(new TranslatableText("options.minegate." + name + ".false"));
+                DefaultConfig.replace(name, false);
             }
             else
             {
-                button.setMessage(new TranslatableText("options.minegate.generation.ores.true"));
-                DefaultConfig.replace("generationOres", true);
+                button.setMessage(new TranslatableText("options.minegate." + name + ".true"));
+                DefaultConfig.replace(name, true);
             }
-        }));
-        this.addButton(new ButtonWidget(this.width / 2 - 100, this.height - 27, 200, 20, ScreenTexts.DONE, (button) ->
-        {
-            this.client.options.write();
-            this.client.getWindow().applyVideoMode();
-            this.client.openScreen(this.parent);
         }));
     }
 
     public void render(MatrixStack matrices, int mouseX, int mouseY, float delta)
     {
-        this.renderBackground(matrices);
-        this.buttonList.render(matrices, mouseX, mouseY, delta);
+        renderBackground(matrices);
+        buttonBackground.render(matrices, mouseX, mouseY, delta);
+        buttonGenerationOres.render(matrices, mouseX, mouseY, delta);
+        buttonDebugMode.render(matrices, mouseX, mouseY, delta);
         drawCenteredText(matrices, this.textRenderer, this.title, this.width / 2, 14, 16777215);
         super.render(matrices, mouseX, mouseY, delta);
-        for (AbstractButtonWidget button : buttons)
+        for (int b = 0; b < 1; b = b + 1)
         {
-            if (!button.isHovered())
-                continue;
-            Text generationOres = new TranslatableText("options.minegate.generation.ores." + DefaultConfig.get("generationOres"));
-            if (!button.getMessage().equals(generationOres))
+            if (!buttonGenerationOres.isHovered())
                 continue;
 
-            List<Text> generationOresTooltip = Arrays.asList(new TranslatableText("options.minegate.generation.ores.tooltip.one"), new TranslatableText("options.minegate.generation.ores.tooltip.two"));
+            List<Text> generationOresTooltip = Arrays.asList(new TranslatableText("options.minegate.generationOres.tooltip.one"), new TranslatableText("options.minegate.generationOres.tooltip.two"));
             renderTooltip(matrices, generationOresTooltip, mouseX, mouseY);
             break;
         }

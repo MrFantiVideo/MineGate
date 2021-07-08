@@ -85,12 +85,6 @@ public class TableSmallBlock extends HorizontalConnectingBlock
     }
 
     @Override
-    public VoxelShape getVisualShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context)
-    {
-        return VoxelShapes.empty();
-    }
-
-    @Override
     @Environment(EnvType.CLIENT)
     public boolean isSideInvisible(BlockState state, BlockState stateFrom, Direction direction)
     {
@@ -113,7 +107,7 @@ public class TableSmallBlock extends HorizontalConnectingBlock
     public final boolean connectsTo(BlockState state, boolean bl)
     {
         Block block = state.getBlock();
-        return !cannotConnect(block) && bl || block instanceof TableSmallBlock || block.isIn(BlockTags.WALLS);
+        return !cannotConnect(state) && bl || block instanceof TableSmallBlock || state.isIn(BlockTags.WALLS);
     }
 
     @Override

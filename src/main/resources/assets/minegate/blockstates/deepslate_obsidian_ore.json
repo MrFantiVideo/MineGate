@@ -1,0 +1,10 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "":
+        {
+            "model": "minegate:block/deepslate_obsidian_ore"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:weathered_cut_copper"
+  },
+  "result": "minegate:weathered_cut_copper_stairs_vertical",
+  "count": 1
+}

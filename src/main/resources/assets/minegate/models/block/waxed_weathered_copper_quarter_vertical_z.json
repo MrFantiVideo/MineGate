@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_z",
+    "textures":
+    {
+        "particle": "minecraft:block/weathered_copper",
+        "bottom": "minecraft:block/weathered_copper",
+        "top": "minecraft:block/weathered_copper",
+        "side": "minecraft:block/weathered_copper"
+    }
+}

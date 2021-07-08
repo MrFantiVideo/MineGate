@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_z",
+    "textures":
+    {
+        "particle": "minecraft:block/jungle_log",
+        "bottom": "minecraft:block/jungle_log_top",
+        "top": "minecraft:block/jungle_log_top",
+        "side": "minecraft:block/jungle_log"
+    }
+}

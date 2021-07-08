@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/deepslate",
+        "bottom": "minecraft:block/deepslate",
+        "top": "minecraft:block/deepslate",
+        "side": "minecraft:block/deepslate"
+    }
+}

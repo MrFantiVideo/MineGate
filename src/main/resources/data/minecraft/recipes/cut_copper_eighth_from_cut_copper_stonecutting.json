@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cut_copper"
+  },
+  "result": "minegate:cut_copper_eighth",
+  "count": 8
+}

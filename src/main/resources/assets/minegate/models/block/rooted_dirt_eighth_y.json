@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_y",
+    "textures":
+    {
+        "particle": "minecraft:block/rooted_dirt",
+        "bottom": "minecraft:block/rooted_dirt",
+        "top": "minecraft:block/rooted_dirt",
+        "side": "minecraft:block/rooted_dirt"
+    }
+}

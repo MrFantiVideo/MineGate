@@ -4,11 +4,16 @@ import java.util.Random;
 import java.util.function.Supplier;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.PlantBlock;
 import net.minecraft.block.enums.SlabType;
+import net.minecraft.particle.ParticleEffect;
+import net.minecraft.particle.ParticleTypes;
 import net.minecraft.state.property.EnumProperty;
 import net.minecraft.state.property.Properties;
+import net.minecraft.util.math.BlockPos;
 import net.minegate.fr.moreblocks.block.enums.FernType;
+import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -44,29 +49,29 @@ public abstract class ClientWorldMixin extends World
     @Final
     private MinecraftClient client;
 
-    @Inject(method = "randomBlockDisplayTick", at = @At("RETURN"))
-    private void randomBlockDisplayTick(int xCenter, int yCenter, int zCenter, int radius, Random random, boolean spawnBarrierParticles, Mutable pos, CallbackInfo ci)
-    {
-        int i = xCenter + this.random.nextInt(radius) - this.random.nextInt(radius);
-        int j = yCenter + this.random.nextInt(radius) - this.random.nextInt(radius);
-        int k = zCenter + this.random.nextInt(radius) - this.random.nextInt(radius);
-        pos.set(i, j, k);
-        Block block = this.getBlockState(pos).getBlock();
-        BlockState blockState = this.getBlockState(pos);
-        BlockState state = this.getBlockState(pos.down());
-        assert this.client.player != null;
-
-        if (block instanceof PlantBlock)
-        {
-            if (state.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    state.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    state.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    state.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
-            {
-                this.setBlockState(pos, blockState.with(FERN_TYPE, FernType.PLANT));
-            }
-        }
-    }
+    //@Inject(method = "randomBlockDisplayTick", at = @At("RETURN"))
+    //private void randomBlockDisplayTick(int centerX, int centerY, int centerZ, int radius, Random random, ClientWorld.BlockParticle blockParticle, Mutable pos, CallbackInfo ci)
+    //{
+    //    int i = centerX + this.random.nextInt(radius) - this.random.nextInt(radius);
+    //    int j = centerY + this.random.nextInt(radius) - this.random.nextInt(radius);
+    //    int k = centerZ + this.random.nextInt(radius) - this.random.nextInt(radius);
+    //    pos.set(i, j, k);
+    //    Block block = this.getBlockState(pos).getBlock();
+    //    BlockState blockState = this.getBlockState(pos);
+    //    BlockState state = this.getBlockState(pos.down());
+    //    assert this.client.player != null;
+    //
+    //    if (block instanceof PlantBlock)
+    //    {
+    //        if (state.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+    //                state.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+    //                state.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+    //                state.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
+    //        {
+    //            this.setBlockState(pos, blockState.with(FERN_TYPE, FernType.PLANT));
+    //        }
+    //    }
+    //}
 
     static
     {

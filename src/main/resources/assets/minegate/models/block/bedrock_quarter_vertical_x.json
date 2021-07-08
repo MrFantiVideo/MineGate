@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_x",
+    "textures":
+    {
+        "particle": "minecraft:block/bedrock",
+        "bottom": "minecraft:block/bedrock",
+        "top": "minecraft:block/bedrock",
+        "side": "minecraft:block/bedrock"
+    }
+}

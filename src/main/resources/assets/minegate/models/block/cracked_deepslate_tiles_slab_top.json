@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab_top",
+    "textures":
+    {
+        "bottom": "minecraft:block/cracked_deepslate_tiles",
+        "top": "minecraft:block/cracked_deepslate_tiles",
+        "side": "minecraft:block/cracked_deepslate_tiles"
+    }
+}

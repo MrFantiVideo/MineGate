@@ -121,7 +121,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             {
                 if (item == net.minecraft.item.Items.BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -129,7 +129,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.BLACK_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -137,7 +137,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.BLUE_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -145,7 +145,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.BROWN_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -153,7 +153,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.CYAN_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -161,7 +161,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.GRAY_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -169,7 +169,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.GREEN_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -177,7 +177,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.LIGHT_BLUE_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -185,7 +185,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.LIGHT_GRAY_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -193,7 +193,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.LIME_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -201,7 +201,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.MAGENTA_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -209,7 +209,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.ORANGE_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -217,7 +217,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.PINK_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -225,7 +225,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.PURPLE_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -233,7 +233,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.RED_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -241,7 +241,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.WHITE_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -249,7 +249,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                 }
                 if (item == Items.YELLOW_BOOK)
                 {
-                    if (!player.abilities.creativeMode)
+                    if (!player.getAbilities().creativeMode)
                     {
                         itemStack.decrement(1);
                     }
@@ -263,7 +263,7 @@ public class BookshelfBlock extends Block implements Waterloggable
         {
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.DEFAULT))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(net.minecraft.item.Items.BOOK);
                     if (itemStack.isEmpty())
@@ -278,7 +278,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.BLACK))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.BLACK_BOOK);
                     if (itemStack.isEmpty())
@@ -293,7 +293,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.BLUE))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.BLUE_BOOK);
                     if (itemStack.isEmpty())
@@ -308,7 +308,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.BROWN))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.BROWN_BOOK);
                     if (itemStack.isEmpty())
@@ -323,7 +323,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.CYAN))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.CYAN_BOOK);
                     if (itemStack.isEmpty())
@@ -338,7 +338,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.GRAY))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.GRAY_BOOK);
                     if (itemStack.isEmpty())
@@ -353,7 +353,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.GREEN))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.GREEN_BOOK);
                     if (itemStack.isEmpty())
@@ -368,7 +368,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.LIGHT_BLUE))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.LIGHT_BLUE_BOOK);
                     if (itemStack.isEmpty())
@@ -383,7 +383,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.LIGHT_GRAY))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.LIGHT_GRAY_BOOK);
                     if (itemStack.isEmpty())
@@ -398,7 +398,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.LIME))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.LIME_BOOK);
                     if (itemStack.isEmpty())
@@ -413,7 +413,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.MAGENTA))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.MAGENTA_BOOK);
                     if (itemStack.isEmpty())
@@ -428,7 +428,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.ORANGE))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.ORANGE_BOOK);
                     if (itemStack.isEmpty())
@@ -443,7 +443,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.PINK))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.PINK_BOOK);
                     if (itemStack.isEmpty())
@@ -458,7 +458,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.PURPLE))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.PURPLE_BOOK);
                     if (itemStack.isEmpty())
@@ -473,7 +473,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.RED))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.RED_BOOK);
                     if (itemStack.isEmpty())
@@ -488,7 +488,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.WHITE))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.WHITE_BOOK);
                     if (itemStack.isEmpty())
@@ -503,7 +503,7 @@ public class BookshelfBlock extends Block implements Waterloggable
             }
             if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.YELLOW))
             {
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     ItemStack itemBook = new ItemStack(Items.YELLOW_BOOK);
                     if (itemStack.isEmpty())
@@ -516,7 +516,7 @@ public class BookshelfBlock extends Block implements Waterloggable
                     }
                 }
             }
-            if (player.abilities.creativeMode)
+            if (player.getAbilities().creativeMode)
             {
                 world.playSound(null, pos, SoundEvents.ITEM_BOOK_PUT, SoundCategory.BLOCKS, 1.0F, 1.0F);
             }

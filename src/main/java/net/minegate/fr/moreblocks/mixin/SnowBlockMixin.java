@@ -97,25 +97,6 @@ public class SnowBlockMixin extends Block
         return LAYERS_TO_SHAPE[state.get(LAYERS)];
     }
 
-    @Override
-    public VoxelShape getVisualShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context)
-    {
-        Block block = world.getBlockState(pos.down()).getBlock();
-        BlockState blockState = world.getBlockState(pos.down());
-
-        if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
-        {
-            if (state == state.with(SNOWY, true))
-            {
-                if (blockState == blockState.with(TYPE, SlabType.BOTTOM))
-                {
-                    return SLAB_LAYERS_TO_SHAPE[state.get(LAYERS)];
-                }
-            }
-        }
-        return LAYERS_TO_SHAPE[state.get(LAYERS)];
-    }
-
     @Inject(at = @At("RETURN"), method = "canPlaceAt", cancellable = true)
     public void canPlaceAt(BlockState state, WorldView world, BlockPos pos, CallbackInfoReturnable<Boolean> cir)
     {

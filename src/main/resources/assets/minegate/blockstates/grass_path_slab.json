@@ -12,7 +12,7 @@
       },
       "type=double":
       {
-          "model": "minecraft:block/grass_path"
+          "model": "minecraft:block/dirt_path"
       }
   }
 }

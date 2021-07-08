@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/polished_deepslate",
+        "bottom": "minecraft:block/polished_deepslate",
+        "top": "minecraft:block/polished_deepslate",
+        "side": "minecraft:block/polished_deepslate"
+    }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "type=bottom":
+        {
+            "model": "minegate:block/tinted_glass_slab"
+        },
+        "type=top":
+        {
+            "model": "minegate:block/tinted_glass_slab_top"
+        },
+        "type=double":
+        {
+            "model": "minecraft:block/tinted_glass"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:bedrock"
+  },
+  "result": "minegate:bedrock_quarter",
+  "count": 4
+}

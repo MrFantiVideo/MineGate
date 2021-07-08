@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab",
+    "textures":
+    {
+        "bottom": "minecraft:block/exposed_copper",
+        "top": "minecraft:block/exposed_copper",
+        "side": "minecraft:block/exposed_copper"
+    }
+}

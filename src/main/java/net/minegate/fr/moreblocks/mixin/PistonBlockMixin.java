@@ -42,13 +42,13 @@ public class PistonBlockMixin extends FacingBlock
                     && !blockState.isOf(Blocks.OBSIDIAN_QUARTER_VERTICAL)
                     && !blockState.isOf(Blocks.OBSIDIAN_EIGHTH)
                     && !blockState.isOf(net.minecraft.block.Blocks.CRYING_OBSIDIAN)
-                    && !blockState.isOf(Blocks.CRYING_OBSDIAN_STAIRS)
-                    && !blockState.isOf(Blocks.CRYING_OBSDIAN_STAIRS_VERTICAL)
-                    && !blockState.isOf(Blocks.CRYING_OBSDIAN_SLAB)
-                    && !blockState.isOf(Blocks.CRYING_OBSDIAN_SLAB_VERTICAL)
-                    && !blockState.isOf(Blocks.CRYING_OBSDIAN_QUARTER)
-                    && !blockState.isOf(Blocks.CRYING_OBSDIAN_QUARTER_VERTICAL)
-                    && !blockState.isOf(Blocks.CRYING_OBSDIAN_EIGHTH)
+                    && !blockState.isOf(Blocks.CRYING_OBSIDIAN_STAIRS)
+                    && !blockState.isOf(Blocks.CRYING_OBSIDIAN_STAIRS_VERTICAL)
+                    && !blockState.isOf(Blocks.CRYING_OBSIDIAN_SLAB)
+                    && !blockState.isOf(Blocks.CRYING_OBSIDIAN_SLAB_VERTICAL)
+                    && !blockState.isOf(Blocks.CRYING_OBSIDIAN_QUARTER)
+                    && !blockState.isOf(Blocks.CRYING_OBSIDIAN_QUARTER_VERTICAL)
+                    && !blockState.isOf(Blocks.CRYING_OBSIDIAN_EIGHTH)
                     && !blockState.isOf(Blocks.OBSIDIAN_BRICKS)
                     && !blockState.isOf(Blocks.OBSIDIAN_BRICKS_STAIRS)
                     && !blockState.isOf(Blocks.OBSIDIAN_BRICKS_STAIRS_VERTICAL)
@@ -96,7 +96,7 @@ public class PistonBlockMixin extends FacingBlock
                         return false;
                     }
 
-                    return !blockState.getBlock().hasBlockEntity();
+                    return !blockState.hasBlockEntity();
                 }
             }
             else

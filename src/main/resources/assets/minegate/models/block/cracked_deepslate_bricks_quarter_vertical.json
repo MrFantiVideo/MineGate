@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/cracked_deepslate_bricks",
+        "bottom": "minecraft:block/cracked_deepslate_bricks",
+        "top": "minecraft:block/cracked_deepslate_bricks",
+        "side": "minecraft:block/cracked_deepslate_bricks"
+    }
+}

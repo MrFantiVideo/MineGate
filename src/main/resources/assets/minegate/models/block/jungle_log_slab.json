@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab",
+    "textures":
+    {
+        "bottom": "minecraft:block/jungle_log_top",
+        "top": "minecraft:block/jungle_log_top",
+        "side": "minecraft:block/jungle_log"
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_z",
+    "textures":
+    {
+        "particle": "minecraft:block/oxidized_copper",
+        "bottom": "minecraft:block/oxidized_copper",
+        "top": "minecraft:block/oxidized_copper",
+        "side": "minecraft:block/oxidized_copper"
+    }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:waxed_copper_block"
+  },
+  "result": "minegate:waxed_copper_block_quarter_vertical",
+  "count": 4
+}

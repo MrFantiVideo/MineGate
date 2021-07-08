@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/azalea_leaves",
+        "bottom": "minecraft:block/azalea_leaves",
+        "top": "minecraft:block/azalea_leaves",
+        "side": "minecraft:block/azalea_leaves"
+    }
+}

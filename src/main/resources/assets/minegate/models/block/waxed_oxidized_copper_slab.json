@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab",
+    "textures":
+    {
+        "bottom": "minecraft:block/oxidized_copper",
+        "top": "minecraft:block/oxidized_copper",
+        "side": "minecraft:block/oxidized_copper"
+    }
+}

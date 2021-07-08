@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_y",
+    "textures":
+    {
+        "particle": "minecraft:block/exposed_copper",
+        "bottom": "minecraft:block/exposed_copper",
+        "top": "minecraft:block/exposed_copper",
+        "side": "minecraft:block/exposed_copper"
+    }
+}

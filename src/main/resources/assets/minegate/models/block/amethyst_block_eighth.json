@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth",
+    "textures":
+    {
+        "particle": "minecraft:block/amethyst_block",
+        "bottom": "minecraft:block/amethyst_block",
+        "top": "minecraft:block/amethyst_block",
+        "side": "minecraft:block/amethyst_block"
+    }
+}

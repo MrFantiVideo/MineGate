@@ -4,53 +4,32 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendereregistry.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.enums.SlabType;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.color.world.FoliageColors;
 import net.minecraft.client.color.world.GrassColors;
-import net.minecraft.client.render.Frustum;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.entity.EntityRenderDispatcher;
-import net.minecraft.client.render.entity.EntityRenderer;
-import net.minecraft.particle.ParticleTypes;
-import net.minecraft.server.world.ServerWorld;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.MathHelper;
-import net.minecraft.world.World;
 import net.minegate.fr.moreblocks.block.Blocks;
-import net.minegate.fr.moreblocks.block.SlabPlantableBlock;
-import net.minegate.fr.moreblocks.block.SlabSpreadableBlock;
-import net.minegate.fr.moreblocks.block.entity.SitEntity;
+import net.minegate.fr.moreblocks.block.entity.SitEntityRenderer;
 import net.minegate.fr.moreblocks.block.entity.SitManager;
 import net.minegate.fr.moreblocks.item.Items;
 
-import java.util.Random;
-
-import static net.minegate.fr.moreblocks.MoreBlocks.*;
-
-// Main Class of MineGate Client.
+import static net.minegate.fr.moreblocks.MoreBlocks.ConsoleClient;
+import static net.minegate.fr.moreblocks.MoreBlocks.DebugClient;
 
 public class MoreBlocksClient implements ClientModInitializer
 {
-    // Initialization.
+    /**
+     * Initialization.
+     **/
 
     @Override
     public void onInitializeClient()
     {
-        // Render Entities on the client.
-
-        EntityRendererRegistry.INSTANCE.register(SitManager.SIT_ENTITY_TYPE, (entityRenderDispatcher, context) -> new EmptyRenderer(entityRenderDispatcher));
-        if (DebugClient)
+        EntityRendererRegistry.INSTANCE.register(SitManager.SIT_ENTITY_TYPE, SitEntityRenderer::new);
+        if (DebugClient())
         {
-            ConsoleClient.info("[" + NameClient + "] EntityRendererRegistry : OK !");
+            ConsoleClient("EntityRendererRegistry : OK !");
         }
-
-        // Render Blocks on the client.
-
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getTranslucent(),
                 Blocks.GLASS_STAIRS,
                 Blocks.GLASS_STAIRS_VERTICAL,
@@ -59,6 +38,13 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.GLASS_QUARTER,
                 Blocks.GLASS_QUARTER_VERTICAL,
                 Blocks.GLASS_EIGHTH,
+                Blocks.TINTED_GLASS_STAIRS,
+                Blocks.TINTED_GLASS_STAIRS_VERTICAL,
+                Blocks.TINTED_GLASS_SLAB,
+                Blocks.TINTED_GLASS_SLAB_VERTICAL,
+                Blocks.TINTED_GLASS_QUARTER,
+                Blocks.TINTED_GLASS_QUARTER_VERTICAL,
+                Blocks.TINTED_GLASS_EIGHTH,
                 Blocks.ICE_STAIRS,
                 Blocks.ICE_STAIRS_VERTICAL,
                 Blocks.ICE_SLAB,
@@ -220,7 +206,34 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.DARK_OAK_LEAVES_QUARTER,
                 Blocks.DARK_OAK_LEAVES_QUARTER_VERTICAL,
                 Blocks.DARK_OAK_LEAVES_EIGHTH,
-                Blocks.WOODCUTTER
+                Blocks.AZALEA_LEAVES_STAIRS,
+                Blocks.AZALEA_LEAVES_STAIRS_VERTICAL,
+                Blocks.AZALEA_LEAVES_SLAB,
+                Blocks.AZALEA_LEAVES_SLAB_VERTICAL,
+                Blocks.AZALEA_LEAVES_QUARTER,
+                Blocks.AZALEA_LEAVES_QUARTER_VERTICAL,
+                Blocks.AZALEA_LEAVES_EIGHTH,
+                Blocks.FLOWERING_AZALEA_LEAVES_STAIRS,
+                Blocks.FLOWERING_AZALEA_LEAVES_STAIRS_VERTICAL,
+                Blocks.FLOWERING_AZALEA_LEAVES_SLAB,
+                Blocks.FLOWERING_AZALEA_LEAVES_SLAB_VERTICAL,
+                Blocks.FLOWERING_AZALEA_LEAVES_QUARTER,
+                Blocks.FLOWERING_AZALEA_LEAVES_QUARTER_VERTICAL,
+                Blocks.FLOWERING_AZALEA_LEAVES_EIGHTH,
+                Blocks.WOODCUTTER,
+                Blocks.SPRUCE_LADDER,
+                Blocks.BIRCH_LADDER,
+                Blocks.JUNGLE_LADDER,
+                Blocks.ACACIA_LADDER,
+                Blocks.DARK_OAK_LADDER,
+                Blocks.CRIMSON_LADDER,
+                Blocks.WARPED_LADDER
+        );
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutoutMipped(),
+                Blocks.GRASS_BLOCK_SLAB,
+                Blocks.DIRT_SLAB,
+                Blocks.COARSE_DIRT_SLAB,
+                Blocks.PODZOL_SLAB
         );
         ColorProviderRegistry.BLOCK.register((state, world, pos, tintIndex) -> FoliageColors.getSpruceColor(),
                 Blocks.SPRUCE_LEAVES_STAIRS, Blocks.SPRUCE_LEAVES_STAIRS_VERTICAL, Blocks.SPRUCE_LEAVES_SLAB, Blocks.SPRUCE_LEAVES_SLAB_VERTICAL, Blocks.SPRUCE_LEAVES_QUARTER, Blocks.SPRUCE_LEAVES_QUARTER_VERTICAL, Blocks.SPRUCE_LEAVES_EIGHTH
@@ -234,9 +247,13 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.ACACIA_LEAVES_STAIRS, Blocks.ACACIA_LEAVES_STAIRS_VERTICAL, Blocks.ACACIA_LEAVES_SLAB, Blocks.ACACIA_LEAVES_SLAB_VERTICAL, Blocks.ACACIA_LEAVES_QUARTER, Blocks.ACACIA_LEAVES_QUARTER_VERTICAL, Blocks.ACACIA_LEAVES_EIGHTH,
                 Blocks.DARK_OAK_LEAVES_STAIRS, Blocks.DARK_OAK_LEAVES_STAIRS_VERTICAL, Blocks.DARK_OAK_LEAVES_SLAB, Blocks.DARK_OAK_LEAVES_SLAB_VERTICAL, Blocks.DARK_OAK_LEAVES_QUARTER, Blocks.DARK_OAK_LEAVES_QUARTER_VERTICAL, Blocks.DARK_OAK_LEAVES_EIGHTH
         );
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) ->
+        {
+            if (tintIndex == 1)
+                return view != null && pos != null ? BiomeColors.getGrassColor(view, pos) : GrassColors.getColor(0.5D, 1.0D);
 
-        // Render Items on the client.
-
+            return -1;
+        }, Blocks.GRASS_BLOCK_SLAB, Blocks.DIRT_SLAB, Blocks.COARSE_DIRT_SLAB, Blocks.PODZOL_SLAB);
         BlockRenderLayerMap.INSTANCE.putItems(RenderLayer.getTranslucent(),
                 Items.BLACK_STAINED_GLASS_STAIRS,
                 Items.BLUE_STAINED_GLASS_STAIRS,
@@ -363,58 +380,11 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.ACACIA_LEAVES_STAIRS, Blocks.ACACIA_LEAVES_STAIRS_VERTICAL, Blocks.ACACIA_LEAVES_SLAB, Blocks.ACACIA_LEAVES_SLAB_VERTICAL, Blocks.ACACIA_LEAVES_QUARTER, Blocks.ACACIA_LEAVES_QUARTER_VERTICAL, Blocks.ACACIA_LEAVES_EIGHTH,
                 Blocks.DARK_OAK_LEAVES_STAIRS, Blocks.DARK_OAK_LEAVES_STAIRS_VERTICAL, Blocks.DARK_OAK_LEAVES_SLAB, Blocks.DARK_OAK_LEAVES_SLAB_VERTICAL, Blocks.DARK_OAK_LEAVES_QUARTER, Blocks.DARK_OAK_LEAVES_QUARTER_VERTICAL, Blocks.DARK_OAK_LEAVES_EIGHTH
         );
-        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getTranslucent(),
-                Blocks.SPRUCE_LADDER,
-                Blocks.BIRCH_LADDER,
-                Blocks.JUNGLE_LADDER,
-                Blocks.ACACIA_LADDER,
-                Blocks.DARK_OAK_LADDER,
-                Blocks.CRIMSON_LADDER,
-                Blocks.WARPED_LADDER
-        );
-
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) ->
-        {
-            if (tintIndex == 1)
-                return view != null && pos != null ? BiomeColors.getGrassColor(view, pos) : GrassColors.getColor(0.5D, 1.0D);
-
-            return -1;
-        }, Blocks.GRASS_BLOCK_SLAB, Blocks.DIRT_SLAB, Blocks.COARSE_DIRT_SLAB, Blocks.PODZOL_SLAB);
-
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getColor(0.5D, 1.0D), Blocks.GRASS_BLOCK_SLAB, Blocks.DIRT_SLAB, Blocks.COARSE_DIRT_SLAB, Blocks.PODZOL_SLAB);
-
-        BlockRenderLayerMap.INSTANCE.putBlock(Blocks.GRASS_BLOCK_SLAB, RenderLayer.getCutoutMipped());
-        BlockRenderLayerMap.INSTANCE.putBlock(Blocks.DIRT_SLAB, RenderLayer.getCutoutMipped());
-        BlockRenderLayerMap.INSTANCE.putBlock(Blocks.COARSE_DIRT_SLAB, RenderLayer.getCutoutMipped());
-        BlockRenderLayerMap.INSTANCE.putBlock(Blocks.PODZOL_SLAB, RenderLayer.getCutoutMipped());
-
-        if (DebugClient)
+        if (DebugClient())
         {
-            ConsoleClient.info("[" + NameClient + "] BlockRenderLayerMap & ColorProviderRegistry : OK !");
+            ConsoleClient("BlockRenderLayerMap & ColorProviderRegistry : OK !");
         }
-
-        ConsoleClient.info("[" + NameClient + "] All is well! Good game with MineGate!");
-    }
-
-    // Render of SitEntity.
-
-    private static class EmptyRenderer extends EntityRenderer<SitEntity>
-    {
-        protected EmptyRenderer(EntityRenderDispatcher entityRenderDispatcher)
-        {
-            super(entityRenderDispatcher);
-        }
-
-        @Override
-        public boolean shouldRender(SitEntity entity, Frustum frustum, double d, double e, double f)
-        {
-            return false;
-        }
-
-        @Override
-        public Identifier getTexture(SitEntity entity)
-        {
-            return null;
-        }
+        ConsoleClient("All is well! Good game with MineGate!");
     }
 }

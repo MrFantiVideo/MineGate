@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/weathered_cut_copper",
+        "bottom": "minecraft:block/weathered_cut_copper",
+        "top": "minecraft:block/weathered_cut_copper",
+        "side": "minecraft:block/weathered_cut_copper"
+    }
+}

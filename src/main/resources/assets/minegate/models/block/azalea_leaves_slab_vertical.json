@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minecraft:block/azalea_leaves",
+        "top": "minecraft:block/azalea_leaves",
+        "side": "minecraft:block/azalea_leaves"
+    }
+}

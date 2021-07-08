@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:budding_amethyst"
+  },
+  "result": "minegate:budding_amethyst_slab_vertical",
+  "count": 2
+}

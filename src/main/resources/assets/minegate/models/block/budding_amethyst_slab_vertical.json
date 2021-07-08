@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minecraft:block/budding_amethyst",
+        "top": "minecraft:block/budding_amethyst",
+        "side": "minecraft:block/budding_amethyst"
+    }
+}

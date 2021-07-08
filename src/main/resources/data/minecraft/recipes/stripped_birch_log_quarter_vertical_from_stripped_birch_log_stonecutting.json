@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:stripped_birch_log"
+  },
+  "result": "minegate:stripped_birch_log_quarter_vertical",
+  "count": 4
+}

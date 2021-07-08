@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minecraft:block/oak_log_top",
+        "top": "minecraft:block/oak_log_top",
+        "side": "minecraft:block/oak_log"
+    }
+}

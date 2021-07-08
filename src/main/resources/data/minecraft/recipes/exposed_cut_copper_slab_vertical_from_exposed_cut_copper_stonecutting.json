@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:exposed_cut_copper"
+  },
+  "result": "minegate:exposed_cut_copper_slab_vertical",
+  "count": 2
+}

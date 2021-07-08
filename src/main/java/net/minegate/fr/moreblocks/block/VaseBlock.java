@@ -60,7 +60,7 @@ public class VaseBlock extends Block
             {
                 world.setBlockState(pos, block.getDefaultState(), 3);
                 player.incrementStat(Stats.POT_FLOWER);
-                if (!player.abilities.creativeMode)
+                if (!player.getAbilities().creativeMode)
                 {
                     itemStack.decrement(1);
                 }

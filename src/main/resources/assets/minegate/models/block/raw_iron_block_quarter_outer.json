@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/raw_iron_block",
+        "bottom": "minecraft:block/raw_iron_block",
+        "top": "minecraft:block/raw_iron_block",
+        "side": "minecraft:block/raw_iron_block"
+    }
+}

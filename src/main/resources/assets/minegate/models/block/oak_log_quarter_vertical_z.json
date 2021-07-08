@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_z",
+    "textures":
+    {
+        "particle": "minecraft:block/oak_log",
+        "bottom": "minecraft:block/oak_log_top",
+        "top": "minecraft:block/oak_log_top",
+        "side": "minecraft:block/oak_log"
+    }
+}

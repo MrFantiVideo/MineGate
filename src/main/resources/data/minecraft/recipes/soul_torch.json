@@ -15,7 +15,7 @@
       }
     ],
     "#": {
-      "tag": "minegate:sticks"
+      "tag": "c:sticks"
     },
     "S": {
       "tag": "minecraft:soul_fire_base_blocks"

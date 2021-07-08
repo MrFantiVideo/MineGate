@@ -5,7 +5,6 @@ import java.util.Random;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.fluid.Fluid;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.EnumProperty;
@@ -27,10 +26,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.particle.ParticleTypes;
 import net.minecraft.server.world.ServerWorld;
 
-import net.minecraft.block.Block;
-import net.minegate.fr.moreblocks.MoreBlocksClient;
-
-public class SlabFarmlandBlock extends SlabGrassPathBlock
+public class SlabFarmlandBlock extends SlabDirtPathBlock
 {
     public static final EnumProperty<SlabType> TYPE;
     public static final BooleanProperty        WATERLOGGED;
@@ -77,14 +73,14 @@ public class SlabFarmlandBlock extends SlabGrassPathBlock
         }
     }
 
-    public void onLandedUpon(World world, BlockPos pos, Entity entity, float distance)
+    public void onLandedUpon(World world, BlockState state, BlockPos pos, Entity entity, float distance)
     {
         if (!world.isClient && world.random.nextFloat() < distance - 0.5F && entity instanceof LivingEntity && (entity instanceof PlayerEntity || world.getGameRules().getBoolean(GameRules.DO_MOB_GRIEFING)) && entity.getWidth() * entity.getWidth() * entity.getHeight() > 0.512F)
         {
             SlabGrassBlock.setToDirt(world, pos);
         }
 
-        super.onLandedUpon(world, pos, entity, distance);
+        super.onLandedUpon(world, state, pos, entity, distance);
     }
 
     private static boolean hasCrop(BlockView world, BlockPos pos)

@@ -26,17 +26,17 @@ import net.minecraft.world.World;
 
 public class WoodcutterScreenHandler extends ScreenHandler
 {
-    private final ScreenHandlerContext    context;
-    private final Property                selectedRecipe;
+    private final ScreenHandlerContext     context;
+    private final Property                 selectedRecipe;
     private final World                    world;
     private       List<StonecuttingRecipe> availableRecipes;
     private       ItemStack                inputStack;
-    private       long                    lastTakeTime;
-    final         Slot                    inputSlot;
-    final         Slot                    outputSlot;
-    private       Runnable                contentsChangedListener;
-    public final  Inventory               input;
-    private final CraftingResultInventory output;
+    private       long                     lastTakeTime;
+    final         Slot                     inputSlot;
+    final         Slot                     outputSlot;
+    private       Runnable                 contentsChangedListener;
+    public final  Inventory                input;
+    private final CraftingResultInventory  output;
 
     public WoodcutterScreenHandler(int syncId, PlayerInventory playerInventory)
     {
@@ -72,7 +72,7 @@ public class WoodcutterScreenHandler extends ScreenHandler
                 return false;
             }
 
-            public ItemStack onTakeItem(PlayerEntity player, ItemStack stack)
+            public void onTakeItem(PlayerEntity player, ItemStack stack)
             {
                 stack.onCraft(player.world, player, stack.getCount());
                 WoodcutterScreenHandler.this.output.unlockLastRecipe(player);
@@ -92,7 +92,7 @@ public class WoodcutterScreenHandler extends ScreenHandler
                     }
 
                 });
-                return super.onTakeItem(player, stack);
+                super.onTakeItem(player, stack);
             }
         });
 
@@ -230,7 +230,7 @@ public class WoodcutterScreenHandler extends ScreenHandler
                     return ItemStack.EMPTY;
                 }
 
-                slot.onStackChanged(itemStack2, itemStack);
+                slot.onQuickTransfer(itemStack2, itemStack);
             }
             else if (index == 0)
             {
@@ -282,7 +282,7 @@ public class WoodcutterScreenHandler extends ScreenHandler
         this.output.removeStack(1);
         this.context.run((world, blockPos) ->
         {
-            this.dropInventory(player, player.world, this.input);
+            this.dropInventory(player, this.input);
         });
     }
 }

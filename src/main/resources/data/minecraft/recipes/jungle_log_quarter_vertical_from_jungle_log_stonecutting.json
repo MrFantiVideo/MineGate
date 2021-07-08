@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:jungle_log"
+  },
+  "result": "minegate:jungle_log_quarter_vertical",
+  "count": 4
+}
