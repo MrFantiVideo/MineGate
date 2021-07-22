@@ -3,9 +3,9 @@
     "parent": "minegate:block/eighth_top",
     "textures":
     {
-        "particle": "minecraft:block/magma_block",
-        "bottom": "minecraft:block/magma_block",
-        "top": "minecraft:block/magma_block",
-        "side": "minecraft:block/magma_block"
+        "particle": "minecraft:block/magma",
+        "bottom": "minecraft:block/magma",
+        "top": "minecraft:block/magma",
+        "side": "minecraft:block/magma"
     }
 }

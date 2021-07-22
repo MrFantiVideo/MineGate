@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minegate:bedrock_stairs",
+    "minegate:obsidian_stairs",
+    "minegate:crying_obsidian_stairs",
+    "minegate:end_stone_stairs",
+    "minegate:bedrock_stairs_vertical",
+    "minegate:obsidian_stairs_vertical",
+    "minegate:crying_obsidian_stairs_vertical",
+    "minegate:end_stone_stairs_vertical",
+    "minegate:bedrock_slab",
+    "minegate:obsidian_slab",
+    "minegate:crying_obsidian_slab",
+    "minegate:end_stone_slab",
+    "minegate:bedrock_slab_vertical",
+    "minegate:obsidian_slab_vertical",
+    "minegate:crying_obsidian_slab_vertical",
+    "minegate:end_stone_slab_vertical",
+    "minegate:bedrock_quarter",
+    "minegate:obsidian_quarter",
+    "minegate:crying_obsidian_quarter",
+    "minegate:end_stone_quarter",
+    "minegate:bedrock_quarter_vertical",
+    "minegate:obsidian_quarter_vertical",
+    "minegate:crying_obsidian_quarter_vertical",
+    "minegate:end_stone_quarter_vertical",
+    "minegate:bedrock_eighth",
+    "minegate:obsidian_eighth",
+    "minegate:crying_obsidian_eighth",
+    "minegate:end_stone_eighth"
+  ]
+}

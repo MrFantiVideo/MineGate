@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minegate:spruce_log_stairs",
+    "minegate:spruce_wood_stairs",
+    "minegate:stripped_spruce_log_stairs",
+    "minegate:stripped_spruce_wood_stairs",
+    "minegate:spruce_log_stairs_vertical",
+    "minegate:spruce_wood_stairs_vertical",
+    "minegate:stripped_spruce_log_stairs_vertical",
+    "minegate:stripped_spruce_wood_stairs_vertical",
+    "minegate:spruce_log_slab",
+    "minegate:spruce_wood_slab",
+    "minegate:stripped_spruce_log_slab",
+    "minegate:stripped_spruce_wood_slab",
+    "minegate:spruce_log_slab_vertical",
+    "minegate:spruce_wood_slab_vertical",
+    "minegate:stripped_spruce_log_slab_vertical",
+    "minegate:stripped_spruce_wood_slab_vertical",
+    "minegate:spruce_log_quarter",
+    "minegate:spruce_wood_quarter",
+    "minegate:stripped_spruce_log_quarter",
+    "minegate:stripped_spruce_wood_quarter",
+    "minegate:spruce_log_quarter_vertical",
+    "minegate:spruce_wood_quarter_vertical",
+    "minegate:stripped_spruce_log_quarter_vertical",
+    "minegate:stripped_spruce_wood_quarter_vertical",
+    "minegate:spruce_log_eighth",
+    "minegate:spruce_wood_eighth",
+    "minegate:stripped_spruce_log_eighth",
+    "minegate:stripped_spruce_wood_eighth"
+  ]
+}

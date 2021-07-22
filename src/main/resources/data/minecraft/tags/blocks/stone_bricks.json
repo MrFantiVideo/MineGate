@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    "minegate:cracked_stone_bricks_stairs",
+    "minegate:chiseled_stone_bricks_stairs",
+    "minegate:stone_bricks_stairs_vertical",
+    "minegate:mossy_stone_bricks_stairs_vertical",
+    "minegate:cracked_stone_bricks_stairs_vertical",
+    "minegate:chiseled_stone_bricks_stairs_vertical",
+    "minegate:cracked_stone_bricks_slab",
+    "minegate:chiseled_stone_bricks_slab",
+    "minegate:stone_bricks_slab_vertical",
+    "minegate:mossy_stone_bricks_slab_vertical",
+    "minegate:cracked_stone_bricks_slab_vertical",
+    "minegate:chiseled_stone_bricks_slab_vertical",
+    "minegate:stone_bricks_quarter",
+    "minegate:mossy_stone_bricks_quarter",
+    "minegate:cracked_stone_bricks_quarter",
+    "minegate:chiseled_stone_bricks_quarter",
+    "minegate:stone_bricks_quarter_vertical",
+    "minegate:mossy_stone_bricks_quarter_vertical",
+    "minegate:cracked_stone_bricks_quarter_vertical",
+    "minegate:chiseled_stone_bricks_quarter_vertical",
+    "minegate:stone_bricks_eighth",
+    "minegate:mossy_stone_bricks_eighth",
+    "minegate:cracked_stone_bricks_eighth",
+    "minegate:chiseled_stone_bricks_eighth"
+  ]
+}

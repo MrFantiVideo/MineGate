@@ -14,6 +14,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minegate.fr.moreblocks.block.Blocks;
 import net.minegate.fr.moreblocks.block.enums.FernType;
+import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -40,47 +41,50 @@ public class SweetBerryBushBlockMixin extends PlantBlock
     @Inject(at = @At("RETURN"), method = "getOutlineShape", cancellable = true)
     private void getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context, CallbackInfoReturnable<VoxelShape> cir)
     {
-        Block block = world.getBlockState(pos.down()).getBlock();
-        BlockState blockState = world.getBlockState(pos.down());
-
-        if (state.get(AGE) == 0)
+        if (DefaultConfig.get("useMixins"))
         {
-            if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB))
+            Block block = world.getBlockState(pos.down()).getBlock();
+            BlockState blockState = world.getBlockState(pos.down());
+
+            if (state.get(AGE) == 0)
             {
-                if (blockState.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
+                if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB))
                 {
-                    cir.setReturnValue(SLAB_SMALL_SHAPE);
-                }
-                else
-                {
-                    cir.setReturnValue(SMALL_SHAPE);
+                    if (blockState.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                            blockState.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                            blockState.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                            blockState.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
+                    {
+                        cir.setReturnValue(SLAB_SMALL_SHAPE);
+                    }
+                    else
+                    {
+                        cir.setReturnValue(SMALL_SHAPE);
+                    }
                 }
             }
-        }
-        else
-        {
-            if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB))
+            else
             {
-                if (blockState.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
+                if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB))
                 {
-                    if (state.get(AGE) < 3)
+                    if (blockState.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                            blockState.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                            blockState.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                            blockState.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
                     {
-                        cir.setReturnValue(SLAB_LARGE_SHAPE);
+                        if (state.get(AGE) < 3)
+                        {
+                            cir.setReturnValue(SLAB_LARGE_SHAPE);
+                        }
+                        else if (state.get(AGE) == 3)
+                        {
+                            cir.setReturnValue(SLAB_CUBE_SHAPE);
+                        }
                     }
-                    else if (state.get(AGE) == 3)
+                    else
                     {
-                        cir.setReturnValue(SLAB_CUBE_SHAPE);
+                        cir.setReturnValue(state.get(AGE) < 3 ? LARGE_SHAPE : super.getOutlineShape(state, world, pos, context));
                     }
-                }
-                else
-                {
-                    cir.setReturnValue(state.get(AGE) < 3 ? LARGE_SHAPE : super.getOutlineShape(state, world, pos, context));
                 }
             }
         }
@@ -89,33 +93,39 @@ public class SweetBerryBushBlockMixin extends PlantBlock
     @Override
     public void onPlaced(World world, BlockPos pos, BlockState state, LivingEntity placer, ItemStack itemStack)
     {
-        Block block = world.getBlockState(pos.down()).getBlock();
-        BlockState blockState = world.getBlockState(pos.down());
-
-        if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB))
+        if (DefaultConfig.get("useMixins"))
         {
-            if (blockState.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    blockState.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    blockState.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    blockState.equals(Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
+            Block block = world.getBlockState(pos.down()).getBlock();
+            BlockState blockState = world.getBlockState(pos.down());
+
+            if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB))
             {
-                world.setBlockState(pos, state.with(FERN_TYPE, FernType.PLANT));
+                if (blockState.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                        blockState.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                        blockState.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                        blockState.equals(Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
+                {
+                    world.setBlockState(pos, state.with(FERN_TYPE, FernType.PLANT));
+                }
+                else
+                {
+                    world.setBlockState(pos, state.with(FERN_TYPE, FernType.DEFAULT));
+                }
             }
             else
             {
                 world.setBlockState(pos, state.with(FERN_TYPE, FernType.DEFAULT));
             }
         }
-        else
-        {
-            world.setBlockState(pos, state.with(FERN_TYPE, FernType.DEFAULT));
-        }
     }
 
     @Inject(at = @At("HEAD"), method = "appendProperties", cancellable = true)
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder, CallbackInfo ci)
     {
-        builder.add(FERN_TYPE);
+        if (DefaultConfig.get("useMixins"))
+        {
+            builder.add(FERN_TYPE);
+        }
     }
 
     static

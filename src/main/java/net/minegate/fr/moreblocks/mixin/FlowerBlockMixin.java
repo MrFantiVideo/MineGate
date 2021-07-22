@@ -13,6 +13,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minegate.fr.moreblocks.block.Blocks;
 import net.minegate.fr.moreblocks.block.enums.FernType;
+import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -33,18 +34,21 @@ public class FlowerBlockMixin extends PlantBlock
     @Inject(at = @At("RETURN"), method = "getOutlineShape", cancellable = true)
     private void getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context, CallbackInfoReturnable<VoxelShape> cir)
     {
-        Block block = world.getBlockState(pos.down()).getBlock();
-        BlockState blockState = world.getBlockState(pos.down());
-
-        if (block.equals(Blocks.GRASS_BLOCK_SLAB) || block.equals(Blocks.DIRT_SLAB) || block.equals(Blocks.COARSE_DIRT_SLAB) || block.equals(Blocks.PODZOL_SLAB))
+        if (DefaultConfig.get("useMixins"))
         {
-            if (blockState.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    blockState.equals(Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    blockState.equals(Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    blockState.equals(Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
+            Block block = world.getBlockState(pos.down()).getBlock();
+            BlockState blockState = world.getBlockState(pos.down());
+
+            if (block.equals(Blocks.GRASS_BLOCK_SLAB) || block.equals(Blocks.DIRT_SLAB) || block.equals(Blocks.COARSE_DIRT_SLAB) || block.equals(Blocks.PODZOL_SLAB))
             {
-                Vec3d vec3d = state.getModelOffset(world, pos);
-                cir.setReturnValue(FLOWER_SHAPE.offset(vec3d.x, vec3d.y, vec3d.z));
+                if (blockState.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                        blockState.equals(Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                        blockState.equals(Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                        blockState.equals(Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
+                {
+                    Vec3d vec3d = state.getModelOffset(world, pos);
+                    cir.setReturnValue(FLOWER_SHAPE.offset(vec3d.x, vec3d.y, vec3d.z));
+                }
             }
         }
     }
@@ -52,26 +56,29 @@ public class FlowerBlockMixin extends PlantBlock
     @Override
     public void onPlaced(World world, BlockPos pos, BlockState state, LivingEntity placer, ItemStack itemStack)
     {
-        Block block = world.getBlockState(pos.down()).getBlock();
-        BlockState blockState = world.getBlockState(pos.down());
-
-        if (block.equals(Blocks.GRASS_BLOCK_SLAB) || block.equals(Blocks.DIRT_SLAB) || block.equals(Blocks.COARSE_DIRT_SLAB) || block.equals(Blocks.PODZOL_SLAB))
+        if (DefaultConfig.get("useMixins"))
         {
-            if (blockState.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    blockState.equals(Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    blockState.equals(Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                    blockState.equals(Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
+            Block block = world.getBlockState(pos.down()).getBlock();
+            BlockState blockState = world.getBlockState(pos.down());
+
+            if (block.equals(Blocks.GRASS_BLOCK_SLAB) || block.equals(Blocks.DIRT_SLAB) || block.equals(Blocks.COARSE_DIRT_SLAB) || block.equals(Blocks.PODZOL_SLAB))
             {
-                world.setBlockState(pos, state.with(FERN_TYPE, FernType.PLANT));
+                if (blockState.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                        blockState.equals(Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                        blockState.equals(Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                        blockState.equals(Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
+                {
+                    world.setBlockState(pos, state.with(FERN_TYPE, FernType.PLANT));
+                }
+                else
+                {
+                    world.setBlockState(pos, state.with(FERN_TYPE, FernType.DEFAULT));
+                }
             }
             else
             {
                 world.setBlockState(pos, state.with(FERN_TYPE, FernType.DEFAULT));
             }
-        }
-        else
-        {
-            world.setBlockState(pos, state.with(FERN_TYPE, FernType.DEFAULT));
         }
     }
 

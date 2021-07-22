@@ -15,6 +15,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.FlowerFeature;
 import net.minegate.fr.moreblocks.block.enums.FernType;
+import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 
 import java.util.List;
 import java.util.Random;
@@ -43,59 +44,62 @@ public class SlabGrassBlock extends SlabSpreadableBlock implements Fertilizable
 
     public static void growAll(ServerWorld world, Random random, BlockPos pos, BlockState state)
     {
-        BlockPos blockPos = pos.up();
-        BlockState blockState = net.minecraft.block.Blocks.GRASS.getDefaultState();
-
-        label48:
-        for (int i = 0; i < 128; ++i)
+        if (DefaultConfig.get("useMixins"))
         {
-            BlockPos blockPos2 = blockPos;
+            BlockPos blockPos = pos.up();
+            BlockState blockState = net.minecraft.block.Blocks.GRASS.getDefaultState();
 
-
-            for (int j = 0; j < i / 16; ++j)
+            label48:
+            for (int i = 0; i < 128; ++i)
             {
-                blockPos2 = blockPos2.add(random.nextInt(3) - 1, (random.nextInt(3) - 1) * random.nextInt(3) / 2, random.nextInt(3) - 1);
-                Block groundBlock = world.getBlockState(blockPos2.down()).getBlock();
-                BlockState blockStated = state.getBlock().getDefaultState();
-                BlockState blockStateTop = world.getBlockState(pos.up());
+                BlockPos blockPos2 = blockPos;
 
-                if ((groundBlock != Blocks.GRASS_BLOCK_SLAB && groundBlock != net.minecraft.block.Blocks.GRASS_BLOCK) || world.getBlockState(blockPos2).isFullCube(world, blockPos2))
+
+                for (int j = 0; j < i / 16; ++j)
                 {
-                    continue label48;
-                }
-                if (blockStated.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(Properties.SLAB_TYPE, SlabType.BOTTOM)))
-                {
-                    if (blockState.canPlaceAt(world, blockPos2))
-                        world.setBlockState(blockPos2, blockStateTop.with(net.minegate.fr.moreblocks.state.Properties.FERN_TYPE, FernType.PLANT));
-                }
-                else if (blockStated.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(Properties.SLAB_TYPE, SlabType.TOP)))
-                {
-                    if (blockState.canPlaceAt(world, blockPos2))
-                        world.setBlockState(blockPos2, blockStateTop.with(net.minegate.fr.moreblocks.state.Properties.FERN_TYPE, FernType.DEFAULT));
-                }
+                    blockPos2 = blockPos2.add(random.nextInt(3) - 1, (random.nextInt(3) - 1) * random.nextInt(3) / 2, random.nextInt(3) - 1);
+                    Block groundBlock = world.getBlockState(blockPos2.down()).getBlock();
+                    BlockState blockStated = state.getBlock().getDefaultState();
+                    BlockState blockStateTop = world.getBlockState(pos.up());
 
-            }
+                    if ((groundBlock != Blocks.GRASS_BLOCK_SLAB && groundBlock != net.minecraft.block.Blocks.GRASS_BLOCK) || world.getBlockState(blockPos2).isFullCube(world, blockPos2))
+                    {
+                        continue label48;
+                    }
+                    if (blockStated.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(Properties.SLAB_TYPE, SlabType.BOTTOM)))
+                    {
+                        if (blockState.canPlaceAt(world, blockPos2))
+                            world.setBlockState(blockPos2, blockStateTop.with(net.minegate.fr.moreblocks.state.Properties.FERN_TYPE, FernType.PLANT));
+                    }
+                    else if (blockStated.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(Properties.SLAB_TYPE, SlabType.TOP)))
+                    {
+                        if (blockState.canPlaceAt(world, blockPos2))
+                            world.setBlockState(blockPos2, blockStateTop.with(net.minegate.fr.moreblocks.state.Properties.FERN_TYPE, FernType.DEFAULT));
+                    }
 
-            BlockState blockState2 = world.getBlockState(blockPos2);
-
-            if (blockState2.getBlock() == blockState.getBlock() && random.nextInt(10) == 0)
-                ((Fertilizable) blockState.getBlock()).grow(world, random, blockPos2, blockState2);
-
-            if (blockState2.isAir())
-            {
-                BlockState blockState4;
-                if (random.nextInt(8) == 0)
-                {
-                    List<ConfiguredFeature<?, ?>> list = world.getBiome(blockPos2).getGenerationSettings().getFlowerFeatures();
-
-                    if (list.isEmpty()) continue;
-
-                    blockState4 = ((FlowerFeature) list.get(0).feature).getFlowerState(random, blockPos2, list.get(0).config);
                 }
 
-                else blockState4 = blockState;
+                BlockState blockState2 = world.getBlockState(blockPos2);
 
-                if (blockState4.canPlaceAt(world, blockPos2)) world.setBlockState(blockPos2, blockState4, 3);
+                if (blockState2.getBlock() == blockState.getBlock() && random.nextInt(10) == 0)
+                    ((Fertilizable) blockState.getBlock()).grow(world, random, blockPos2, blockState2);
+
+                if (blockState2.isAir())
+                {
+                    BlockState blockState4;
+                    if (random.nextInt(8) == 0)
+                    {
+                        List<ConfiguredFeature<?, ?>> list = world.getBiome(blockPos2).getGenerationSettings().getFlowerFeatures();
+
+                        if (list.isEmpty()) continue;
+
+                        blockState4 = ((FlowerFeature) list.get(0).feature).getFlowerState(random, blockPos2, list.get(0).config);
+                    }
+
+                    else blockState4 = blockState;
+
+                    if (blockState4.canPlaceAt(world, blockPos2)) world.setBlockState(blockPos2, blockState4, 3);
+                }
             }
         }
     }

@@ -14,6 +14,7 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import net.minegate.fr.moreblocks.block.Blocks;
+import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -37,22 +38,28 @@ public class SnowBlockMixin extends Block
     @Inject(at = @At("RETURN"), method = "<init>")
     protected void SnowBlock(Settings settings, CallbackInfo ci)
     {
-        this.setDefaultState(this.stateManager.getDefaultState().with(SNOWY, false));
+        if (DefaultConfig.get("useMixins"))
+        {
+            this.setDefaultState(this.stateManager.getDefaultState().with(SNOWY, false));
+        }
     }
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context)
     {
-        Block block = world.getBlockState(pos.down()).getBlock();
-        BlockState blockState = world.getBlockState(pos.down());
-
-        if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
+        if (DefaultConfig.get("useMixins"))
         {
-            if (state == state.with(SNOWY, true))
+            Block block = world.getBlockState(pos.down()).getBlock();
+            BlockState blockState = world.getBlockState(pos.down());
+
+            if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
             {
-                if (blockState == blockState.with(TYPE, SlabType.BOTTOM))
+                if (state == state.with(SNOWY, true))
                 {
-                    return SLAB_LAYERS_TO_SHAPE[state.get(LAYERS)];
+                    if (blockState == blockState.with(TYPE, SlabType.BOTTOM))
+                    {
+                        return SLAB_LAYERS_TO_SHAPE[state.get(LAYERS)];
+                    }
                 }
             }
         }
@@ -62,16 +69,19 @@ public class SnowBlockMixin extends Block
     @Override
     public VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context)
     {
-        Block block = world.getBlockState(pos.down()).getBlock();
-        BlockState blockState = world.getBlockState(pos.down());
-
-        if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
+        if (DefaultConfig.get("useMixins"))
         {
-            if (state == state.with(SNOWY, true))
+            Block block = world.getBlockState(pos.down()).getBlock();
+            BlockState blockState = world.getBlockState(pos.down());
+
+            if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
             {
-                if (blockState == blockState.with(TYPE, SlabType.BOTTOM))
+                if (state == state.with(SNOWY, true))
                 {
-                    return SLAB_LAYERS_TO_SHAPE[state.get(LAYERS) - 1];
+                    if (blockState == blockState.with(TYPE, SlabType.BOTTOM))
+                    {
+                        return SLAB_LAYERS_TO_SHAPE[state.get(LAYERS) - 1];
+                    }
                 }
             }
         }
@@ -81,16 +91,19 @@ public class SnowBlockMixin extends Block
     @Override
     public VoxelShape getSidesShape(BlockState state, BlockView world, BlockPos pos)
     {
-        Block block = world.getBlockState(pos.down()).getBlock();
-        BlockState blockState = world.getBlockState(pos.down());
-
-        if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
+        if (DefaultConfig.get("useMixins"))
         {
-            if (state == state.with(SNOWY, true))
+            Block block = world.getBlockState(pos.down()).getBlock();
+            BlockState blockState = world.getBlockState(pos.down());
+
+            if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
             {
-                if (blockState == blockState.with(TYPE, SlabType.BOTTOM))
+                if (state == state.with(SNOWY, true))
                 {
-                    return SLAB_LAYERS_TO_SHAPE[state.get(LAYERS)];
+                    if (blockState == blockState.with(TYPE, SlabType.BOTTOM))
+                    {
+                        return SLAB_LAYERS_TO_SHAPE[state.get(LAYERS)];
+                    }
                 }
             }
         }
@@ -100,56 +113,78 @@ public class SnowBlockMixin extends Block
     @Inject(at = @At("RETURN"), method = "canPlaceAt", cancellable = true)
     public void canPlaceAt(BlockState state, WorldView world, BlockPos pos, CallbackInfoReturnable<Boolean> cir)
     {
-        BlockState blockState = world.getBlockState(pos.down());
-        if (!blockState.isOf(net.minecraft.block.Blocks.ICE) && !blockState.isOf(net.minecraft.block.Blocks.PACKED_ICE) && !blockState.isOf(net.minecraft.block.Blocks.BARRIER))
+        if (DefaultConfig.get("useMixins"))
         {
-            if (!blockState.isOf(net.minecraft.block.Blocks.HONEY_BLOCK) && !blockState.isOf(net.minecraft.block.Blocks.SOUL_SAND))
+            Block block = world.getBlockState(pos.down()).getBlock();
+            BlockState blockState = world.getBlockState(pos.down());
+
+            if (!blockState.isOf(net.minecraft.block.Blocks.ICE) && !blockState.isOf(net.minecraft.block.Blocks.PACKED_ICE) && !blockState.isOf(net.minecraft.block.Blocks.BARRIER))
             {
-                cir.setReturnValue(Block.isFaceFullSquare(blockState.getCollisionShape(world, pos.down()), Direction.UP) || blockState.getBlock() == this && (Integer) blockState.get(LAYERS) == 8);
+                if (!blockState.isOf(net.minecraft.block.Blocks.HONEY_BLOCK) && !blockState.isOf(net.minecraft.block.Blocks.SOUL_SAND))
+                {
+                    cir.setReturnValue(Block.isFaceFullSquare(blockState.getCollisionShape(world, pos.down()), Direction.UP) || blockState.getBlock() == this && (Integer) blockState.get(LAYERS) == 8);
+                }
+                else
+                {
+                    cir.setReturnValue(true);
+                }
+            }
+            if (blockState.isOf(Blocks.GRASS_BLOCK_SLAB) || blockState.isOf(net.minecraft.block.Blocks.GRASS_BLOCK) ||
+                    blockState.isOf(Blocks.PODZOL_SLAB) || blockState.isOf(net.minecraft.block.Blocks.PODZOL) ||
+                    blockState.isOf(Blocks.MYCELIUM_SLAB) || blockState.isOf(net.minecraft.block.Blocks.MYCELIUM))
+            {
+                if (block.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) || block.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
+                {
+                    if (state.get(LAYERS) == 2 && blockState == blockState.with(TYPE, SlabType.BOTTOM))
+                    {
+                        cir.setReturnValue(false);
+                    }
+                    else
+                    {
+                        cir.setReturnValue(true);
+                    }
+                }
+                else
+                {
+                    cir.setReturnValue(true);
+                }
             }
             else
             {
-                cir.setReturnValue(true);
+                cir.setReturnValue(false);
             }
-        }
-        if (blockState.isOf(Blocks.GRASS_BLOCK_SLAB) || blockState.isOf(net.minecraft.block.Blocks.GRASS_BLOCK) ||
-                blockState.isOf(Blocks.PODZOL_SLAB) || blockState.isOf(net.minecraft.block.Blocks.PODZOL) ||
-                blockState.isOf(Blocks.MYCELIUM_SLAB) || blockState.isOf(net.minecraft.block.Blocks.MYCELIUM))
-        {
-            cir.setReturnValue(true);
-        }
-        else
-        {
-            cir.setReturnValue(false);
         }
     }
 
     @Override
     public void onPlaced(World world, BlockPos pos, BlockState state, LivingEntity placer, ItemStack itemStack)
     {
-        Block downBlock = world.getBlockState(pos.down()).getBlock();
-        BlockState downState = world.getBlockState(pos.down());
+        if (DefaultConfig.get("useMixins"))
+        {
+            Block downBlock = world.getBlockState(pos.down()).getBlock();
+            BlockState downState = world.getBlockState(pos.down());
 
-        if (downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) ||
-                downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) ||
-                downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) ||
-                downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) ||
-                downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
-        {
-            if (downState == downState.with(Properties.SLAB_TYPE, SlabType.BOTTOM))
+            if (downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.GRASS_BLOCK_SLAB) ||
+                    downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.DIRT_SLAB) ||
+                    downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.COARSE_DIRT_SLAB) ||
+                    downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.PODZOL_SLAB) ||
+                    downBlock.equals(net.minegate.fr.moreblocks.block.Blocks.MYCELIUM_SLAB))
             {
-                world.setBlockState(pos, state.with(SNOWY, true));
+                if (downState == downState.with(Properties.SLAB_TYPE, SlabType.BOTTOM))
+                {
+                    world.setBlockState(pos, state.with(SNOWY, true));
+                }
+                else
+                {
+                    world.setBlockState(pos, state.with(SNOWY, false));
+                }
             }
-            else
+            if (downBlock.equals(net.minecraft.block.Blocks.GRASS_BLOCK))
             {
-                world.setBlockState(pos, state.with(SNOWY, false));
-            }
-        }
-        if (downBlock.equals(net.minecraft.block.Blocks.GRASS_BLOCK))
-        {
-            if (downState == downState.with(SNOWY, true))
-            {
-                world.setBlockState(pos, state.with(SNOWY, false));
+                if (downState == downState.with(SNOWY, true))
+                {
+                    world.setBlockState(pos, state.with(SNOWY, false));
+                }
             }
         }
     }
@@ -157,7 +192,10 @@ public class SnowBlockMixin extends Block
     @Inject(at = @At("HEAD"), method = "appendProperties", cancellable = true)
     public void appendProperties(StateManager.Builder<Block, BlockState> builder, CallbackInfo ci)
     {
-        builder.add(SNOWY);
+        if (DefaultConfig.get("useMixins"))
+        {
+            builder.add(SNOWY);
+        }
     }
 
     static

@@ -42,6 +42,20 @@
     "minegate:dark_oak_leaves_slab_vertical",
     "minegate:dark_oak_leaves_quarter",
     "minegate:dark_oak_leaves_quarter_vertical",
-    "minegate:dark_oak_leaves_eighth"
+    "minegate:dark_oak_leaves_eighth",
+    "minegate:azalea_leaves_stairs",
+    "minegate:azalea_leaves_stairs_vertical",
+    "minegate:azalea_leaves_slab",
+    "minegate:azalea_leaves_slab_vertical",
+    "minegate:azalea_leaves_quarter",
+    "minegate:azalea_leaves_quarter_vertical",
+    "minegate:azalea_leaves_eighth",
+    "minegate:flowering_azalea_leaves_stairs",
+    "minegate:flowering_azalea_leaves_stairs_vertical",
+    "minegate:flowering_azalea_leaves_slab",
+    "minegate:flowering_azalea_leaves_slab_vertical",
+    "minegate:flowering_azalea_leaves_quarter",
+    "minegate:flowering_azalea_leaves_quarter_vertical",
+    "minegate:flowering_azalea_leaves_eighth"
   ]
 }
