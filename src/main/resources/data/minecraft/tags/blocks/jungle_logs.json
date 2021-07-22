@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minegate:jungle_log_stairs",
+    "minegate:jungle_wood_stairs",
+    "minegate:stripped_jungle_log_stairs",
+    "minegate:stripped_jungle_wood_stairs",
+    "minegate:jungle_log_stairs_vertical",
+    "minegate:jungle_wood_stairs_vertical",
+    "minegate:stripped_jungle_log_stairs_vertical",
+    "minegate:stripped_jungle_wood_stairs_vertical",
+    "minegate:jungle_log_slab",
+    "minegate:jungle_wood_slab",
+    "minegate:stripped_jungle_log_slab",
+    "minegate:stripped_jungle_wood_slab",
+    "minegate:jungle_log_slab_vertical",
+    "minegate:jungle_wood_slab_vertical",
+    "minegate:stripped_jungle_log_slab_vertical",
+    "minegate:stripped_jungle_wood_slab_vertical",
+    "minegate:jungle_log_quarter",
+    "minegate:jungle_wood_quarter",
+    "minegate:stripped_jungle_log_quarter",
+    "minegate:stripped_jungle_wood_quarter",
+    "minegate:jungle_log_quarter_vertical",
+    "minegate:jungle_wood_quarter_vertical",
+    "minegate:stripped_jungle_log_quarter_vertical",
+    "minegate:stripped_jungle_wood_quarter_vertical",
+    "minegate:jungle_log_eighth",
+    "minegate:jungle_wood_eighth",
+    "minegate:stripped_jungle_log_eighth",
+    "minegate:stripped_jungle_wood_eighth"
+  ]
+}

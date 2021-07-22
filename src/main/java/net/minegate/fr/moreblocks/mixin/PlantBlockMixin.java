@@ -6,6 +6,7 @@ import net.minecraft.state.property.EnumProperty;
 import net.minegate.fr.moreblocks.block.Blocks;
 import net.minegate.fr.moreblocks.block.SlabGrassBlock;
 import net.minegate.fr.moreblocks.block.enums.FernType;
+import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -29,14 +30,20 @@ public class PlantBlockMixin extends Block
     @Inject(at = @At("TAIL"), method = "canPlantOnTop", cancellable = true)
     public void canPlantOnTop(BlockState state, BlockView view, BlockPos pos, CallbackInfoReturnable<Boolean> info)
     {
-        if ((SlabGrassBlock.isDirtType(state.getBlock()) || state.getBlock() == Blocks.GRASS_BLOCK_SLAB) && SlabGrassBlock.hasTopSlab(state))
-            info.setReturnValue(true);
+        if (DefaultConfig.get("useMixins"))
+        {
+            if ((SlabGrassBlock.isDirtType(state.getBlock()) || state.getBlock() == Blocks.GRASS_BLOCK_SLAB) && SlabGrassBlock.hasTopSlab(state))
+                info.setReturnValue(true);
+        }
     }
 
     @Override
     public void appendProperties(StateManager.Builder<Block, BlockState> builder)
     {
-        builder.add(FERN_TYPE);
+        if (DefaultConfig.get("useMixins"))
+        {
+            builder.add(FERN_TYPE);
+        }
     }
 
     static

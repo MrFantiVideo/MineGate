@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/stairs_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/smooth_basalt",
+        "bottom": "minecraft:block/smooth_basalt",
+        "top": "minecraft:block/smooth_basalt",
+        "side": "minecraft:block/smooth_basalt"
+    }
+}

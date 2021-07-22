@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minegate:birch_log_stairs",
+    "minegate:birch_wood_stairs",
+    "minegate:stripped_birch_log_stairs",
+    "minegate:stripped_birch_wood_stairs",
+    "minegate:birch_log_stairs_vertical",
+    "minegate:birch_wood_stairs_vertical",
+    "minegate:stripped_birch_log_stairs_vertical",
+    "minegate:stripped_birch_wood_stairs_vertical",
+    "minegate:birch_log_slab",
+    "minegate:birch_wood_slab",
+    "minegate:stripped_birch_log_slab",
+    "minegate:stripped_birch_wood_slab",
+    "minegate:birch_log_slab_vertical",
+    "minegate:birch_wood_slab_vertical",
+    "minegate:stripped_birch_log_slab_vertical",
+    "minegate:stripped_birch_wood_slab_vertical",
+    "minegate:birch_log_quarter",
+    "minegate:birch_wood_quarter",
+    "minegate:stripped_birch_log_quarter",
+    "minegate:stripped_birch_wood_quarter",
+    "minegate:birch_log_quarter_vertical",
+    "minegate:birch_wood_quarter_vertical",
+    "minegate:stripped_birch_log_quarter_vertical",
+    "minegate:stripped_birch_wood_quarter_vertical",
+    "minegate:birch_log_eighth",
+    "minegate:birch_wood_eighth",
+    "minegate:stripped_birch_log_eighth",
+    "minegate:stripped_birch_wood_eighth"
+  ]
+}

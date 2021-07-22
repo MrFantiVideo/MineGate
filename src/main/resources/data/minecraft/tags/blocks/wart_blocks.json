@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minegate:nether_wart_block_stairs",
+    "minegate:warped_wart_block_stairs",
+    "minegate:nether_wart_block_stairs_vertical",
+    "minegate:warped_wart_block_stairs_vertical",
+    "minegate:nether_wart_block_slab",
+    "minegate:warped_wart_block_slab",
+    "minegate:nether_wart_block_slab_vertical",
+    "minegate:warped_wart_block_slab_vertical",
+    "minegate:nether_wart_block_quarter",
+    "minegate:warped_wart_block_quarter",
+    "minegate:nether_wart_block_quarter_vertical",
+    "minegate:warped_wart_block_quarter_vertical",
+    "minegate:nether_wart_block_eighth",
+    "minegate:warped_wart_block_eighth"
+  ]
+}

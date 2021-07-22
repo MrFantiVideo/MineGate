@@ -47,7 +47,11 @@ dependencies
 
 ainsi que ceci dans le « gradle.properties » :
 
+<<<<<<< Updated upstream
 	minegate_moreblocks_version=1.1.5
+=======
+	minegate_moreblocks_version=1.1.6
+>>>>>>> Stashed changes
 
 Vous devrez modifier ce fichier lorsqu'une nouvelle version du mod est publiée.<br>
 Les anciennes versions resteront disponibles, mais pas recommandées à l'utilisation.

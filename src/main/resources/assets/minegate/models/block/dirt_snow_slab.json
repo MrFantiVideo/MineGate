@@ -4,6 +4,7 @@
 		"0": "minecraft:block/grass_block_snow",
 		"1": "minecraft:block/grass_block_top",
 		"2": "minecraft:block/dirt",
+		"snow": "minecraft:block/snow",
 		"particle": "minecraft:block/dirt"
 	},
 	"elements": [
@@ -17,6 +18,19 @@
 				"west": {"uv": [0, 0, 16, 8], "texture": "#0", "cullface": "west"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
 				"down": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 8, 0],
+			"to": [16, 10, 16],
+			"color": 5,
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#snow"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#snow"},
+				"south": {"uv": [0, 14, 16, 16], "texture": "#snow"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#snow"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#snow"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#snow"}
 			}
 		}
 	],

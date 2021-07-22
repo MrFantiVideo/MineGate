@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minegate:warped_stem_stairs",
+    "minegate:warped_hyphae_stairs",
+    "minegate:stripped_warped_stem_stairs",
+    "minegate:stripped_warped_hyphae_stairs",
+    "minegate:warped_stem_stairs_vertical",
+    "minegate:warped_hyphae_stairs_vertical",
+    "minegate:stripped_warped_stem_stairs_vertical",
+    "minegate:stripped_warped_hyphae_stairs_vertical",
+    "minegate:warped_stem_slab",
+    "minegate:warped_hyphae_slab",
+    "minegate:stripped_warped_stem_slab",
+    "minegate:stripped_warped_hyphae_slab",
+    "minegate:warped_stem_slab_vertical",
+    "minegate:warped_hyphae_slab_vertical",
+    "minegate:stripped_warped_stem_slab_vertical",
+    "minegate:stripped_warped_hyphae_slab_vertical",
+    "minegate:warped_stem_quarter",
+    "minegate:warped_hyphae_quarter",
+    "minegate:stripped_warped_stem_quarter",
+    "minegate:stripped_warped_hyphae_quarter",
+    "minegate:warped_stem_quarter_vertical",
+    "minegate:warped_hyphae_quarter_vertical",
+    "minegate:stripped_warped_stem_quarter_vertical",
+    "minegate:stripped_warped_hyphae_quarter_vertical",
+    "minegate:warped_stem_eighth",
+    "minegate:warped_hyphae_eighth",
+    "minegate:stripped_warped_stem_eighth",
+    "minegate:stripped_warped_hyphae_eighth"
+  ]
+}
