@@ -4,7 +4,6 @@
   "package": "net.minegate.fr.moreblocks.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "BambooSaplingBlockMixin",
     "FarmlandBlockMixin",
     "FernBlockMixin",
     "FlowerBlockMixin",

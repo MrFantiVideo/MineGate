@@ -22,6 +22,7 @@ import net.minecraft.block.enums.SlabType;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 import net.minecraft.world.chunk.light.ChunkLightProvider;
+import net.minegate.fr.moreblocks.MoreBlocksClient;
 
 public class SlabSpreadableBlock extends SlabPlantableBlock
 {

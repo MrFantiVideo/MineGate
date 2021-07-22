@@ -15,7 +15,6 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minegate.fr.moreblocks.block.Blocks;
 import net.minegate.fr.moreblocks.block.enums.FernType;
-import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -37,32 +36,29 @@ public class TallPlantBlockMixin extends PlantBlock
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context)
     {
-        if (DefaultConfig.get("useMixins"))
-        {
-            Block block = world.getBlockState(pos.down()).getBlock();
-            BlockState blockState = world.getBlockState(pos.down());
+        Block block = world.getBlockState(pos.down()).getBlock();
+        BlockState blockState = world.getBlockState(pos.down());
 
-            if (block.equals(Blocks.GRASS_BLOCK_SLAB) || block.equals(Blocks.DIRT_SLAB) || block.equals(Blocks.COARSE_DIRT_SLAB) || block.equals(Blocks.PODZOL_SLAB))
+        if (block.equals(Blocks.GRASS_BLOCK_SLAB) || block.equals(Blocks.DIRT_SLAB) || block.equals(Blocks.COARSE_DIRT_SLAB) || block.equals(Blocks.PODZOL_SLAB))
+        {
+            if (blockState.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                    blockState.equals(Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                    blockState.equals(Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                    blockState.equals(Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
             {
-                if (blockState.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
-                {
-                    return FLOWER_SHAPE;
-                }
+                return FLOWER_SHAPE;
             }
-            if (block.equals(net.minecraft.block.Blocks.SUNFLOWER) || block.equals(net.minecraft.block.Blocks.LILAC) || block.equals(net.minecraft.block.Blocks.ROSE_BUSH) || block.equals(net.minecraft.block.Blocks.PEONY) || block.equals(net.minecraft.block.Blocks.TALL_GRASS) || block.equals(net.minecraft.block.Blocks.LARGE_FERN))
+        }
+        if (block.equals(net.minecraft.block.Blocks.SUNFLOWER) || block.equals(net.minecraft.block.Blocks.LILAC) || block.equals(net.minecraft.block.Blocks.ROSE_BUSH) || block.equals(net.minecraft.block.Blocks.PEONY) || block.equals(net.minecraft.block.Blocks.TALL_GRASS) || block.equals(net.minecraft.block.Blocks.LARGE_FERN))
+        {
+            if (blockState.equals(net.minecraft.block.Blocks.SUNFLOWER.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)) ||
+                    blockState.equals(net.minecraft.block.Blocks.LILAC.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)) ||
+                    blockState.equals(net.minecraft.block.Blocks.ROSE_BUSH.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)) ||
+                    blockState.equals(net.minecraft.block.Blocks.PEONY.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)) ||
+                    blockState.equals(net.minecraft.block.Blocks.TALL_GRASS.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)) ||
+                    blockState.equals(net.minecraft.block.Blocks.LARGE_FERN.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)))
             {
-                if (blockState.equals(net.minecraft.block.Blocks.SUNFLOWER.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)) ||
-                        blockState.equals(net.minecraft.block.Blocks.LILAC.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)) ||
-                        blockState.equals(net.minecraft.block.Blocks.ROSE_BUSH.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)) ||
-                        blockState.equals(net.minecraft.block.Blocks.PEONY.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)) ||
-                        blockState.equals(net.minecraft.block.Blocks.TALL_GRASS.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)) ||
-                        blockState.equals(net.minecraft.block.Blocks.LARGE_FERN.getDefaultState().with(HALF, DoubleBlockHalf.LOWER).with(FERN_TYPE, FernType.PLANT)))
-                {
-                    return FLOWER_SHAPE;
-                }
+                return FLOWER_SHAPE;
             }
         }
         return VoxelShapes.fullCube();
@@ -71,26 +67,18 @@ public class TallPlantBlockMixin extends PlantBlock
     @Inject(at = @At("RETURN"), method = "onPlaced", cancellable = true)
     public void onPlaced(World world, BlockPos pos, BlockState state, LivingEntity placer, ItemStack itemStack, CallbackInfo ci)
     {
-        if (DefaultConfig.get("useMixins"))
-        {
-            Block block = world.getBlockState(pos.down()).getBlock();
-            BlockState blockState = world.getBlockState(pos.down());
+        Block block = world.getBlockState(pos.down()).getBlock();
+        BlockState blockState = world.getBlockState(pos.down());
 
-            if (block.equals(Blocks.GRASS_BLOCK_SLAB) || block.equals(Blocks.DIRT_SLAB) || block.equals(Blocks.COARSE_DIRT_SLAB) || block.equals(Blocks.PODZOL_SLAB))
+        if (block.equals(Blocks.GRASS_BLOCK_SLAB) || block.equals(Blocks.DIRT_SLAB) || block.equals(Blocks.COARSE_DIRT_SLAB) || block.equals(Blocks.PODZOL_SLAB))
+        {
+            if (blockState.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                    blockState.equals(Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                    blockState.equals(Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
+                    blockState.equals(Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
             {
-                if (blockState.equals(Blocks.GRASS_BLOCK_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(Blocks.DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(Blocks.COARSE_DIRT_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)) ||
-                        blockState.equals(Blocks.PODZOL_SLAB.getDefaultState().with(TYPE, SlabType.BOTTOM)))
-                {
-                    world.setBlockState(pos, state.with(FERN_TYPE, FernType.PLANT));
-                    world.setBlockState(pos.up(), state.with(HALF, DoubleBlockHalf.UPPER).with(FERN_TYPE, FernType.PLANT), 3);
-                }
-                else
-                {
-                    world.setBlockState(pos, state.with(FERN_TYPE, FernType.DEFAULT));
-                    world.setBlockState(pos.up(), state.with(HALF, DoubleBlockHalf.UPPER).with(FERN_TYPE, FernType.DEFAULT), 3);
-                }
+                world.setBlockState(pos, state.with(FERN_TYPE, FernType.PLANT));
+                world.setBlockState(pos.up(), state.with(HALF, DoubleBlockHalf.UPPER).with(FERN_TYPE, FernType.PLANT), 3);
             }
             else
             {
@@ -98,15 +86,17 @@ public class TallPlantBlockMixin extends PlantBlock
                 world.setBlockState(pos.up(), state.with(HALF, DoubleBlockHalf.UPPER).with(FERN_TYPE, FernType.DEFAULT), 3);
             }
         }
+        else
+        {
+            world.setBlockState(pos, state.with(FERN_TYPE, FernType.DEFAULT));
+            world.setBlockState(pos.up(), state.with(HALF, DoubleBlockHalf.UPPER).with(FERN_TYPE, FernType.DEFAULT), 3);
+        }
     }
 
     @Inject(at = @At("HEAD"), method = "appendProperties", cancellable = true)
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder, CallbackInfo ci)
     {
-        if (DefaultConfig.get("useMixins"))
-        {
-            builder.add(FERN_TYPE);
-        }
+        builder.add(FERN_TYPE);
     }
 
     static

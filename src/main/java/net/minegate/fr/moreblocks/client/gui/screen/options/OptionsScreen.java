@@ -20,7 +20,6 @@ public class OptionsScreen extends Screen
     private       ButtonListWidget buttonBackground;
     private       ButtonWidget     buttonGenerationOres;
     private       ButtonWidget     buttonDebugMode;
-    private       ButtonWidget     buttonUseMixins;
 
 
     public OptionsScreen(Screen parent)
@@ -34,12 +33,11 @@ public class OptionsScreen extends Screen
         buttonBackground = new ButtonListWidget(this.client, this.width, this.height, 32, this.height - 32, 25);
         buttonGenerationOres = button("generationOres", 0);
         buttonDebugMode = button("debugMode", 24);
-        buttonUseMixins = button("useMixins", 48);
         addDrawableChild(new ButtonWidget(this.width / 2 - 100, this.height - 27, 200, 20, ScreenTexts.DONE, (button) ->
         {
             client.options.write();
             client.getWindow().applyVideoMode();
-            client.setScreen(this.parent);
+            client.openScreen(this.parent);
         }));
     }
 
@@ -71,18 +69,12 @@ public class OptionsScreen extends Screen
         super.render(matrices, mouseX, mouseY, delta);
         for (int b = 0; b < 1; b = b + 1)
         {
-            if (buttonGenerationOres.isHovered())
-            {
-                List<Text> generationOresTooltip = Arrays.asList(new TranslatableText("options.minegate.warning.tooltip.one"), new TranslatableText("options.minegate.warning.tooltip.two"));
-                renderTooltip(matrices, generationOresTooltip, mouseX, mouseY);
-                break;
-            }
-            if (buttonUseMixins.isHovered())
-            {
-                List<Text> useMixinsTooltip = Arrays.asList(new TranslatableText("options.minegate.useMixins.tooltip.one"), new TranslatableText("options.minegate.useMixins.tooltip.two"), new TranslatableText(""), new TranslatableText("options.minegate.useMixins.tooltip.three"), new TranslatableText("options.minegate.useMixins.tooltip.four"), new TranslatableText("options.minegate.useMixins.tooltip.five"), new TranslatableText("options.minegate.useMixins.tooltip.six"), new TranslatableText(""), new TranslatableText("options.minegate.warning.tooltip.one"), new TranslatableText("options.minegate.warning.tooltip.two"));
-                renderTooltip(matrices, useMixinsTooltip, mouseX, mouseY);
-                break;
-            }
+            if (!buttonGenerationOres.isHovered())
+                continue;
+
+            List<Text> generationOresTooltip = Arrays.asList(new TranslatableText("options.minegate.generationOres.tooltip.one"), new TranslatableText("options.minegate.generationOres.tooltip.two"));
+            renderTooltip(matrices, generationOresTooltip, mouseX, mouseY);
+            break;
         }
     }
 }

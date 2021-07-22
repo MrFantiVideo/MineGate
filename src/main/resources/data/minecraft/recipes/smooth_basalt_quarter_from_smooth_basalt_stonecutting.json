@@ -1,8 +1,0 @@
-﻿{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:smooth_basalt"
-  },
-  "result": "minegate:smooth_basalt_quarter",
-  "count": 4
-}

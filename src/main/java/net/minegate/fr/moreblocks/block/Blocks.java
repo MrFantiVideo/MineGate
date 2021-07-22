@@ -116,7 +116,6 @@ public class Blocks
     public static Block SOUL_SOIL_STAIRS;
     public static Block BASALT_STAIRS;
     public static Block POLISHED_BASALT_STAIRS;
-    public static Block SMOOTH_BASALT_STAIRS;
     public static Block GLOWSTONE_STAIRS;
     public static Block CRACKED_STONE_BRICKS_STAIRS;
     public static Block CHISELED_STONE_BRICKS_STAIRS;
@@ -168,7 +167,6 @@ public class Blocks
     public static Block SEA_LANTERN_STAIRS;
     public static Block CHISELED_RED_SANDSTONE_STAIRS;
     public static Block CUT_RED_SANDSTONE_STAIRS;
-    public static Block MAGMA_BLOCK_STAIRS;
     public static Block NETHER_WART_BLOCK_STAIRS;
     public static Block WARPED_WART_BLOCK_STAIRS;
     public static Block BONE_BLOCK_STAIRS;
@@ -201,7 +199,6 @@ public class Blocks
     public static Block BLUE_ICE_STAIRS;
     public static Block CRYING_OBSIDIAN_STAIRS;
     public static Block CHISELED_POLISHED_BLACKSTONE_STAIRS;
-    public static Block CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS;
     public static Block OAK_LEAVES_STAIRS;
     public static Block SPRUCE_LEAVES_STAIRS;
     public static Block BIRCH_LEAVES_STAIRS;
@@ -343,7 +340,6 @@ public class Blocks
     public static Block SOUL_SOIL_STAIRS_VERTICAL;
     public static Block BASALT_STAIRS_VERTICAL;
     public static Block POLISHED_BASALT_STAIRS_VERTICAL;
-    public static Block SMOOTH_BASALT_STAIRS_VERTICAL;
     public static Block GLOWSTONE_STAIRS_VERTICAL;
     public static Block STONE_BRICKS_STAIRS_VERTICAL;
     public static Block MOSSY_STONE_BRICKS_STAIRS_VERTICAL;
@@ -406,7 +402,6 @@ public class Blocks
     public static Block RED_SANDSTONE_STAIRS_VERTICAL;
     public static Block CHISELED_RED_SANDSTONE_STAIRS_VERTICAL;
     public static Block CUT_RED_SANDSTONE_STAIRS_VERTICAL;
-    public static Block MAGMA_BLOCK_STAIRS_VERTICAL;
     public static Block NETHER_WART_BLOCK_STAIRS_VERTICAL;
     public static Block WARPED_WART_BLOCK_STAIRS_VERTICAL;
     public static Block RED_NETHER_BRICKS_STAIRS_VERTICAL;
@@ -443,7 +438,6 @@ public class Blocks
     public static Block POLISHED_BLACKSTONE_STAIRS_VERTICAL;
     public static Block CHISELED_POLISHED_BLACKSTONE_STAIRS_VERTICAL;
     public static Block POLISHED_BLACKSTONE_BRICKS_STAIRS_VERTICAL;
-    public static Block CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS_VERTICAL;
     public static Block OAK_LEAVES_STAIRS_VERTICAL;
     public static Block SPRUCE_LEAVES_STAIRS_VERTICAL;
     public static Block BIRCH_LEAVES_STAIRS_VERTICAL;
@@ -559,7 +553,6 @@ public class Blocks
     public static Block SOUL_SOIL_SLAB;
     public static Block BASALT_SLAB;
     public static Block POLISHED_BASALT_SLAB;
-    public static Block SMOOTH_BASALT_SLAB;
     public static Block GLOWSTONE_SLAB;
     public static Block CRACKED_STONE_BRICKS_SLAB;
     public static Block CHISELED_STONE_BRICKS_SLAB;
@@ -611,7 +604,6 @@ public class Blocks
     public static Block BLACK_STAINED_GLASS_SLAB;
     public static Block SEA_LANTERN_SLAB;
     public static Block CHISELED_RED_SANDSTONE_SLAB;
-    public static Block MAGMA_BLOCK_SLAB;
     public static Block NETHER_WART_BLOCK_SLAB;
     public static Block WARPED_WART_BLOCK_SLAB;
     public static Block BONE_BLOCK_SLAB;
@@ -644,7 +636,6 @@ public class Blocks
     public static Block BLUE_ICE_SLAB;
     public static Block CRYING_OBSIDIAN_SLAB;
     public static Block CHISELED_POLISHED_BLACKSTONE_SLAB;
-    public static Block CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB;
     public static Block OAK_LEAVES_SLAB;
     public static Block SPRUCE_LEAVES_SLAB;
     public static Block BIRCH_LEAVES_SLAB;
@@ -788,7 +779,6 @@ public class Blocks
     public static Block SOUL_SOIL_SLAB_VERTICAL;
     public static Block BASALT_SLAB_VERTICAL;
     public static Block POLISHED_BASALT_SLAB_VERTICAL;
-    public static Block SMOOTH_BASALT_SLAB_VERTICAL;
     public static Block GLOWSTONE_SLAB_VERTICAL;
     public static Block STONE_BRICKS_SLAB_VERTICAL;
     public static Block MOSSY_STONE_BRICKS_SLAB_VERTICAL;
@@ -851,7 +841,6 @@ public class Blocks
     public static Block RED_SANDSTONE_SLAB_VERTICAL;
     public static Block CHISELED_RED_SANDSTONE_SLAB_VERTICAL;
     public static Block CUT_RED_SANDSTONE_SLAB_VERTICAL;
-    public static Block MAGMA_BLOCK_SLAB_VERTICAL;
     public static Block NETHER_WART_BLOCK_SLAB_VERTICAL;
     public static Block WARPED_WART_BLOCK_SLAB_VERTICAL;
     public static Block RED_NETHER_BRICKS_SLAB_VERTICAL;
@@ -888,7 +877,6 @@ public class Blocks
     public static Block POLISHED_BLACKSTONE_SLAB_VERTICAL;
     public static Block CHISELED_POLISHED_BLACKSTONE_SLAB_VERTICAL;
     public static Block POLISHED_BLACKSTONE_BRICKS_SLAB_VERTICAL;
-    public static Block CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB_VERTICAL;
     public static Block OAK_LEAVES_SLAB_VERTICAL;
     public static Block SPRUCE_LEAVES_SLAB_VERTICAL;
     public static Block BIRCH_LEAVES_SLAB_VERTICAL;
@@ -1030,7 +1018,6 @@ public class Blocks
     public static Block SOUL_SOIL_QUARTER;
     public static Block BASALT_QUARTER;
     public static Block POLISHED_BASALT_QUARTER;
-    public static Block SMOOTH_BASALT_QUARTER;
     public static Block GLOWSTONE_QUARTER;
     public static Block STONE_BRICKS_QUARTER;
     public static Block MOSSY_STONE_BRICKS_QUARTER;
@@ -1093,7 +1080,6 @@ public class Blocks
     public static Block RED_SANDSTONE_QUARTER;
     public static Block CHISELED_RED_SANDSTONE_QUARTER;
     public static Block CUT_RED_SANDSTONE_QUARTER;
-    public static Block MAGMA_BLOCK_QUARTER;
     public static Block NETHER_WART_BLOCK_QUARTER;
     public static Block WARPED_WART_BLOCK_QUARTER;
     public static Block RED_NETHER_BRICKS_QUARTER;
@@ -1130,7 +1116,6 @@ public class Blocks
     public static Block POLISHED_BLACKSTONE_QUARTER;
     public static Block CHISELED_POLISHED_BLACKSTONE_QUARTER;
     public static Block POLISHED_BLACKSTONE_BRICKS_QUARTER;
-    public static Block CRACKED_POLISHED_BLACKSTONE_BRICKS_QUARTER;
     public static Block OAK_LEAVES_QUARTER;
     public static Block SPRUCE_LEAVES_QUARTER;
     public static Block BIRCH_LEAVES_QUARTER;
@@ -1272,7 +1257,6 @@ public class Blocks
     public static Block SOUL_SOIL_QUARTER_VERTICAL;
     public static Block BASALT_QUARTER_VERTICAL;
     public static Block POLISHED_BASALT_QUARTER_VERTICAL;
-    public static Block SMOOTH_BASALT_QUARTER_VERTICAL;
     public static Block GLOWSTONE_QUARTER_VERTICAL;
     public static Block STONE_BRICKS_QUARTER_VERTICAL;
     public static Block MOSSY_STONE_BRICKS_QUARTER_VERTICAL;
@@ -1335,7 +1319,6 @@ public class Blocks
     public static Block RED_SANDSTONE_QUARTER_VERTICAL;
     public static Block CHISELED_RED_SANDSTONE_QUARTER_VERTICAL;
     public static Block CUT_RED_SANDSTONE_QUARTER_VERTICAL;
-    public static Block MAGMA_BLOCK_QUARTER_VERTICAL;
     public static Block NETHER_WART_BLOCK_QUARTER_VERTICAL;
     public static Block WARPED_WART_BLOCK_QUARTER_VERTICAL;
     public static Block RED_NETHER_BRICKS_QUARTER_VERTICAL;
@@ -1372,7 +1355,6 @@ public class Blocks
     public static Block POLISHED_BLACKSTONE_QUARTER_VERTICAL;
     public static Block CHISELED_POLISHED_BLACKSTONE_QUARTER_VERTICAL;
     public static Block POLISHED_BLACKSTONE_BRICKS_QUARTER_VERTICAL;
-    public static Block CRACKED_POLISHED_BLACKSTONE_BRICKS_QUARTER_VERTICAL;
     public static Block OAK_LEAVES_QUARTER_VERTICAL;
     public static Block SPRUCE_LEAVES_QUARTER_VERTICAL;
     public static Block BIRCH_LEAVES_QUARTER_VERTICAL;
@@ -1514,7 +1496,6 @@ public class Blocks
     public static Block SOUL_SOIL_EIGHTH;
     public static Block BASALT_EIGHTH;
     public static Block POLISHED_BASALT_EIGHTH;
-    public static Block SMOOTH_BASALT_EIGHTH;
     public static Block GLOWSTONE_EIGHTH;
     public static Block STONE_BRICKS_EIGHTH;
     public static Block MOSSY_STONE_BRICKS_EIGHTH;
@@ -1577,7 +1558,6 @@ public class Blocks
     public static Block RED_SANDSTONE_EIGHTH;
     public static Block CHISELED_RED_SANDSTONE_EIGHTH;
     public static Block CUT_RED_SANDSTONE_EIGHTH;
-    public static Block MAGMA_BLOCK_EIGHTH;
     public static Block NETHER_WART_BLOCK_EIGHTH;
     public static Block WARPED_WART_BLOCK_EIGHTH;
     public static Block RED_NETHER_BRICKS_EIGHTH;
@@ -1614,7 +1594,6 @@ public class Blocks
     public static Block POLISHED_BLACKSTONE_EIGHTH;
     public static Block CHISELED_POLISHED_BLACKSTONE_EIGHTH;
     public static Block POLISHED_BLACKSTONE_BRICKS_EIGHTH;
-    public static Block CRACKED_POLISHED_BLACKSTONE_BRICKS_EIGHTH;
     public static Block OAK_LEAVES_EIGHTH;
     public static Block SPRUCE_LEAVES_EIGHTH;
     public static Block BIRCH_LEAVES_EIGHTH;
@@ -2357,7 +2336,7 @@ public class Blocks
         SNOW_BRICKS_STAIRS_VERTICAL = MGBlockRegister("snow_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(SNOW_BRICKS)));
         SANDSTONE_BRICKS_STAIRS_VERTICAL = MGBlockRegister("sandstone_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(SANDSTONE_BRICKS)));
         RED_SANDSTONE_BRICKS_STAIRS_VERTICAL = MGBlockRegister("red_sandstone_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(RED_SANDSTONE_BRICKS)));
-        OAK_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("oak_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
+        OAK_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("oak_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
         SPRUCE_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("spruce_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
         BIRCH_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("birch_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
         JUNGLE_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("jungle_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
@@ -2832,7 +2811,6 @@ public class Blocks
         SOUL_SOIL_STAIRS = MCBlockRegister("soul_soil_stairs", new StairsBlock(net.minecraft.block.Blocks.SOUL_SOIL.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.SOUL_SOIL)));
         BASALT_STAIRS = MCBlockRegister("basalt_stairs", new StairsBlock(net.minecraft.block.Blocks.BASALT.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.BASALT)));
         POLISHED_BASALT_STAIRS = MCBlockRegister("polished_basalt_stairs", new StairsBlock(net.minecraft.block.Blocks.POLISHED_BASALT.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BASALT)));
-        SMOOTH_BASALT_STAIRS = MCBlockRegister("smooth_basalt_stairs", new StairsBlock(net.minecraft.block.Blocks.SMOOTH_BASALT.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.SMOOTH_BASALT)));
         GLOWSTONE_STAIRS = MCBlockRegister("glowstone_stairs", new StairsBlock(net.minecraft.block.Blocks.GLOWSTONE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.GLOWSTONE)));
         CRACKED_STONE_BRICKS_STAIRS = MCBlockRegister("cracked_stone_bricks_stairs", new StairsBlock(net.minecraft.block.Blocks.CRACKED_STONE_BRICKS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_STONE_BRICKS)));
         CHISELED_STONE_BRICKS_STAIRS = MCBlockRegister("chiseled_stone_bricks_stairs", new StairsBlock(net.minecraft.block.Blocks.CHISELED_STONE_BRICKS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_STONE_BRICKS)));
@@ -2884,7 +2862,6 @@ public class Blocks
         SEA_LANTERN_STAIRS = MCBlockRegister("sea_lantern_stairs", new StairsBlock(net.minecraft.block.Blocks.SEA_LANTERN.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.SEA_LANTERN)));
         CHISELED_RED_SANDSTONE_STAIRS = MCBlockRegister("chiseled_red_sandstone_stairs", new StairsBlock(net.minecraft.block.Blocks.CHISELED_RED_SANDSTONE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_RED_SANDSTONE)));
         CUT_RED_SANDSTONE_STAIRS = MCBlockRegister("cut_red_sandstone_stairs", new StairsBlock(net.minecraft.block.Blocks.CUT_RED_SANDSTONE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CUT_RED_SANDSTONE)));
-        MAGMA_BLOCK_STAIRS = MCBlockRegister("magma_block_stairs", new StairsBlock(net.minecraft.block.Blocks.MAGMA_BLOCK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.MAGMA_BLOCK)));
         NETHER_WART_BLOCK_STAIRS = MCBlockRegister("nether_wart_block_stairs", new StairsBlock(net.minecraft.block.Blocks.NETHER_WART_BLOCK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.NETHER_WART_BLOCK)));
         WARPED_WART_BLOCK_STAIRS = MCBlockRegister("warped_wart_block_stairs", new StairsBlock(net.minecraft.block.Blocks.WARPED_WART_BLOCK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_WART_BLOCK)));
         BONE_BLOCK_STAIRS = MCBlockRegister("bone_block_stairs", new StairsBlock(net.minecraft.block.Blocks.BONE_BLOCK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.BONE_BLOCK)));
@@ -2917,7 +2894,6 @@ public class Blocks
         BLUE_ICE_STAIRS = MCBlockRegister("blue_ice_stairs", new StairsIceBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BLUE_ICE)));
         CRYING_OBSIDIAN_STAIRS = MCBlockRegister("crying_obsidian_stairs", new StairsBlock(net.minecraft.block.Blocks.CRYING_OBSIDIAN.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CRYING_OBSIDIAN)));
         CHISELED_POLISHED_BLACKSTONE_STAIRS = MCBlockRegister("chiseled_polished_blackstone_stairs", new StairsBlock(net.minecraft.block.Blocks.CHISELED_POLISHED_BLACKSTONE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_POLISHED_BLACKSTONE)));
-        CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS = MCBlockRegister("cracked_polished_blackstone_bricks_stairs", new StairsBlock(net.minecraft.block.Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)));
         OAK_LEAVES_STAIRS = MCBlockRegister("oak_leaves_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_LEAVES)));
         SPRUCE_LEAVES_STAIRS = MCBlockRegister("spruce_leaves_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_LEAVES)));
         BIRCH_LEAVES_STAIRS = MCBlockRegister("birch_leaves_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.BIRCH_LEAVES)));
@@ -3054,7 +3030,6 @@ public class Blocks
         SOUL_SOIL_STAIRS_VERTICAL = MCBlockRegister("soul_soil_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SOUL_SOIL)));
         BASALT_STAIRS_VERTICAL = MCBlockRegister("basalt_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BASALT)));
         POLISHED_BASALT_STAIRS_VERTICAL = MCBlockRegister("polished_basalt_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BASALT)));
-        SMOOTH_BASALT_STAIRS_VERTICAL = MCBlockRegister("smooth_basalt_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SMOOTH_BASALT)));
         GLOWSTONE_STAIRS_VERTICAL = MCBlockRegister("glowstone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLOWSTONE)));
         STONE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("stone_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE_BRICKS)));
         MOSSY_STONE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("mossy_stone_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSSY_STONE_BRICKS)));
@@ -3117,7 +3092,6 @@ public class Blocks
         RED_SANDSTONE_STAIRS_VERTICAL = MCBlockRegister("red_sandstone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_SANDSTONE)));
         CHISELED_RED_SANDSTONE_STAIRS_VERTICAL = MCBlockRegister("chiseled_red_sandstone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_RED_SANDSTONE)));
         CUT_RED_SANDSTONE_STAIRS_VERTICAL = MCBlockRegister("cut_red_sandstone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CUT_RED_SANDSTONE)));
-        MAGMA_BLOCK_STAIRS_VERTICAL = MCBlockRegister("magma_block_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MAGMA_BLOCK)));
         NETHER_WART_BLOCK_STAIRS_VERTICAL = MCBlockRegister("nether_wart_block_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.NETHER_WART_BLOCK)));
         WARPED_WART_BLOCK_STAIRS_VERTICAL = MCBlockRegister("warped_wart_block_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_WART_BLOCK)));
         RED_NETHER_BRICKS_STAIRS_VERTICAL = MCBlockRegister("red_nether_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_NETHER_BRICKS)));
@@ -3154,7 +3128,6 @@ public class Blocks
         POLISHED_BLACKSTONE_STAIRS_VERTICAL = MCBlockRegister("polished_blackstone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BLACKSTONE)));
         CHISELED_POLISHED_BLACKSTONE_STAIRS_VERTICAL = MCBlockRegister("chiseled_polished_blackstone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_POLISHED_BLACKSTONE)));
         POLISHED_BLACKSTONE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("polished_blackstone_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BLACKSTONE_BRICKS)));
-        CRACKED_POLISHED_BLACKSTONE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("cracked_polished_blackstone_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)));
         OAK_LEAVES_STAIRS_VERTICAL = MCBlockRegister("oak_leaves_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_LEAVES)));
         SPRUCE_LEAVES_STAIRS_VERTICAL = MCBlockRegister("spruce_leaves_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_LEAVES)));
         BIRCH_LEAVES_STAIRS_VERTICAL = MCBlockRegister("birch_leaves_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BIRCH_LEAVES)));
@@ -3265,14 +3238,13 @@ public class Blocks
         SOUL_SOIL_SLAB = MCBlockRegister("soul_soil_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SOUL_SOIL)));
         BASALT_SLAB = MCBlockRegister("basalt_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BASALT)));
         POLISHED_BASALT_SLAB = MCBlockRegister("polished_basalt_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BASALT)));
-        SMOOTH_BASALT_SLAB = MCBlockRegister("smooth_basalt_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SMOOTH_BASALT)));
         GLOWSTONE_SLAB = MCBlockRegister("glowstone_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLOWSTONE)));
         CRACKED_STONE_BRICKS_SLAB = MCBlockRegister("cracked_stone_bricks_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_STONE_BRICKS)));
         CHISELED_STONE_BRICKS_SLAB = MCBlockRegister("chiseled_stone_bricks_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_STONE_BRICKS)));
         CRACKED_DEEPSLATE_BRICKS_SLAB = MCBlockRegister("cracked_deepslate_bricks_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_BRICKS)));
         CRACKED_DEEPSLATE_TILES_SLAB = MCBlockRegister("cracked_deepslate_tiles_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_TILES)));
         CHISELED_DEEPSLATE_SLAB = MCBlockRegister("chiseled_deepslate_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_DEEPSLATE)));
-        MYCELIUM_SLAB = MCBlockRegister("mycelium_slab", new SlabSpreadableBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MYCELIUM), net.minecraft.block.Blocks.MYCELIUM));
+        MYCELIUM_SLAB = MCBlockRegister("mycelium_slab", new SlabMyceliumBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MYCELIUM), net.minecraft.block.Blocks.MYCELIUM));
         CRACKED_NETHER_BRICKS_SLAB = MCBlockRegister("cracked_nether_bricks_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_NETHER_BRICKS)));
         CHISELED_NETHER_BRICKS_SLAB = MCBlockRegister("chiseled_nether_bricks_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_NETHER_BRICKS)));
         END_STONE_SLAB = MCBlockRegister("end_stone_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.END_STONE)));
@@ -3317,7 +3289,6 @@ public class Blocks
         BLACK_STAINED_GLASS_SLAB = MCBlockRegister("black_stained_glass_slab", new SlabStainedBlock(DyeColor.BLACK, FabricBlockSettings.copy(net.minecraft.block.Blocks.BLACK_STAINED_GLASS)));
         SEA_LANTERN_SLAB = MCBlockRegister("sea_lantern_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SEA_LANTERN)));
         CHISELED_RED_SANDSTONE_SLAB = MCBlockRegister("chiseled_red_sandstone_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_RED_SANDSTONE)));
-        MAGMA_BLOCK_SLAB = MCBlockRegister("magma_block_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MAGMA_BLOCK)));
         NETHER_WART_BLOCK_SLAB = MCBlockRegister("nether_wart_block_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.NETHER_WART_BLOCK)));
         WARPED_WART_BLOCK_SLAB = MCBlockRegister("warped_wart_block_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_WART_BLOCK)));
         BONE_BLOCK_SLAB = MCBlockRegister("bone_block_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BONE_BLOCK)));
@@ -3350,7 +3321,6 @@ public class Blocks
         BLUE_ICE_SLAB = MCBlockRegister("blue_ice_slab", new SlabIceBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BLUE_ICE)));
         CRYING_OBSIDIAN_SLAB = MCBlockRegister("crying_obsidian_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRYING_OBSIDIAN)));
         CHISELED_POLISHED_BLACKSTONE_SLAB = MCBlockRegister("chiseled_polished_blackstone_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_POLISHED_BLACKSTONE)));
-        CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB = MCBlockRegister("cracked_polished_blackstone_bricks_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)));
         OAK_LEAVES_SLAB = MCBlockRegister("oak_leaves_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_LEAVES)));
         SPRUCE_LEAVES_SLAB = MCBlockRegister("spruce_leaves_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_LEAVES)));
         BIRCH_LEAVES_SLAB = MCBlockRegister("birch_leaves_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BIRCH_LEAVES)));
@@ -3489,7 +3459,6 @@ public class Blocks
         SOUL_SOIL_SLAB_VERTICAL = MCBlockRegister("soul_soil_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SOUL_SOIL)));
         BASALT_SLAB_VERTICAL = MCBlockRegister("basalt_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BASALT)));
         POLISHED_BASALT_SLAB_VERTICAL = MCBlockRegister("polished_basalt_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BASALT)));
-        SMOOTH_BASALT_SLAB_VERTICAL = MCBlockRegister("smooth_basalt_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SMOOTH_BASALT)));
         GLOWSTONE_SLAB_VERTICAL = MCBlockRegister("glowstone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLOWSTONE)));
         STONE_BRICKS_SLAB_VERTICAL = MCBlockRegister("stone_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE_BRICKS)));
         MOSSY_STONE_BRICKS_SLAB_VERTICAL = MCBlockRegister("mossy_stone_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSSY_STONE_BRICKS)));
@@ -3552,7 +3521,6 @@ public class Blocks
         RED_SANDSTONE_SLAB_VERTICAL = MCBlockRegister("red_sandstone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_SANDSTONE)));
         CHISELED_RED_SANDSTONE_SLAB_VERTICAL = MCBlockRegister("chiseled_red_sandstone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_RED_SANDSTONE)));
         CUT_RED_SANDSTONE_SLAB_VERTICAL = MCBlockRegister("cut_red_sandstone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CUT_RED_SANDSTONE)));
-        MAGMA_BLOCK_SLAB_VERTICAL = MCBlockRegister("magma_block_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MAGMA_BLOCK)));
         NETHER_WART_BLOCK_SLAB_VERTICAL = MCBlockRegister("nether_wart_block_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.NETHER_WART_BLOCK)));
         WARPED_WART_BLOCK_SLAB_VERTICAL = MCBlockRegister("warped_wart_block_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_WART_BLOCK)));
         RED_NETHER_BRICKS_SLAB_VERTICAL = MCBlockRegister("red_nether_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_NETHER_BRICKS)));
@@ -3589,7 +3557,6 @@ public class Blocks
         POLISHED_BLACKSTONE_SLAB_VERTICAL = MCBlockRegister("polished_blackstone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BLACKSTONE)));
         CHISELED_POLISHED_BLACKSTONE_SLAB_VERTICAL = MCBlockRegister("chiseled_polished_blackstone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_POLISHED_BLACKSTONE)));
         POLISHED_BLACKSTONE_BRICKS_SLAB_VERTICAL = MCBlockRegister("polished_blackstone_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BLACKSTONE_BRICKS)));
-        CRACKED_POLISHED_BLACKSTONE_BRICKS_SLAB_VERTICAL = MCBlockRegister("cracked_polished_blackstone_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)));
         OAK_LEAVES_SLAB_VERTICAL = MCBlockRegister("oak_leaves_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_LEAVES)));
         SPRUCE_LEAVES_SLAB_VERTICAL = MCBlockRegister("spruce_leaves_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_LEAVES)));
         BIRCH_LEAVES_SLAB_VERTICAL = MCBlockRegister("birch_leaves_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BIRCH_LEAVES)));
@@ -3726,7 +3693,6 @@ public class Blocks
         SOUL_SOIL_QUARTER = MCBlockRegister("soul_soil_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SOUL_SOIL)));
         BASALT_QUARTER = MCBlockRegister("basalt_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BASALT)));
         POLISHED_BASALT_QUARTER = MCBlockRegister("polished_basalt_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BASALT)));
-        SMOOTH_BASALT_QUARTER = MCBlockRegister("smooth_basalt_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SMOOTH_BASALT)));
         GLOWSTONE_QUARTER = MCBlockRegister("glowstone_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLOWSTONE)));
         STONE_BRICKS_QUARTER = MCBlockRegister("stone_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE_BRICKS)));
         MOSSY_STONE_BRICKS_QUARTER = MCBlockRegister("mossy_stone_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSSY_STONE_BRICKS)));
@@ -3789,7 +3755,6 @@ public class Blocks
         RED_SANDSTONE_QUARTER = MCBlockRegister("red_sandstone_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_SANDSTONE)));
         CHISELED_RED_SANDSTONE_QUARTER = MCBlockRegister("chiseled_red_sandstone_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_RED_SANDSTONE)));
         CUT_RED_SANDSTONE_QUARTER = MCBlockRegister("cut_red_sandstone_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CUT_RED_SANDSTONE)));
-        MAGMA_BLOCK_QUARTER = MCBlockRegister("magma_block_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MAGMA_BLOCK)));
         NETHER_WART_BLOCK_QUARTER = MCBlockRegister("nether_wart_block_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.NETHER_WART_BLOCK)));
         WARPED_WART_BLOCK_QUARTER = MCBlockRegister("warped_wart_block_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_WART_BLOCK)));
         RED_NETHER_BRICKS_QUARTER = MCBlockRegister("red_nether_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_NETHER_BRICKS)));
@@ -3826,7 +3791,6 @@ public class Blocks
         POLISHED_BLACKSTONE_QUARTER = MCBlockRegister("polished_blackstone_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BLACKSTONE)));
         CHISELED_POLISHED_BLACKSTONE_QUARTER = MCBlockRegister("chiseled_polished_blackstone_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_POLISHED_BLACKSTONE)));
         POLISHED_BLACKSTONE_BRICKS_QUARTER = MCBlockRegister("polished_blackstone_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BLACKSTONE_BRICKS)));
-        CRACKED_POLISHED_BLACKSTONE_BRICKS_QUARTER = MCBlockRegister("cracked_polished_blackstone_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)));
         OAK_LEAVES_QUARTER = MCBlockRegister("oak_leaves_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_LEAVES)));
         SPRUCE_LEAVES_QUARTER = MCBlockRegister("spruce_leaves_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_LEAVES)));
         BIRCH_LEAVES_QUARTER = MCBlockRegister("birch_leaves_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BIRCH_LEAVES)));
@@ -3963,7 +3927,6 @@ public class Blocks
         SOUL_SOIL_QUARTER_VERTICAL = MCBlockRegister("soul_soil_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SOUL_SOIL)));
         BASALT_QUARTER_VERTICAL = MCBlockRegister("basalt_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BASALT)));
         POLISHED_BASALT_QUARTER_VERTICAL = MCBlockRegister("polished_basalt_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BASALT)));
-        SMOOTH_BASALT_QUARTER_VERTICAL = MCBlockRegister("smooth_basalt_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SMOOTH_BASALT)));
         GLOWSTONE_QUARTER_VERTICAL = MCBlockRegister("glowstone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLOWSTONE)));
         STONE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("stone_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE_BRICKS)));
         MOSSY_STONE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("mossy_stone_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSSY_STONE_BRICKS)));
@@ -4026,7 +3989,6 @@ public class Blocks
         RED_SANDSTONE_QUARTER_VERTICAL = MCBlockRegister("red_sandstone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_SANDSTONE)));
         CHISELED_RED_SANDSTONE_QUARTER_VERTICAL = MCBlockRegister("chiseled_red_sandstone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_RED_SANDSTONE)));
         CUT_RED_SANDSTONE_QUARTER_VERTICAL = MCBlockRegister("cut_red_sandstone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CUT_RED_SANDSTONE)));
-        MAGMA_BLOCK_QUARTER_VERTICAL = MCBlockRegister("magma_block_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MAGMA_BLOCK)));
         NETHER_WART_BLOCK_QUARTER_VERTICAL = MCBlockRegister("nether_wart_block_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.NETHER_WART_BLOCK)));
         WARPED_WART_BLOCK_QUARTER_VERTICAL = MCBlockRegister("warped_wart_block_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_WART_BLOCK)));
         RED_NETHER_BRICKS_QUARTER_VERTICAL = MCBlockRegister("red_nether_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_NETHER_BRICKS)));
@@ -4063,7 +4025,6 @@ public class Blocks
         POLISHED_BLACKSTONE_QUARTER_VERTICAL = MCBlockRegister("polished_blackstone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BLACKSTONE)));
         CHISELED_POLISHED_BLACKSTONE_QUARTER_VERTICAL = MCBlockRegister("chiseled_polished_blackstone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_POLISHED_BLACKSTONE)));
         POLISHED_BLACKSTONE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("polished_blackstone_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BLACKSTONE_BRICKS)));
-        CRACKED_POLISHED_BLACKSTONE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("cracked_polished_blackstone_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)));
         OAK_LEAVES_QUARTER_VERTICAL = MCBlockRegister("oak_leaves_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_LEAVES)));
         SPRUCE_LEAVES_QUARTER_VERTICAL = MCBlockRegister("spruce_leaves_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_LEAVES)));
         BIRCH_LEAVES_QUARTER_VERTICAL = MCBlockRegister("birch_leaves_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BIRCH_LEAVES)));
@@ -4200,7 +4161,6 @@ public class Blocks
         SOUL_SOIL_EIGHTH = MCBlockRegister("soul_soil_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SOUL_SOIL)));
         BASALT_EIGHTH = MCBlockRegister("basalt_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BASALT)));
         POLISHED_BASALT_EIGHTH = MCBlockRegister("polished_basalt_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BASALT)));
-        SMOOTH_BASALT_EIGHTH = MCBlockRegister("smooth_basalt_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SMOOTH_BASALT)));
         GLOWSTONE_EIGHTH = MCBlockRegister("glowstone_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLOWSTONE)));
         STONE_BRICKS_EIGHTH = MCBlockRegister("stone_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE_BRICKS)));
         MOSSY_STONE_BRICKS_EIGHTH = MCBlockRegister("mossy_stone_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSSY_STONE_BRICKS)));
@@ -4263,7 +4223,6 @@ public class Blocks
         RED_SANDSTONE_EIGHTH = MCBlockRegister("red_sandstone_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_SANDSTONE)));
         CHISELED_RED_SANDSTONE_EIGHTH = MCBlockRegister("chiseled_red_sandstone_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_RED_SANDSTONE)));
         CUT_RED_SANDSTONE_EIGHTH = MCBlockRegister("cut_red_sandstone_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CUT_RED_SANDSTONE)));
-        MAGMA_BLOCK_EIGHTH = MCBlockRegister("magma_block_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MAGMA_BLOCK)));
         NETHER_WART_BLOCK_EIGHTH = MCBlockRegister("nether_wart_block_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.NETHER_WART_BLOCK)));
         WARPED_WART_BLOCK_EIGHTH = MCBlockRegister("warped_wart_block_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_WART_BLOCK)));
         RED_NETHER_BRICKS_EIGHTH = MCBlockRegister("red_nether_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_NETHER_BRICKS)));
@@ -4300,7 +4259,6 @@ public class Blocks
         POLISHED_BLACKSTONE_EIGHTH = MCBlockRegister("polished_blackstone_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BLACKSTONE)));
         CHISELED_POLISHED_BLACKSTONE_EIGHTH = MCBlockRegister("chiseled_polished_blackstone_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_POLISHED_BLACKSTONE)));
         POLISHED_BLACKSTONE_BRICKS_EIGHTH = MCBlockRegister("polished_blackstone_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_BLACKSTONE_BRICKS)));
-        CRACKED_POLISHED_BLACKSTONE_BRICKS_EIGHTH = MCBlockRegister("cracked_polished_blackstone_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS)));
         OAK_LEAVES_EIGHTH = MCBlockRegister("oak_leaves_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_LEAVES)));
         SPRUCE_LEAVES_EIGHTH = MCBlockRegister("spruce_leaves_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_LEAVES)));
         BIRCH_LEAVES_EIGHTH = MCBlockRegister("birch_leaves_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BIRCH_LEAVES)));

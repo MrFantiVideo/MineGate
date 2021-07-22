@@ -3,7 +3,6 @@ package net.minegate.fr.moreblocks.mixin;
 import java.util.Random;
 
 import net.minegate.fr.moreblocks.block.SlabGrassBlock;
-import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -20,9 +19,6 @@ public class GrassBlockMixin
     @Inject(at = @At("TAIL"), method = "grow", cancellable = true)
     public void grow(ServerWorld world, Random random, BlockPos pos, BlockState state, CallbackInfo info)
     {
-        if (DefaultConfig.get("useMixins"))
-        {
-            SlabGrassBlock.growAll(world, random, pos, state);
-        }
+        SlabGrassBlock.growAll(world, random, pos, state);
     }
 }

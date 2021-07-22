@@ -93,14 +93,7 @@ public class SlabPlantableBlock extends Block implements Waterloggable
                 Direction direction = context.getSide();
                 if (slabType == SlabType.BOTTOM)
                 {
-                    if (state == state.getBlock().getDefaultState().with(SNOWY, true))
-                    {
-                        return false;
-                    }
-                    else
-                    {
-                        return direction == Direction.UP || bl && direction.getAxis().isHorizontal();
-                    }
+                    return direction == Direction.UP || bl && direction.getAxis().isHorizontal();
                 }
                 else
                 {
