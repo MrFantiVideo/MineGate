@@ -27,7 +27,7 @@ public class PistonBlockMixin extends FacingBlock
     @Inject(at = @At("RETURN"), method = "isMovable")
     private static boolean isMovable(BlockState blockState, World world, BlockPos blockPos, Direction direction, boolean canBreak, Direction pistonDir, CallbackInfoReturnable<Boolean> cir)
     {
-        if (blockPos.getY() >= 0 && blockPos.getY() <= world.getHeight() - 1 && world.getWorldBorder().contains(blockPos))
+        if (blockPos.getY() >= world.getBottomY() && blockPos.getY() <= world.getHeight() - 1 && world.getWorldBorder().contains(blockPos))
         {
             if (blockState.isAir())
             {
