@@ -133,16 +133,6 @@ public class SlabPlantableBlock extends Block implements Waterloggable
         return state.get(TYPE) != SlabType.DOUBLE && Waterloggable.super.canFillWithFluid(world, pos, state, fluid);
     }
 
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState newState, WorldAccess world, BlockPos pos, BlockPos posFrom)
-    {
-        if (state.get(WATERLOGGED))
-        {
-            world.getFluidTickScheduler().schedule(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
-        }
-
-        return super.getStateForNeighborUpdate(state, direction, newState, world, pos, posFrom);
-    }
-
     public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type)
     {
         switch (type)

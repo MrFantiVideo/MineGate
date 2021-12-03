@@ -1,6 +1,7 @@
 package net.minegate.fr.moreblocks.item;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
@@ -128,5 +129,6 @@ public class ItemGroups
         stacks.add(new ItemStack(Items.GREEN_BOOK));
         stacks.add(new ItemStack(Items.RED_BOOK));
         stacks.add(new ItemStack(Items.BLACK_BOOK));
+        stacks.add(new ItemStack(Items.CHRISTMAS_HAT));
     }).build();
 }

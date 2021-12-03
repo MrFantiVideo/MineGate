@@ -4,7 +4,7 @@
         "bottom": "minegate:block/woodcutter_bottom",
         "top": "minegate:block/woodcutter_top",
         "side": "minegate:block/woodcutter_side",
-        "saw": "minegate:block/woodcutter_saw"
+        "saw": "minecraft:block/stonecutter_saw"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

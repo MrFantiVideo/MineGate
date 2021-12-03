@@ -25,17 +25,6 @@ public class SlabSandBlock extends SlabBlock
         super(settings);
     }
 
-    public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify)
-    {
-        world.getBlockTickScheduler().schedule(pos, this, this.getFallDelay());
-    }
-
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState newState, WorldAccess world, BlockPos pos, BlockPos posFrom)
-    {
-        world.getBlockTickScheduler().schedule(pos, this, this.getFallDelay());
-        return super.getStateForNeighborUpdate(state, direction, newState, world, pos, posFrom);
-    }
-
     public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random)
     {
         if (canFallThrough(world.getBlockState(pos.down())) && pos.getY() >= 0)

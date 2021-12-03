@@ -82,31 +82,6 @@ public class BookshelfBlock extends Block implements Waterloggable
         return state.get(BOOKSHELF_TYPE) == BookshelfType.EMPTY && Waterloggable.super.canFillWithFluid(world, pos, state, fluid);
     }
 
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState newState, WorldAccess world, BlockPos pos, BlockPos posFrom)
-    {
-        if (state.get(WATERLOGGED))
-        {
-            world.getFluidTickScheduler().schedule(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
-        }
-
-        return super.getStateForNeighborUpdate(state, direction, newState, world, pos, posFrom);
-    }
-
-    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type)
-    {
-        switch (type)
-        {
-            case LAND:
-                return false;
-            case WATER:
-                return world.getFluidState(pos).isIn(FluidTags.WATER);
-            case AIR:
-                return false;
-            default:
-                return false;
-        }
-    }
-
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit)
     {
         Block block = state.getBlock();

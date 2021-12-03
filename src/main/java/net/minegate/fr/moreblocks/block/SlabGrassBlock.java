@@ -13,7 +13,7 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.FlowerFeature;
+import net.minecraft.world.gen.feature.ConfiguredFeatures;
 import net.minegate.fr.moreblocks.block.enums.FernType;
 import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 
@@ -86,19 +86,18 @@ public class SlabGrassBlock extends SlabSpreadableBlock implements Fertilizable
 
                 if (blockState2.isAir())
                 {
-                    BlockState blockState4;
+                    ConfiguredFeature blockState4;
                     if (random.nextInt(8) == 0)
                     {
                         List<ConfiguredFeature<?, ?>> list = world.getBiome(blockPos2).getGenerationSettings().getFlowerFeatures();
 
                         if (list.isEmpty()) continue;
 
-                        blockState4 = ((FlowerFeature) list.get(0).feature).getFlowerState(random, blockPos2, list.get(0).config);
+                        blockState4 = (ConfiguredFeature)(((ConfiguredFeature)list.get(0)).getConfig()).getDecoratedFeatures();
+                    } else {
+                        blockState4 = ConfiguredFeatures.getDefaultConfiguredFeature();
                     }
-
-                    else blockState4 = blockState;
-
-                    if (blockState4.canPlaceAt(world, blockPos2)) world.setBlockState(blockPos2, blockState4, 3);
+                    blockState4.generate(world, world.getChunkManager().getChunkGenerator(), random, blockPos2);
                 }
             }
         }

@@ -11,7 +11,7 @@ import net.minegate.fr.moreblocks.item.Items;
 public class MoreBlocks implements ModInitializer
 {
     public static final String NameClient    = "MineGate";
-    public static final String VersionClient = "1.1.6";
+    public static final String VersionClient = "1.1.7";
 
     /**
      * Initialization.

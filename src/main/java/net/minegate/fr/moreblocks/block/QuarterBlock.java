@@ -117,15 +117,6 @@ public class QuarterBlock extends Block implements Waterloggable
         return blockState.with(SHAPE, getStairShape(blockState, ctx.getWorld(), blockPos)).with(WATERLOGGED, fluidState.getFluid() == Fluids.WATER).with(FACING, direction_1);
     }
 
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState newState, WorldAccess world, BlockPos pos, BlockPos posFrom)
-    {
-        if (state.get(WATERLOGGED))
-        {
-            world.getFluidTickScheduler().schedule(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
-        }
-        return direction.getAxis().isHorizontal() ? state.with(SHAPE, getStairShape(state, world, pos)) : super.getStateForNeighborUpdate(state, direction, newState, world, pos, posFrom);
-    }
-
     private static StairShape getStairShape(BlockState state, BlockView world, BlockPos pos)
     {
         Direction direction = state.get(FACING);

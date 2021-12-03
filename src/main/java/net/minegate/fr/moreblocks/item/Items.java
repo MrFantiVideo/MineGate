@@ -1,8 +1,11 @@
 package net.minegate.fr.moreblocks.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.item.Item;
+import net.minecraft.item.Item.Settings;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minegate.fr.moreblocks.block.*;
@@ -2205,6 +2208,7 @@ public class Items
     public static Item RED_BOOK;
     public static Item WHITE_BOOK;
     public static Item YELLOW_BOOK;
+    public static Item CHRISTMAS_HAT;
 
     /**
      * List of old blocks to no longer be used.
@@ -2814,6 +2818,7 @@ public class Items
         RED_BOOK = MGItemRegister("red_book", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
         WHITE_BOOK = MGItemRegister("white_book", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
         YELLOW_BOOK = MGItemRegister("yellow_book", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
+        CHRISTMAS_HAT = MGItemRegister("christmas_hat", new HatItem(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
     }
 
     /**

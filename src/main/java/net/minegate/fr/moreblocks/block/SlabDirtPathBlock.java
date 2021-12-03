@@ -72,14 +72,6 @@ public class SlabDirtPathBlock extends SlabBlock
         return !this.getDefaultState().canPlaceAt(ctx.getWorld(), ctx.getBlockPos()) ? pushEntitiesUpBeforeBlockChange(this.getDefaultState(), Blocks.DIRT_SLAB.getDefaultState(), ctx.getWorld(), ctx.getBlockPos()) : super.getPlacementState(ctx);
     }
 
-    public BlockState getStateForNeighborUpdate(BlockState state, Direction facing, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos)
-    {
-        if (facing == Direction.UP && !state.canPlaceAt(world, pos))
-            world.getBlockTickScheduler().schedule(pos, this, 1);
-
-        return super.getStateForNeighborUpdate(state, facing, neighborState, world, pos, neighborPos);
-    }
-
     public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random)
     {
         SlabGrassBlock.setToDirt(world, pos);

@@ -4,24 +4,26 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.ScreenTexts;
+import net.minecraft.client.gui.screen.world.WorldListWidget;
 import net.minecraft.client.gui.widget.ButtonListWidget;
 import net.minecraft.client.gui.widget.ButtonWidget;
+import net.minecraft.client.gui.widget.LockButtonWidget;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 @Environment(EnvType.CLIENT)
 public class OptionsScreen extends Screen
 {
     private final Screen           parent;
     private       ButtonListWidget buttonBackground;
-    private       ButtonWidget     buttonGenerationOres;
+    private       ButtonWidget buttonGenerationOres;
     private       ButtonWidget     buttonDebugMode;
     private       ButtonWidget     buttonUseMixins;
-
 
     public OptionsScreen(Screen parent)
     {
@@ -46,16 +48,18 @@ public class OptionsScreen extends Screen
     public ButtonWidget button(String name, int placement)
     {
         Text buttonName = new TranslatableText("options.minegate." + name + "." + DefaultConfig.get(name));
+        if (placement == 0)
+        {
+            buttonName = new TranslatableText("options.minegate." + name + ".false");
+        }
         return addDrawableChild(new ButtonWidget(this.width / 2 - 100, this.height / 6 + placement, 200, 20, buttonName, (button) ->
         {
             if (DefaultConfig.get(name))
             {
-                button.setMessage(new TranslatableText("options.minegate." + name + ".false"));
                 DefaultConfig.replace(name, false);
             }
             else
             {
-                button.setMessage(new TranslatableText("options.minegate." + name + ".true"));
                 DefaultConfig.replace(name, true);
             }
         }));
@@ -66,6 +70,7 @@ public class OptionsScreen extends Screen
         renderBackground(matrices);
         buttonBackground.render(matrices, mouseX, mouseY, delta);
         buttonGenerationOres.render(matrices, mouseX, mouseY, delta);
+        buttonGenerationOres.active = false;
         buttonDebugMode.render(matrices, mouseX, mouseY, delta);
         drawCenteredText(matrices, this.textRenderer, this.title, this.width / 2, 14, 16777215);
         super.render(matrices, mouseX, mouseY, delta);
