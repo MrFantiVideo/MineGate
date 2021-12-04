@@ -2209,6 +2209,7 @@ public class Items
     public static Item WHITE_BOOK;
     public static Item YELLOW_BOOK;
     public static Item CHRISTMAS_HAT;
+    public static Item STRAW_HAT;
 
     /**
      * List of old blocks to no longer be used.
@@ -2819,6 +2820,7 @@ public class Items
         WHITE_BOOK = MGItemRegister("white_book", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
         YELLOW_BOOK = MGItemRegister("yellow_book", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
         CHRISTMAS_HAT = MGItemRegister("christmas_hat", new HatItem(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
+        STRAW_HAT = MGItemRegister("straw_hat", new HatItem(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
     }
 
     /**

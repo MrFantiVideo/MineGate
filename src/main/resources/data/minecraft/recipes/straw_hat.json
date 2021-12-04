@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " H ",
+    "WWW"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "minegate:straw_hat"
+  }
+}
