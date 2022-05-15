@@ -46,7 +46,7 @@ dependencies
 
 ainsi que ceci dans le « gradle.properties » :
 
-	minegate_moreblocks_version=1.2.0-dev-2
+	minegate_moreblocks_version=1.2.0
 
 Vous devrez modifier ce fichier lorsqu'une nouvelle version du mod est publiée.<br>
 Les anciennes versions resteront disponibles, mais pas recommandées à l'utilisation.
