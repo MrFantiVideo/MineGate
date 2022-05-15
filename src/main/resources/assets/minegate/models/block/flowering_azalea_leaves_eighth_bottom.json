@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/leaves_eighth_bottom",
+    "textures":
+    {
+        "particle": "minecraft:block/flowering_azalea_leaves",
+        "bottom": "minecraft:block/flowering_azalea_leaves",
+        "top": "minecraft:block/flowering_azalea_leaves",
+        "side": "minecraft:block/flowering_azalea_leaves"
+    }
+}

@@ -1,10 +1,9 @@
 package net.minegate.fr.moreblocks.block;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.ShapeContext;
-import net.minecraft.block.Waterloggable;
-import net.minecraft.entity.ai.pathing.NavigationType;
+import net.minecraft.block.*;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.LecternBlockEntity;
+import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FluidState;
@@ -13,11 +12,10 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.stat.Stats;
 import net.minecraft.state.StateManager;
-import net.minecraft.state.property.BooleanProperty;
-import net.minecraft.state.property.EnumProperty;
-import net.minecraft.state.property.Properties;
-import net.minecraft.tag.FluidTags;
+import net.minecraft.state.property.*;
+import net.minecraft.tag.ItemTags;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.function.BooleanBiFunction;
@@ -29,34 +27,109 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
-import net.minegate.fr.moreblocks.block.enums.BookshelfType;
-import net.minegate.fr.moreblocks.item.Items;
+import net.minecraft.world.event.GameEvent;
+import net.minegate.fr.moreblocks.block.enums.ColorsType;
+import net.minegate.fr.moreblocks.item.BookItem;
 
 import java.util.stream.Stream;
 
-public class BookshelfBlock extends Block implements Waterloggable
+public class BookshelfBlock extends LecternBlock implements Waterloggable
 {
-    public static final EnumProperty<BookshelfType> BOOKSHELF_TYPE;
-    public static final BooleanProperty             WATERLOGGED;
-    static final        VoxelShape                  VOXEL_SHAPE;
+    public static          Item                     itemScreen;
+    public static final    EnumProperty<ColorsType> TYPE;
+    public static final    BooleanProperty          WATERLOGGED;
+    protected static final VoxelShape               VOXEL_SHAPE;
 
-    public BookshelfBlock(Settings blockSettings)
+    /**
+     * Creation of an bookshelf block.
+     *
+     * @param settings Block settings.
+     **/
+
+    public BookshelfBlock(Settings settings)
     {
-        super(blockSettings);
-        setDefaultState(this.stateManager.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.EMPTY).with(WATERLOGGED, false));
+        super(settings);
+        setDefaultState(this.stateManager.getDefaultState().with(TYPE, ColorsType.EMPTY).with(FACING, Direction.NORTH).with(WATERLOGGED, Boolean.FALSE));
     }
+
+    /**
+     * Storage and display of books in the block.
+     **/
 
     @Override
-    protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
+    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit)
     {
-        builder.add(BOOKSHELF_TYPE, WATERLOGGED);
+        BlockEntity blockEntity = world.getBlockEntity(pos);
+        ItemStack itemStack = player.getStackInHand(hand);
+
+        if (state.get(HAS_BOOK))
+        {
+            if (blockEntity instanceof LecternBlockEntity lecternBlockEntity)
+            {
+                ItemStack book = lecternBlockEntity.getBook().copy();
+
+                if (book.getItem() instanceof BookItem || book.getItem() == net.minecraft.item.Items.BOOK)
+                {
+                    Direction direction = state.get(FACING);
+                    float f = 0.25F * (float) direction.getOffsetX();
+                    float g = 0.25F * (float) direction.getOffsetZ();
+                    setHasBook(world, pos, state, false);
+                    ItemEntity itemEntity = new ItemEntity(world, (double) pos.getX() + 0.5D + (double) f, (double) (pos.getY() + 1), (double) pos.getZ() + 0.5D + (double) g, book);
+                    itemEntity.setToDefaultPickupDelay();
+                    world.spawnEntity(itemEntity);
+                    lecternBlockEntity.clear();
+                }
+                else
+                {
+                    if (!world.isClient)
+                    {
+                        this.openScreen(world, pos, player);
+                    }
+                }
+            }
+            return ActionResult.success(world.isClient);
+        }
+        else
+        {
+            if (!itemStack.isEmpty() && (itemStack.isIn(ItemTags.LECTERN_BOOKS) || (itemStack.getItem() instanceof BookItem) || (itemStack.getItem() == net.minecraft.item.Items.BOOK)))
+            {
+                if (blockEntity instanceof LecternBlockEntity lecternBlockEntity)
+                {
+                    lecternBlockEntity.setBook(itemStack.split(1));
+                    setHasBook(world, pos, state, true);
+                    world.playSound(null, pos, SoundEvents.ITEM_BOOK_PUT, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                    world.emitGameEvent(player, GameEvent.BLOCK_CHANGE, pos);
+                    return ActionResult.CONSUME;
+                }
+            }
+            return !itemStack.isEmpty() && (!itemStack.isIn(ItemTags.LECTERN_BOOKS) || !(itemStack.getItem() instanceof BookItem) || !(itemStack.getItem() == net.minecraft.item.Items.BOOK)) ? ActionResult.CONSUME : ActionResult.PASS;
+        }
     }
+
+    /**
+     * Required for onUse.
+     **/
+
+    private void openScreen(World world, BlockPos pos, PlayerEntity player)
+    {
+        BlockEntity blockEntity = world.getBlockEntity(pos);
+        if (blockEntity instanceof LecternBlockEntity)
+        {
+            player.openHandledScreen((LecternBlockEntity) blockEntity);
+            player.incrementStat(Stats.INTERACT_WITH_LECTERN);
+        }
+
+    }
+
+    /**
+     * Custom outlines of the block.
+     **/
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx)
     {
-        BookshelfType slabType_1 = state.get(BOOKSHELF_TYPE);
-        if (slabType_1 == BookshelfType.EMPTY)
+        ColorsType slabType_1 = state.get(TYPE);
+        if (slabType_1 == ColorsType.EMPTY)
         {
             return VOXEL_SHAPE;
         }
@@ -66,443 +139,86 @@ public class BookshelfBlock extends Block implements Waterloggable
         }
     }
 
+    /**
+     * Custom outlines collision of the block.
+     **/
 
+    @Override
+    public VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context)
+    {
+        ColorsType slabType_1 = state.get(TYPE);
+        if (slabType_1 == ColorsType.EMPTY)
+        {
+            return VOXEL_SHAPE;
+        }
+        else
+        {
+            return VoxelShapes.fullCube();
+        }
+    }
+
+    /**
+     * Definition of block properties.
+     **/
+
+    @Override
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
+    {
+        builder.add(TYPE, WATERLOGGED, FACING, POWERED, HAS_BOOK);
+    }
+
+    /**
+     * Allows you to make the block waterlogged.
+     **/
+
+    @Override
     public FluidState getFluidState(BlockState state)
     {
         return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
     }
 
+    /**
+     * Try to make the block waterlogged.
+     **/
+
+    @Override
     public boolean tryFillWithFluid(WorldAccess world, BlockPos pos, BlockState state, FluidState fluidState)
     {
-        return state.get(BOOKSHELF_TYPE) == BookshelfType.EMPTY && Waterloggable.super.tryFillWithFluid(world, pos, state, fluidState);
+        return state.get(TYPE) == ColorsType.EMPTY && Waterloggable.super.tryFillWithFluid(world, pos, state, fluidState);
     }
 
+    /**
+     * Can make the block waterlogged.
+     **/
+
+    @Override
     public boolean canFillWithFluid(BlockView world, BlockPos pos, BlockState state, Fluid fluid)
     {
-        return state.get(BOOKSHELF_TYPE) == BookshelfType.EMPTY && Waterloggable.super.canFillWithFluid(world, pos, state, fluid);
+        return state.get(TYPE) == ColorsType.EMPTY && Waterloggable.super.canFillWithFluid(world, pos, state, fluid);
     }
 
-    public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit)
+    /**
+     * System to set the color of the books in the Lectern.
+     **/
+
+    public static void setBookScreen(Item item)
     {
-        Block block = state.getBlock();
-        ItemStack itemStack = player.getStackInHand(hand);
-        Item item = itemStack.getItem();
-        if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.EMPTY))
-        {
-            if (item.equals(net.minecraft.item.Items.BOOK) || item.equals(Items.BLACK_BOOK) || item.equals(Items.BLUE_BOOK) || item.equals(Items.BROWN_BOOK)
-                    || item.equals(Items.CYAN_BOOK) || item.equals(Items.GRAY_BOOK) || item.equals(Items.GREEN_BOOK) || item.equals(Items.LIGHT_BLUE_BOOK)
-                    || item.equals(Items.LIGHT_GRAY_BOOK) || item.equals(Items.LIME_BOOK) || item.equals(Items.MAGENTA_BOOK) || item.equals(Items.ORANGE_BOOK)
-                    || item.equals(Items.PINK_BOOK) || item.equals(Items.PURPLE_BOOK) || item.equals(Items.RED_BOOK) || item.equals(Items.WHITE_BOOK) || item.equals(Items.YELLOW_BOOK))
-            {
-                if (item == net.minecraft.item.Items.BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.DEFAULT));
-                }
-                if (item == Items.BLACK_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.BLACK));
-                }
-                if (item == Items.BLUE_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.BLUE));
-                }
-                if (item == Items.BROWN_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.BROWN));
-                }
-                if (item == Items.CYAN_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.CYAN));
-                }
-                if (item == Items.GRAY_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.GRAY));
-                }
-                if (item == Items.GREEN_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.GREEN));
-                }
-                if (item == Items.LIGHT_BLUE_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.LIGHT_BLUE));
-                }
-                if (item == Items.LIGHT_GRAY_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.LIGHT_GRAY));
-                }
-                if (item == Items.LIME_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.LIME));
-                }
-                if (item == Items.MAGENTA_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.MAGENTA));
-                }
-                if (item == Items.ORANGE_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.ORANGE));
-                }
-                if (item == Items.PINK_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.PINK));
-                }
-                if (item == Items.PURPLE_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.PURPLE));
-                }
-                if (item == Items.RED_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.RED));
-                }
-                if (item == Items.WHITE_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.WHITE));
-                }
-                if (item == Items.YELLOW_BOOK)
-                {
-                    if (!player.getAbilities().creativeMode)
-                    {
-                        itemStack.decrement(1);
-                    }
-                    world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.YELLOW));
-                }
-                world.playSound(null, pos, SoundEvents.ITEM_BOOK_PUT, SoundCategory.BLOCKS, 1.0F, 1.0F);
-                return ActionResult.CONSUME;
-            }
-        }
-        else
-        {
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.DEFAULT))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(net.minecraft.item.Items.BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.BLACK))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.BLACK_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.BLUE))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.BLUE_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.BROWN))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.BROWN_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.CYAN))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.CYAN_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.GRAY))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.GRAY_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.GREEN))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.GREEN_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.LIGHT_BLUE))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.LIGHT_BLUE_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.LIGHT_GRAY))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.LIGHT_GRAY_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.LIME))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.LIME_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.MAGENTA))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.MAGENTA_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.ORANGE))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.ORANGE_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.PINK))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.PINK_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.PURPLE))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.PURPLE_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.RED))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.RED_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.WHITE))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.WHITE_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (state == block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.YELLOW))
-            {
-                if (!player.getAbilities().creativeMode)
-                {
-                    ItemStack itemBook = new ItemStack(Items.YELLOW_BOOK);
-                    if (itemStack.isEmpty())
-                    {
-                        player.setStackInHand(hand, itemBook);
-                    }
-                    else if (!player.giveItemStack(itemBook))
-                    {
-                        player.dropItem(itemBook, false);
-                    }
-                }
-            }
-            if (player.getAbilities().creativeMode)
-            {
-                world.playSound(null, pos, SoundEvents.ITEM_BOOK_PUT, SoundCategory.BLOCKS, 1.0F, 1.0F);
-            }
-            world.setBlockState(pos, block.getDefaultState().with(BOOKSHELF_TYPE, BookshelfType.EMPTY));
-            return ActionResult.CONSUME;
-        }
-        return ActionResult.PASS;
+        itemScreen = item;
+    }
+
+    /**
+     * System to get the color of the books in the Lectern.
+     **/
+
+    public static Item getBookScreen()
+    {
+        return itemScreen;
     }
 
     static
     {
+        TYPE = net.minegate.fr.moreblocks.state.Properties.COLORS_TYPE;
+        WATERLOGGED = Properties.WATERLOGGED;
         VOXEL_SHAPE = Stream.of(
                 Block.createCuboidShape(0, 0, 0, 16, 1, 16),
                 Block.createCuboidShape(0, 15, 0, 16, 16, 16),
@@ -515,7 +231,5 @@ public class BookshelfBlock extends Block implements Waterloggable
                 Block.createCuboidShape(15, 9, 15, 16, 15, 16),
                 Block.createCuboidShape(0, 9, 15, 1, 15, 16),
                 Block.createCuboidShape(0, 1, 15, 1, 7, 16)).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
-        WATERLOGGED = Properties.WATERLOGGED;
-        BOOKSHELF_TYPE = net.minegate.fr.moreblocks.state.Properties.BOOKSHELF_TYPE;
     }
 }

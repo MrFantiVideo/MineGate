@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cut_sandstone"
+  },
+  "result": "minegate:packed_sandstone_bricks",
+  "count": 1
+}

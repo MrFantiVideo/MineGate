@@ -1,6 +1,6 @@
 ﻿{
     "credit": "MineGate - Tous droits réservés.",
-    "parent": "minegate:block/eighth_top",
+    "parent": "minegate:block/leaves_eighth_top",
     "textures":
     {
         "particle": "minecraft:block/azalea_leaves",

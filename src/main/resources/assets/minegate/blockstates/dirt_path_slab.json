@@ -1,18 +1,57 @@
 {
-  "credit": "MineGate - Tous droits réservés.",
-  "variants":
-  {
-      "type=bottom":
-      {
-          "model": "minegate:block/dirt_path_slab"
-      },
-      "type=top":
-      {
-          "model": "minegate:block/dirt_path_slab_top"
-      },
-      "type=double":
-      {
-          "model": "minecraft:block/dirt_path"
-      }
+    "credit": "MineGate - Tous droits réservés.",
+      "multipart":
+      [
+        {
+          "when": {
+            "type": "bottom"
+          },
+          "apply": [{
+            "model": "minegate:block/dirt_path_slab"
+          }, {
+            "model": "minegate:block/dirt_path_slab",
+            "y": 90
+          }, {
+            "model": "minegate:block/dirt_path_slab",
+            "y": 180
+          }, {
+              "model": "minegate:block/dirt_path_slab",
+              "y": 270
+          }]
+        },
+        {
+          "when": {
+            "type": "top"
+          },
+          "apply": [{
+            "model": "minegate:block/dirt_path_slab_top"
+          }, {
+            "model": "minegate:block/dirt_path_slab_top",
+            "y": 90
+          }, {
+            "model": "minegate:block/dirt_path_slab_top",
+            "y": 180
+          }, {
+              "model": "minegate:block/dirt_path_slab_top",
+              "y": 270
+          }]
+        },
+        {
+          "when": {
+            "type": "double"
+          },
+          "apply": [{
+            "model": "minecraft:block/dirt_path"
+          }, {
+            "model": "minecraft:block/dirt_path",
+            "y": 90
+          }, {
+            "model": "minecraft:block/dirt_path",
+            "y": 180
+          }, {
+              "model": "minecraft:block/dirt_path",
+              "y": 270
+          }]
+        }
+      ]
   }
-}

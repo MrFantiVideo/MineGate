@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top_center",
+    "textures":
+    {
+        "particle": "minegate:block/steel_glass",
+        "bottom": "minegate:block/steel_glass",
+        "top": "minegate:block/steel_glass",
+        "side": "minegate:block/steel_glass"
+    }
+}

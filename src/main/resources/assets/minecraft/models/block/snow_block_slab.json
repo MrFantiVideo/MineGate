@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all_slab",
-  "textures": {
-    "all": "minecraft:block/snow"
-  }
-}

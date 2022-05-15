@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "ISI",
+        "ISI"
+    ],
+    "key":
+    {
+        "S":
+        {
+            "item": "minegate:steel_stick"
+        },
+        "I":
+        {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:iron_fence",
+        "count": 3
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_middle",
+    "textures":
+    {
+        "particle": "minecraft:block/granite",
+        "bottom": "minecraft:block/granite",
+        "top": "minecraft:block/granite",
+        "side": "minecraft:block/granite"
+    }
+}

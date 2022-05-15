@@ -1,0 +1,9 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/cube_column",
+    "textures":
+    {
+        "end": "minegate:block/steel_block_top",
+        "side": "minegate:block/steel_block"
+    }
+}

@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/outer_stairs",
+    "textures":
+    {
+        "bottom": "minegate:block/cut_bricks",
+        "top": "minegate:block/cut_bricks",
+        "side": "minegate:block/cut_bricks"
+    }
+}

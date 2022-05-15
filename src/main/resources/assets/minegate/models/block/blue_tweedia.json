@@ -1,0 +1,8 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minecraft:block/cross",
+    "textures":
+    {
+      "cross": "minegate:block/blue_tweedia"
+    }
+}

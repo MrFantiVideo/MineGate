@@ -4,8 +4,8 @@
     "textures":
     {
         "particle": "minecraft:block/crimson_stem",
-        "bottom": "minecraft:block/crimson_stem_top",
-        "top": "minecraft:block/crimson_stem_top",
+        "bottom": "minecraft:block/crimson_stem",
+        "top": "minecraft:block/crimson_stem",
         "side": "minecraft:block/crimson_stem"
     }
 }

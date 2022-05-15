@@ -2,6 +2,7 @@ package net.minegate.fr.moreblocks.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.*;
+import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
@@ -14,7 +15,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
-import net.minegate.fr.moreblocks.block.enums.EighthType;
 import net.minegate.fr.moreblocks.block.enums.QuarterVerticalType;
 
 public class QuarterVerticalBlock extends HorizontalFacingBlock implements Waterloggable
@@ -33,16 +33,16 @@ public class QuarterVerticalBlock extends HorizontalFacingBlock implements Water
     protected static final VoxelShape                        CENTER_X_SOUTH_SHAPE;
     protected static final VoxelShape                        CENTER_X_WEST_SHAPE;
 
-    public QuarterVerticalBlock(Settings blockSettings)
-    {
-        super(blockSettings);
-        setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH).with(TYPE, QuarterVerticalType.BOTTOM).with(WATERLOGGED, Boolean.FALSE));
-    }
+    /**
+     * Creation of a quarter vertical block.
+     *
+     * @param settings Block settings.
+     **/
 
-    @Override
-    protected void appendProperties(StateManager.Builder<Block, BlockState> stateManager)
+    public QuarterVerticalBlock(Settings settings)
     {
-        stateManager.add(FACING, TYPE, WATERLOGGED);
+        super(settings);
+        this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH).with(TYPE, QuarterVerticalType.BOTTOM).with(WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
@@ -107,17 +107,6 @@ public class QuarterVerticalBlock extends HorizontalFacingBlock implements Water
         return this.getDefaultState().with(FACING, direction_1).with(TYPE, QuarterVerticalType.BOTTOM).with(WATERLOGGED, fluidState_1.getFluid() == Fluids.WATER);
     }
 
-
-    public FluidState getFluidState(BlockState state)
-    {
-        return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
-    }
-
-    protected void fillStateContainer(StateManager.Builder<Block, BlockState> builder)
-    {
-        builder.add(FACING, WATERLOGGED);
-    }
-
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx)
     {
@@ -153,6 +142,36 @@ public class QuarterVerticalBlock extends HorizontalFacingBlock implements Water
                 }
         }
         return BOTTOM_SHAPE;
+    }
+
+    /**
+     * Definition of block properties.
+     **/
+
+    @Override
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
+    {
+        builder.add(FACING, TYPE, WATERLOGGED);
+    }
+
+    /**
+     * Allows you to make the block waterlogged.
+     **/
+
+    @Override
+    public FluidState getFluidState(BlockState state)
+    {
+        return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
+    }
+
+    /**
+     * Allows entities to walk through it.
+     **/
+
+    @Override
+    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type)
+    {
+        return false;
     }
 
     static

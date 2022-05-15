@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top_center",
+    "textures":
+    {
+        "particle": "minecraft:block/cobbled_deepslate",
+        "bottom": "minecraft:block/cobbled_deepslate",
+        "top": "minecraft:block/cobbled_deepslate",
+        "side": "minecraft:block/cobbled_deepslate"
+    }
+}

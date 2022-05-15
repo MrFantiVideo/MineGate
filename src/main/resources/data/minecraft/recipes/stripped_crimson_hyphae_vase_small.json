@@ -1,0 +1,23 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "DD",
+        "VV"
+    ],
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:dirt"
+        },
+        "V":
+        {
+            "item": "minecraft:stripped_crimson_hyphae"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:stripped_crimson_hyphae_vase_small"
+    }
+}

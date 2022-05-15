@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top_center",
+    "textures":
+    {
+        "particle": "minecraft:block/cut_sandstone",
+        "bottom": "minecraft:block/cut_sandstone",
+        "top": "minecraft:block/cut_sandstone",
+        "side": "minecraft:block/cut_sandstone"
+    }
+}

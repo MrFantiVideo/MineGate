@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab",
+    "textures":
+    {
+        "bottom": "minegate:block/smooth_bricks",
+        "top": "minegate:block/smooth_bricks",
+        "side": "minegate:block/smooth_bricks"
+    }
+}

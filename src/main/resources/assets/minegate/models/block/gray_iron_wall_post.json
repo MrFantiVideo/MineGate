@@ -1,0 +1,7 @@
+﻿{
+  "credit": "MineGate - Tous droits réservés.",
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "minegate:block/gray_iron_block"
+  }
+}

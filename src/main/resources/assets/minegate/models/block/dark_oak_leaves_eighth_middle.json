@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/leaves_eighth_middle",
+    "textures":
+    {
+        "particle": "minecraft:block/dark_oak_leaves",
+        "bottom": "minecraft:block/dark_oak_leaves",
+        "top": "minecraft:block/dark_oak_leaves",
+        "side": "minecraft:block/dark_oak_leaves"
+    }
+}

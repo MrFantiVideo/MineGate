@@ -1,0 +1,376 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "multipart":
+    [
+        {
+            "apply":
+            {
+                "model": "minegate:block/stripped_crimson_hyphae_vase_small",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "oak_sapling"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_oak_sapling",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "spruce_sapling"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_spruce_sapling",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "birch_sapling"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_birch_sapling",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "jungle_sapling"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_jungle_sapling",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "acacia_sapling"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_acacia_sapling",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "dark_oak_sapling"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_dark_oak_sapling",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "fern"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_fern",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "dandelion"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_dandelion",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "poppy"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_poppy",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "blue_orchid"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_blue_orchid",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "allium"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_allium",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "azure_bluet"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_azure_bluet",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "red_tulip"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_red_tulip",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "orange_tulip"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_orange_tulip",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "white_tulip"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_white_tulip",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "pink_tulip"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_pink_tulip",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "oxeye_daisy"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_oxeye_daisy",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "cornflower"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_cornflower",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "lily_of_the_valley"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_lily_of_the_valley",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "wither_rose"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_wither_rose",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "red_mushroom"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_red_mushroom",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "brown_mushroom"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_brown_mushroom",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "dead_bush"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_dead_bush",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "cactus"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_cactus",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "bamboo"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_bamboo",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "crimson_fungus"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_crimson_fungus",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "warped_fungus"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_warped_fungus",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "crimson_roots"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_crimson_roots",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "warped_roots"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_warped_roots",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "azalea_bush"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_azalea_bush",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "flowering_azalea_bush"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_flowering_azalea_bush",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "blue_tweedia"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_blue_tweedia",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "rose"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_rose",
+                "uvlock": true
+            }
+        }
+    ]
+}

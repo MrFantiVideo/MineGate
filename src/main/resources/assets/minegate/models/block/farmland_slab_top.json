@@ -1,7 +1,8 @@
 ﻿{
     "credit": "MineGate - Tous droits réservés.",
 	"parent": "block/cube_all",
-	"textures": {
+	"textures":
+	{
 		"top": "block/farmland",
 		"side": "block/dirt",
 		"particle": "block/dirt",
@@ -11,7 +12,6 @@
 		{
 			"from": [0, 8, 0],
 			"to": [16, 15, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
 			"faces": {
 				"north": {"uv": [0, 1, 16, 8], "texture": "#side", "cullface": "north"},
 				"east": {"uv": [0, 1, 16, 8], "texture": "#side", "cullface": "east"},

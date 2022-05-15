@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab_top",
+    "textures":
+    {
+        "bottom": "minegate:block/blue_iron_block",
+        "top": "minegate:block/blue_iron_block",
+        "side": "minegate:block/blue_iron_block"
+    }
+}

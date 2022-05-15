@@ -2,6 +2,7 @@ package net.minegate.fr.moreblocks.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.*;
+import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
@@ -32,16 +33,16 @@ public class StairsVerticalBlock extends HorizontalFacingBlock implements Waterl
     protected static final VoxelShape        SOUTH_SHAPE;
     protected static final VoxelShape        WEST_SHAPE;
 
-    public StairsVerticalBlock(Settings blockSettings)
-    {
-        super(blockSettings);
-        setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH).with(WATERLOGGED, Boolean.FALSE));
-    }
+    /**
+     * Creation of a stairs vertical block.
+     *
+     * @param settings Block settings.
+     **/
 
-    @Override
-    protected void appendProperties(StateManager.Builder<Block, BlockState> stateManager)
+    public StairsVerticalBlock(Settings settings)
     {
-        stateManager.add(FACING, WATERLOGGED);
+        super(settings);
+        this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH).with(WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
@@ -85,16 +86,6 @@ public class StairsVerticalBlock extends HorizontalFacingBlock implements Waterl
         return this.getDefaultState().with(FACING, direction_1).with(WATERLOGGED, fluidState_1.getFluid() == Fluids.WATER);
     }
 
-    public FluidState getFluidState(BlockState state)
-    {
-        return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
-    }
-
-    protected void fillStateContainer(StateManager.Builder<Block, BlockState> builder)
-    {
-        builder.add(FACING, WATERLOGGED);
-    }
-
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx)
     {
@@ -112,14 +103,44 @@ public class StairsVerticalBlock extends HorizontalFacingBlock implements Waterl
         }
     }
 
+    /**
+     * Definition of block properties.
+     **/
+
+    @Override
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
+    {
+        builder.add(FACING, WATERLOGGED);
+    }
+
+    /**
+     * Allows you to make the block waterlogged.
+     **/
+
+    @Override
+    public FluidState getFluidState(BlockState state)
+    {
+        return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
+    }
+
+    /**
+     * Allows entities to walk through it.
+     **/
+
+    @Override
+    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type)
+    {
+        return false;
+    }
+
     static
     {
         FACING = Properties.HORIZONTAL_FACING;
         WATERLOGGED = Properties.WATERLOGGED;
-        NORTH_SIDING_SHAPE = SlabVerticalBlock.VOXEL_SHAPE_NORTH;
-        EAST_SIDING_SHAPE = SlabVerticalBlock.VOXEL_SHAPE_EAST;
-        SOUTH_SIDING_SHAPE = SlabVerticalBlock.VOXEL_SHAPE_SOUTH;
-        WEST_SIDING_SHAPE = SlabVerticalBlock.VOXEL_SHAPE_WEST;
+        NORTH_SIDING_SHAPE = SlabVerticalBlock.NORTH_SHAPE;
+        EAST_SIDING_SHAPE = SlabVerticalBlock.EAST_SHAPE;
+        SOUTH_SIDING_SHAPE = SlabVerticalBlock.SOUTH_SHAPE;
+        WEST_SIDING_SHAPE = SlabVerticalBlock.WEST_SHAPE;
         NORTH_EXTRA_SHAPE = Block.createCuboidShape(8.0D, 0.0D, 0.0D, 16.0D, 16.0D, 8.0D);
         EAST_EXTRA_SHAPE = Block.createCuboidShape(8.0D, 0.0D, 8.0D, 16.0D, 16.0D, 16.0D);
         SOUTH_EXTRA_SHAPE = Block.createCuboidShape(0.0D, 0.0D, 8.0D, 8.0D, 16.0D, 16.0D);

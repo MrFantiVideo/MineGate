@@ -1,0 +1,10 @@
+﻿{
+	"credit": "MineGate - Tous droits réservés.",
+	"parent": "minegate:block/lantern",
+	"textures":
+	{
+		"0": "minecraft:block/birch_planks",
+		"1": "minecraft:block/glass",
+		"particle": "minecraft:block/birch_planks"
+	}
+}

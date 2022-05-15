@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:packed_lime_terracotta_bricks"
+  },
+  "result": "minegate:packed_lime_terracotta_bricks_slab_vertical",
+  "count": 2
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " C ",
+      "LLL"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:cod"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "minegate:fishing_hat"
+    }
+}

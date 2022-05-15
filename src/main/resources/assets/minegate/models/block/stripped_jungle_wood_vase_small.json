@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/vase_small",
+    "textures":
+    {
+        "dirt": "minecraft:block/dirt",
+        "vase": "minecraft:block/stripped_jungle_log",
+        "particle": "minecraft:block/stripped_jungle_log"
+    }
+}

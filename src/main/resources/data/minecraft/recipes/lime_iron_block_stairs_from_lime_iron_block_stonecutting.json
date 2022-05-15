@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:lime_iron_block"
+  },
+  "result": "minegate:lime_iron_block_stairs",
+  "count": 1
+}

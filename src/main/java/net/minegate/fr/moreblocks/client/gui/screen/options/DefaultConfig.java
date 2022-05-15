@@ -5,12 +5,11 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minegate.fr.moreblocks.MoreBlocks;
 import net.minegate.fr.moreblocks.world.gen.feature.ConfiguredFeatures;
 
 import java.io.*;
 import java.nio.file.Path;
-
-import static net.minegate.fr.moreblocks.MoreBlocks.ConsoleClient;
 
 public class DefaultConfig
 {
@@ -30,7 +29,7 @@ public class DefaultConfig
         }
         if (DefaultConfig.get("debugMode"))
         {
-            ConsoleClient("The debug mode is enabled.");
+            MoreBlocks.ConsoleClient("The debug mode is enabled.");
         }
     }
 

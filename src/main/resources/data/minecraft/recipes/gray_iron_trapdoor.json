@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item": "minecraft:gray_dye"
+        },
+        {
+            "item": "minecraft:iron_trapdoor"
+        }
+    ],
+    "result":
+    {
+        "item": "minegate:gray_iron_trapdoor"
+    }
+}

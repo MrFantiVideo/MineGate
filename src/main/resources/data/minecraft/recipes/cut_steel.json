@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "SS",
+        "SS"
+    ],
+    "key":
+    {
+        "S":
+        {
+            "item": "minegate:smooth_steel"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:cut_steel",
+        "count": 4
+    }
+}

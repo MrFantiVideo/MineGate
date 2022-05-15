@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item": "minecraft:light_blue_dye"
+        },
+        {
+            "item": "minecraft:iron_door"
+        }
+    ],
+    "result":
+    {
+        "item": "minegate:light_blue_iron_door"
+    }
+}

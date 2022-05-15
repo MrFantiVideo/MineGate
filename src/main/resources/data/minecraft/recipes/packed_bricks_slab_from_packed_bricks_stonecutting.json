@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:packed_bricks"
+  },
+  "result": "minegate:packed_bricks_slab",
+  "count": 2
+}

@@ -1,0 +1,24 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "D",
+        "V",
+        "V"
+    ],
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:dirt"
+        },
+        "V":
+        {
+            "item": "minecraft:stripped_dark_oak_wood"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:stripped_dark_oak_wood_vase_high"
+    }
+}

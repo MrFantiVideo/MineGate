@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IR",
+      "IS",
+      " S"
+    ],
+    "key": {
+      "S": {
+        "tag": "c:sticks"
+      },
+      "R": {
+        "item": "minegate:red_iron_block"
+      },
+      "I": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "result": {
+      "item": "minegate:tomahawk"
+    }
+}

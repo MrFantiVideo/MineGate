@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:green_steel_stained_glass"
+  },
+  "result": "minegate:green_steel_stained_glass_slab_vertical",
+  "count": 2
+}

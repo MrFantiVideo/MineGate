@@ -1,0 +1,38 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north,type=single":
+        {
+            "model": "minegate:block/smooth_black_terracotta_slab_vertical", "y": 0, "uvlock": true
+        },
+        "facing=east,type=single":
+        {
+            "model": "minegate:block/smooth_black_terracotta_slab_vertical", "y": 90, "uvlock": true
+        },
+        "facing=south,type=single":
+        {
+            "model": "minegate:block/smooth_black_terracotta_slab_vertical", "y": 180, "uvlock": true
+        },
+        "facing=west,type=single":
+        {
+            "model": "minegate:block/smooth_black_terracotta_slab_vertical", "y": 270, "uvlock": true
+        },
+        "facing=north,type=double":
+        {
+            "model": "minegate:block/smooth_black_terracotta"
+        },
+        "facing=east,type=double":
+        {
+            "model": "minegate:block/smooth_black_terracotta"
+        },
+        "facing=south,type=double":
+        {
+            "model": "minegate:block/smooth_black_terracotta"
+        },
+        "facing=west,type=double":
+        {
+            "model": "minegate:block/smooth_black_terracotta"
+        }
+    }
+}

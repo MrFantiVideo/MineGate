@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_bottom",
+    "textures":
+    {
+        "particle": "minecraft:block/sea_lantern",
+        "bottom": "minecraft:block/sea_lantern",
+        "top": "minecraft:block/sea_lantern",
+        "side": "minecraft:block/sea_lantern"
+    }
+}

@@ -24,28 +24,29 @@ import net.minegate.fr.moreblocks.block.enums.SlabVerticalType;
 
 public class SlabVerticalBlock extends Block implements Waterloggable
 {
-    public static final EnumProperty<SlabVerticalType> TYPE;
-    public static final BooleanProperty                WATERLOGGED;
-    public static final DirectionProperty              FACING;
-    static final        VoxelShape                     VOXEL_SHAPE_NORTH;
-    static final        VoxelShape                     VOXEL_SHAPE_SOUTH;
-    static final        VoxelShape                     VOXEL_SHAPE_WEST;
-    static final        VoxelShape                     VOXEL_SHAPE_EAST;
+    public static final    EnumProperty<SlabVerticalType> TYPE;
+    public static final    BooleanProperty                WATERLOGGED;
+    public static final    DirectionProperty              FACING;
+    protected static final VoxelShape                     NORTH_SHAPE;
+    protected static final VoxelShape                     SOUTH_SHAPE;
+    protected static final VoxelShape                     WEST_SHAPE;
+    protected static final VoxelShape                     EAST_SHAPE;
 
-    public SlabVerticalBlock(Settings blockSettings)
+    /**
+     * Creation of a slab vertical block.
+     *
+     * @param settings Block settings.
+     **/
+
+    public SlabVerticalBlock(Settings settings)
     {
-        super(blockSettings);
-        this.setDefaultState(this.getDefaultState().with(TYPE, SlabVerticalType.SINGLE).with(FACING, Direction.NORTH).with(WATERLOGGED, false));
+        super(settings);
+        this.setDefaultState(this.getDefaultState().with(TYPE, SlabVerticalType.SINGLE).with(FACING, Direction.NORTH).with(WATERLOGGED, Boolean.FALSE));
     }
 
     public boolean hasSidedTransparency(BlockState state)
     {
         return state.get(TYPE) != SlabVerticalType.DOUBLE;
-    }
-
-    protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
-    {
-        builder.add(TYPE, FACING, WATERLOGGED);
     }
 
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context)
@@ -61,13 +62,13 @@ public class SlabVerticalBlock extends Block implements Waterloggable
             switch (facing)
             {
                 case SOUTH:
-                    return VOXEL_SHAPE_SOUTH;
+                    return SOUTH_SHAPE;
                 case EAST:
-                    return VOXEL_SHAPE_EAST;
+                    return EAST_SHAPE;
                 case WEST:
-                    return VOXEL_SHAPE_WEST;
+                    return WEST_SHAPE;
                 default:
-                    return VOXEL_SHAPE_NORTH;
+                    return NORTH_SHAPE;
             }
         }
     }
@@ -143,6 +144,21 @@ public class SlabVerticalBlock extends Block implements Waterloggable
         }
     }
 
+    /**
+     * Definition of block properties.
+     **/
+
+    @Override
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
+    {
+        builder.add(TYPE, FACING, WATERLOGGED);
+    }
+
+    /**
+     * Allows you to make the block waterlogged.
+     **/
+
+    @Override
     public FluidState getFluidState(BlockState state)
     {
         return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
@@ -158,19 +174,14 @@ public class SlabVerticalBlock extends Block implements Waterloggable
         return state.get(TYPE) != SlabVerticalType.DOUBLE && Waterloggable.super.canFillWithFluid(world, pos, state, fluid);
     }
 
+    /**
+     * Allows entities to walk through it.
+     **/
+
+    @Override
     public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type)
     {
-        switch (type)
-        {
-            case LAND:
-                return false;
-            case WATER:
-                return world.getFluidState(pos).isIn(FluidTags.WATER);
-            case AIR:
-                return false;
-            default:
-                return false;
-        }
+        return false;
     }
 
     static
@@ -178,9 +189,9 @@ public class SlabVerticalBlock extends Block implements Waterloggable
         TYPE = net.minegate.fr.moreblocks.state.Properties.SLAB_VERTICAL_TYPE;
         WATERLOGGED = Properties.WATERLOGGED;
         FACING = Properties.HORIZONTAL_FACING;
-        VOXEL_SHAPE_NORTH = Block.createCuboidShape(0.0D, 0.0D, 8.0D, 16.0D, 16.0D, 16.0D);
-        VOXEL_SHAPE_SOUTH = Block.createCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 8.0D);
-        VOXEL_SHAPE_EAST = Block.createCuboidShape(0.0D, 0.0D, 0.0D, 8.0D, 16.0D, 16.0D);
-        VOXEL_SHAPE_WEST = Block.createCuboidShape(8.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
+        NORTH_SHAPE = Block.createCuboidShape(0.0D, 0.0D, 8.0D, 16.0D, 16.0D, 16.0D);
+        SOUTH_SHAPE = Block.createCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 8.0D);
+        EAST_SHAPE = Block.createCuboidShape(0.0D, 0.0D, 0.0D, 8.0D, 16.0D, 16.0D);
+        WEST_SHAPE = Block.createCuboidShape(8.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
     }
 }

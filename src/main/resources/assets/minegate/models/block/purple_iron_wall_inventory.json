@@ -1,0 +1,7 @@
+﻿{
+  "credit": "MineGate - Tous droits réservés.",
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "minegate:block/purple_iron_block"
+  }
+}

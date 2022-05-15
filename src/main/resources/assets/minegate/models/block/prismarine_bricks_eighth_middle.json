@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_middle",
+    "textures":
+    {
+        "particle": "minecraft:block/prismarine_bricks",
+        "bottom": "minecraft:block/prismarine_bricks",
+        "top": "minecraft:block/prismarine_bricks",
+        "side": "minecraft:block/prismarine_bricks"
+    }
+}

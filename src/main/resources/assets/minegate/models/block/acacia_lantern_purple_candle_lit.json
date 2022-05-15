@@ -1,0 +1,9 @@
+﻿{
+	"credit": "MineGate - Tous droits réservés.",
+	"parent": "minegate:block/lantern_candle",
+	"textures":
+	{
+		"0": "minecraft:block/purple_candle_lit",
+		"particle": "minecraft:block/purple_candle_lit"
+	}
+}

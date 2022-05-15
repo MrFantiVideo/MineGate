@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:smooth_brown_terracotta"
+  },
+  "result": "minegate:smooth_brown_terracotta_eighth",
+  "count": 8
+}

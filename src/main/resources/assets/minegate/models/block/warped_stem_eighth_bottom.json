@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_bottom",
+    "textures":
+    {
+        "particle": "minecraft:block/warped_stem",
+        "bottom": "minecraft:block/warped_stem",
+        "top": "minecraft:block/warped_stem",
+        "side": "minecraft:block/warped_stem"
+    }
+}

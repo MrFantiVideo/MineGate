@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "III",
+        "III"
+    ],
+    "key":
+    {
+        "I":
+        {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:iron_wall",
+        "count": 6
+    }
+}

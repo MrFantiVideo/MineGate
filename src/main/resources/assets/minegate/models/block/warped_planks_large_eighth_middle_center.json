@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_middle_center",
+    "textures":
+    {
+        "particle": "minegate:block/warped_planks_large",
+        "bottom": "minegate:block/warped_planks_large",
+        "top": "minegate:block/warped_planks_large",
+        "side": "minegate:block/warped_planks_large"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/vase_cross_azalea_bush",
+    "textures":
+    {
+        "plant": "minecraft:block/potted_flowering_azalea_bush_plant",
+        "top": "minecraft:block/potted_flowering_azalea_bush_top",
+        "side": "minecraft:block/potted_flowering_azalea_bush_side"
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top_center",
+    "textures":
+    {
+        "particle": "minecraft:block/oxidized_cut_copper",
+        "bottom": "minecraft:block/oxidized_cut_copper",
+        "top": "minecraft:block/oxidized_cut_copper",
+        "side": "minecraft:block/oxidized_cut_copper"
+    }
+}

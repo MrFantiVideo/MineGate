@@ -1,0 +1,7 @@
+﻿{
+  "credit": "MineGate - Tous droits réservés.",
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "minegate:block/green_iron_block"
+  }
+}

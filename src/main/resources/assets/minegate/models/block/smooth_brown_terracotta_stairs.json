@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/stairs",
+    "textures":
+    {
+        "bottom": "minegate:block/smooth_brown_terracotta",
+        "top": "minegate:block/smooth_brown_terracotta",
+        "side": "minegate:block/smooth_brown_terracotta"
+    }
+}

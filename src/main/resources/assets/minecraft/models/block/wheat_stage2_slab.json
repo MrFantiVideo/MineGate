@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/crop_slab",
+    "textures": {
+      "crop": "minecraft:block/wheat_stage2"
+    }
+}

@@ -1,0 +1,23 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "DD",
+        "VV"
+    ],
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:dirt"
+        },
+        "V":
+        {
+            "item": "minecraft:polished_granite"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:polished_granite_vase_small"
+    }
+}

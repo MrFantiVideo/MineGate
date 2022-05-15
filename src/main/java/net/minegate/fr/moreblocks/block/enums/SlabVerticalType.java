@@ -9,7 +9,11 @@ public enum SlabVerticalType implements StringIdentifiable
 
     private final String name;
 
-    private SlabVerticalType(String name)
+    /**
+     * Enumerations of the different positions for SlabVerticalBlock.
+     **/
+
+    SlabVerticalType(String name)
     {
         this.name = name;
     }
@@ -23,5 +27,4 @@ public enum SlabVerticalType implements StringIdentifiable
     {
         return this.name;
     }
-
 }

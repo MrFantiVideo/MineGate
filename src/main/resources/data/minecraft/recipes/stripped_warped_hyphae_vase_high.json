@@ -1,0 +1,24 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "D",
+        "V",
+        "V"
+    ],
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:dirt"
+        },
+        "V":
+        {
+            "item": "minecraft:stripped_warped_hyphae"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:stripped_warped_hyphae_vase_high"
+    }
+}

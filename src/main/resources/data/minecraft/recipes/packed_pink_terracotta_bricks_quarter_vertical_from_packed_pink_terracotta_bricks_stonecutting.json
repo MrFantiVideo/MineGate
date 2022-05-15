@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:packed_pink_terracotta_bricks"
+  },
+  "result": "minegate:packed_pink_terracotta_bricks_quarter_vertical",
+  "count": 4
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:orange_iron_block"
+  },
+  "result": "minegate:orange_iron_block_quarter_vertical",
+  "count": 4
+}

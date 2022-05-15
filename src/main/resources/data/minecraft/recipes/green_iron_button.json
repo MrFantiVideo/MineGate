@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item": "minecraft:green_dye"
+        },
+        {
+            "item": "minegate:iron_button"
+        }
+    ],
+    "result":
+    {
+        "item": "minegate:green_iron_button"
+    }
+}

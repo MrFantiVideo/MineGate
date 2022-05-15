@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/outer_stairs",
+    "textures":
+    {
+        "bottom": "minegate:block/packed_white_terracotta_bricks",
+        "top": "minegate:block/packed_white_terracotta_bricks",
+        "side": "minegate:block/packed_white_terracotta_bricks"
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/outer_glass_stairs",
+    "textures":
+    {
+      "main": "minegate:block/yellow_steel_stained_glass",
+      "top": "minegate:block/yellow_steel_stained_glass",
+      "bottom": "minegate:block/yellow_steel_stained_glass",
+      "particle": "minegate:block/yellow_steel_stained_glass"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+	"parent": "block/block",
+	"textures":
+	{
+		"cactus": "minegate:texture",
+		"cactus_top": "minegate:texture"
+	},
+	"elements": [
+		{
+			"from": [4, 4, 4],
+			"to": [12, 12, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [12, 22, 12]},
+			"faces": {
+				"north": {"uv": [4, 0, 12, 8], "texture": "#cactus"},
+				"east": {"uv": [4, 0, 12, 8], "texture": "#cactus"},
+				"south": {"uv": [4, 0, 12, 8], "texture": "#cactus"},
+				"west": {"uv": [4, 0, 12, 8], "texture": "#cactus"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#cactus_top"}
+			}
+		}
+	]
+}

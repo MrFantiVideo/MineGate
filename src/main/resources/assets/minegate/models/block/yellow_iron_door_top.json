@@ -1,0 +1,8 @@
+﻿{
+  "credit": "MineGate - Tous droits réservés.",
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "minegate:block/yellow_iron_door_top",
+    "bottom": "minegate:block/yellow_iron_door_bottom"
+  }
+}

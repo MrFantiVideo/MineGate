@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical",
+    "textures":
+    {
+        "particle": "minegate:block/yellow_iron_block",
+        "bottom": "minegate:block/yellow_iron_block",
+        "top": "minegate:block/yellow_iron_block",
+        "side": "minegate:block/yellow_iron_block"
+    }
+}

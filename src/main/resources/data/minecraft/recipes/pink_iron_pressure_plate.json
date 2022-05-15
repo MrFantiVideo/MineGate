@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item": "minecraft:pink_dye"
+        },
+        {
+            "item": "minecraft:heavy_weighted_pressure_plate"
+        }
+    ],
+    "result":
+    {
+        "item": "minegate:pink_iron_pressure_plate"
+    }
+}

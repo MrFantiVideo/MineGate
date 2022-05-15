@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_bottom",
+    "textures":
+    {
+        "particle": "minecraft:block/blackstone",
+        "bottom": "minecraft:block/blackstone",
+        "top": "minecraft:block/blackstone",
+        "side": "minecraft:block/blackstone"
+    }
+}

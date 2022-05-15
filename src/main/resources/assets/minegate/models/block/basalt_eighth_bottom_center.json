@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_bottom_center",
+    "textures":
+    {
+        "particle": "minecraft:block/basalt_side",
+        "bottom": "minecraft:block/basalt_side",
+        "top": "minecraft:block/basalt_side",
+        "side": "minecraft:block/basalt_side"
+    }
+}

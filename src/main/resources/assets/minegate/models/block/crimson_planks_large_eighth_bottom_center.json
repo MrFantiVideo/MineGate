@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_bottom_center",
+    "textures":
+    {
+        "particle": "minegate:block/crimson_planks_large",
+        "bottom": "minegate:block/crimson_planks_large",
+        "top": "minegate:block/crimson_planks_large",
+        "side": "minegate:block/crimson_planks_large"
+    }
+}

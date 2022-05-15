@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "S",
+        "S",
+        "S"
+    ],
+    "key":
+    {
+        "S":
+        {
+            "item": "minegate:birch_stick"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:birch_lantern_rod"
+    }
+}

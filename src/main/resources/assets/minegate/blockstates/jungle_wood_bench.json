@@ -1,22 +1,114 @@
 ﻿{
     "credit": "MineGate - Tous droits réservés.",
-    "variants":
-    {
-        "facing=north":
+    "multipart":
+    [
         {
-            "model": "minegate:block/jungle_wood_bench"
+            "when":
+            {
+                "OR":
+                [
+                    {
+                        "facing": "north"
+                    },
+                    {
+                        "facing": "south"
+                    }
+                ]
+            },
+            "apply":
+            {
+                "model": "minegate:block/jungle_wood_bench_top"
+            }
         },
-        "facing=south":
         {
-            "model": "minegate:block/jungle_wood_bench"
+            "when":
+            {
+                "OR":
+                [
+                    {
+                        "facing": "east"
+                    },
+                    {
+                        "facing": "west"
+                    }
+                ]
+            },
+            "apply":
+            {
+                "model": "minegate:block/jungle_wood_bench_top", "y": 90
+            }
         },
-        "facing=east":
         {
-            "model": "minegate:block/jungle_wood_bench", "y": 90
+            "when":
+            {
+                "OR":
+                [
+                    {
+                        "type": "north_legs"
+                    },
+                    {
+                        "type": "x_legs"
+                    }
+                ]
+            },
+            "apply":
+            {
+                "model": "minegate:block/jungle_wood_bench_legs"
+            }
         },
-        "facing=west":
         {
-            "model": "minegate:block/jungle_wood_bench", "y": 90
+            "when":
+            {
+                "OR":
+                [
+                    {
+                        "type": "east_legs"
+                    },
+                    {
+                        "type": "z_legs"
+                    }
+                ]
+            },
+            "apply":
+            {
+                "model": "minegate:block/jungle_wood_bench_legs", "y": 90
+            }
+        },
+        {
+            "when":
+            {
+                "OR":
+                [
+                    {
+                        "type": "south_legs"
+                    },
+                    {
+                        "type": "x_legs"
+                    }
+                ]
+            },
+            "apply":
+            {
+                "model": "minegate:block/jungle_wood_bench_legs", "y": 180
+            }
+        },
+        {
+            "when":
+            {
+                "OR":
+                [
+                    {
+                        "type": "west_legs"
+                    },
+                    {
+                        "type": "z_legs"
+                    }
+                ]
+            },
+            "apply":
+            {
+                "model": "minegate:block/jungle_wood_bench_legs", "y": 270
+            }
         }
-    }
+    ]
 }

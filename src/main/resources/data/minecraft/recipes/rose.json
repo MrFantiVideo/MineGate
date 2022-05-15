@@ -1,0 +1,16 @@
+﻿{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    }
+  ],
+  "result":
+  {
+    "item": "minegate:rose"
+  }
+}

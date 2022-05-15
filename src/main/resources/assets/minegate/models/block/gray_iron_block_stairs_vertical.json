@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/stairs_vertical",
+    "textures":
+    {
+        "particle": "minegate:block/gray_iron_block",
+        "bottom": "minegate:block/gray_iron_block",
+        "top": "minegate:block/gray_iron_block",
+        "side": "minegate:block/gray_iron_block"
+    }
+}

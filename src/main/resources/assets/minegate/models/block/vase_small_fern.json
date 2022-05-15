@@ -1,0 +1,8 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/vase_small_cross",
+    "textures":
+    {
+        "plant": "minegate:block/fern"
+    }
+}

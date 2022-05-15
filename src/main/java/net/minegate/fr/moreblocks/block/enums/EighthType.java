@@ -5,22 +5,32 @@ import net.minecraft.util.StringIdentifiable;
 public enum EighthType implements StringIdentifiable
 {
     TOP("top"),
+    MIDDLE("middle"),
     BOTTOM("bottom"),
-    CENTER_X("x"),
-    CENTER_Y("y"),
-    CENTER_Z("z");
+    TOP_CENTER("top_center"),
+    MIDDLE_CENTER_TOP("middle_center_top"),
+    MIDDLE_CENTER("middle_center"),
+    MIDDLE_CENTER_BOTTOM("middle_center_bottom"),
+    BOTTOM_CENTER("bottom_center");
 
     private final String name;
 
-    private EighthType(String name) {
+    /**
+     * Enumerations of the different positions for EighthBlock.
+     **/
+
+    EighthType(String name)
+    {
         this.name = name;
     }
 
-    public String toString() {
+    public String toString()
+    {
         return this.name;
     }
 
-    public String asString() {
+    public String asString()
+    {
         return this.name;
     }
 }

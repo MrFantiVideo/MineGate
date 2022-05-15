@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item": "minecraft:brown_dye"
+        },
+        {
+            "item": "minegate:iron_fence_gate"
+        }
+    ],
+    "result":
+    {
+        "item": "minegate:brown_iron_fence_gate"
+    }
+}

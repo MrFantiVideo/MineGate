@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_bottom",
+    "textures":
+    {
+        "particle": "minecraft:block/chiseled_quartz_block",
+        "bottom": "minecraft:block/chiseled_quartz_block",
+        "top": "minecraft:block/chiseled_quartz_block",
+        "side": "minecraft:block/chiseled_quartz_block"
+    }
+}

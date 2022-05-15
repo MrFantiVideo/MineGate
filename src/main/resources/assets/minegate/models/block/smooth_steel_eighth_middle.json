@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_middle",
+    "textures":
+    {
+        "particle": "minegate:block/smooth_steel",
+        "bottom": "minegate:block/smooth_steel",
+        "top": "minegate:block/smooth_steel",
+        "side": "minegate:block/smooth_steel"
+    }
+}

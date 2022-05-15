@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top",
+    "textures":
+    {
+        "particle": "minegate:block/smooth_brown_terracotta",
+        "bottom": "minegate:block/smooth_brown_terracotta",
+        "top": "minegate:block/smooth_brown_terracotta",
+        "side": "minegate:block/smooth_brown_terracotta"
+    }
+}

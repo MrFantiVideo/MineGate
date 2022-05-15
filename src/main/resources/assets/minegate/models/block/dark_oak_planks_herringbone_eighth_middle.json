@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_middle",
+    "textures":
+    {
+        "particle": "minegate:block/dark_oak_planks_herringbone",
+        "bottom": "minegate:block/dark_oak_planks_herringbone",
+        "top": "minegate:block/dark_oak_planks_herringbone",
+        "side": "minegate:block/dark_oak_planks_herringbone"
+    }
+}

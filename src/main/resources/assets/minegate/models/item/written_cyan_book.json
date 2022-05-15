@@ -1,0 +1,7 @@
+﻿{
+  "credit": "MineGate - Tous droits réservés.",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minegate:item/cyan_book"
+  }
+}

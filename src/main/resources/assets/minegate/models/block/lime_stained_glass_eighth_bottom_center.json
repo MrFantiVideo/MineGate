@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_bottom_center",
+    "textures":
+    {
+        "particle": "minecraft:block/lime_stained_glass",
+        "bottom": "minecraft:block/lime_stained_glass",
+        "top": "minecraft:block/lime_stained_glass",
+        "side": "minecraft:block/lime_stained_glass"
+    }
+}

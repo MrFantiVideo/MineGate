@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "SSS",
+        "SIS",
+        "SSS"
+    ],
+    "key":
+    {
+        "I":
+        {
+            "item": "minecraft:iron_block"
+        },
+        "S":
+        {
+            "item": "minegate:steel_stick"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:smooth_steel"
+    }
+}

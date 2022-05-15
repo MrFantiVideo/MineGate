@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:smooth_magenta_terracotta"
+  },
+  "result": "minegate:smooth_magenta_terracotta_slab_vertical",
+  "count": 2
+}

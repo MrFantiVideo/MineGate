@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/leaves_eighth_middle",
+    "textures":
+    {
+        "particle": "minecraft:block/acacia_leaves",
+        "bottom": "minecraft:block/acacia_leaves",
+        "top": "minecraft:block/acacia_leaves",
+        "side": "minecraft:block/acacia_leaves"
+    }
+}

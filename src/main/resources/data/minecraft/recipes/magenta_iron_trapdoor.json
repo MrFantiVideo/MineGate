@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item": "minecraft:magenta_dye"
+        },
+        {
+            "item": "minecraft:iron_trapdoor"
+        }
+    ],
+    "result":
+    {
+        "item": "minegate:magenta_iron_trapdoor"
+    }
+}

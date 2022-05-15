@@ -27,9 +27,9 @@ import java.util.stream.IntStream;
 public class QuarterBlock extends Block implements Waterloggable
 {
     public static final    DirectionProperty        FACING;
-    public static final    EnumProperty<BlockHalf>    HALF;
+    public static final    EnumProperty<BlockHalf>  HALF;
     public static final    EnumProperty<StairShape> SHAPE;
-    public static final    BooleanProperty            WATERLOGGED;
+    public static final    BooleanProperty          WATERLOGGED;
     protected static final VoxelShape               TOP_SHAPE;
     protected static final VoxelShape               BOTTOM_SHAPE;
     protected static final VoxelShape               BOTTOM_NORTH_WEST_CORNER_SHAPE;
@@ -44,9 +44,15 @@ public class QuarterBlock extends Block implements Waterloggable
     protected static final VoxelShape[]             BOTTOM_SHAPES;
     private static final   int[]                    SHAPE_INDICES;
 
-    public QuarterBlock(Settings blockSettings)
+    /**
+     * Creation of a quarter block.
+     *
+     * @param settings Block settings.
+     **/
+
+    public QuarterBlock(Settings settings)
     {
-        super(blockSettings);
+        super(settings);
     }
 
     private static VoxelShape[] composeShapes(VoxelShape base, VoxelShape northWest, VoxelShape northEast, VoxelShape southWest, VoxelShape southEast)
@@ -115,6 +121,16 @@ public class QuarterBlock extends Block implements Waterloggable
             else direction_1 = Direction.NORTH;
         }
         return blockState.with(SHAPE, getStairShape(blockState, ctx.getWorld(), blockPos)).with(WATERLOGGED, fluidState.getFluid() == Fluids.WATER).with(FACING, direction_1);
+    }
+
+    @Override
+    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState newState, WorldAccess world, BlockPos pos, BlockPos posFrom)
+    {
+        if (state.get(WATERLOGGED))
+        {
+            world.createAndScheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+        }
+        return direction.getAxis().isHorizontal() ? state.with(SHAPE, getStairShape(state, world, pos)) : super.getStateForNeighborUpdate(state, direction, newState, world, pos, posFrom);
     }
 
     private static StairShape getStairShape(BlockState state, BlockView world, BlockPos pos)
@@ -213,16 +229,31 @@ public class QuarterBlock extends Block implements Waterloggable
         return super.mirror(state, mirror);
     }
 
+    /**
+     * Definition of block properties.
+     **/
+
+    @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
     {
         builder.add(FACING, HALF, SHAPE, WATERLOGGED);
     }
 
+    /**
+     * Allows you to make the block waterlogged.
+     **/
+
+    @Override
     public FluidState getFluidState(BlockState state)
     {
         return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
     }
 
+    /**
+     * Allows entities to walk through it.
+     **/
+
+    @Override
     public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type)
     {
         return false;

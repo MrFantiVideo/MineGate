@@ -9,15 +9,22 @@ public enum FernType implements StringIdentifiable
 
     private final String name;
 
-    private FernType(String name) {
+    /**
+     * Enumerations of the different positions for FernBlock.
+     **/
+
+    FernType(String name)
+    {
         this.name = name;
     }
 
-    public String toString() {
+    public String toString()
+    {
         return this.name;
     }
 
-    public String asString() {
+    public String asString()
+    {
         return this.name;
     }
 }

@@ -1,11 +1,12 @@
 package net.minegate.fr.moreblocks.block;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.HorizontalFacingBlock;
-import net.minecraft.block.ShapeContext;
+import net.minecraft.block.*;
+import net.minecraft.entity.ai.pathing.NavigationType;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
+import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.function.BooleanBiFunction;
@@ -15,29 +16,44 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
-import net.minegate.fr.moreblocks.block.entity.ISitBlock;
+import net.minegate.fr.moreblocks.entity.ISitBlock;
 
 import java.util.stream.Stream;
 
-public class StoolBlock extends HorizontalFacingBlock implements ISitBlock
+public class StoolBlock extends HorizontalFacingBlock implements ISitBlock, Waterloggable
 {
-    private static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
-    private static final VoxelShape        VOXEL_SHAPE_NORTH;
-    private static final VoxelShape        VOXEL_SHAPE_SOUTH;
-    private static final VoxelShape        VOXEL_SHAPE_WEST;
-    private static final VoxelShape        VOXEL_SHAPE_EAST;
+    public static final    DirectionProperty FACING;
+    public static final    BooleanProperty   WATERLOGGED;
+    protected static final VoxelShape        NORTH_SHAPE;
+    protected static final VoxelShape        SOUTH_SHAPE;
+    protected static final VoxelShape        WEST_SHAPE;
+    protected static final VoxelShape        EAST_SHAPE;
 
-    public StoolBlock(Settings blockSettings)
+    /**
+     * Creation of a stool block.
+     *
+     * @param settings Block settings.
+     **/
+
+    public StoolBlock(Settings settings)
     {
-        super(blockSettings);
-        setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
+        super(settings);
+        this.setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH).with(WATERLOGGED, Boolean.FALSE));
     }
+
+    /**
+     * Consideration of placement position.
+     **/
 
     @Override
-    protected void appendProperties(StateManager.Builder<Block, BlockState> stateManager)
+    public BlockState getPlacementState(ItemPlacementContext placementContext)
     {
-        stateManager.add(Properties.HORIZONTAL_FACING);
+        return getDefaultState().with(FACING, placementContext.getPlayerFacing().getOpposite());
     }
+
+    /**
+     * Custom outlines of the block.
+     **/
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx)
@@ -46,55 +62,85 @@ public class StoolBlock extends HorizontalFacingBlock implements ISitBlock
         switch (dir)
         {
             case NORTH:
-                return VOXEL_SHAPE_NORTH;
+                return NORTH_SHAPE;
             case SOUTH:
-                return VOXEL_SHAPE_SOUTH;
+                return SOUTH_SHAPE;
             case EAST:
-                return VOXEL_SHAPE_EAST;
+                return EAST_SHAPE;
             case WEST:
-                return VOXEL_SHAPE_WEST;
+                return WEST_SHAPE;
             default:
                 return VoxelShapes.fullCube();
         }
     }
 
+    /**
+     * Definition of block properties.
+     **/
+
     @Override
-    public BlockState getPlacementState(ItemPlacementContext placementContext)
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
     {
-        return getDefaultState().with(FACING, placementContext.getPlayerFacing().getOpposite());
+        builder.add(Properties.HORIZONTAL_FACING, WATERLOGGED);
     }
 
-    static
+    /**
+     * Allows you to make the block waterlogged.
+     **/
+
+    @Override
+    public FluidState getFluidState(BlockState state)
     {
-        VOXEL_SHAPE_NORTH = Stream.of(
-                Block.createCuboidShape(3, 6, 3, 13, 8, 13),
-                Block.createCuboidShape(4, 0, 4, 6, 6, 6),
-                Block.createCuboidShape(4, 0, 10, 6, 6, 12),
-                Block.createCuboidShape(10, 0, 4, 12, 6, 6),
-                Block.createCuboidShape(10, 0, 10, 12, 6, 12)).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
-        VOXEL_SHAPE_SOUTH = Stream.of(
-                Block.createCuboidShape(3, 6, 3, 13, 8, 13),
-                Block.createCuboidShape(4, 0, 4, 6, 6, 6),
-                Block.createCuboidShape(4, 0, 10, 6, 6, 12),
-                Block.createCuboidShape(10, 0, 4, 12, 6, 6),
-                Block.createCuboidShape(10, 0, 10, 12, 6, 12)).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
-        VOXEL_SHAPE_WEST = Stream.of(
-                Block.createCuboidShape(3, 6, 3, 13, 8, 13),
-                Block.createCuboidShape(4, 0, 4, 6, 6, 6),
-                Block.createCuboidShape(4, 0, 10, 6, 6, 12),
-                Block.createCuboidShape(10, 0, 4, 12, 6, 6),
-                Block.createCuboidShape(10, 0, 10, 12, 6, 12)).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
-        VOXEL_SHAPE_EAST = Stream.of(
-                Block.createCuboidShape(3, 6, 3, 13, 8, 13),
-                Block.createCuboidShape(4, 0, 4, 6, 6, 6),
-                Block.createCuboidShape(4, 0, 10, 6, 6, 12),
-                Block.createCuboidShape(10, 0, 4, 12, 6, 6),
-                Block.createCuboidShape(10, 0, 10, 12, 6, 12)).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
+        return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
     }
+
+    /**
+     * Position of player when sitting.
+     **/
 
     @Override
     public Vec3d getSitPosition()
     {
         return new Vec3d(0.5D, 0.25D, 0.5D);
+    }
+
+    /**
+     * Allows entities to walk through it.
+     **/
+
+    @Override
+    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type)
+    {
+        return false;
+    }
+
+    static
+    {
+        FACING = HorizontalFacingBlock.FACING;
+        WATERLOGGED = Properties.WATERLOGGED;
+        NORTH_SHAPE = Stream.of(
+                Block.createCuboidShape(3, 6, 3, 13, 8, 13),
+                Block.createCuboidShape(4, 0, 4, 6, 6, 6),
+                Block.createCuboidShape(4, 0, 10, 6, 6, 12),
+                Block.createCuboidShape(10, 0, 4, 12, 6, 6),
+                Block.createCuboidShape(10, 0, 10, 12, 6, 12)).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
+        SOUTH_SHAPE = Stream.of(
+                Block.createCuboidShape(3, 6, 3, 13, 8, 13),
+                Block.createCuboidShape(4, 0, 4, 6, 6, 6),
+                Block.createCuboidShape(4, 0, 10, 6, 6, 12),
+                Block.createCuboidShape(10, 0, 4, 12, 6, 6),
+                Block.createCuboidShape(10, 0, 10, 12, 6, 12)).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
+        WEST_SHAPE = Stream.of(
+                Block.createCuboidShape(3, 6, 3, 13, 8, 13),
+                Block.createCuboidShape(4, 0, 4, 6, 6, 6),
+                Block.createCuboidShape(4, 0, 10, 6, 6, 12),
+                Block.createCuboidShape(10, 0, 4, 12, 6, 6),
+                Block.createCuboidShape(10, 0, 10, 12, 6, 12)).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
+        EAST_SHAPE = Stream.of(
+                Block.createCuboidShape(3, 6, 3, 13, 8, 13),
+                Block.createCuboidShape(4, 0, 4, 6, 6, 6),
+                Block.createCuboidShape(4, 0, 10, 6, 6, 12),
+                Block.createCuboidShape(10, 0, 4, 12, 6, 6),
+                Block.createCuboidShape(10, 0, 10, 12, 6, 12)).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
     }
 }

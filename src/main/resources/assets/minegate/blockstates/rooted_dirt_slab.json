@@ -1,18 +1,57 @@
 ﻿{
     "credit": "MineGate - Tous droits réservés.",
-    "variants":
-    {
-        "type=bottom":
+      "multipart":
+      [
         {
+          "when": {
+            "type": "bottom"
+          },
+          "apply": [{
             "model": "minegate:block/rooted_dirt_slab"
+          }, {
+            "model": "minegate:block/rooted_dirt_slab",
+            "y": 90
+          }, {
+            "model": "minegate:block/rooted_dirt_slab",
+            "y": 180
+          }, {
+              "model": "minegate:block/rooted_dirt_slab",
+              "y": 270
+          }]
         },
-        "type=top":
         {
+          "when": {
+            "type": "top"
+          },
+          "apply": [{
             "model": "minegate:block/rooted_dirt_slab_top"
+          }, {
+            "model": "minegate:block/rooted_dirt_slab_top",
+            "y": 90
+          }, {
+            "model": "minegate:block/rooted_dirt_slab_top",
+            "y": 180
+          }, {
+              "model": "minegate:block/rooted_dirt_slab_top",
+              "y": 270
+          }]
         },
-        "type=double":
         {
+          "when": {
+            "type": "double"
+          },
+          "apply": [{
             "model": "minecraft:block/rooted_dirt"
+          }, {
+            "model": "minecraft:block/rooted_dirt",
+            "y": 90
+          }, {
+            "model": "minecraft:block/rooted_dirt",
+            "y": 180
+          }, {
+              "model": "minecraft:block/rooted_dirt",
+              "y": 270
+          }]
         }
-    }
-}
+      ]
+  }

@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab_top",
+    "textures":
+    {
+        "bottom": "minegate:block/packed_orange_terracotta_bricks",
+        "top": "minegate:block/packed_orange_terracotta_bricks",
+        "side": "minegate:block/packed_orange_terracotta_bricks"
+    }
+}

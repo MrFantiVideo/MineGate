@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_middle_center",
+    "textures":
+    {
+        "particle": "minecraft:block/raw_gold_block",
+        "bottom": "minecraft:block/raw_gold_block",
+        "top": "minecraft:block/raw_gold_block",
+        "side": "minecraft:block/raw_gold_block"
+    }
+}

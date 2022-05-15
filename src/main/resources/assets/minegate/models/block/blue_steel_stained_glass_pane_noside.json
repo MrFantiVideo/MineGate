@@ -1,0 +1,8 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/template_glass_pane_noside",
+    "textures":
+    {
+        "pane": "minegate:block/blue_steel_stained_glass"
+    }
+}

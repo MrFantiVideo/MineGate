@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "TTT",
+        "TTT",
+        "TTT"
+    ],
+    "key":
+    {
+        "T":
+        {
+            "item": "minecraft:brown_terracotta"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:smooth_brown_terracotta"
+    }
+}

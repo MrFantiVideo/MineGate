@@ -1,0 +1,18 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "type=bottom":
+        {
+            "model": "minegate:block/smooth_green_terracotta_slab"
+        },
+        "type=top":
+        {
+            "model": "minegate:block/smooth_green_terracotta_slab_top"
+        },
+        "type=double":
+        {
+            "model": "minegate:block/smooth_green_terracotta"
+        }
+    }
+}

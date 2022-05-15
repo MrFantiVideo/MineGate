@@ -2,17 +2,101 @@
     "credit": "MineGate - Tous droits réservés.",
     "variants":
     {
-        "type=bottom":
+        "type=bottom,moisture=0":
         {
             "model": "minegate:block/farmland_slab"
         },
-        "type=top":
+        "type=bottom,moisture=1":
+        {
+            "model": "minegate:block/farmland_slab"
+        },
+        "type=bottom,moisture=2":
+        {
+            "model": "minegate:block/farmland_slab"
+        },
+        "type=bottom,moisture=3":
+        {
+            "model": "minegate:block/farmland_slab"
+        },
+        "type=bottom,moisture=4":
+        {
+            "model": "minegate:block/farmland_slab"
+        },
+        "type=bottom,moisture=5":
+        {
+            "model": "minegate:block/farmland_slab"
+        },
+        "type=bottom,moisture=6":
+        {
+            "model": "minegate:block/farmland_slab"
+        },
+        "type=bottom,moisture=7":
+        {
+            "model": "minegate:block/farmland_slab_moist"
+        },
+        "type=top,moisture=0":
         {
             "model": "minegate:block/farmland_slab_top"
         },
-        "type=double":
+        "type=top,moisture=1":
+        {
+            "model": "minegate:block/farmland_slab_top"
+        },
+        "type=top,moisture=2":
+        {
+            "model": "minegate:block/farmland_slab_top"
+        },
+        "type=top,moisture=3":
+        {
+            "model": "minegate:block/farmland_slab_top"
+        },
+        "type=top,moisture=4":
+        {
+            "model": "minegate:block/farmland_slab_top"
+        },
+        "type=top,moisture=5":
+        {
+            "model": "minegate:block/farmland_slab_top"
+        },
+        "type=top,moisture=6":
+        {
+            "model": "minegate:block/farmland_slab_top"
+        },
+        "type=top,moisture=7":
+        {
+            "model": "minegate:block/farmland_slab_top_moist"
+        },
+        "type=double,moisture=0":
         {
             "model": "minecraft:block/farmland"
+        },
+        "type=double,moisture=1":
+        {
+            "model": "minecraft:block/farmland"
+        },
+        "type=double,moisture=2":
+        {
+            "model": "minecraft:block/farmland"
+        },
+        "type=double,moisture=3":
+        {
+            "model": "minecraft:block/farmland"
+        },
+        "type=double,moisture=4":
+        {
+            "model": "minecraft:block/farmland"
+        },
+        "type=double,moisture=5":
+        {
+            "model": "minecraft:block/farmland"
+        },
+        "type=double,moisture=6":
+        {
+            "model": "minecraft:block/farmland"
+        },
+        "type=double,moisture=7":
+        {
+            "model": "minecraft:block/farmland_moist"
         }
     }
 }

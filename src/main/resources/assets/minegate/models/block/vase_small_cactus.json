@@ -1,0 +1,9 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/vase_small_cross_cactus",
+    "textures":
+    {
+        "cactus": "minecraft:block/cactus_side",
+        "cactus_top": "minecraft:block/cactus_top"
+    }
+}

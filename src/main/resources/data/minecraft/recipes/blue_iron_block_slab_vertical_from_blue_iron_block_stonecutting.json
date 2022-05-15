@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:blue_iron_block"
+  },
+  "result": "minegate:blue_iron_block_slab_vertical",
+  "count": 2
+}

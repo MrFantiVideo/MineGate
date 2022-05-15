@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_bottom",
+    "textures":
+    {
+        "particle": "minegate:block/orange_terracotta_bricks",
+        "bottom": "minegate:block/orange_terracotta_bricks",
+        "top": "minegate:block/orange_terracotta_bricks",
+        "side": "minegate:block/orange_terracotta_bricks"
+    }
+}

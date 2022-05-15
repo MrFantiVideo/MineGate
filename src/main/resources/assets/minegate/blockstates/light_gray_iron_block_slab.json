@@ -1,0 +1,18 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "type=bottom":
+        {
+            "model": "minegate:block/light_gray_iron_block_slab"
+        },
+        "type=top":
+        {
+            "model": "minegate:block/light_gray_iron_block_slab_top"
+        },
+        "type=double":
+        {
+            "model": "minegate:block/light_gray_iron_block"
+        }
+    }
+}

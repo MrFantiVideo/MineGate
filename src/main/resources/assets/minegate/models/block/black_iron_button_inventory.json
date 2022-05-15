@@ -1,0 +1,7 @@
+﻿{
+  "credit": "MineGate - Tous droits réservés.",
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "minegate:block/black_iron_block"
+  }
+}

@@ -18,45 +18,99 @@
         {
             "model": "minegate:block/smooth_sandstone_eighth_top", "y": 270, "uvlock": true
         },
+        "facing=north,type=middle":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth_middle", "y": 0, "uvlock": true
+        },
+        "facing=east,type=middle":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth_middle", "y": 90, "uvlock": true
+        },
+        "facing=south,type=middle":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth_middle", "y": 180, "uvlock": true
+        },
+        "facing=west,type=middle":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth_middle", "y": 270, "uvlock": true
+        },
         "facing=north,type=bottom":
         {
-            "model": "minegate:block/smooth_sandstone_eighth", "y": 0, "uvlock": true
+            "model": "minegate:block/smooth_sandstone_eighth_bottom", "y": 0, "uvlock": true
         },
         "facing=east,type=bottom":
         {
-            "model": "minegate:block/smooth_sandstone_eighth", "y": 90, "uvlock": true
+            "model": "minegate:block/smooth_sandstone_eighth_bottom", "y": 90, "uvlock": true
         },
         "facing=south,type=bottom":
         {
-            "model": "minegate:block/smooth_sandstone_eighth", "y": 180, "uvlock": true
+            "model": "minegate:block/smooth_sandstone_eighth_bottom", "y": 180, "uvlock": true
         },
         "facing=west,type=bottom":
         {
-            "model": "minegate:block/smooth_sandstone_eighth", "y": 270, "uvlock": true
+            "model": "minegate:block/smooth_sandstone_eighth_bottom", "y": 270, "uvlock": true
         },
-        "facing=north,type=x":
+
+
+        "facing=north,type=top_center":
         {
-            "model": "minegate:block/smooth_sandstone_eighth_x", "y": 0, "uvlock": true
+            "model": "minegate:block/smooth_sandstone_eighth_top_center", "y": 0, "uvlock": true
         },
-        "facing=east,type=x":
+        "facing=east,type=top_center":
         {
-            "model": "minegate:block/smooth_sandstone_eighth_x", "y": 90, "uvlock": true
+            "model": "minegate:block/smooth_sandstone_eighth_top_center", "y": 90, "uvlock": true
         },
-        "facing=south,type=x":
+        "facing=south,type=top_center":
         {
-            "model": "minegate:block/smooth_sandstone_eighth_x", "y": 180, "uvlock": true
+            "model": "minegate:block/smooth_sandstone_eighth_top_center", "y": 180, "uvlock": true
         },
-        "facing=west,type=x":
+        "facing=west,type=top_center":
         {
-            "model": "minegate:block/smooth_sandstone_eighth_x", "y": 270, "uvlock": true
+            "model": "minegate:block/smooth_sandstone_eighth_top_center", "y": 270, "uvlock": true
         },
-        "type=y":
+
+
+        "type=middle_center_top":
         {
-            "model": "minegate:block/smooth_sandstone_eighth_y", "uvlock": true
+            "model": "minegate:block/smooth_sandstone_eighth", "uvlock": true
         },
-        "type=z":
+        "facing=north,type=middle_center":
         {
-            "model": "minegate:block/smooth_sandstone_eighth_z", "uvlock": true
+            "model": "minegate:block/smooth_sandstone_eighth_middle_center", "y": 0, "uvlock": true
+        },
+        "facing=east,type=middle_center":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth_middle_center", "y": 90, "uvlock": true
+        },
+        "facing=south,type=middle_center":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth_middle_center", "y": 180, "uvlock": true
+        },
+        "facing=west,type=middle_center":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth_middle_center", "y": 270, "uvlock": true
+        },
+        "type=middle_center_bottom":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth", "x": 180, "uvlock": true
+        },
+
+
+        "facing=north,type=bottom_center":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth_bottom_center", "y": 0, "uvlock": true
+        },
+        "facing=east,type=bottom_center":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth_bottom_center", "y": 90, "uvlock": true
+        },
+        "facing=south,type=bottom_center":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth_bottom_center", "y": 180, "uvlock": true
+        },
+        "facing=west,type=bottom_center":
+        {
+            "model": "minegate:block/smooth_sandstone_eighth_bottom_center", "y": 270, "uvlock": true
         }
     }
 }

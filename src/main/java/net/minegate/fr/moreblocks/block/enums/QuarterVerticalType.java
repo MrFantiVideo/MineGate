@@ -10,15 +10,22 @@ public enum QuarterVerticalType implements StringIdentifiable
 
     private final String name;
 
-    private QuarterVerticalType(String name) {
+    /**
+     * Enumerations of the different positions for QuarterVerticalBlock.
+     **/
+
+    QuarterVerticalType(String name)
+    {
         this.name = name;
     }
 
-    public String toString() {
+    public String toString()
+    {
         return this.name;
     }
 
-    public String asString() {
+    public String asString()
+    {
         return this.name;
     }
 }

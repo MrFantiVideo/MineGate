@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:pink_iron_block"
+  },
+  "result": "minegate:pink_iron_block_slab",
+  "count": 2
+}

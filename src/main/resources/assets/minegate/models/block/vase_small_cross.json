@@ -1,0 +1,36 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+	"parent": "block/block",
+	"textures":
+	{
+		"plant": "minecraft:texture"
+	},
+	"elements": [
+		{
+			"from": [8, 4, 2.6],
+			"to": [8, 16, 13.4],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 12], "texture": "#plant"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#plant", "tintindex": 0},
+				"south": {"uv": [0, 0, 0, 12], "texture": "#plant"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#plant", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 10.8], "texture": "#plant"},
+				"down": {"uv": [0, 0, 0, 10.8], "texture": "#plant"}
+			}
+		},
+		{
+			"from": [2.6, 4, 8],
+			"to": [13.4, 16, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#plant", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 12], "texture": "#plant"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#plant", "tintindex": 0},
+				"west": {"uv": [0, 0, 0, 12], "texture": "#plant"},
+				"up": {"uv": [0, 0, 10.8, 0], "texture": "#plant"},
+				"down": {"uv": [0, 0, 10.8, 0], "texture": "#plant"}
+			}
+		}
+	]
+}

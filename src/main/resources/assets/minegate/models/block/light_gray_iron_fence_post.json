@@ -1,0 +1,7 @@
+﻿{
+  "credit": "MineGate - Tous droits réservés.",
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "minegate:block/light_gray_iron_block"
+  }
+}

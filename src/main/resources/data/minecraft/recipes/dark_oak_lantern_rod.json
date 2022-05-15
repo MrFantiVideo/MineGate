@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "S",
+        "S",
+        "S"
+    ],
+    "key":
+    {
+        "S":
+        {
+            "item": "minegate:dark_oak_stick"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:dark_oak_lantern_rod"
+    }
+}

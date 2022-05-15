@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minegate:block/steel_glass",
+        "top": "minegate:block/steel_glass",
+        "side": "minegate:block/steel_glass"
+    }
+}

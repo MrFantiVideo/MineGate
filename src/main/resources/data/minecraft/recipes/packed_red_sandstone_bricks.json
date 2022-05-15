@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "BB",
+        "BB"
+    ],
+    "key":
+    {
+        "B":
+        {
+            "item": "minegate:red_sandstone_bricks"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:packed_red_sandstone_bricks",
+        "count": 4
+    }
+}

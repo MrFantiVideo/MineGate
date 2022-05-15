@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "SIS",
+        "SIS",
+        "SIS"
+    ],
+    "key":
+    {
+        "I":
+        {
+            "item": "minecraft:iron_block"
+        },
+        "S":
+        {
+            "item": "minegate:steel_stick"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:steel_block",
+        "count": 4
+    }
+}

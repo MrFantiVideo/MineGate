@@ -1,0 +1,18 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "axis=y":
+        {
+            "model": "minegate:block/steel_block"
+        },
+        "axis=z":
+        {
+            "model": "minegate:block/steel_block", "x": 90
+        },
+        "axis=x":
+        {
+            "model": "minegate:block/steel_block", "x": 90, "y": 90
+        }
+    }
+}

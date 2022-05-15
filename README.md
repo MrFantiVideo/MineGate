@@ -41,13 +41,12 @@ repositories
 dependencies
 {
      modImplementation "net.minegate.fr:minegate-moreblocks:${project.minegate_moreblocks_version}"
-     modImplementation "net.minegate.fr:minegate-moreblocks-sources:${project.minegate_moreblocks_version}"
 }
 ```
 
 ainsi que ceci dans le « gradle.properties » :
 
-	minegate_moreblocks_version=1.1.8
+	minegate_moreblocks_version=1.2.0-dev-2
 
 Vous devrez modifier ce fichier lorsqu'une nouvelle version du mod est publiée.<br>
 Les anciennes versions resteront disponibles, mais pas recommandées à l'utilisation.

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_middle",
+    "textures":
+    {
+        "particle": "minecraft:block/black_wool",
+        "bottom": "minecraft:block/black_wool",
+        "top": "minecraft:block/black_wool",
+        "side": "minecraft:block/black_wool"
+    }
+}

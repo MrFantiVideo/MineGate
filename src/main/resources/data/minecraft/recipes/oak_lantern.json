@@ -1,0 +1,24 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "S",
+        "G",
+        "S"
+    ],
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:stick"
+        },
+        "G":
+        {
+            "item": "minecraft:glass"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:oak_lantern"
+    }
+}

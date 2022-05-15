@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_bottom_center",
+    "textures":
+    {
+        "particle": "minegate:block/jungle_planks_smooth",
+        "bottom": "minegate:block/jungle_planks_smooth",
+        "top": "minegate:block/jungle_planks_smooth",
+        "side": "minegate:block/jungle_planks_smooth"
+    }
+}

@@ -9,6 +9,10 @@ import net.minegate.fr.moreblocks.client.gui.screen.options.OptionsScreen;
 @Environment(EnvType.CLIENT)
 public class ModMenuEntry implements ModMenuApi
 {
+    /**
+     * Allows ModMenu mod to open the settings menu.
+     **/
+
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory()
     {

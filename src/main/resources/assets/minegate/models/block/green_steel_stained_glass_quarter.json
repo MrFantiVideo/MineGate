@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter",
+    "textures":
+    {
+        "particle": "minegate:block/green_steel_stained_glass",
+        "bottom": "minegate:block/green_steel_stained_glass",
+        "top": "minegate:block/green_steel_stained_glass",
+        "side": "minegate:block/green_steel_stained_glass"
+    }
+}

@@ -1,0 +1,20 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "S",
+        "S",
+        "S"
+    ],
+    "key":
+    {
+        "S":
+        {
+            "item": "minegate:warped_stick"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:warped_lantern_rod"
+    }
+}

@@ -1,0 +1,25 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "SGS",
+        "GSG",
+        "SGS"
+    ],
+    "key":
+    {
+        "S":
+        {
+            "item": "minegate:steel_stick"
+        },
+        "G":
+        {
+            "item": "minecraft:green_stained_glass_pane"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:green_steel_stained_glass_pane",
+        "count": 4
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minegate:iron_fence",
+    "minegate:orange_iron_fence",
+    "minegate:magenta_iron_fence",
+    "minegate:light_blue_iron_fence",
+    "minegate:yellow_iron_fence",
+    "minegate:lime_iron_fence",
+    "minegate:pink_iron_fence",
+    "minegate:gray_iron_fence",
+    "minegate:light_gray_iron_fence",
+    "minegate:cyan_iron_fence",
+    "minegate:purple_iron_fence",
+    "minegate:blue_iron_fence",
+    "minegate:brown_iron_fence",
+    "minegate:green_iron_fence",
+    "minegate:red_iron_fence",
+    "minegate:black_iron_fence"
+  ]
+}

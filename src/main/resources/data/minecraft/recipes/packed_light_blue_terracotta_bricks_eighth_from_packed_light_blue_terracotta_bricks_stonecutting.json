@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:packed_light_blue_terracotta_bricks"
+  },
+  "result": "minegate:packed_light_blue_terracotta_bricks_eighth",
+  "count": 8
+}

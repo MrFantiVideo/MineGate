@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item": "minecraft:purple_dye"
+        },
+        {
+            "item": "minecraft:iron_trapdoor"
+        }
+    ],
+    "result":
+    {
+        "item": "minegate:purple_iron_trapdoor"
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minegate:iron_wall",
+    "minegate:orange_iron_wall",
+    "minegate:magenta_iron_wall",
+    "minegate:light_blue_iron_wall",
+    "minegate:yellow_iron_wall",
+    "minegate:lime_iron_wall",
+    "minegate:pink_iron_wall",
+    "minegate:gray_iron_wall",
+    "minegate:light_gray_iron_wall",
+    "minegate:cyan_iron_wall",
+    "minegate:purple_iron_wall",
+    "minegate:blue_iron_wall",
+    "minegate:brown_iron_wall",
+    "minegate:green_iron_wall",
+    "minegate:red_iron_wall",
+    "minegate:black_iron_wall"
+  ]
+}

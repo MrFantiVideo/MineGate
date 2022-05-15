@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:steel_glass"
+  },
+  "result": "minegate:steel_glass_quarter_vertical",
+  "count": 4
+}

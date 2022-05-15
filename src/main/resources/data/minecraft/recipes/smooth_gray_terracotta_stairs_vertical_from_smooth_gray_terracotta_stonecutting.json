@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:smooth_gray_terracotta"
+  },
+  "result": "minegate:smooth_gray_terracotta_stairs_vertical",
+  "count": 1
+}

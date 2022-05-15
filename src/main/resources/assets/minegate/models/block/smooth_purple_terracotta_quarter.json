@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter",
+    "textures":
+    {
+        "particle": "minegate:block/smooth_purple_terracotta",
+        "bottom": "minegate:block/smooth_purple_terracotta",
+        "top": "minegate:block/smooth_purple_terracotta",
+        "side": "minegate:block/smooth_purple_terracotta"
+    }
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/leaves_eighth_middle_center",
+    "textures":
+    {
+        "particle": "minecraft:block/spruce_leaves",
+        "bottom": "minecraft:block/spruce_leaves",
+        "top": "minecraft:block/spruce_leaves",
+        "side": "minecraft:block/spruce_leaves"
+    }
+}

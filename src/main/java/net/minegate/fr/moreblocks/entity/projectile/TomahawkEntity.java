@@ -1,0 +1,246 @@
+package net.minegate.fr.moreblocks.entity.projectile;
+
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.LightningEntity;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.data.DataTracker;
+import net.minecraft.entity.data.TrackedData;
+import net.minecraft.entity.data.TrackedDataHandlerRegistry;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.PersistentProjectileEntity;
+import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NbtCompound;
+import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.sound.SoundEvents;
+import net.minecraft.util.hit.EntityHitResult;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Vec3d;
+import net.minecraft.world.World;
+import net.minegate.fr.moreblocks.entity.EntityType;
+import net.minegate.fr.moreblocks.item.Items;
+
+public class TomahawkEntity extends PersistentProjectileEntity
+{
+    private static final TrackedData<Byte>    LOYALTY;
+    private static final TrackedData<Boolean> ENCHANTED;
+    private              ItemStack            tridentStack;
+    private              boolean              dealtDamage;
+    public               int                  returnTimer;
+
+    public TomahawkEntity(net.minecraft.entity.EntityType<? extends TomahawkEntity> entityType, World world)
+    {
+        super(entityType, world);
+        this.tridentStack = new ItemStack(Items.TOMAHAWK);
+    }
+
+    public TomahawkEntity(World world, LivingEntity owner, ItemStack stack)
+    {
+        super(EntityType.TOMAHAWK, owner, world);
+        this.tridentStack = new ItemStack(Items.TOMAHAWK);
+        this.tridentStack = stack.copy();
+        this.dataTracker.set(LOYALTY, (byte) EnchantmentHelper.getLoyalty(stack));
+        this.dataTracker.set(ENCHANTED, stack.hasGlint());
+    }
+
+    protected void initDataTracker()
+    {
+        super.initDataTracker();
+        this.dataTracker.startTracking(LOYALTY, (byte) 0);
+        this.dataTracker.startTracking(ENCHANTED, false);
+    }
+
+    public void tick()
+    {
+        if (this.inGroundTime > 4)
+        {
+            this.dealtDamage = true;
+        }
+
+        Entity entity = this.getOwner();
+        if ((this.dealtDamage || this.isNoClip()) && entity != null)
+        {
+            int i = this.dataTracker.get(LOYALTY);
+            if (i > 0 && !this.isOwnerAlive())
+            {
+                if (!this.world.isClient && this.pickupType == PersistentProjectileEntity.PickupPermission.ALLOWED)
+                {
+                    this.dropStack(this.asItemStack(), 0.1F);
+                }
+
+                this.discard();
+            }
+            else if (i > 0)
+            {
+                this.setNoClip(true);
+                Vec3d vec3d = new Vec3d(entity.getX() - this.getX(), entity.getEyeY() - this.getY(), entity.getZ() - this.getZ());
+                this.setPos(this.getX(), this.getY() + vec3d.y * 0.015D * (double) i, this.getZ());
+                if (this.world.isClient)
+                {
+                    this.lastRenderY = this.getY();
+                }
+
+                double d = 0.05D * (double) i;
+                this.setVelocity(this.getVelocity().multiply(0.95D).add(vec3d.normalize().multiply(d)));
+                if (this.returnTimer == 0)
+                {
+                    this.playSound(SoundEvents.ITEM_TRIDENT_RETURN, 10.0F, 1.0F);
+                }
+
+                ++this.returnTimer;
+            }
+        }
+
+        super.tick();
+    }
+
+    private boolean isOwnerAlive()
+    {
+        Entity entity = this.getOwner();
+        if (entity != null && entity.isAlive())
+        {
+            return !(entity instanceof ServerPlayerEntity) || !entity.isSpectator();
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    protected ItemStack asItemStack()
+    {
+        return this.tridentStack.copy();
+    }
+
+    @Environment(EnvType.CLIENT)
+    public boolean isEnchanted()
+    {
+        return this.dataTracker.get(ENCHANTED);
+    }
+
+    protected EntityHitResult getEntityCollision(Vec3d currentPosition, Vec3d nextPosition)
+    {
+        return this.dealtDamage ? null : super.getEntityCollision(currentPosition, nextPosition);
+    }
+
+    protected void onEntityHit(EntityHitResult entityHitResult)
+    {
+        Entity entity = entityHitResult.getEntity();
+        float f = 8.0F;
+        if (entity instanceof LivingEntity)
+        {
+            LivingEntity livingEntity = (LivingEntity) entity;
+            f += EnchantmentHelper.getAttackDamage(this.tridentStack, livingEntity.getGroup());
+        }
+
+        Entity entity2 = this.getOwner();
+        DamageSource damageSource = DamageSource.trident(this, entity2 == null ? this : entity2);
+        this.dealtDamage = true;
+        SoundEvent soundEvent = SoundEvents.ITEM_TRIDENT_HIT;
+        if (entity.damage(damageSource, f))
+        {
+            if (entity.getType() == net.minecraft.entity.EntityType.ENDERMAN)
+            {
+                return;
+            }
+
+            if (entity instanceof LivingEntity)
+            {
+                LivingEntity livingEntity2 = (LivingEntity) entity;
+                if (entity2 instanceof LivingEntity)
+                {
+                    EnchantmentHelper.onUserDamaged(livingEntity2, entity2);
+                    EnchantmentHelper.onTargetDamaged((LivingEntity) entity2, livingEntity2);
+                }
+
+                this.onHit(livingEntity2);
+            }
+        }
+
+        this.setVelocity(this.getVelocity().multiply(-0.01D, -0.1D, -0.01D));
+        float g = 1.0F;
+        if (this.world instanceof ServerWorld && this.world.isThundering() && EnchantmentHelper.hasChanneling(this.tridentStack))
+        {
+            BlockPos blockPos = entity.getBlockPos();
+            if (this.world.isSkyVisible(blockPos))
+            {
+                LightningEntity lightningEntity = net.minecraft.entity.EntityType.LIGHTNING_BOLT.create(this.world);
+                if (lightningEntity != null)
+                {
+                    lightningEntity.setVelocity(Vec3d.ofBottomCenter(blockPos));
+                    lightningEntity.setChanneler(entity2 instanceof ServerPlayerEntity ? (ServerPlayerEntity) entity2 : null);
+                }
+                this.world.spawnEntity(lightningEntity);
+                soundEvent = SoundEvents.ITEM_TRIDENT_THUNDER;
+                g = 5.0F;
+            }
+        }
+
+        this.playSound(soundEvent, g, 1.0F);
+    }
+
+    protected SoundEvent getHitSound()
+    {
+        return SoundEvents.ITEM_TRIDENT_HIT_GROUND;
+    }
+
+    public void onPlayerCollision(PlayerEntity player)
+    {
+        Entity entity = this.getOwner();
+        if (entity == null || entity.getUuid() == player.getUuid())
+        {
+            super.onPlayerCollision(player);
+        }
+    }
+
+    public void readCustomDataFromNbt(NbtCompound nbt)
+    {
+        super.readCustomDataFromNbt(nbt);
+        if (nbt.contains("Trident", 10))
+        {
+            this.tridentStack = ItemStack.fromNbt(nbt.getCompound("Trident"));
+        }
+
+        this.dealtDamage = nbt.getBoolean("DealtDamage");
+        this.dataTracker.set(LOYALTY, (byte) EnchantmentHelper.getLoyalty(this.tridentStack));
+    }
+
+    public void writeCustomDataToNbt(NbtCompound nbt)
+    {
+        super.writeCustomDataToNbt(nbt);
+        nbt.put("Trident", this.tridentStack.writeNbt(new NbtCompound()));
+        nbt.putBoolean("DealtDamage", this.dealtDamage);
+    }
+
+    public void age()
+    {
+        int i = this.dataTracker.get(LOYALTY);
+        if (this.pickupType != PersistentProjectileEntity.PickupPermission.ALLOWED || i <= 0)
+        {
+            super.age();
+        }
+
+    }
+
+    protected float getDragInWater()
+    {
+        return 0.99F;
+    }
+
+    @Environment(EnvType.CLIENT)
+    public boolean shouldRender(double cameraX, double cameraY, double cameraZ)
+    {
+        return true;
+    }
+
+    static
+    {
+        LOYALTY = DataTracker.registerData(TomahawkEntity.class, TrackedDataHandlerRegistry.BYTE);
+        ENCHANTED = DataTracker.registerData(TomahawkEntity.class, TrackedDataHandlerRegistry.BOOLEAN);
+    }
+}

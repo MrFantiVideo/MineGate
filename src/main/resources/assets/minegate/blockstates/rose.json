@@ -1,0 +1,14 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "type=default":
+        {
+            "model": "minegate:block/rose"
+        },
+        "type=plant":
+        {
+            "model": "minegate:block/rose_slab"
+        }
+    }
+}

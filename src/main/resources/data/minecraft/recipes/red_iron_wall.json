@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item": "minecraft:red_dye"
+        },
+        {
+            "item": "minegate:iron_wall"
+        }
+    ],
+    "result":
+    {
+        "item": "minegate:red_iron_wall"
+    }
+}

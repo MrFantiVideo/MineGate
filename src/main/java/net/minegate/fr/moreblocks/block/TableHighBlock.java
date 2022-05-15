@@ -1,11 +1,12 @@
 package net.minegate.fr.moreblocks.block;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.HorizontalFacingBlock;
-import net.minecraft.block.ShapeContext;
+import net.minecraft.block.*;
+import net.minecraft.entity.ai.pathing.NavigationType;
+import net.minecraft.fluid.FluidState;
+import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
+import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.function.BooleanBiFunction;
@@ -17,9 +18,10 @@ import net.minecraft.world.BlockView;
 
 import java.util.stream.Stream;
 
-public class TableHighBlock extends HorizontalFacingBlock
+public class TableHighBlock extends HorizontalFacingBlock implements Waterloggable
 {
     private static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
+    public static final  BooleanProperty   WATERLOGGED;
     private static final VoxelShape        VOXEL_SHAPE_NORTH;
     private static final VoxelShape        VOXEL_SHAPE_SOUTH;
     private static final VoxelShape        VOXEL_SHAPE_WEST;
@@ -28,13 +30,13 @@ public class TableHighBlock extends HorizontalFacingBlock
     public TableHighBlock(Settings blockSettings)
     {
         super(blockSettings);
-        setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
+        setDefaultState(this.stateManager.getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH).with(WATERLOGGED, Boolean.FALSE));
     }
 
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> stateManager)
     {
-        stateManager.add(Properties.HORIZONTAL_FACING);
+        stateManager.add(Properties.HORIZONTAL_FACING, WATERLOGGED);
     }
 
     @Override
@@ -62,8 +64,29 @@ public class TableHighBlock extends HorizontalFacingBlock
         return getDefaultState().with(FACING, placementContext.getPlayerFacing().getOpposite());
     }
 
+    /**
+     * Allows you to make the block waterlogged.
+     **/
+
+    @Override
+    public FluidState getFluidState(BlockState state)
+    {
+        return state.get(WATERLOGGED) ? Fluids.WATER.getStill(false) : super.getFluidState(state);
+    }
+
+    /**
+     * Allows entities to walk through it.
+     **/
+
+    @Override
+    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type)
+    {
+        return false;
+    }
+
     static
     {
+        WATERLOGGED = Properties.WATERLOGGED;
         VOXEL_SHAPE_NORTH = Stream.of(
                 Block.createCuboidShape(2, 14, 2, 14, 16, 14),
                 Block.createCuboidShape(11, 0, 3, 13, 14, 5),

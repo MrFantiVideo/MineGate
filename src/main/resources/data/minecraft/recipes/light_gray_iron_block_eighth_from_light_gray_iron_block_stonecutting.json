@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minegate:light_gray_iron_block"
+  },
+  "result": "minegate:light_gray_iron_block_eighth",
+  "count": 8
+}

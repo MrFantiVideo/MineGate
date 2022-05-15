@@ -3,6 +3,7 @@ package net.minegate.fr.moreblocks.block;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.*;
+import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
@@ -74,6 +75,17 @@ public class TableBlock extends HorizontalConnectingBlock
     }
 
     @Override
+    public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState newState, WorldAccess world, BlockPos pos, BlockPos posFrom)
+    {
+        if (state.get(WATERLOGGED))
+        {
+            world.createAndScheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+        }
+
+        return direction.getAxis().isHorizontal() ? state.with(FACING_PROPERTIES.get(direction), this.connectsTo(newState, newState.isSideSolidFullSquare(world, posFrom, direction.getOpposite()))) : super.getStateForNeighborUpdate(state, direction, newState, world, pos, posFrom);
+    }
+
+    @Override
     @Environment(EnvType.CLIENT)
     public boolean isSideInvisible(BlockState state, BlockState stateFrom, Direction direction)
     {
@@ -102,7 +114,17 @@ public class TableBlock extends HorizontalConnectingBlock
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder)
     {
-        builder.add(new Property[]{NORTH, EAST, WEST, SOUTH, WATERLOGGED});
+        builder.add(NORTH, EAST, WEST, SOUTH, WATERLOGGED);
+    }
+
+    /**
+     * Allows entities to walk through it.
+     **/
+
+    @Override
+    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type)
+    {
+        return false;
     }
 
     static

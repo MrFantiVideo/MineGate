@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/inner_quarter",
+    "textures":
+    {
+        "particle": "minegate:block/cut_steel",
+        "bottom": "minegate:block/cut_steel",
+        "top": "minegate:block/cut_steel",
+        "side": "minegate:block/cut_steel"
+    }
+}

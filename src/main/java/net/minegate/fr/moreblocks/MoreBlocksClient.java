@@ -4,17 +4,17 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendereregistry.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.color.world.FoliageColors;
 import net.minecraft.client.color.world.GrassColors;
 import net.minecraft.client.render.RenderLayer;
 import net.minegate.fr.moreblocks.block.Blocks;
-import net.minegate.fr.moreblocks.block.entity.SitEntityRenderer;
-import net.minegate.fr.moreblocks.block.entity.SitManager;
+import net.minegate.fr.moreblocks.client.render.entity.SitEntityRenderer;
+import net.minegate.fr.moreblocks.client.render.entity.TomahawkEntityRenderer;
+import net.minegate.fr.moreblocks.client.render.entity.model.TomahawkEntityModel;
+import net.minegate.fr.moreblocks.entity.EntityType;
 import net.minegate.fr.moreblocks.item.Items;
-
-import static net.minegate.fr.moreblocks.MoreBlocks.ConsoleClient;
-import static net.minegate.fr.moreblocks.MoreBlocks.DebugClient;
 
 public class MoreBlocksClient implements ClientModInitializer
 {
@@ -25,10 +25,12 @@ public class MoreBlocksClient implements ClientModInitializer
     @Override
     public void onInitializeClient()
     {
-        EntityRendererRegistry.INSTANCE.register(SitManager.SIT_ENTITY_TYPE, SitEntityRenderer::new);
-        if (DebugClient())
+        EntityRendererRegistry.INSTANCE.register(EntityType.TOMAHAWK, TomahawkEntityRenderer::new);
+        EntityModelLayerRegistry.registerModelLayer(TomahawkEntityRenderer.TOMAHAWK_LAYER_MODEL, TomahawkEntityModel::getTexturedModelData);
+        EntityRendererRegistry.INSTANCE.register(EntityType.SIT, SitEntityRenderer::new);
+        if (MoreBlocks.DebugClient())
         {
-            ConsoleClient("EntityRendererRegistry : OK !");
+            MoreBlocks.ConsoleClient("EntityRendererRegistry & EntityModelLayerRegistry : OK !");
         }
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getTranslucent(),
                 Blocks.GLASS_STAIRS,
@@ -220,16 +222,247 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.FLOWERING_AZALEA_LEAVES_QUARTER,
                 Blocks.FLOWERING_AZALEA_LEAVES_QUARTER_VERTICAL,
                 Blocks.FLOWERING_AZALEA_LEAVES_EIGHTH,
-                Blocks.WOODCUTTER,
+                Blocks.STEEL_GLASS,
+                Blocks.WHITE_STEEL_STAINED_GLASS,
+                Blocks.ORANGE_STEEL_STAINED_GLASS,
+                Blocks.MAGENTA_STEEL_STAINED_GLASS,
+                Blocks.LIGHT_BLUE_STEEL_STAINED_GLASS,
+                Blocks.YELLOW_STEEL_STAINED_GLASS,
+                Blocks.LIME_STEEL_STAINED_GLASS,
+                Blocks.PINK_STEEL_STAINED_GLASS,
+                Blocks.GRAY_STEEL_STAINED_GLASS,
+                Blocks.LIGHT_GRAY_STEEL_STAINED_GLASS,
+                Blocks.CYAN_STEEL_STAINED_GLASS,
+                Blocks.PURPLE_STEEL_STAINED_GLASS,
+                Blocks.BLUE_STEEL_STAINED_GLASS,
+                Blocks.BROWN_STEEL_STAINED_GLASS,
+                Blocks.GREEN_STEEL_STAINED_GLASS,
+                Blocks.RED_STEEL_STAINED_GLASS,
+                Blocks.BLACK_STEEL_STAINED_GLASS,
+                Blocks.STEEL_GLASS_STAIRS,
+                Blocks.WHITE_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.ORANGE_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.MAGENTA_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.LIGHT_BLUE_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.YELLOW_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.LIME_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.PINK_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.GRAY_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.LIGHT_GRAY_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.CYAN_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.PURPLE_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.BLUE_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.BROWN_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.GREEN_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.RED_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.BLACK_STEEL_STAINED_GLASS_STAIRS,
+                Blocks.STEEL_GLASS_STAIRS_VERTICAL,
+                Blocks.WHITE_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.ORANGE_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.MAGENTA_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.LIGHT_BLUE_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.YELLOW_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.LIME_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.PINK_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.GRAY_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.LIGHT_GRAY_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.CYAN_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.PURPLE_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.BLUE_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.BROWN_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.GREEN_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.RED_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.BLACK_STEEL_STAINED_GLASS_STAIRS_VERTICAL,
+                Blocks.STEEL_GLASS_SLAB,
+                Blocks.WHITE_STEEL_STAINED_GLASS_SLAB,
+                Blocks.ORANGE_STEEL_STAINED_GLASS_SLAB,
+                Blocks.MAGENTA_STEEL_STAINED_GLASS_SLAB,
+                Blocks.LIGHT_BLUE_STEEL_STAINED_GLASS_SLAB,
+                Blocks.YELLOW_STEEL_STAINED_GLASS_SLAB,
+                Blocks.LIME_STEEL_STAINED_GLASS_SLAB,
+                Blocks.PINK_STEEL_STAINED_GLASS_SLAB,
+                Blocks.GRAY_STEEL_STAINED_GLASS_SLAB,
+                Blocks.LIGHT_GRAY_STEEL_STAINED_GLASS_SLAB,
+                Blocks.CYAN_STEEL_STAINED_GLASS_SLAB,
+                Blocks.PURPLE_STEEL_STAINED_GLASS_SLAB,
+                Blocks.BLUE_STEEL_STAINED_GLASS_SLAB,
+                Blocks.BROWN_STEEL_STAINED_GLASS_SLAB,
+                Blocks.GREEN_STEEL_STAINED_GLASS_SLAB,
+                Blocks.RED_STEEL_STAINED_GLASS_SLAB,
+                Blocks.BLACK_STEEL_STAINED_GLASS_SLAB,
+                Blocks.STEEL_GLASS_SLAB_VERTICAL,
+                Blocks.WHITE_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.ORANGE_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.MAGENTA_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.LIGHT_BLUE_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.YELLOW_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.LIME_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.PINK_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.GRAY_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.LIGHT_GRAY_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.CYAN_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.PURPLE_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.BLUE_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.BROWN_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.GREEN_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.RED_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.BLACK_STEEL_STAINED_GLASS_SLAB_VERTICAL,
+                Blocks.STEEL_GLASS_QUARTER,
+                Blocks.WHITE_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.ORANGE_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.MAGENTA_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.LIGHT_BLUE_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.YELLOW_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.LIME_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.PINK_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.GRAY_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.LIGHT_GRAY_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.CYAN_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.PURPLE_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.BLUE_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.BROWN_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.GREEN_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.RED_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.BLACK_STEEL_STAINED_GLASS_QUARTER,
+                Blocks.STEEL_GLASS_QUARTER_VERTICAL,
+                Blocks.WHITE_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.ORANGE_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.MAGENTA_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.LIGHT_BLUE_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.YELLOW_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.LIME_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.PINK_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.GRAY_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.LIGHT_GRAY_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.CYAN_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.PURPLE_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.BLUE_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.BROWN_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.GREEN_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.RED_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.BLACK_STEEL_STAINED_GLASS_QUARTER_VERTICAL,
+                Blocks.STEEL_GLASS_EIGHTH,
+                Blocks.WHITE_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.ORANGE_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.MAGENTA_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.LIGHT_BLUE_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.YELLOW_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.LIME_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.PINK_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.GRAY_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.LIGHT_GRAY_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.CYAN_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.PURPLE_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.BLUE_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.BROWN_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.GREEN_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.RED_STEEL_STAINED_GLASS_EIGHTH,
+                Blocks.BLACK_STEEL_STAINED_GLASS_EIGHTH,
                 Blocks.SPRUCE_LADDER,
                 Blocks.BIRCH_LADDER,
                 Blocks.JUNGLE_LADDER,
                 Blocks.ACACIA_LADDER,
                 Blocks.DARK_OAK_LADDER,
                 Blocks.CRIMSON_LADDER,
-                Blocks.WARPED_LADDER
+                Blocks.WARPED_LADDER,
+                Blocks.STEEL_GLASS_PANE,
+                Blocks.WHITE_STEEL_STAINED_GLASS_PANE,
+                Blocks.ORANGE_STEEL_STAINED_GLASS_PANE,
+                Blocks.MAGENTA_STEEL_STAINED_GLASS_PANE,
+                Blocks.LIGHT_BLUE_STEEL_STAINED_GLASS_PANE,
+                Blocks.YELLOW_STEEL_STAINED_GLASS_PANE,
+                Blocks.LIME_STEEL_STAINED_GLASS_PANE,
+                Blocks.PINK_STEEL_STAINED_GLASS_PANE,
+                Blocks.GRAY_STEEL_STAINED_GLASS_PANE,
+                Blocks.LIGHT_GRAY_STEEL_STAINED_GLASS_PANE,
+                Blocks.CYAN_STEEL_STAINED_GLASS_PANE,
+                Blocks.PURPLE_STEEL_STAINED_GLASS_PANE,
+                Blocks.BLUE_STEEL_STAINED_GLASS_PANE,
+                Blocks.BROWN_STEEL_STAINED_GLASS_PANE,
+                Blocks.GREEN_STEEL_STAINED_GLASS_PANE,
+                Blocks.RED_STEEL_STAINED_GLASS_PANE,
+                Blocks.BLACK_STEEL_STAINED_GLASS_PANE,
+                Blocks.ORANGE_IRON_DOOR,
+                Blocks.MAGENTA_IRON_DOOR,
+                Blocks.LIGHT_BLUE_IRON_DOOR,
+                Blocks.YELLOW_IRON_DOOR,
+                Blocks.LIME_IRON_DOOR,
+                Blocks.PINK_IRON_DOOR,
+                Blocks.GRAY_IRON_DOOR,
+                Blocks.LIGHT_GRAY_IRON_DOOR,
+                Blocks.CYAN_IRON_DOOR,
+                Blocks.PURPLE_IRON_DOOR,
+                Blocks.BLUE_IRON_DOOR,
+                Blocks.BROWN_IRON_DOOR,
+                Blocks.GREEN_IRON_DOOR,
+                Blocks.RED_IRON_DOOR,
+                Blocks.BLACK_IRON_DOOR,
+                Blocks.ORANGE_IRON_TRAPDOOR,
+                Blocks.MAGENTA_IRON_TRAPDOOR,
+                Blocks.LIGHT_BLUE_IRON_TRAPDOOR,
+                Blocks.YELLOW_IRON_TRAPDOOR,
+                Blocks.LIME_IRON_TRAPDOOR,
+                Blocks.PINK_IRON_TRAPDOOR,
+                Blocks.GRAY_IRON_TRAPDOOR,
+                Blocks.LIGHT_GRAY_IRON_TRAPDOOR,
+                Blocks.CYAN_IRON_TRAPDOOR,
+                Blocks.PURPLE_IRON_TRAPDOOR,
+                Blocks.BLUE_IRON_TRAPDOOR,
+                Blocks.BROWN_IRON_TRAPDOOR,
+                Blocks.GREEN_IRON_TRAPDOOR,
+                Blocks.RED_IRON_TRAPDOOR,
+                Blocks.BLACK_IRON_TRAPDOOR
         );
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutoutMipped(),
+                Blocks.WOODCUTTER,
+                Blocks.BLUE_TWEEDIA,
+                Blocks.ROSE,
+                Blocks.POTTED_BLUE_TWEEDIA,
+                Blocks.POTTED_ROSE,
+                Blocks.OAK_LANTERN,
+                Blocks.SPRUCE_LANTERN,
+                Blocks.BIRCH_LANTERN,
+                Blocks.JUNGLE_LANTERN,
+                Blocks.ACACIA_LANTERN,
+                Blocks.DARK_OAK_LANTERN,
+                Blocks.CRIMSON_LANTERN,
+                Blocks.WARPED_LANTERN,
+                Blocks.POLISHED_GRANITE_VASE,
+                Blocks.POLISHED_DIORITE_VASE,
+                Blocks.POLISHED_ANDESITE_VASE,
+                Blocks.SMOOTH_STONE_VASE,
+                Blocks.STRIPPED_OAK_WOOD_VASE,
+                Blocks.STRIPPED_SPRUCE_WOOD_VASE,
+                Blocks.STRIPPED_BIRCH_WOOD_VASE,
+                Blocks.STRIPPED_JUNGLE_WOOD_VASE,
+                Blocks.STRIPPED_ACACIA_WOOD_VASE,
+                Blocks.STRIPPED_DARK_OAK_WOOD_VASE,
+                Blocks.STRIPPED_CRIMSON_HYPHAE_VASE,
+                Blocks.STRIPPED_WARPED_HYPHAE_VASE,
+                Blocks.POLISHED_GRANITE_VASE_HIGH,
+                Blocks.POLISHED_DIORITE_VASE_HIGH,
+                Blocks.POLISHED_ANDESITE_VASE_HIGH,
+                Blocks.SMOOTH_STONE_VASE_HIGH,
+                Blocks.STRIPPED_OAK_WOOD_VASE_HIGH,
+                Blocks.STRIPPED_SPRUCE_WOOD_VASE_HIGH,
+                Blocks.STRIPPED_BIRCH_WOOD_VASE_HIGH,
+                Blocks.STRIPPED_JUNGLE_WOOD_VASE_HIGH,
+                Blocks.STRIPPED_ACACIA_WOOD_VASE_HIGH,
+                Blocks.STRIPPED_DARK_OAK_WOOD_VASE_HIGH,
+                Blocks.STRIPPED_CRIMSON_HYPHAE_VASE_HIGH,
+                Blocks.STRIPPED_WARPED_HYPHAE_VASE_HIGH,
+                Blocks.POLISHED_GRANITE_VASE_SMALL,
+                Blocks.POLISHED_DIORITE_VASE_SMALL,
+                Blocks.POLISHED_ANDESITE_VASE_SMALL,
+                Blocks.SMOOTH_STONE_VASE_SMALL,
+                Blocks.STRIPPED_OAK_WOOD_VASE_SMALL,
+                Blocks.STRIPPED_SPRUCE_WOOD_VASE_SMALL,
+                Blocks.STRIPPED_BIRCH_WOOD_VASE_SMALL,
+                Blocks.STRIPPED_JUNGLE_WOOD_VASE_SMALL,
+                Blocks.STRIPPED_ACACIA_WOOD_VASE_SMALL,
+                Blocks.STRIPPED_DARK_OAK_WOOD_VASE_SMALL,
+                Blocks.STRIPPED_CRIMSON_HYPHAE_VASE_SMALL,
+                Blocks.STRIPPED_WARPED_HYPHAE_VASE_SMALL,
                 Blocks.GRASS_BLOCK_SLAB,
                 Blocks.DIRT_SLAB,
                 Blocks.COARSE_DIRT_SLAB,
@@ -250,8 +483,9 @@ public class MoreBlocksClient implements ClientModInitializer
         ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) ->
         {
             if (tintIndex == 1)
+            {
                 return view != null && pos != null ? BiomeColors.getGrassColor(view, pos) : GrassColors.getColor(0.5D, 1.0D);
-
+            }
             return -1;
         }, Blocks.GRASS_BLOCK_SLAB, Blocks.DIRT_SLAB, Blocks.COARSE_DIRT_SLAB, Blocks.PODZOL_SLAB);
         BlockRenderLayerMap.INSTANCE.putItems(RenderLayer.getTranslucent(),
@@ -381,10 +615,10 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.DARK_OAK_LEAVES_STAIRS, Blocks.DARK_OAK_LEAVES_STAIRS_VERTICAL, Blocks.DARK_OAK_LEAVES_SLAB, Blocks.DARK_OAK_LEAVES_SLAB_VERTICAL, Blocks.DARK_OAK_LEAVES_QUARTER, Blocks.DARK_OAK_LEAVES_QUARTER_VERTICAL, Blocks.DARK_OAK_LEAVES_EIGHTH
         );
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getColor(0.5D, 1.0D), Blocks.GRASS_BLOCK_SLAB, Blocks.DIRT_SLAB, Blocks.COARSE_DIRT_SLAB, Blocks.PODZOL_SLAB);
-        if (DebugClient())
+        if (MoreBlocks.DebugClient())
         {
-            ConsoleClient("BlockRenderLayerMap & ColorProviderRegistry : OK !");
+            MoreBlocks.ConsoleClient("BlockRenderLayerMap & ColorProviderRegistry : OK !");
         }
-        ConsoleClient("All is well! Good game with MineGate!");
+        MoreBlocks.ConsoleClient("All is well! Good game with MineGate!");
     }
 }

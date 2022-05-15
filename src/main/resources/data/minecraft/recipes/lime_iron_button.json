@@ -1,0 +1,16 @@
+﻿{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item": "minecraft:lime_dye"
+        },
+        {
+            "item": "minegate:iron_button"
+        }
+    ],
+    "result":
+    {
+        "item": "minegate:lime_iron_button"
+    }
+}

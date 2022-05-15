@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth",
+    "textures":
+    {
+        "particle": "minegate:block/cyan_iron_block",
+        "bottom": "minegate:block/cyan_iron_block",
+        "top": "minegate:block/cyan_iron_block",
+        "side": "minegate:block/cyan_iron_block"
+    }
+}
