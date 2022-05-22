@@ -43,10 +43,6 @@ public class DefaultConfig
         {
             return true;
         }
-        else if (Property.equals("useMixins"))
-        {
-            return true;
-        }
         return false;
     }
 
@@ -55,7 +51,6 @@ public class DefaultConfig
         JsonObject config = new JsonObject();
         config.addProperty("debugMode", defaultSettings("debugMode"));
         config.addProperty("generationOres", defaultSettings("generationOres"));
-        config.addProperty("useMixins", defaultSettings("useMixins"));
 
         try (FileWriter file = new FileWriter(optionsFile))
         {

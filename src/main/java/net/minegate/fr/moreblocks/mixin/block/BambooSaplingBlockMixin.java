@@ -22,7 +22,7 @@ public class BambooSaplingBlockMixin
 {
     private static final EnumProperty<SlabType> TYPE;
 
-    @Inject(at = @At("RETURN"), method = "canPlaceAt", cancellable = true)
+    @Inject(at = @At("HEAD"), method = "canPlaceAt", cancellable = true)
     public void canPlaceAt(BlockState state, WorldView world, BlockPos pos, CallbackInfoReturnable<Boolean> cir)
     {
         if (world.getBlockState(pos.down()).isIn(BlockTags.BAMBOO_PLANTABLE_ON))

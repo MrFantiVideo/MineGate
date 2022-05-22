@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:block/tinted_cross_slab",
-    "textures":
-    {
-      "cross": "minegate:block/rose"
-    }
-}

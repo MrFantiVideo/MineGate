@@ -169,16 +169,6 @@ public class FarmlandSlabBlock extends PlantableSlabBlock
         builder.add(TYPE, WATERLOGGED, MOISTURE);
     }
 
-    /**
-     * Allows entities to walk through it.
-     **/
-
-    @Override
-    public boolean canPathfindThrough(BlockState state, BlockView world, BlockPos pos, NavigationType type)
-    {
-        return false;
-    }
-
     static
     {
         TYPE = Properties.SLAB_TYPE;

@@ -29,8 +29,6 @@ public class SproutsBlockMixin extends PlantBlock
     @Inject(at = @At("RETURN"), method = "getOutlineShape", cancellable = true)
     private void getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context, CallbackInfoReturnable<VoxelShape> cir)
     {
-        if (DefaultConfig.get("useMixins"))
-        {
             Block block = world.getBlockState(pos.down()).getBlock();
             BlockState blockState = world.getBlockState(pos.down());
 
@@ -41,7 +39,6 @@ public class SproutsBlockMixin extends PlantBlock
                     cir.setReturnValue(SPROUTS_SHAPE);
                 }
             }
-        }
     }
 
     static

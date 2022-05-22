@@ -2,18 +2,13 @@ package net.minegate.fr.moreblocks.mixin.block;
 
 import net.minecraft.block.*;
 import net.minecraft.block.enums.SlabType;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.item.ItemStack;
 import net.minecraft.state.property.EnumProperty;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
-import net.minecraft.world.World;
-import net.minegate.fr.moreblocks.block.Blocks;
 import net.minegate.fr.moreblocks.block.PlantableSlabBlock;
 import net.minegate.fr.moreblocks.block.SnowySlabBlock;
-import net.minegate.fr.moreblocks.block.enums.FernType;
 import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -34,17 +29,14 @@ public class FernBlockMixin extends PlantBlock
     @Inject(at = @At("HEAD"), method = "getOutlineShape", cancellable = true)
     private void getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context, CallbackInfoReturnable<VoxelShape> cir)
     {
-        if (DefaultConfig.get("useMixins"))
-        {
-            Block block = world.getBlockState(pos.down()).getBlock();
-            BlockState blockState = world.getBlockState(pos.down());
+        Block block = world.getBlockState(pos.down()).getBlock();
+        BlockState blockState = world.getBlockState(pos.down());
 
-            if (block instanceof PlantableSlabBlock || block instanceof SnowySlabBlock)
+        if (block instanceof PlantableSlabBlock || block instanceof SnowySlabBlock)
+        {
+            if (blockState.equals(blockState.with(TYPE, SlabType.BOTTOM)))
             {
-                if (blockState.equals(blockState.with(TYPE, SlabType.BOTTOM)))
-                {
-                    cir.setReturnValue(GRASS_SHAPE);
-                }
+                cir.setReturnValue(GRASS_SHAPE);
             }
         }
     }

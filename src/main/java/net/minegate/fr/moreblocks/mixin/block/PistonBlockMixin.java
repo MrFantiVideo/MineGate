@@ -24,7 +24,7 @@ public class PistonBlockMixin extends FacingBlock
         super(settings);
     }
 
-    @Inject(at = @At("RETURN"), method = "isMovable")
+    @Inject(at = @At("RETURN"), method = "isMovable", cancellable = true)
     private static void isMovable(BlockState blockState, World world, BlockPos blockPos, Direction direction, boolean canBreak, Direction pistonDir, CallbackInfoReturnable<Boolean> cir)
     {
         if (blockPos.getY() >= world.getBottomY() && blockPos.getY() <= world.getHeight() - 1 && world.getWorldBorder().contains(blockPos))
@@ -104,6 +104,5 @@ public class PistonBlockMixin extends FacingBlock
                 cir.setReturnValue(false);
             }
         }
-        cir.setReturnValue(false);
     }
 }

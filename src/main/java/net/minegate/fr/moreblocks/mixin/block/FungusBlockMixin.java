@@ -29,17 +29,14 @@ public class FungusBlockMixin extends PlantBlock
     @Inject(at = @At("RETURN"), method = "getOutlineShape", cancellable = true)
     private void getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context, CallbackInfoReturnable<VoxelShape> cir)
     {
-        if (DefaultConfig.get("useMixins"))
-        {
-            Block block = world.getBlockState(pos.down()).getBlock();
-            BlockState blockState = world.getBlockState(pos.down());
+        Block block = world.getBlockState(pos.down()).getBlock();
+        BlockState blockState = world.getBlockState(pos.down());
 
-            if (block instanceof PlantableSlabBlock || block instanceof SnowySlabBlock)
+        if (block instanceof PlantableSlabBlock || block instanceof SnowySlabBlock)
+        {
+            if (blockState.equals(blockState.with(TYPE, SlabType.BOTTOM)))
             {
-                if (blockState.equals(blockState.with(TYPE, SlabType.BOTTOM)))
-                {
-                    cir.setReturnValue(FUNGUS_SHAPE);
-                }
+                cir.setReturnValue(FUNGUS_SHAPE);
             }
         }
     }

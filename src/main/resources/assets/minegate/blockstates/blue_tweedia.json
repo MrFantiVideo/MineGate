@@ -1,14 +1,10 @@
 {
-  "credit": "MineGate - Tous droits réservés.",
-  "variants":
-  {
-      "type=default":
-      {
-          "model": "minegate:block/blue_tweedia"
-      },
-      "type=plant":
-      {
-          "model": "minegate:block/blue_tweedia_slab"
-      }
-  }
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "":
+        {
+            "model": "minegate:block/blue_tweedia"
+        }
+    }
 }

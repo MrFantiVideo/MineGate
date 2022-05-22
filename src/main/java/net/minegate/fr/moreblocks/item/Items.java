@@ -3041,6 +3041,7 @@ public class Items
     public static Item TOMAHAWK;
     public static Item STRAW_HAT;
     public static Item FISHING_HAT;
+    public static Item CLASSY_HAT;
     public static Item CHRISTMAS_HAT;
 
     /**
@@ -4483,6 +4484,7 @@ public class Items
         TOMAHAWK = MGItemRegister("tomahawk", new TomahawkItem(ToolMaterials.IRON, new FabricItemSettings().maxDamage(250)));
         STRAW_HAT = MGItemRegister("straw_hat", new HatItem(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
         FISHING_HAT = MGItemRegister("fishing_hat", new HatItem(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
+        CLASSY_HAT = MGItemRegister("classy_hat", new HatItem(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
         CHRISTMAS_HAT = MGItemRegister("christmas_hat", new HatItem(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
     }
 

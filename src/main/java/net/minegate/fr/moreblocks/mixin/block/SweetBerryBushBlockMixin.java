@@ -11,7 +11,6 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minegate.fr.moreblocks.block.PlantableSlabBlock;
 import net.minegate.fr.moreblocks.block.SnowySlabBlock;
-import net.minegate.fr.moreblocks.block.enums.FernType;
 import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -24,7 +23,6 @@ public class SweetBerryBushBlockMixin extends PlantBlock
 {
     private static final IntProperty            AGE;
     private static final EnumProperty<SlabType> TYPE;
-    private static final EnumProperty<FernType> FERN_TYPE;
     private static final VoxelShape             SLAB_CUBE_SHAPE;
     private static final VoxelShape             SLAB_SMALL_SHAPE;
     private static final VoxelShape             SLAB_LARGE_SHAPE;
@@ -39,66 +37,49 @@ public class SweetBerryBushBlockMixin extends PlantBlock
     @Inject(at = @At("RETURN"), method = "getOutlineShape", cancellable = true)
     private void getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context, CallbackInfoReturnable<VoxelShape> cir)
     {
-        if (DefaultConfig.get("useMixins"))
-        {
-            Block block = world.getBlockState(pos.down()).getBlock();
-            BlockState blockState = world.getBlockState(pos.down());
+        Block block = world.getBlockState(pos.down()).getBlock();
+        BlockState blockState = world.getBlockState(pos.down());
 
-            if (state.get(AGE) == 0)
+        if (state.get(AGE) == 0)
+        {
+            if (block instanceof PlantableSlabBlock || block instanceof SnowySlabBlock)
             {
-                if (block instanceof PlantableSlabBlock || block instanceof SnowySlabBlock)
+                if (blockState.equals(blockState.with(TYPE, SlabType.BOTTOM)))
                 {
-                    if (blockState.equals(blockState.with(TYPE, SlabType.BOTTOM)))
-                    {
-                        cir.setReturnValue(SLAB_SMALL_SHAPE);
-                    }
-                    else
-                    {
-                        cir.setReturnValue(SMALL_SHAPE);
-                    }
+                    cir.setReturnValue(SLAB_SMALL_SHAPE);
                 }
-            }
-            else
-            {
-                if (block instanceof PlantableSlabBlock || block instanceof SnowySlabBlock)
+                else
                 {
-                    if (blockState.equals(blockState.with(TYPE, SlabType.BOTTOM)))
-                    {
-                        if (state.get(AGE) < 3)
-                        {
-                            cir.setReturnValue(SLAB_LARGE_SHAPE);
-                        }
-                        else if (state.get(AGE) == 3)
-                        {
-                            cir.setReturnValue(SLAB_CUBE_SHAPE);
-                        }
-                    }
-                    else
-                    {
-                        cir.setReturnValue(state.get(AGE) < 3 ? LARGE_SHAPE : super.getOutlineShape(state, world, pos, context));
-                    }
+                    cir.setReturnValue(SMALL_SHAPE);
                 }
             }
         }
-    }
-
-    /**
-     * Definition of block properties.
-     **/
-
-    @Inject(at = @At("HEAD"), method = "appendProperties")
-    protected void appendProperties(StateManager.Builder<Block, BlockState> builder, CallbackInfo ci)
-    {
-        if (DefaultConfig.get("useMixins"))
+        else
         {
-            builder.add(FERN_TYPE);
+            if (block instanceof PlantableSlabBlock || block instanceof SnowySlabBlock)
+            {
+                if (blockState.equals(blockState.with(TYPE, SlabType.BOTTOM)))
+                {
+                    if (state.get(AGE) < 3)
+                    {
+                        cir.setReturnValue(SLAB_LARGE_SHAPE);
+                    }
+                    else if (state.get(AGE) == 3)
+                    {
+                        cir.setReturnValue(SLAB_CUBE_SHAPE);
+                    }
+                }
+                else
+                {
+                    cir.setReturnValue(state.get(AGE) < 3 ? LARGE_SHAPE : super.getOutlineShape(state, world, pos, context));
+                }
+            }
         }
     }
 
     static
     {
         AGE = Properties.AGE_3;
-        FERN_TYPE = net.minegate.fr.moreblocks.state.Properties.FERN_TYPE;
         TYPE = Properties.SLAB_TYPE;
         SLAB_SMALL_SHAPE = Block.createCuboidShape(3.0D, -8.0D, 3.0D, 13.0D, 0.0D, 13.0D);
         SLAB_LARGE_SHAPE = Block.createCuboidShape(1.0D, -8.0D, 1.0D, 15.0D, 8.0D, 15.0D);

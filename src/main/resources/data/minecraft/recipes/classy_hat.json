@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " B ",
+      " R ",
+      "BBB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:black_wool"
+      },
+      "R": {
+        "item": "minecraft:red_wool"
+      }
+    },
+    "result": {
+      "item": "minegate:classy_hat"
+    }
+}
