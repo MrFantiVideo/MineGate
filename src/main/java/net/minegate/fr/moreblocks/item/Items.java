@@ -11,19 +11,6 @@ import net.minegate.fr.moreblocks.block.*;
 public class Items
 {
     /**
-     * Initialization.
-     **/
-
-    public static void init()
-    {
-        MinecraftBlocks();
-        MineGateBlocks();
-        MineGateItems();
-        DeprecatedBlocks();
-        MoreBlocks.ConsoleClient("Loading of the different types of items.");
-    }
-
-    /**
      * List of new Minecraft variants of stairs blocks.
      **/
 
@@ -3041,6 +3028,7 @@ public class Items
     public static Item TOMAHAWK;
     public static Item STRAW_HAT;
     public static Item FISHING_HAT;
+    public static Item WITCH_HAT;
     public static Item CLASSY_HAT;
     public static Item CHRISTMAS_HAT;
 
@@ -3049,6 +3037,19 @@ public class Items
      **/
 
     public static Item GRASS_PATH_SLAB;
+
+    /**
+     * Initialization.
+     **/
+
+    public static void init()
+    {
+        MinecraftBlocks();
+        MineGateBlocks();
+        MineGateItems();
+        DeprecatedBlocks();
+        MoreBlocks.ConsoleClient("Loading of the different types of items.");
+    }
 
     /**
      * Registration of Minecraft items.
@@ -4482,10 +4483,11 @@ public class Items
         WRITTEN_WHITE_BOOK = MGItemRegister("written_white_book", new WrittenBookItem(new FabricItemSettings().maxCount(16)));
         WRITTEN_YELLOW_BOOK = MGItemRegister("written_yellow_book", new WrittenBookItem(new FabricItemSettings().maxCount(16)));
         TOMAHAWK = MGItemRegister("tomahawk", new TomahawkItem(ToolMaterials.IRON, new FabricItemSettings().maxDamage(250)));
-        STRAW_HAT = MGItemRegister("straw_hat", new HatItem(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
-        FISHING_HAT = MGItemRegister("fishing_hat", new HatItem(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
-        CLASSY_HAT = MGItemRegister("classy_hat", new HatItem(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
-        CHRISTMAS_HAT = MGItemRegister("christmas_hat", new HatItem(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
+        STRAW_HAT = MGItemRegister("straw_hat", new HatItem(new FabricItemSettings().maxCount(1).group(ItemGroups.GROUP_VARIOUS)));
+        FISHING_HAT = MGItemRegister("fishing_hat", new HatItem(new FabricItemSettings().maxCount(1).group(ItemGroups.GROUP_VARIOUS)));
+        WITCH_HAT = MGItemRegister("witch_hat", new HatItem(new FabricItemSettings().maxCount(1).group(ItemGroups.GROUP_VARIOUS)));
+        CLASSY_HAT = MGItemRegister("classy_hat", new HatItem(new FabricItemSettings().maxCount(1).group(ItemGroups.GROUP_VARIOUS)));
+        CHRISTMAS_HAT = MGItemRegister("christmas_hat", new HatItem(new FabricItemSettings().maxCount(1).group(ItemGroups.GROUP_VARIOUS)));
     }
 
     /**

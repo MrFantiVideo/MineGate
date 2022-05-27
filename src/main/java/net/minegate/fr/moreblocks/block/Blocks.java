@@ -13,20 +13,6 @@ import net.minegate.fr.moreblocks.potion.Potions;
 public class Blocks
 {
     /**
-     * Initialization.
-     **/
-
-    public static void init()
-    {
-        MinecraftBlocks();
-        MineGateBlocks();
-        DeprecatedBlocks();
-        FlammableBlocks.MinecraftFlammableBlocks();
-        FlammableBlocks.MineGateFlammableBlocks();
-        MoreBlocks.ConsoleClient("Loading of the different types of blocks.");
-    }
-
-    /**
      * List of new Minecraft variants of stairs blocks.
      **/
 
@@ -2986,6 +2972,20 @@ public class Blocks
      **/
 
     public static Block GRASS_PATH_SLAB;
+
+    /**
+     * Initialization.
+     **/
+
+    public static void init()
+    {
+        MinecraftBlocks();
+        MineGateBlocks();
+        DeprecatedBlocks();
+        FlammableBlocks.MinecraftFlammableBlocks();
+        FlammableBlocks.MineGateFlammableBlocks();
+        MoreBlocks.ConsoleClient("Loading of the different types of blocks.");
+    }
 
     /**
      * Registration of Minecraft blocks.

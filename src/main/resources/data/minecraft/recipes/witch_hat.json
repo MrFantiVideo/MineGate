@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " B ",
+      "GEG",
+      "BBB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:black_wool"
+      },
+      "G": {
+        "item": "minecraft:gray_wool"
+      },
+      "E": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "result": {
+      "item": "minegate:witch_hat"
+    }
+}

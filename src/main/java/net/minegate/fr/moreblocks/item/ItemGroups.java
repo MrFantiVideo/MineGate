@@ -1392,6 +1392,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Items.TOMAHAWK));
         stacks.add(new ItemStack(Items.STRAW_HAT));
         stacks.add(new ItemStack(Items.FISHING_HAT));
+        stacks.add(new ItemStack(Items.WITCH_HAT));
         stacks.add(new ItemStack(Items.CLASSY_HAT));
         stacks.add(new ItemStack(Items.CHRISTMAS_HAT));
     }).build();
