@@ -12,6 +12,8 @@
   "options.minegate.warning.tooltip.two": "your game for this to take effect.",
   "options.minegate.debugMode.true": "Debug mode: ON",
   "options.minegate.debugMode.false": "Debug mode: OFF",
+  "options.minegate.sizeChange.true": "Size change: ON",
+  "options.minegate.sizeChange.false": "Size change: OFF",
   "container.woodcutter": "Woodcutter",
   "block.minegate.woodcutter": "Woodcutter",
   "block.minegate.tile_ore": "Tile Ore",

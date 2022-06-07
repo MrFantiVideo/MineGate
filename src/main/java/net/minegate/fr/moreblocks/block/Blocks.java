@@ -2,12 +2,14 @@ package net.minegate.fr.moreblocks.block;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minegate.fr.moreblocks.MoreBlocks;
 import net.minegate.fr.moreblocks.block.glass.*;
+import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 import net.minegate.fr.moreblocks.potion.Potions;
 
 public class Blocks
@@ -4098,9 +4100,17 @@ public class Blocks
         RED_IRON_BLOCK_EIGHTH = MGBlockRegister("red_iron_block_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.IRON_BLOCK)));
         BLACK_IRON_BLOCK_EIGHTH = MGBlockRegister("black_iron_block_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.IRON_BLOCK)));
 
+        if (DefaultConfig.sizeChange)
+        {
+            BLUE_TWEEDIA = MGBlockRegister("blue_tweedia", new EffectFlowerBlock(Potions.SHRINK_EFFECT.getStatusEffect(), FabricBlockSettings.of(Material.PLANT).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
+            ROSE = MGBlockRegister("rose", new EffectFlowerBlock(Potions.GROW_EFFECT.getStatusEffect(), FabricBlockSettings.of(Material.PLANT).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
+        }
+        else
+        {
+            BLUE_TWEEDIA = MGBlockRegister("blue_tweedia", new FlowerBlock(StatusEffects.WEAKNESS, 9, FabricBlockSettings.of(Material.PLANT).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
+            ROSE = MGBlockRegister("rose", new FlowerBlock(StatusEffects.WEAKNESS, 9, FabricBlockSettings.of(Material.PLANT).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
+        }
 
-        BLUE_TWEEDIA = MGBlockRegister("blue_tweedia", new EffectFlowerBlock(Potions.SHRINK_EFFECT.getStatusEffect(), FabricBlockSettings.of(Material.PLANT).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
-        ROSE = MGBlockRegister("rose", new EffectFlowerBlock(Potions.GROW_EFFECT.getStatusEffect(), FabricBlockSettings.of(Material.PLANT).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
         POTTED_BLUE_TWEEDIA = MGBlockRegister("potted_blue_tweedia", new FlowerPotBlock(BLUE_TWEEDIA, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()));
         POTTED_ROSE = MGBlockRegister("potted_rose", new FlowerPotBlock(ROSE, FabricBlockSettings.of(Material.DECORATION).breakInstantly().nonOpaque()));
         OAK_WOOD_CHAIR = MGBlockRegister("oak_wood_chair", new ChairBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));

@@ -25,6 +25,7 @@ public class OptionsScreen extends Screen
     private              ButtonListWidget buttonBackground;
     private              ButtonWidget     buttonGenerationOres;
     private              ButtonWidget     buttonDebugMode;
+    private              ButtonWidget     buttonSizeChange;
     private static final Identifier       SOCIAL_TEXTURE   = new Identifier(MoreBlocks.NameClient.toLowerCase(), "textures/gui/social.png");
     private static final Identifier       MINEGATE_TEXTURE = new Identifier(MoreBlocks.NameClient.toLowerCase(), "textures/gui/minegate.png");
 
@@ -39,7 +40,8 @@ public class OptionsScreen extends Screen
         buttonBackground = new ButtonListWidget(this.client, this.width, this.height, 32, this.height - 32, 25);
         buttonGenerationOres = button("generationOres", 0);
         buttonDebugMode = button("debugMode", 24);
-        addDrawableChild(new TexturedButtonWidget(this.width / 2 - 100, this.height / 6 + 48, 100, 20, 0, 0, 20, MINEGATE_TEXTURE, 100, 40, (buttonWidget) ->
+        buttonSizeChange = button("sizeChange", 48);
+        addDrawableChild(new TexturedButtonWidget(this.width / 2 - 100, this.height / 6 + 72, 100, 20, 0, 0, 20, MINEGATE_TEXTURE, 100, 40, (buttonWidget) ->
         {
             client.setScreen(new ConfirmChatLinkScreen((bl) ->
             {
@@ -82,7 +84,7 @@ public class OptionsScreen extends Screen
 
     public ButtonWidget buttonLink(String url, int placement, int v)
     {
-        return addDrawableChild(new TexturedButtonWidget(this.width / 2 + 5 + placement, this.height / 6 + 48, 20, 20, 0, v, 20, SOCIAL_TEXTURE, 20, 160, (buttonWidget) ->
+        return addDrawableChild(new TexturedButtonWidget(this.width / 2 + 5 + placement, this.height / 6 + 72, 20, 20, 0, v, 20, SOCIAL_TEXTURE, 20, 160, (buttonWidget) ->
         {
             client.setScreen(new ConfirmChatLinkScreen((bl) ->
             {
@@ -105,7 +107,7 @@ public class OptionsScreen extends Screen
         super.render(matrices, mouseX, mouseY, delta);
         for (int b = 0; b < 1; b = b + 1)
         {
-            if (buttonGenerationOres.isHovered())
+            if (buttonGenerationOres.isHovered() || buttonSizeChange.isHovered())
             {
                 List<Text> generationOresTooltip = Arrays.asList(new TranslatableText("options.minegate.warning.tooltip.one"), new TranslatableText("options.minegate.warning.tooltip.two"));
                 renderTooltip(matrices, generationOresTooltip, mouseX, mouseY);

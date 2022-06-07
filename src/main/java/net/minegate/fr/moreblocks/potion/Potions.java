@@ -8,6 +8,7 @@ import net.minecraft.potion.Potion;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.minegate.fr.moreblocks.MoreBlocks;
+import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 import net.minegate.fr.moreblocks.mixin.recipe.BrewingRecipeRegistryMixin;
 
 public class Potions
@@ -18,11 +19,14 @@ public class Potions
 
     public static void init()
     {
-        SHRINK_EFFECT = EffectRegister("shrink", 11594216);
-        GROW_EFFECT = EffectRegister("grow", 16237267);
-        BrewingRecipeRegistryMixin.registerPotionRecipe(net.minecraft.potion.Potions.WATER, Items.LILY_OF_THE_VALLEY, SHRINK_EFFECT.getPotion());
-        BrewingRecipeRegistryMixin.registerPotionRecipe(net.minecraft.potion.Potions.WATER, Items.WITHER_ROSE, GROW_EFFECT.getPotion());
-        MoreBlocks.ConsoleClient("Loading of the different types of potions.");
+        if (DefaultConfig.sizeChange)
+        {
+            SHRINK_EFFECT = EffectRegister("shrink", 11594216);
+            GROW_EFFECT = EffectRegister("grow", 16237267);
+            BrewingRecipeRegistryMixin.registerPotionRecipe(net.minecraft.potion.Potions.WATER, Items.LILY_OF_THE_VALLEY, SHRINK_EFFECT.getPotion());
+            BrewingRecipeRegistryMixin.registerPotionRecipe(net.minecraft.potion.Potions.WATER, Items.WITHER_ROSE, GROW_EFFECT.getPotion());
+            MoreBlocks.ConsoleClient("Loading of the different types of potions.");
+        }
     }
 
     /**

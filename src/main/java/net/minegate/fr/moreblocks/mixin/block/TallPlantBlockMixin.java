@@ -24,9 +24,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(TallPlantBlock.class)
 public class TallPlantBlockMixin extends PlantBlock
 {
-    private static final EnumProperty<SlabType>        TYPE;
-    private static final VoxelShape                    FLOWER_SHAPE = Block.createCuboidShape(0.0D, -8.0D, 0.0D, 16.0D, 8.0D, 16.0D);
-    private static final EnumProperty<DoubleBlockHalf> HALF;
+    private static final EnumProperty<SlabType> TYPE;
+    private static final VoxelShape             FLOWER_SHAPE;
 
     protected TallPlantBlockMixin(Settings settings)
     {
@@ -64,6 +63,6 @@ public class TallPlantBlockMixin extends PlantBlock
     static
     {
         TYPE = Properties.SLAB_TYPE;
-        HALF = Properties.DOUBLE_BLOCK_HALF;
+        FLOWER_SHAPE = Block.createCuboidShape(0.0D, -8.0D, 0.0D, 16.0D, 8.0D, 16.0D);
     }
 }

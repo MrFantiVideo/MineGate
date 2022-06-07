@@ -12,6 +12,8 @@
     "options.minegate.warning.tooltip.two": "votre jeu pour que cela prenne effet.",
     "options.minegate.debugMode.true": "Mode débogage : Oui",
     "options.minegate.debugMode.false": "Mode débogage : Non",
+    "options.minegate.sizeChange.true": "Changement de taille : Oui",
+    "options.minegate.sizeChange.false": "Changement de taille : Non",
     "modmenu.descriptionTranslation.minegate-moreblocks": "Ajoute de nombreux blocs et de nouvelles variantes.",
     "container.woodcutter": "Tailleur de bois",
     "block.minegate.woodcutter": "Tailleur de bois",

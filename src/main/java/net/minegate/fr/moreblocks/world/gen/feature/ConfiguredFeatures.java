@@ -15,6 +15,7 @@ import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
 import net.minecraft.world.gen.placementmodifier.SquarePlacementModifier;
 import net.minegate.fr.moreblocks.MoreBlocks;
 import net.minegate.fr.moreblocks.block.Blocks;
+import net.minegate.fr.moreblocks.client.gui.screen.options.DefaultConfig;
 
 import java.util.Arrays;
 
@@ -35,19 +36,22 @@ public class ConfiguredFeatures
 
     public static void init()
     {
-        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_obsidian_overworld"), ORE_OBSIDIAN_OVERWORLD_CONFIGURED_FEATURE);
-        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_obsidian_overworld"), ORE_OBSIDIAN_OVERWORLD_PLACED_FEATURE);
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(Registry.PLACED_FEATURE_KEY, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_obsidian_overworld")));
-        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_obsidian_overworld"), DEEPSLATE_ORE_OBSIDIAN_OVERWORLD_CONFIGURED_FEATURE);
-        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_obsidian_overworld"), DEEPSLATE_ORE_OBSIDIAN_OVERWORLD_PLACED_FEATURE);
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(Registry.PLACED_FEATURE_KEY, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_obsidian_overworld")));
-        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_tile_overworld"), ORE_TILE_OVERWORLD_CONFIGURED_FEATURE);
-        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_tile_overworld"), ORE_TILE_OVERWORLD_PLACED_FEATURE);
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(Registry.PLACED_FEATURE_KEY, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_tile_overworld")));
-        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_tile_overworld"), DEEPSLATE_ORE_TILE_OVERWORLD_CONFIGURED_FEATURE);
-        Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_tile_overworld"), DEEPSLATE_ORE_TILE_OVERWORLD_PLACED_FEATURE);
-        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(Registry.PLACED_FEATURE_KEY, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_tile_overworld")));
-        MoreBlocks.ConsoleClient("Loading of the different ores of world.");
+        if (DefaultConfig.generationOres)
+        {
+            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_obsidian_overworld"), ORE_OBSIDIAN_OVERWORLD_CONFIGURED_FEATURE);
+            Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_obsidian_overworld"), ORE_OBSIDIAN_OVERWORLD_PLACED_FEATURE);
+            BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(Registry.PLACED_FEATURE_KEY, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_obsidian_overworld")));
+            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_obsidian_overworld"), DEEPSLATE_ORE_OBSIDIAN_OVERWORLD_CONFIGURED_FEATURE);
+            Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_obsidian_overworld"), DEEPSLATE_ORE_OBSIDIAN_OVERWORLD_PLACED_FEATURE);
+            BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(Registry.PLACED_FEATURE_KEY, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_obsidian_overworld")));
+            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_tile_overworld"), ORE_TILE_OVERWORLD_CONFIGURED_FEATURE);
+            Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_tile_overworld"), ORE_TILE_OVERWORLD_PLACED_FEATURE);
+            BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(Registry.PLACED_FEATURE_KEY, new Identifier(MoreBlocks.NameClient.toLowerCase(), "ore_tile_overworld")));
+            Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_tile_overworld"), DEEPSLATE_ORE_TILE_OVERWORLD_CONFIGURED_FEATURE);
+            Registry.register(BuiltinRegistries.PLACED_FEATURE, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_tile_overworld"), DEEPSLATE_ORE_TILE_OVERWORLD_PLACED_FEATURE);
+            BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, RegistryKey.of(Registry.PLACED_FEATURE_KEY, new Identifier(MoreBlocks.NameClient.toLowerCase(), "deepslate_ore_tile_overworld")));
+            MoreBlocks.ConsoleClient("Loading of the different ores of world.");
+        }
     }
 
     static

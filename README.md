@@ -14,7 +14,7 @@ Minecraft Development : https://plugins.jetbrains.com/plugin/8327-minecraft-deve
 ### 🌲 Compilation :
 
 ```> gradlew build```
- 
+
 ### 🔨 Mises à jour :
 
 Vous devez d'abord changer les versions des fichiers suivants :
@@ -46,7 +46,7 @@ dependencies
 
 ainsi que ceci dans le « gradle.properties » :
 
-	minegate_moreblocks_version=1.2.2
+	minegate_moreblocks_version=1.2.3
 
 Vous devrez modifier ce fichier lorsqu'une nouvelle version du mod est publiée.<br>
 Les anciennes versions resteront disponibles, mais pas recommandées à l'utilisation.
