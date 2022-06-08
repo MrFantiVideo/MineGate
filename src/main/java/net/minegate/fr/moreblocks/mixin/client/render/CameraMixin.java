@@ -9,8 +9,7 @@ import net.minegate.fr.moreblocks.entity.ScaledEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
+import org.spongepowered.asm.mixin.injection.ModifyArg;
 
 @Environment(EnvType.CLIENT)
 @Mixin(Camera.class)
@@ -23,13 +22,14 @@ public class CameraMixin
      * Adapts the camera based on the size of the entity.
      **/
 
-    @Inject(method = "clipToSpace", at = @At("TAIL"), cancellable = true)
-    public void clipToSpace(double desiredCameraDistance, CallbackInfoReturnable<Double> cir)
+    @ModifyArg(method = "update", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/Camera;clipToSpace(D)D"))
+    public double onUpdateClipToSpaceProxy(double desiredCameraDistance)
     {
         if (DefaultConfig.sizeChange)
         {
             float scale = focusedEntity instanceof ScaledEntity ? ((ScaledEntity) focusedEntity).getScale() : 1.0F;
-            cir.setReturnValue(desiredCameraDistance * scale);
+            return desiredCameraDistance * scale;
         }
+        return desiredCameraDistance;
     }
 }

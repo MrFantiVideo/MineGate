@@ -18,7 +18,7 @@ public class LivingEntityRendererMixin
      * Adapts the scale based on the size of the entity. (Changes planned next version.)
      **/
 
-    @ModifyArg(at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/entity/LivingEntityRenderer;scale(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/client/util/math/MatrixStack;F)V"), method = "render", index = 1)
+    @ModifyArg(at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/entity/LivingEntityRenderer;scale(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/client/util/math/MatrixStack;F)V"), method = "render*", index = 1)
     public MatrixStack adjustScale(LivingEntity livingEntity, MatrixStack matrices, float amount)
     {
         float scale = ((ScaledEntity) livingEntity).getScale();

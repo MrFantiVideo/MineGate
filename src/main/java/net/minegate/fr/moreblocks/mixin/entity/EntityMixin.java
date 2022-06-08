@@ -41,6 +41,9 @@ public class EntityMixin
             if (this.type.equals(net.minegate.fr.moreblocks.entity.EntityType.SIT))
             {
                 d = d - 0.38F;
+            } else if (this.type.equals(EntityType.MINECART))
+            {
+                d = d - 0.38F;
             }
             positionUpdater.accept(passenger, this.pos.x, d, this.pos.z);
         }
