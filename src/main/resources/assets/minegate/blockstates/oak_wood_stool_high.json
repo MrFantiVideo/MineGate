@@ -6,17 +6,17 @@
         {
             "model": "minegate:block/oak_wood_stool_high"
         },
-        "facing=south":
-        {
-            "model": "minegate:block/oak_wood_stool_high"
-        },
         "facing=east":
         {
             "model": "minegate:block/oak_wood_stool_high", "y": 90
         },
+        "facing=south":
+        {
+            "model": "minegate:block/oak_wood_stool_high", "y": 180
+        },
         "facing=west":
         {
-            "model": "minegate:block/oak_wood_stool_high", "y": 90
+            "model": "minegate:block/oak_wood_stool_high", "y": 270
         }
     }
 }

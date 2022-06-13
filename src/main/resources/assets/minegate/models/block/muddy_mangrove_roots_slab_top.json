@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/slab_top",
+    "textures":
+    {
+        "bottom": "minecraft:block/muddy_mangrove_roots_top",
+        "top": "minecraft:block/muddy_mangrove_roots_top",
+        "side": "minecraft:block/muddy_mangrove_roots_side"
+    }
+}

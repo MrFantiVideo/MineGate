@@ -1,78 +1,211 @@
 ﻿{
     "credit": "MineGate - Tous droits réservés.",
-    "variants":
-    {
-        "type=empty":
+    "multipart":
+    [
         {
-            "model": "minegate:block/spruce_bookshelf"
+            "apply":
+            {
+                "model": "minegate:block/spruce_bookshelf",
+                "uvlock": true
+            }
         },
-        "type=default":
         {
-            "model": "minegate:block/spruce_bookshelf_default"
+            "when":
+            {
+                "type": "empty"
+            },
+            "apply":
+            {
+                "model": "minegate:block/spruce_bookshelf_book_empty",
+                "uvlock": true
+            }
         },
-        "type=black":
         {
-            "model": "minegate:block/spruce_bookshelf_black"
+            "when":
+            {
+                "type": "default"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_default",
+                "uvlock": true
+            }
         },
-        "type=blue":
         {
-            "model": "minegate:block/spruce_bookshelf_blue"
+            "when":
+            {
+                "type": "black"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_black",
+                "uvlock": true
+            }
         },
-        "type=brown":
         {
-            "model": "minegate:block/spruce_bookshelf_brown"
+            "when":
+            {
+                "type": "blue"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_blue",
+                "uvlock": true
+            }
         },
-        "type=cyan":
         {
-            "model": "minegate:block/spruce_bookshelf_cyan"
+            "when":
+            {
+                "type": "brown"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_brown",
+                "uvlock": true
+            }
         },
-        "type=gray":
         {
-            "model": "minegate:block/spruce_bookshelf_gray"
+            "when":
+            {
+                "type": "cyan"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_cyan",
+                "uvlock": true
+            }
         },
-        "type=green":
         {
-            "model": "minegate:block/spruce_bookshelf_green"
+            "when":
+            {
+                "type": "gray"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_gray",
+                "uvlock": true
+            }
         },
-        "type=light_blue":
         {
-            "model": "minegate:block/spruce_bookshelf_light_blue"
+            "when":
+            {
+                "type": "green"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_green",
+                "uvlock": true
+            }
         },
-        "type=light_gray":
         {
-            "model": "minegate:block/spruce_bookshelf_light_gray"
+            "when":
+            {
+                "type": "light_blue"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_light_blue",
+                "uvlock": true
+            }
         },
-        "type=lime":
         {
-            "model": "minegate:block/spruce_bookshelf_lime"
+            "when":
+            {
+                "type": "light_gray"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_light_gray",
+                "uvlock": true
+            }
         },
-        "type=magenta":
         {
-            "model": "minegate:block/spruce_bookshelf_magenta"
+            "when":
+            {
+                "type": "lime"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_lime",
+                "uvlock": true
+            }
         },
-        "type=orange":
         {
-            "model": "minegate:block/spruce_bookshelf_orange"
+            "when":
+            {
+                "type": "magenta"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_magenta",
+                "uvlock": true
+            }
         },
-        "type=pink":
         {
-            "model": "minegate:block/spruce_bookshelf_pink"
+            "when":
+            {
+                "type": "orange"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_orange",
+                "uvlock": true
+            }
         },
-        "type=purple":
         {
-            "model": "minegate:block/spruce_bookshelf_purple"
+            "when":
+            {
+                "type": "pink"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_pink",
+                "uvlock": true
+            }
         },
-        "type=red":
         {
-            "model": "minegate:block/spruce_bookshelf_red"
+            "when":
+            {
+                "type": "purple"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_purple",
+                "uvlock": true
+            }
         },
-        "type=white":
         {
-            "model": "minegate:block/spruce_bookshelf_white"
+            "when":
+            {
+                "type": "red"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_red",
+                "uvlock": true
+            }
         },
-        "type=yellow":
         {
-            "model": "minegate:block/spruce_bookshelf_yellow"
+            "when":
+            {
+                "type": "white"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_white",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
+                "type": "yellow"
+            },
+            "apply":
+            {
+                "model": "minegate:block/bookshelf_book_yellow",
+                "uvlock": true
+            }
         }
-    }
+    ]
 }

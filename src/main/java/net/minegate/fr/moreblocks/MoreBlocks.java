@@ -13,7 +13,7 @@ import org.apache.logging.log4j.LogManager;
 public class MoreBlocks implements ModInitializer
 {
     public static final String NameClient    = "MineGate";
-    public static final String VersionClient = "1.2.3";
+    public static final String VersionClient = "1.2.5";
 
     /**
      * Initialization.

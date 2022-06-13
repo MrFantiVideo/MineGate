@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minegate:mangrove_log_stairs",
+    "minegate:mangrove_wood_stairs",
+    "minegate:stripped_mangrove_log_stairs",
+    "minegate:stripped_mangrove_wood_stairs",
+    "minegate:mangrove_log_stairs_vertical",
+    "minegate:mangrove_wood_stairs_vertical",
+    "minegate:stripped_mangrove_log_stairs_vertical",
+    "minegate:stripped_mangrove_wood_stairs_vertical",
+    "minegate:mangrove_log_slab",
+    "minegate:mangrove_wood_slab",
+    "minegate:stripped_mangrove_log_slab",
+    "minegate:stripped_mangrove_wood_slab",
+    "minegate:mangrove_log_slab_vertical",
+    "minegate:mangrove_wood_slab_vertical",
+    "minegate:stripped_mangrove_log_slab_vertical",
+    "minegate:stripped_mangrove_wood_slab_vertical",
+    "minegate:mangrove_log_quarter",
+    "minegate:mangrove_wood_quarter",
+    "minegate:stripped_mangrove_log_quarter",
+    "minegate:stripped_mangrove_wood_quarter",
+    "minegate:mangrove_log_quarter_vertical",
+    "minegate:mangrove_wood_quarter_vertical",
+    "minegate:stripped_mangrove_log_quarter_vertical",
+    "minegate:stripped_mangrove_wood_quarter_vertical",
+    "minegate:mangrove_log_eighth",
+    "minegate:mangrove_wood_eighth",
+    "minegate:stripped_mangrove_log_eighth",
+    "minegate:stripped_mangrove_wood_eighth"
+  ]
+}

@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/inner_quarter",
+    "textures":
+    {
+        "particle": "minecraft:block/mud",
+        "bottom": "minecraft:block/mud",
+        "top": "minecraft:block/mud",
+        "side": "minecraft:block/mud"
+    }
+}

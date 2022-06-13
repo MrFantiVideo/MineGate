@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top",
+    "textures":
+    {
+        "particle": "minecraft:block/mangrove_roots_top",
+        "bottom": "minecraft:block/mangrove_roots_top",
+        "top": "minecraft:block/mangrove_roots_top",
+        "side": "minecraft:block/mangrove_roots_side"
+    }
+}

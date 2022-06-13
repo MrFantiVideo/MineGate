@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/outer_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/sculk",
+        "top": "minecraft:block/sculk",
+        "side": "minecraft:block/sculk"
+    }
+}

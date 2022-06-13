@@ -1,0 +1,7 @@
+﻿{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "minegate:block/light_gray_iron_door_bottom",
+    "top": "minegate:block/light_gray_iron_door_top"
+  }
+}

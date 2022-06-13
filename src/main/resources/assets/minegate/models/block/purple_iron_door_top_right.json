@@ -1,0 +1,7 @@
+﻿{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "minegate:block/purple_iron_door_bottom",
+    "top": "minegate:block/purple_iron_door_top"
+  }
+}

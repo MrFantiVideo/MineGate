@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:pearlescent_froglight"
+  },
+  "result": "minegate:pearlescent_froglight_eighth",
+  "count": 8
+}

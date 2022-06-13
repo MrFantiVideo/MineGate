@@ -1,0 +1,214 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "multipart": [
+        {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_empty"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "uvlock": true
+            },
+            "when": {
+              "north": "false",
+              "east": "false",
+              "south": "false",
+              "west": "false"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 90,
+              "uvlock": true
+            },
+            "when": {
+              "north": "false",
+              "east": "false",
+              "south": "false",
+              "west": "false"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 180,
+              "uvlock": true
+            },
+            "when": {
+              "north": "false",
+              "east": "false",
+              "south": "false",
+              "west": "false"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 270,
+              "uvlock": true
+            },
+            "when": {
+              "north": "false",
+              "east": "false",
+              "south": "false",
+              "west": "false"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 270,
+              "uvlock": true
+            },
+            "when": {
+              "east": "false",
+              "south": "false",
+              "west": "false",
+              "north": "true"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 180,
+              "uvlock": true
+            },
+            "when": {
+              "east": "false",
+              "south": "false",
+              "west": "false",
+              "north": "true"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "uvlock": true
+            },
+            "when": {
+              "north": "false",
+              "south": "false",
+              "west": "false",
+              "east": "true"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 270,
+              "uvlock": true
+            },
+            "when": {
+              "north": "false",
+              "south": "false",
+              "west": "false",
+              "east": "true"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "uvlock": true
+            },
+            "when": {
+              "north": "false",
+              "east": "false",
+              "west": "false",
+              "south": "true"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 90,
+              "uvlock": true
+            },
+            "when": {
+              "north": "false",
+              "east": "false",
+              "west": "false",
+              "south": "true"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 90,
+              "uvlock": true
+            },
+            "when": {
+              "north": "false",
+              "east": "false",
+              "south": "false",
+              "west": "true"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 180,
+              "uvlock": true
+            },
+            "when": {
+              "north": "false",
+              "east": "false",
+              "south": "false",
+              "west": "true"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 180,
+              "uvlock": true
+            },
+            "when": {
+              "north": "true",
+              "west": "true",
+              "south": "false",
+              "east": "false"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 270,
+              "uvlock": true
+            },
+            "when": {
+              "north": "true",
+              "east": "true",
+              "south": "false",
+              "west": "false"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "y": 90,
+              "uvlock": true
+            },
+            "when": {
+              "south": "true",
+              "west": "true",
+              "north": "false",
+              "east": "false"
+            }
+          },
+          {
+            "apply": {
+              "model": "minegate:block/mangrove_wood_table_small_quarter",
+              "uvlock": true
+            },
+            "when": {
+              "south": "true",
+              "east": "true",
+              "north": "false",
+              "west": "false"
+            }
+        }
+    ]
+  }

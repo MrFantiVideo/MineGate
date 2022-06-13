@@ -1,0 +1,17 @@
+﻿{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minegate:mangrove_stick"
+    }
+  },
+  "result": {
+    "item": "minegate:mangrove_ladder",
+    "count": 3
+  }
+}

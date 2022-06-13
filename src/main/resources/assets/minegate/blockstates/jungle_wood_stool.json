@@ -6,17 +6,17 @@
         {
             "model": "minegate:block/jungle_wood_stool"
         },
-        "facing=south":
-        {
-            "model": "minegate:block/jungle_wood_stool"
-        },
         "facing=east":
         {
             "model": "minegate:block/jungle_wood_stool", "y": 90
         },
+        "facing=south":
+        {
+            "model": "minegate:block/jungle_wood_stool", "y": 180
+        },
         "facing=west":
         {
-            "model": "minegate:block/jungle_wood_stool", "y": 90
+            "model": "minegate:block/jungle_wood_stool", "y": 270
         }
     }
 }

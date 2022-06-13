@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:mangrove_wood"
+  },
+  "result": "minegate:mangrove_wood_stairs_vertical",
+  "count": 1
+}

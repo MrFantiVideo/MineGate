@@ -1,7 +1,5 @@
 package net.minegate.fr.moreblocks.block;
 
-import java.util.Random;
-
 import net.minecraft.block.*;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.enums.SlabType;
@@ -11,7 +9,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
-import net.minecraft.server.world.ServerWorld;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 
@@ -72,11 +69,6 @@ public class DirtPathSlabBlock extends SlabBlock
             world.createAndScheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
 
         return super.getStateForNeighborUpdate(state, facing, neighborState, world, pos, neighborPos);
-    }
-
-    public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random)
-    {
-        // SlabGrassBlock.setToDirt(world, pos);
     }
 
     static

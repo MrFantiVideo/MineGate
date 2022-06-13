@@ -1,10 +1,8 @@
 package net.minegate.fr.moreblocks.block;
 
 import java.util.Iterator;
-import java.util.Random;
 
 import net.minecraft.block.*;
-import net.minecraft.entity.ai.pathing.NavigationType;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.EnumProperty;
@@ -13,6 +11,7 @@ import net.minecraft.state.property.Properties;
 import net.minecraft.tag.FluidTags;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.*;
 import net.minecraft.block.enums.SlabType;
@@ -73,7 +72,6 @@ public class FarmlandSlabBlock extends PlantableSlabBlock
         {
             setToDirt(state, world, pos);
         }
-
     }
 
     @Override

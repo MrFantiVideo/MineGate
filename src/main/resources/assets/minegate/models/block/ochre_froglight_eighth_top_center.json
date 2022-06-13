@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top_center",
+    "textures":
+    {
+        "particle": "minecraft:block/ochre_froglight_top",
+        "bottom": "minecraft:block/ochre_froglight_top",
+        "top": "minecraft:block/ochre_froglight_top",
+        "side": "minecraft:block/ochre_froglight_side"
+    }
+}

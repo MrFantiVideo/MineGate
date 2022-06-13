@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_x",
+    "textures":
+    {
+        "particle": "minecraft:block/pearlescent_froglight_top",
+        "bottom": "minecraft:block/pearlescent_froglight_top",
+        "top": "minecraft:block/pearlescent_froglight_top",
+        "side": "minecraft:block/pearlescent_froglight_side"
+    }
+}

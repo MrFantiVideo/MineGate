@@ -7,6 +7,7 @@
     "minegate:jungle_planks_large",
     "minegate:acacia_planks_large",
     "minegate:dark_oak_planks_large",
+    "minegate:mangrove_planks_large",
     "minegate:crimson_planks_large",
     "minegate:warped_planks_large",
     "minegate:oak_planks_smooth",
@@ -15,6 +16,7 @@
     "minegate:jungle_planks_smooth",
     "minegate:acacia_planks_smooth",
     "minegate:dark_oak_planks_smooth",
+    "minegate:mangrove_planks_smooth",
     "minegate:crimson_planks_smooth",
     "minegate:warped_planks_smooth",
     "minegate:oak_planks_herringbone",
@@ -23,6 +25,7 @@
     "minegate:jungle_planks_herringbone",
     "minegate:acacia_planks_herringbone",
     "minegate:dark_oak_planks_herringbone",
+    "minegate:mangrove_planks_herringbone",
     "minegate:crimson_planks_herringbone",
     "minegate:warped_planks_herringbone"
   ]

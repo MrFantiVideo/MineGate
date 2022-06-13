@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:sculk"
+  },
+  "result": "minegate:sculk_eighth",
+  "count": 8
+}

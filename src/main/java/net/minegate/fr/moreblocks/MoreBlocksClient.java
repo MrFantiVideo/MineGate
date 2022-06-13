@@ -2,9 +2,9 @@ package net.minegate.fr.moreblocks;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.client.rendereregistry.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.color.world.FoliageColors;
 import net.minecraft.client.color.world.GrassColors;
@@ -25,14 +25,21 @@ public class MoreBlocksClient implements ClientModInitializer
     @Override
     public void onInitializeClient()
     {
-        EntityRendererRegistry.INSTANCE.register(EntityType.TOMAHAWK, TomahawkEntityRenderer::new);
+        EntityRendererRegistry.register(EntityType.TOMAHAWK, TomahawkEntityRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(TomahawkEntityRenderer.TOMAHAWK_LAYER_MODEL, TomahawkEntityModel::getTexturedModelData);
-        EntityRendererRegistry.INSTANCE.register(EntityType.SIT, SitEntityRenderer::new);
+        EntityRendererRegistry.register(EntityType.SIT, SitEntityRenderer::new);
         if (MoreBlocks.DebugClient())
         {
             MoreBlocks.ConsoleClient("EntityRendererRegistry & EntityModelLayerRegistry : OK !");
         }
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getTranslucent(),
+                Blocks.MANGROVE_ROOTS_STAIRS,
+                Blocks.MANGROVE_ROOTS_STAIRS_VERTICAL,
+                Blocks.MANGROVE_ROOTS_SLAB,
+                Blocks.MANGROVE_ROOTS_SLAB_VERTICAL,
+                Blocks.MANGROVE_ROOTS_QUARTER,
+                Blocks.MANGROVE_ROOTS_QUARTER_VERTICAL,
+                Blocks.MANGROVE_ROOTS_EIGHTH,
                 Blocks.GLASS_STAIRS,
                 Blocks.GLASS_STAIRS_VERTICAL,
                 Blocks.GLASS_SLAB,
@@ -208,6 +215,13 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.DARK_OAK_LEAVES_QUARTER,
                 Blocks.DARK_OAK_LEAVES_QUARTER_VERTICAL,
                 Blocks.DARK_OAK_LEAVES_EIGHTH,
+                Blocks.MANGROVE_LEAVES_STAIRS,
+                Blocks.MANGROVE_LEAVES_STAIRS_VERTICAL,
+                Blocks.MANGROVE_LEAVES_SLAB,
+                Blocks.MANGROVE_LEAVES_SLAB_VERTICAL,
+                Blocks.MANGROVE_LEAVES_QUARTER,
+                Blocks.MANGROVE_LEAVES_QUARTER_VERTICAL,
+                Blocks.MANGROVE_LEAVES_EIGHTH,
                 Blocks.AZALEA_LEAVES_STAIRS,
                 Blocks.AZALEA_LEAVES_STAIRS_VERTICAL,
                 Blocks.AZALEA_LEAVES_SLAB,
@@ -363,6 +377,7 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.JUNGLE_LADDER,
                 Blocks.ACACIA_LADDER,
                 Blocks.DARK_OAK_LADDER,
+                Blocks.MANGROVE_LADDER,
                 Blocks.CRIMSON_LADDER,
                 Blocks.WARPED_LADDER,
                 Blocks.STEEL_GLASS_PANE,
@@ -425,6 +440,7 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.JUNGLE_LANTERN,
                 Blocks.ACACIA_LANTERN,
                 Blocks.DARK_OAK_LANTERN,
+                Blocks.MANGROVE_LANTERN,
                 Blocks.CRIMSON_LANTERN,
                 Blocks.WARPED_LANTERN,
                 Blocks.POLISHED_GRANITE_VASE,
@@ -437,6 +453,7 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.STRIPPED_JUNGLE_WOOD_VASE,
                 Blocks.STRIPPED_ACACIA_WOOD_VASE,
                 Blocks.STRIPPED_DARK_OAK_WOOD_VASE,
+                Blocks.STRIPPED_MANGROVE_WOOD_VASE,
                 Blocks.STRIPPED_CRIMSON_HYPHAE_VASE,
                 Blocks.STRIPPED_WARPED_HYPHAE_VASE,
                 Blocks.POLISHED_GRANITE_VASE_HIGH,
@@ -449,6 +466,7 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.STRIPPED_JUNGLE_WOOD_VASE_HIGH,
                 Blocks.STRIPPED_ACACIA_WOOD_VASE_HIGH,
                 Blocks.STRIPPED_DARK_OAK_WOOD_VASE_HIGH,
+                Blocks.STRIPPED_MANGROVE_WOOD_VASE_HIGH,
                 Blocks.STRIPPED_CRIMSON_HYPHAE_VASE_HIGH,
                 Blocks.STRIPPED_WARPED_HYPHAE_VASE_HIGH,
                 Blocks.POLISHED_GRANITE_VASE_SMALL,
@@ -461,6 +479,7 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.STRIPPED_JUNGLE_WOOD_VASE_SMALL,
                 Blocks.STRIPPED_ACACIA_WOOD_VASE_SMALL,
                 Blocks.STRIPPED_DARK_OAK_WOOD_VASE_SMALL,
+                Blocks.STRIPPED_MANGROVE_WOOD_VASE_SMALL,
                 Blocks.STRIPPED_CRIMSON_HYPHAE_VASE_SMALL,
                 Blocks.STRIPPED_WARPED_HYPHAE_VASE_SMALL,
                 Blocks.GRASS_BLOCK_SLAB,
@@ -478,7 +497,8 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.OAK_LEAVES_STAIRS, Blocks.OAK_LEAVES_STAIRS_VERTICAL, Blocks.OAK_LEAVES_SLAB, Blocks.OAK_LEAVES_SLAB_VERTICAL, Blocks.OAK_LEAVES_QUARTER, Blocks.OAK_LEAVES_QUARTER_VERTICAL, Blocks.OAK_LEAVES_EIGHTH,
                 Blocks.JUNGLE_LEAVES_STAIRS, Blocks.JUNGLE_LEAVES_STAIRS_VERTICAL, Blocks.JUNGLE_LEAVES_SLAB, Blocks.JUNGLE_LEAVES_SLAB_VERTICAL, Blocks.JUNGLE_LEAVES_QUARTER, Blocks.JUNGLE_LEAVES_QUARTER_VERTICAL, Blocks.JUNGLE_LEAVES_EIGHTH,
                 Blocks.ACACIA_LEAVES_STAIRS, Blocks.ACACIA_LEAVES_STAIRS_VERTICAL, Blocks.ACACIA_LEAVES_SLAB, Blocks.ACACIA_LEAVES_SLAB_VERTICAL, Blocks.ACACIA_LEAVES_QUARTER, Blocks.ACACIA_LEAVES_QUARTER_VERTICAL, Blocks.ACACIA_LEAVES_EIGHTH,
-                Blocks.DARK_OAK_LEAVES_STAIRS, Blocks.DARK_OAK_LEAVES_STAIRS_VERTICAL, Blocks.DARK_OAK_LEAVES_SLAB, Blocks.DARK_OAK_LEAVES_SLAB_VERTICAL, Blocks.DARK_OAK_LEAVES_QUARTER, Blocks.DARK_OAK_LEAVES_QUARTER_VERTICAL, Blocks.DARK_OAK_LEAVES_EIGHTH
+                Blocks.DARK_OAK_LEAVES_STAIRS, Blocks.DARK_OAK_LEAVES_STAIRS_VERTICAL, Blocks.DARK_OAK_LEAVES_SLAB, Blocks.DARK_OAK_LEAVES_SLAB_VERTICAL, Blocks.DARK_OAK_LEAVES_QUARTER, Blocks.DARK_OAK_LEAVES_QUARTER_VERTICAL, Blocks.DARK_OAK_LEAVES_EIGHTH,
+                Blocks.MANGROVE_LEAVES_STAIRS, Blocks.MANGROVE_LEAVES_STAIRS_VERTICAL, Blocks.MANGROVE_LEAVES_SLAB, Blocks.MANGROVE_LEAVES_SLAB_VERTICAL, Blocks.MANGROVE_LEAVES_QUARTER, Blocks.MANGROVE_LEAVES_QUARTER_VERTICAL, Blocks.MANGROVE_LEAVES_EIGHTH
         );
         ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) ->
         {
@@ -612,7 +632,8 @@ public class MoreBlocksClient implements ClientModInitializer
                 Blocks.OAK_LEAVES_STAIRS, Blocks.OAK_LEAVES_STAIRS_VERTICAL, Blocks.OAK_LEAVES_SLAB, Blocks.OAK_LEAVES_SLAB_VERTICAL, Blocks.OAK_LEAVES_QUARTER, Blocks.OAK_LEAVES_QUARTER_VERTICAL, Blocks.OAK_LEAVES_EIGHTH,
                 Blocks.JUNGLE_LEAVES_STAIRS, Blocks.JUNGLE_LEAVES_STAIRS_VERTICAL, Blocks.JUNGLE_LEAVES_SLAB, Blocks.JUNGLE_LEAVES_SLAB_VERTICAL, Blocks.JUNGLE_LEAVES_QUARTER, Blocks.JUNGLE_LEAVES_QUARTER_VERTICAL, Blocks.JUNGLE_LEAVES_EIGHTH,
                 Blocks.ACACIA_LEAVES_STAIRS, Blocks.ACACIA_LEAVES_STAIRS_VERTICAL, Blocks.ACACIA_LEAVES_SLAB, Blocks.ACACIA_LEAVES_SLAB_VERTICAL, Blocks.ACACIA_LEAVES_QUARTER, Blocks.ACACIA_LEAVES_QUARTER_VERTICAL, Blocks.ACACIA_LEAVES_EIGHTH,
-                Blocks.DARK_OAK_LEAVES_STAIRS, Blocks.DARK_OAK_LEAVES_STAIRS_VERTICAL, Blocks.DARK_OAK_LEAVES_SLAB, Blocks.DARK_OAK_LEAVES_SLAB_VERTICAL, Blocks.DARK_OAK_LEAVES_QUARTER, Blocks.DARK_OAK_LEAVES_QUARTER_VERTICAL, Blocks.DARK_OAK_LEAVES_EIGHTH
+                Blocks.DARK_OAK_LEAVES_STAIRS, Blocks.DARK_OAK_LEAVES_STAIRS_VERTICAL, Blocks.DARK_OAK_LEAVES_SLAB, Blocks.DARK_OAK_LEAVES_SLAB_VERTICAL, Blocks.DARK_OAK_LEAVES_QUARTER, Blocks.DARK_OAK_LEAVES_QUARTER_VERTICAL, Blocks.DARK_OAK_LEAVES_EIGHTH,
+                Blocks.MANGROVE_LEAVES_STAIRS, Blocks.MANGROVE_LEAVES_STAIRS_VERTICAL, Blocks.MANGROVE_LEAVES_SLAB, Blocks.MANGROVE_LEAVES_SLAB_VERTICAL, Blocks.MANGROVE_LEAVES_QUARTER, Blocks.MANGROVE_LEAVES_QUARTER_VERTICAL, Blocks.MANGROVE_LEAVES_EIGHTH
         );
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> GrassColors.getColor(0.5D, 1.0D), Blocks.GRASS_BLOCK_SLAB, Blocks.DIRT_SLAB, Blocks.COARSE_DIRT_SLAB, Blocks.PODZOL_SLAB);
         if (MoreBlocks.DebugClient())

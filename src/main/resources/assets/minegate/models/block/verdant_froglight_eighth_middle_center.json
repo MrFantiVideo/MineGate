@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_middle_center",
+    "textures":
+    {
+        "particle": "minecraft:block/verdant_froglight_top",
+        "bottom": "minecraft:block/verdant_froglight_top",
+        "top": "minecraft:block/verdant_froglight_top",
+        "side": "minecraft:block/verdant_froglight_side"
+    }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "type=bottom":
+        {
+            "model": "minegate:block/muddy_mangrove_roots_slab"
+        },
+        "type=top":
+        {
+            "model": "minegate:block/muddy_mangrove_roots_slab_top"
+        },
+        "type=double":
+        {
+            "model": "minecraft:block/muddy_mangrove_roots"
+        }
+    }
+}

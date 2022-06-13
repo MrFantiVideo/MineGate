@@ -100,7 +100,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_candle",
+                "model": "minegate:block/lantern_candle",
                 "uvlock": true
             }
         },
@@ -112,7 +112,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_candle_lit",
+                "model": "minegate:block/lantern_candle_lit",
                 "uvlock": true
             }
         },
@@ -124,7 +124,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_black_candle",
+                "model": "minegate:block/lantern_black_candle",
                 "uvlock": true
             }
         },
@@ -136,7 +136,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_black_candle_lit",
+                "model": "minegate:block/lantern_black_candle_lit",
                 "uvlock": true
             }
         },
@@ -148,7 +148,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_blue_candle",
+                "model": "minegate:block/lantern_blue_candle",
                 "uvlock": true
             }
         },
@@ -160,7 +160,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_blue_candle_lit",
+                "model": "minegate:block/lantern_blue_candle_lit",
                 "uvlock": true
             }
         },
@@ -172,7 +172,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_brown_candle",
+                "model": "minegate:block/lantern_brown_candle",
                 "uvlock": true
             }
         },
@@ -184,7 +184,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_brown_candle_lit",
+                "model": "minegate:block/lantern_brown_candle_lit",
                 "uvlock": true
             }
         },
@@ -196,7 +196,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_cyan_candle",
+                "model": "minegate:block/lantern_cyan_candle",
                 "uvlock": true
             }
         },
@@ -208,7 +208,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_cyan_candle_lit",
+                "model": "minegate:block/lantern_cyan_candle_lit",
                 "uvlock": true
             }
         },
@@ -220,7 +220,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_gray_candle",
+                "model": "minegate:block/lantern_gray_candle",
                 "uvlock": true
             }
         },
@@ -232,7 +232,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_gray_candle_lit",
+                "model": "minegate:block/lantern_gray_candle_lit",
                 "uvlock": true
             }
         },
@@ -244,7 +244,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_green_candle",
+                "model": "minegate:block/lantern_green_candle",
                 "uvlock": true
             }
         },
@@ -256,7 +256,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_green_candle_lit",
+                "model": "minegate:block/lantern_green_candle_lit",
                 "uvlock": true
             }
         },
@@ -268,7 +268,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_light_blue_candle",
+                "model": "minegate:block/lantern_light_blue_candle",
                 "uvlock": true
             }
         },
@@ -280,7 +280,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_light_blue_candle_lit",
+                "model": "minegate:block/lantern_light_blue_candle_lit",
                 "uvlock": true
             }
         },
@@ -292,7 +292,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_light_gray_candle",
+                "model": "minegate:block/lantern_light_gray_candle",
                 "uvlock": true
             }
         },
@@ -304,7 +304,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_light_gray_candle_lit",
+                "model": "minegate:block/lantern_light_gray_candle_lit",
                 "uvlock": true
             }
         },
@@ -316,7 +316,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_lime_candle",
+                "model": "minegate:block/lantern_lime_candle",
                 "uvlock": true
             }
         },
@@ -328,7 +328,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_lime_candle_lit",
+                "model": "minegate:block/lantern_lime_candle_lit",
                 "uvlock": true
             }
         },
@@ -340,7 +340,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_magenta_candle",
+                "model": "minegate:block/lantern_magenta_candle",
                 "uvlock": true
             }
         },
@@ -352,7 +352,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_magenta_candle_lit",
+                "model": "minegate:block/lantern_magenta_candle_lit",
                 "uvlock": true
             }
         },
@@ -364,7 +364,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_orange_candle",
+                "model": "minegate:block/lantern_orange_candle",
                 "uvlock": true
             }
         },
@@ -376,7 +376,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_orange_candle_lit",
+                "model": "minegate:block/lantern_orange_candle_lit",
                 "uvlock": true
             }
         },
@@ -388,7 +388,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_pink_candle",
+                "model": "minegate:block/lantern_pink_candle",
                 "uvlock": true
             }
         },
@@ -400,7 +400,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_pink_candle_lit",
+                "model": "minegate:block/lantern_pink_candle_lit",
                 "uvlock": true
             }
         },
@@ -412,7 +412,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_purple_candle",
+                "model": "minegate:block/lantern_purple_candle",
                 "uvlock": true
             }
         },
@@ -424,7 +424,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_purple_candle_lit",
+                "model": "minegate:block/lantern_purple_candle_lit",
                 "uvlock": true
             }
         },
@@ -436,7 +436,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_red_candle",
+                "model": "minegate:block/lantern_red_candle",
                 "uvlock": true
             }
         },
@@ -448,7 +448,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_red_candle_lit",
+                "model": "minegate:block/lantern_red_candle_lit",
                 "uvlock": true
             }
         },
@@ -460,7 +460,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_white_candle",
+                "model": "minegate:block/lantern_white_candle",
                 "uvlock": true
             }
         },
@@ -472,7 +472,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_white_candle_lit",
+                "model": "minegate:block/lantern_white_candle_lit",
                 "uvlock": true
             }
         },
@@ -484,7 +484,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_yellow_candle",
+                "model": "minegate:block/lantern_yellow_candle",
                 "uvlock": true
             }
         },
@@ -496,7 +496,7 @@
             },
             "apply":
             {
-                "model": "minegate:block/birch_lantern_yellow_candle_lit",
+                "model": "minegate:block/lantern_yellow_candle_lit",
                 "uvlock": true
             }
         }

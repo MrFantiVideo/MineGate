@@ -1,9 +1,0 @@
-﻿{
-	"credit": "MineGate - Tous droits réservés.",
-	"parent": "minegate:block/chair_vertical",
-	"textures":
-	{
-		"0": "minecraft:block/birch_planks",
-		"particle": "minecraft:block/birch_planks"
-	}
-}

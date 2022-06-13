@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/stairs_vertical",
+    "textures":
+    {
+        "particle": "minegate:block/mangrove_planks_smooth",
+        "bottom": "minegate:block/mangrove_planks_smooth",
+        "top": "minegate:block/mangrove_planks_smooth",
+        "side": "minegate:block/mangrove_planks_smooth"
+    }
+}

@@ -4,13 +4,12 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.gui.screen.ConfirmChatLinkScreen;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.client.gui.screen.ScreenTexts;
 import net.minecraft.client.gui.widget.ButtonListWidget;
 import net.minecraft.client.gui.widget.ButtonWidget;
 import net.minecraft.client.gui.widget.TexturedButtonWidget;
 import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.screen.ScreenTexts;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 import net.minegate.fr.moreblocks.MoreBlocks;
@@ -31,7 +30,7 @@ public class OptionsScreen extends Screen
 
     public OptionsScreen(Screen parent)
     {
-        super(new TranslatableText("options.minegate.title"));
+        super(Text.translatable("options.minegate.title"));
         this.parent = parent;
     }
 
@@ -66,17 +65,17 @@ public class OptionsScreen extends Screen
 
     public ButtonWidget button(String name, int placement)
     {
-        Text buttonName = new TranslatableText("options.minegate." + name + "." + DefaultConfig.get(name));
+        Text buttonName = Text.translatable("options.minegate." + name + "." + DefaultConfig.get(name));
         return addDrawableChild(new ButtonWidget(this.width / 2 - 100, this.height / 6 + placement, 200, 20, buttonName, (button) ->
         {
             if (DefaultConfig.get(name))
             {
-                button.setMessage(new TranslatableText("options.minegate." + name + ".false"));
+                button.setMessage(Text.translatable("options.minegate." + name + ".false"));
                 DefaultConfig.replace(name, false);
             }
             else
             {
-                button.setMessage(new TranslatableText("options.minegate." + name + ".true"));
+                button.setMessage(Text.translatable("options.minegate." + name + ".true"));
                 DefaultConfig.replace(name, true);
             }
         }));
@@ -109,7 +108,7 @@ public class OptionsScreen extends Screen
         {
             if (buttonGenerationOres.isHovered() || buttonSizeChange.isHovered())
             {
-                List<Text> generationOresTooltip = Arrays.asList(new TranslatableText("options.minegate.warning.tooltip.one"), new TranslatableText("options.minegate.warning.tooltip.two"));
+                List<Text> generationOresTooltip = Arrays.asList(Text.translatable("options.minegate.warning.tooltip.one"), Text.translatable("options.minegate.warning.tooltip.two"));
                 renderTooltip(matrices, generationOresTooltip, mouseX, mouseY);
                 break;
             }

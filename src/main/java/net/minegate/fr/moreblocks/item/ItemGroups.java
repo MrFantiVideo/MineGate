@@ -44,6 +44,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_SMOOTH));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_SMOOTH));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_SMOOTH));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_SMOOTH));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_SMOOTH));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_SMOOTH));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_HERRINGBONE));
@@ -52,6 +53,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_HERRINGBONE));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_HERRINGBONE));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_HERRINGBONE));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_HERRINGBONE));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_HERRINGBONE));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_HERRINGBONE));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_LARGE));
@@ -60,6 +62,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_LARGE));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_LARGE));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_LARGE));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_LARGE));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_LARGE));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_LARGE));
         stacks.add(new ItemStack(Blocks.WHITE_TERRACOTTA_BRICKS));
@@ -175,6 +178,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_SMOOTH_STAIRS));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_SMOOTH_STAIRS));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_SMOOTH_STAIRS));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_SMOOTH_STAIRS));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_SMOOTH_STAIRS));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_SMOOTH_STAIRS));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_HERRINGBONE_STAIRS));
@@ -183,6 +187,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_HERRINGBONE_STAIRS));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_HERRINGBONE_STAIRS));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_HERRINGBONE_STAIRS));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_HERRINGBONE_STAIRS));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_HERRINGBONE_STAIRS));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_HERRINGBONE_STAIRS));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_LARGE_STAIRS));
@@ -191,6 +196,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_LARGE_STAIRS));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_LARGE_STAIRS));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_LARGE_STAIRS));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_LARGE_STAIRS));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_LARGE_STAIRS));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_LARGE_STAIRS));
         stacks.add(new ItemStack(Blocks.WHITE_TERRACOTTA_BRICKS_STAIRS));
@@ -306,6 +312,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_SMOOTH_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_SMOOTH_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_SMOOTH_STAIRS_VERTICAL));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_SMOOTH_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_SMOOTH_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_SMOOTH_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL));
@@ -314,6 +321,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_HERRINGBONE_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_HERRINGBONE_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_HERRINGBONE_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_HERRINGBONE_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_HERRINGBONE_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_LARGE_STAIRS_VERTICAL));
@@ -322,6 +330,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_LARGE_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_LARGE_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_LARGE_STAIRS_VERTICAL));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_LARGE_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_LARGE_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_LARGE_STAIRS_VERTICAL));
         stacks.add(new ItemStack(Blocks.WHITE_TERRACOTTA_BRICKS_STAIRS_VERTICAL));
@@ -437,6 +446,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_SMOOTH_SLAB));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_SMOOTH_SLAB));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_SMOOTH_SLAB));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_SMOOTH_SLAB));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_SMOOTH_SLAB));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_SMOOTH_SLAB));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_HERRINGBONE_SLAB));
@@ -445,6 +455,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_HERRINGBONE_SLAB));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_HERRINGBONE_SLAB));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_HERRINGBONE_SLAB));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_HERRINGBONE_SLAB));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_HERRINGBONE_SLAB));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_HERRINGBONE_SLAB));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_LARGE_SLAB));
@@ -453,6 +464,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_LARGE_SLAB));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_LARGE_SLAB));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_LARGE_SLAB));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_LARGE_SLAB));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_LARGE_SLAB));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_LARGE_SLAB));
         stacks.add(new ItemStack(Blocks.WHITE_TERRACOTTA_BRICKS_SLAB));
@@ -568,6 +580,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_SMOOTH_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_SMOOTH_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_SMOOTH_SLAB_VERTICAL));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_SMOOTH_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_SMOOTH_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_SMOOTH_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL));
@@ -576,6 +589,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_HERRINGBONE_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_HERRINGBONE_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_HERRINGBONE_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_HERRINGBONE_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_HERRINGBONE_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_LARGE_SLAB_VERTICAL));
@@ -584,6 +598,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_LARGE_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_LARGE_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_LARGE_SLAB_VERTICAL));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_LARGE_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_LARGE_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_LARGE_SLAB_VERTICAL));
         stacks.add(new ItemStack(Blocks.WHITE_TERRACOTTA_BRICKS_SLAB_VERTICAL));
@@ -699,6 +714,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_SMOOTH_QUARTER));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_SMOOTH_QUARTER));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_SMOOTH_QUARTER));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_SMOOTH_QUARTER));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_SMOOTH_QUARTER));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_SMOOTH_QUARTER));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_HERRINGBONE_QUARTER));
@@ -707,6 +723,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_HERRINGBONE_QUARTER));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_HERRINGBONE_QUARTER));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_HERRINGBONE_QUARTER));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_HERRINGBONE_QUARTER));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_HERRINGBONE_QUARTER));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_HERRINGBONE_QUARTER));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_LARGE_QUARTER));
@@ -715,6 +732,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_LARGE_QUARTER));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_LARGE_QUARTER));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_LARGE_QUARTER));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_LARGE_QUARTER));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_LARGE_QUARTER));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_LARGE_QUARTER));
         stacks.add(new ItemStack(Blocks.WHITE_TERRACOTTA_BRICKS_QUARTER));
@@ -830,6 +848,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_SMOOTH_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_SMOOTH_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_SMOOTH_QUARTER_VERTICAL));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_SMOOTH_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_SMOOTH_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_SMOOTH_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL));
@@ -838,6 +857,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_HERRINGBONE_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_HERRINGBONE_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_HERRINGBONE_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_HERRINGBONE_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_HERRINGBONE_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_LARGE_QUARTER_VERTICAL));
@@ -846,6 +866,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_LARGE_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_LARGE_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_LARGE_QUARTER_VERTICAL));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_LARGE_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_LARGE_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_LARGE_QUARTER_VERTICAL));
         stacks.add(new ItemStack(Blocks.WHITE_TERRACOTTA_BRICKS_QUARTER_VERTICAL));
@@ -961,6 +982,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_SMOOTH_EIGHTH));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_SMOOTH_EIGHTH));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_SMOOTH_EIGHTH));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_SMOOTH_EIGHTH));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_SMOOTH_EIGHTH));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_SMOOTH_EIGHTH));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_HERRINGBONE_EIGHTH));
@@ -969,6 +991,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_HERRINGBONE_EIGHTH));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_HERRINGBONE_EIGHTH));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_HERRINGBONE_EIGHTH));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_HERRINGBONE_EIGHTH));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_HERRINGBONE_EIGHTH));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_HERRINGBONE_EIGHTH));
         stacks.add(new ItemStack(Blocks.OAK_PLANKS_LARGE_EIGHTH));
@@ -977,6 +1000,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_PLANKS_LARGE_EIGHTH));
         stacks.add(new ItemStack(Blocks.ACACIA_PLANKS_LARGE_EIGHTH));
         stacks.add(new ItemStack(Blocks.DARK_OAK_PLANKS_LARGE_EIGHTH));
+        stacks.add(new ItemStack(Blocks.MANGROVE_PLANKS_LARGE_EIGHTH));
         stacks.add(new ItemStack(Blocks.CRIMSON_PLANKS_LARGE_EIGHTH));
         stacks.add(new ItemStack(Blocks.WARPED_PLANKS_LARGE_EIGHTH));
         stacks.add(new ItemStack(Blocks.WHITE_TERRACOTTA_BRICKS_EIGHTH));
@@ -1083,6 +1107,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_WOOD_CHAIR));
         stacks.add(new ItemStack(Blocks.ACACIA_WOOD_CHAIR));
         stacks.add(new ItemStack(Blocks.DARK_OAK_WOOD_CHAIR));
+        stacks.add(new ItemStack(Blocks.MANGROVE_WOOD_CHAIR));
         stacks.add(new ItemStack(Blocks.CRIMSON_WOOD_CHAIR));
         stacks.add(new ItemStack(Blocks.WARPED_WOOD_CHAIR));
         stacks.add(new ItemStack(Blocks.OAK_WOOD_BENCH));
@@ -1091,6 +1116,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_WOOD_BENCH));
         stacks.add(new ItemStack(Blocks.ACACIA_WOOD_BENCH));
         stacks.add(new ItemStack(Blocks.DARK_OAK_WOOD_BENCH));
+        stacks.add(new ItemStack(Blocks.MANGROVE_WOOD_BENCH));
         stacks.add(new ItemStack(Blocks.CRIMSON_WOOD_BENCH));
         stacks.add(new ItemStack(Blocks.WARPED_WOOD_BENCH));
         stacks.add(new ItemStack(Blocks.OAK_WOOD_STOOL));
@@ -1099,6 +1125,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_WOOD_STOOL));
         stacks.add(new ItemStack(Blocks.ACACIA_WOOD_STOOL));
         stacks.add(new ItemStack(Blocks.DARK_OAK_WOOD_STOOL));
+        stacks.add(new ItemStack(Blocks.MANGROVE_WOOD_STOOL));
         stacks.add(new ItemStack(Blocks.CRIMSON_WOOD_STOOL));
         stacks.add(new ItemStack(Blocks.WARPED_WOOD_STOOL));
         stacks.add(new ItemStack(Blocks.OAK_WOOD_STOOL_HIGH));
@@ -1107,6 +1134,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_WOOD_STOOL_HIGH));
         stacks.add(new ItemStack(Blocks.ACACIA_WOOD_STOOL_HIGH));
         stacks.add(new ItemStack(Blocks.DARK_OAK_WOOD_STOOL_HIGH));
+        stacks.add(new ItemStack(Blocks.MANGROVE_WOOD_STOOL_HIGH));
         stacks.add(new ItemStack(Blocks.CRIMSON_WOOD_STOOL_HIGH));
         stacks.add(new ItemStack(Blocks.WARPED_WOOD_STOOL_HIGH));
         stacks.add(new ItemStack(Blocks.OAK_WOOD_TABLE));
@@ -1115,6 +1143,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_WOOD_TABLE));
         stacks.add(new ItemStack(Blocks.ACACIA_WOOD_TABLE));
         stacks.add(new ItemStack(Blocks.DARK_OAK_WOOD_TABLE));
+        stacks.add(new ItemStack(Blocks.MANGROVE_WOOD_TABLE));
         stacks.add(new ItemStack(Blocks.CRIMSON_WOOD_TABLE));
         stacks.add(new ItemStack(Blocks.WARPED_WOOD_TABLE));
         stacks.add(new ItemStack(Blocks.OAK_WOOD_TABLE_HIGH));
@@ -1123,6 +1152,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_WOOD_TABLE_HIGH));
         stacks.add(new ItemStack(Blocks.ACACIA_WOOD_TABLE_HIGH));
         stacks.add(new ItemStack(Blocks.DARK_OAK_WOOD_TABLE_HIGH));
+        stacks.add(new ItemStack(Blocks.MANGROVE_WOOD_TABLE_HIGH));
         stacks.add(new ItemStack(Blocks.CRIMSON_WOOD_TABLE_HIGH));
         stacks.add(new ItemStack(Blocks.WARPED_WOOD_TABLE_HIGH));
         stacks.add(new ItemStack(Blocks.OAK_WOOD_TABLE_SMALL));
@@ -1131,6 +1161,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_WOOD_TABLE_SMALL));
         stacks.add(new ItemStack(Blocks.ACACIA_WOOD_TABLE_SMALL));
         stacks.add(new ItemStack(Blocks.DARK_OAK_WOOD_TABLE_SMALL));
+        stacks.add(new ItemStack(Blocks.MANGROVE_WOOD_TABLE_SMALL));
         stacks.add(new ItemStack(Blocks.CRIMSON_WOOD_TABLE_SMALL));
         stacks.add(new ItemStack(Blocks.WARPED_WOOD_TABLE_SMALL));
         stacks.add(new ItemStack(Blocks.OAK_BOOKSHELF));
@@ -1139,6 +1170,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_BOOKSHELF));
         stacks.add(new ItemStack(Blocks.ACACIA_BOOKSHELF));
         stacks.add(new ItemStack(Blocks.DARK_OAK_BOOKSHELF));
+        stacks.add(new ItemStack(Blocks.MANGROVE_BOOKSHELF));
         stacks.add(new ItemStack(Blocks.CRIMSON_BOOKSHELF));
         stacks.add(new ItemStack(Blocks.WARPED_BOOKSHELF));
         stacks.add(new ItemStack(net.minecraft.block.Blocks.LADDER));
@@ -1147,6 +1179,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_LADDER));
         stacks.add(new ItemStack(Blocks.ACACIA_LADDER));
         stacks.add(new ItemStack(Blocks.DARK_OAK_LADDER));
+        stacks.add(new ItemStack(Blocks.MANGROVE_LADDER));
         stacks.add(new ItemStack(Blocks.CRIMSON_LADDER));
         stacks.add(new ItemStack(Blocks.WARPED_LADDER));
         stacks.add(new ItemStack(Blocks.IRON_FENCE));
@@ -1188,6 +1221,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_LANTERN));
         stacks.add(new ItemStack(Blocks.ACACIA_LANTERN));
         stacks.add(new ItemStack(Blocks.DARK_OAK_LANTERN));
+        stacks.add(new ItemStack(Blocks.MANGROVE_LANTERN));
         stacks.add(new ItemStack(Blocks.CRIMSON_LANTERN));
         stacks.add(new ItemStack(Blocks.WARPED_LANTERN));
         stacks.add(new ItemStack(Blocks.OAK_LANTERN_ROD));
@@ -1196,6 +1230,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.JUNGLE_LANTERN_ROD));
         stacks.add(new ItemStack(Blocks.ACACIA_LANTERN_ROD));
         stacks.add(new ItemStack(Blocks.DARK_OAK_LANTERN_ROD));
+        stacks.add(new ItemStack(Blocks.MANGROVE_LANTERN_ROD));
         stacks.add(new ItemStack(Blocks.CRIMSON_LANTERN_ROD));
         stacks.add(new ItemStack(Blocks.WARPED_LANTERN_ROD));
         stacks.add(new ItemStack(Blocks.IRON_WALL));
@@ -1224,6 +1259,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.STRIPPED_JUNGLE_WOOD_VASE));
         stacks.add(new ItemStack(Blocks.STRIPPED_ACACIA_WOOD_VASE));
         stacks.add(new ItemStack(Blocks.STRIPPED_DARK_OAK_WOOD_VASE));
+        stacks.add(new ItemStack(Blocks.STRIPPED_MANGROVE_WOOD_VASE));
         stacks.add(new ItemStack(Blocks.STRIPPED_CRIMSON_HYPHAE_VASE));
         stacks.add(new ItemStack(Blocks.STRIPPED_WARPED_HYPHAE_VASE));
         stacks.add(new ItemStack(Blocks.POLISHED_GRANITE_VASE_HIGH));
@@ -1236,6 +1272,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.STRIPPED_JUNGLE_WOOD_VASE_HIGH));
         stacks.add(new ItemStack(Blocks.STRIPPED_ACACIA_WOOD_VASE_HIGH));
         stacks.add(new ItemStack(Blocks.STRIPPED_DARK_OAK_WOOD_VASE_HIGH));
+        stacks.add(new ItemStack(Blocks.STRIPPED_MANGROVE_WOOD_VASE_HIGH));
         stacks.add(new ItemStack(Blocks.STRIPPED_CRIMSON_HYPHAE_VASE_HIGH));
         stacks.add(new ItemStack(Blocks.STRIPPED_WARPED_HYPHAE_VASE_HIGH));
         stacks.add(new ItemStack(Blocks.POLISHED_GRANITE_VASE_SMALL));
@@ -1248,6 +1285,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Blocks.STRIPPED_JUNGLE_WOOD_VASE_SMALL));
         stacks.add(new ItemStack(Blocks.STRIPPED_ACACIA_WOOD_VASE_SMALL));
         stacks.add(new ItemStack(Blocks.STRIPPED_DARK_OAK_WOOD_VASE_SMALL));
+        stacks.add(new ItemStack(Blocks.STRIPPED_MANGROVE_WOOD_VASE_SMALL));
         stacks.add(new ItemStack(Blocks.STRIPPED_CRIMSON_HYPHAE_VASE_SMALL));
         stacks.add(new ItemStack(Blocks.STRIPPED_WARPED_HYPHAE_VASE_SMALL));
     }).build();
@@ -1352,6 +1390,7 @@ public class ItemGroups
         stacks.add(new ItemStack(Items.JUNGLE_STICK));
         stacks.add(new ItemStack(Items.ACACIA_STICK));
         stacks.add(new ItemStack(Items.DARK_OAK_STICK));
+        stacks.add(new ItemStack(Items.MANGROVE_STICK));
         stacks.add(new ItemStack(Items.CRIMSON_STICK));
         stacks.add(new ItemStack(Items.WARPED_STICK));
         stacks.add(new ItemStack(Items.TILE));

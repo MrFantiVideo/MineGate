@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/sculk",
+        "bottom": "minecraft:block/sculk",
+        "top": "minecraft:block/sculk",
+        "side": "minecraft:block/sculk"
+    }
+}

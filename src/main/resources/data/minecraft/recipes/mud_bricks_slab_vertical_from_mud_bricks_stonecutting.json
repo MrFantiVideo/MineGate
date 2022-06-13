@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:mud_bricks"
+  },
+  "result": "minegate:mud_bricks_slab_vertical",
+  "count": 2
+}

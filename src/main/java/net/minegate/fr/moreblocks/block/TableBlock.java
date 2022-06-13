@@ -85,26 +85,6 @@ public class TableBlock extends HorizontalConnectingBlock
         return direction.getAxis().isHorizontal() ? state.with(FACING_PROPERTIES.get(direction), this.connectsTo(newState, newState.isSideSolidFullSquare(world, posFrom, direction.getOpposite()))) : super.getStateForNeighborUpdate(state, direction, newState, world, pos, posFrom);
     }
 
-    @Override
-    @Environment(EnvType.CLIENT)
-    public boolean isSideInvisible(BlockState state, BlockState stateFrom, Direction direction)
-    {
-        if (stateFrom.isOf(this))
-        {
-            if (!direction.getAxis().isHorizontal())
-            {
-                return true;
-            }
-
-            if ((Boolean) state.get((Property) FACING_PROPERTIES.get(direction)) && (Boolean) stateFrom.get((Property) FACING_PROPERTIES.get(direction.getOpposite())))
-            {
-                return true;
-            }
-        }
-
-        return super.isSideInvisible(state, stateFrom, direction);
-    }
-
     public final boolean connectsTo(BlockState state, boolean bl)
     {
         Block block = state.getBlock();

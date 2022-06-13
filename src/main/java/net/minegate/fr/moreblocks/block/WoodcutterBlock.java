@@ -6,7 +6,6 @@ import net.minecraft.screen.NamedScreenHandlerFactory;
 import net.minecraft.screen.ScreenHandlerContext;
 import net.minecraft.screen.SimpleNamedScreenHandlerFactory;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.BlockView;
@@ -15,7 +14,7 @@ import net.minegate.fr.moreblocks.screen.WoodcutterScreenHandler;
 
 public class WoodcutterBlock extends StonecutterBlock
 {
-    private static final Text TITLE = new TranslatableText("container.woodcutter");
+    private static final Text TITLE = Text.translatable("container.woodcutter");
 
     /**
      * Creation of a woodcutter block.

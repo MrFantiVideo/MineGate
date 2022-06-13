@@ -78,6 +78,17 @@
         {
             "when":
             {
+                "type": "mangrove_propagule"
+            },
+            "apply":
+            {
+                "model": "minegate:block/vase_small_mangrove_propagule",
+                "uvlock": true
+            }
+        },
+        {
+            "when":
+            {
                 "type": "fern"
             },
             "apply":

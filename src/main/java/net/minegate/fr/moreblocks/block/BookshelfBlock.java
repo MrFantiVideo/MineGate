@@ -53,6 +53,16 @@ public class BookshelfBlock extends LecternBlock implements Waterloggable
     }
 
     /**
+     * Allows to have all textures without json cullface transparency bug.
+     **/
+
+    @Override
+    public VoxelShape getCullingShape(BlockState state, BlockView world, BlockPos pos)
+    {
+        return state.getOutlineShape(world, pos);
+    }
+
+    /**
      * Storage and display of books in the block.
      **/
 

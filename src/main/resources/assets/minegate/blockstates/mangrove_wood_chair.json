@@ -1,0 +1,22 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "facing=north":
+        {
+            "model": "minegate:block/mangrove_wood_chair"
+        },
+        "facing=east":
+        {
+            "model": "minegate:block/mangrove_wood_chair", "y": 90
+        },
+        "facing=south":
+        {
+            "model": "minegate:block/mangrove_wood_chair", "y": 180
+        },
+        "facing=west":
+        {
+            "model": "minegate:block/mangrove_wood_chair", "y": 270
+        }
+    }
+}

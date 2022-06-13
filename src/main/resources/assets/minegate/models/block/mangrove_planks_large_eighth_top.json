@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/eighth_top",
+    "textures":
+    {
+        "particle": "minegate:block/mangrove_planks_large",
+        "bottom": "minegate:block/mangrove_planks_large",
+        "top": "minegate:block/mangrove_planks_large",
+        "side": "minegate:block/mangrove_planks_large"
+    }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:verdant_froglight"
+  },
+  "result": "minegate:verdant_froglight_quarter",
+  "count": 4
+}

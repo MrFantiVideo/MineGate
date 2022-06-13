@@ -11,6 +11,7 @@ public enum FlowerType implements StringIdentifiable
     JUNGLE_SAPLING("jungle_sapling"),
     ACACIA_SAPLING("acacia_sapling"),
     DARK_OAK_SAPLING("dark_oak_sapling"),
+    MANGROVE_PROPAGULE("mangrove_propagule"),
     FERN("fern"),
     DANDELION("dandelion"),
     POPPY("poppy"),

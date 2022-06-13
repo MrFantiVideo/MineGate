@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:stripped_mangrove_log"
+  },
+  "result": "minegate:stripped_mangrove_log_quarter_vertical",
+  "count": 4
+}

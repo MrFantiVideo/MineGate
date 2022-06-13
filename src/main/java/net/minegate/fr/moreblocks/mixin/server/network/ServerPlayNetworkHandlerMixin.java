@@ -6,10 +6,9 @@ import net.minecraft.item.WritableBookItem;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtList;
 import net.minecraft.nbt.NbtString;
-import net.minecraft.server.filter.TextStream;
+import net.minecraft.server.filter.FilteredMessage;
 import net.minecraft.server.network.ServerPlayNetworkHandler;
 import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.text.LiteralText;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -36,7 +35,7 @@ public class ServerPlayNetworkHandlerMixin
      **/
 
     @Inject(method = "updateBookContent", at = @At("RETURN"))
-    private void updateBookContent(List<TextStream.Message> pages, int slotId, CallbackInfo ci)
+    private void updateBookContent(List<FilteredMessage<String>> pages, int slotId, CallbackInfo ci)
     {
         ItemStack itemStack = this.player.getInventory().getStack(slotId);
         if (itemStack.getItem() instanceof WritableBookItem)
@@ -50,7 +49,7 @@ public class ServerPlayNetworkHandlerMixin
      **/
 
     @Inject(method = "addBook", at = @At("RETURN"))
-    private void addBook(TextStream.Message title, List<TextStream.Message> pages, int slotId, CallbackInfo ci)
+    private void addBook(FilteredMessage<String> title, List<FilteredMessage<String>> pages, int slotId, CallbackInfo ci)
     {
         ItemStack itemStack = this.player.getInventory().getStack(slotId);
         if (itemStack.getItem() instanceof WritableBookItem)
@@ -66,17 +65,17 @@ public class ServerPlayNetworkHandlerMixin
             itemStack2.setSubNbt("author", NbtString.of(this.player.getName().getString()));
             if (this.player.shouldFilterText())
             {
-                itemStack2.setSubNbt("title", NbtString.of(title.getFiltered()));
+                itemStack2.setSubNbt("title", NbtString.of(title.filteredOrElse("")));
             }
             else
             {
-                itemStack2.setSubNbt("filtered_title", NbtString.of(title.getFiltered()));
-                itemStack2.setSubNbt("title", NbtString.of(title.getRaw()));
+                itemStack2.setSubNbt("filtered_title", NbtString.of(title.filteredOrElse("")));
+                itemStack2.setSubNbt("title", NbtString.of(title.raw()));
             }
 
-            this.setTextToBook(pages, (string) ->
+            this.setTextToBook(pages, (text) ->
             {
-                return Text.Serializer.toJson(new LiteralText(string));
+                return Text.Serializer.toJson(Text.literal(text));
             }, itemStack2);
             this.player.getInventory().setStack(slotId, itemStack2);
         }
@@ -86,14 +85,14 @@ public class ServerPlayNetworkHandlerMixin
      * Required for addBook.
      **/
 
-    private void setTextToBook(List<TextStream.Message> messages, UnaryOperator<String> postProcessor, ItemStack book)
+    private void setTextToBook(List<FilteredMessage<String>> messages, UnaryOperator<String> postProcessor, ItemStack book)
     {
         NbtList nbtList = new NbtList();
         if (this.player.shouldFilterText())
         {
-            Stream<NbtString> var10000 = messages.stream().map((messagex) ->
+            Stream<NbtString> var10000 = messages.stream().map((message) ->
             {
-                return NbtString.of(postProcessor.apply(messagex.getFiltered()));
+                return NbtString.of(postProcessor.apply(message.filteredOrElse("")));
             });
             Objects.requireNonNull(nbtList);
             var10000.forEach(nbtList::add);
@@ -105,13 +104,12 @@ public class ServerPlayNetworkHandlerMixin
 
             for (int j = messages.size(); i < j; ++i)
             {
-                TextStream.Message message = messages.get(i);
-                String string = message.getRaw();
+                FilteredMessage<String> filteredMessage = messages.get(i);
+                String string = filteredMessage.raw();
                 nbtList.add(NbtString.of(postProcessor.apply(string)));
-                String string2 = message.getFiltered();
-                if (!string.equals(string2))
+                if (filteredMessage.isFiltered())
                 {
-                    nbtCompound.putString(String.valueOf(i), postProcessor.apply(string2));
+                    nbtCompound.putString(String.valueOf(i), postProcessor.apply(filteredMessage.filteredOrElse("")));
                 }
             }
 

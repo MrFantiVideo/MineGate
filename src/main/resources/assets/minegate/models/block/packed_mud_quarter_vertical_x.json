@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical_x",
+    "textures":
+    {
+        "particle": "minecraft:block/packed_mud",
+        "bottom": "minecraft:block/packed_mud",
+        "top": "minecraft:block/packed_mud",
+        "side": "minecraft:block/packed_mud"
+    }
+}

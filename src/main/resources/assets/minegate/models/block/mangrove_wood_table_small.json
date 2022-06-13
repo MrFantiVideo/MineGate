@@ -1,0 +1,9 @@
+﻿{
+	"credit": "MineGate - Tous droits réservés.",
+	"parent": "minegate:block/table_small",
+	"textures":
+	{
+		"0": "minecraft:block/mangrove_planks",
+		"particle": "minecraft:block/mangrove_planks"
+	}
+}

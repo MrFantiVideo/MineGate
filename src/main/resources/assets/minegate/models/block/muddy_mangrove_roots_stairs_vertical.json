@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/stairs_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/muddy_mangrove_roots_top",
+        "bottom": "minecraft:block/muddy_mangrove_roots_top",
+        "top": "minecraft:block/muddy_mangrove_roots_top",
+        "side": "minecraft:block/muddy_mangrove_roots_side"
+    }
+}

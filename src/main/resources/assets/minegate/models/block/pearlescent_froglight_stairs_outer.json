@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "block/outer_stairs",
+    "textures":
+    {
+        "bottom": "minecraft:block/pearlescent_froglight_top",
+        "top": "minecraft:block/pearlescent_froglight_top",
+        "side": "minecraft:block/pearlescent_froglight_side"
+    }
+}

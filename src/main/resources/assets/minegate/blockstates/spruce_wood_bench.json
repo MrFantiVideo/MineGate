@@ -5,15 +5,7 @@
         {
             "when":
             {
-                "OR":
-                [
-                    {
-                        "facing": "north"
-                    },
-                    {
-                        "facing": "south"
-                    }
-                ]
+                "facing": "north"
             },
             "apply":
             {
@@ -23,19 +15,34 @@
         {
             "when":
             {
-                "OR":
-                [
-                    {
-                        "facing": "east"
-                    },
-                    {
-                        "facing": "west"
-                    }
-                ]
+                "facing": "east"
             },
             "apply":
             {
-                "model": "minegate:block/spruce_wood_bench_top", "y": 90
+                "model": "minegate:block/spruce_wood_bench_top",
+                "y": 90
+            }
+        },
+        {
+            "when":
+            {
+                "facing": "south"
+            },
+            "apply":
+            {
+                "model": "minegate:block/spruce_wood_bench_top",
+                "y": 180
+            }
+        },
+        {
+            "when":
+            {
+                "facing": "west"
+            },
+            "apply":
+            {
+                "model": "minegate:block/spruce_wood_bench_top",
+                "y": 270
             }
         },
         {

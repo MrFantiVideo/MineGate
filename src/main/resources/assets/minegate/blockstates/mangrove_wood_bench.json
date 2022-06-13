@@ -1,0 +1,121 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "multipart":
+    [
+        {
+            "when":
+            {
+                "facing": "north"
+            },
+            "apply":
+            {
+                "model": "minegate:block/mangrove_wood_bench_top"
+            }
+        },
+        {
+            "when":
+            {
+                "facing": "east"
+            },
+            "apply":
+            {
+                "model": "minegate:block/mangrove_wood_bench_top",
+                "y": 90
+            }
+        },
+        {
+            "when":
+            {
+                "facing": "south"
+            },
+            "apply":
+            {
+                "model": "minegate:block/mangrove_wood_bench_top",
+                "y": 180
+            }
+        },
+        {
+            "when":
+            {
+                "facing": "west"
+            },
+            "apply":
+            {
+                "model": "minegate:block/mangrove_wood_bench_top",
+                "y": 270
+            }
+        },
+        {
+            "when":
+            {
+                "OR":
+                [
+                    {
+                        "type": "north_legs"
+                    },
+                    {
+                        "type": "x_legs"
+                    }
+                ]
+            },
+            "apply":
+            {
+                "model": "minegate:block/mangrove_wood_bench_legs"
+            }
+        },
+        {
+            "when":
+            {
+                "OR":
+                [
+                    {
+                        "type": "east_legs"
+                    },
+                    {
+                        "type": "z_legs"
+                    }
+                ]
+            },
+            "apply":
+            {
+                "model": "minegate:block/mangrove_wood_bench_legs", "y": 90
+            }
+        },
+        {
+            "when":
+            {
+                "OR":
+                [
+                    {
+                        "type": "south_legs"
+                    },
+                    {
+                        "type": "x_legs"
+                    }
+                ]
+            },
+            "apply":
+            {
+                "model": "minegate:block/mangrove_wood_bench_legs", "y": 180
+            }
+        },
+        {
+            "when":
+            {
+                "OR":
+                [
+                    {
+                        "type": "west_legs"
+                    },
+                    {
+                        "type": "z_legs"
+                    }
+                ]
+            },
+            "apply":
+            {
+                "model": "minegate:block/mangrove_wood_bench_legs", "y": 270
+            }
+        }
+    ]
+}

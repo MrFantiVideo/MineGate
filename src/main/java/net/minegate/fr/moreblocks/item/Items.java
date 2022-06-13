@@ -19,6 +19,7 @@ public class Items
     public static Item TUFF_STAIRS;
     public static Item DRIPSTONE_BLOCK_STAIRS;
     public static Item ROOTED_DIRT_STAIRS;
+    public static Item MUD_STAIRS;
     public static Item BEDROCK_STAIRS;
     public static Item ANCIENT_DEBRIS_STAIRS;
     public static Item COAL_BLOCK_STAIRS;
@@ -45,6 +46,9 @@ public class Items
     public static Item JUNGLE_LOG_STAIRS;
     public static Item ACACIA_LOG_STAIRS;
     public static Item DARK_OAK_LOG_STAIRS;
+    public static Item MANGROVE_LOG_STAIRS;
+    public static Item MANGROVE_ROOTS_STAIRS;
+    public static Item MUDDY_MANGROVE_ROOTS_STAIRS;
     public static Item CRIMSON_STEM_STAIRS;
     public static Item WARPED_STEM_STAIRS;
     public static Item STRIPPED_OAK_LOG_STAIRS;
@@ -53,6 +57,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_LOG_STAIRS;
     public static Item STRIPPED_ACACIA_LOG_STAIRS;
     public static Item STRIPPED_DARK_OAK_LOG_STAIRS;
+    public static Item STRIPPED_MANGROVE_LOG_STAIRS;
     public static Item STRIPPED_CRIMSON_STEM_STAIRS;
     public static Item STRIPPED_WARPED_STEM_STAIRS;
     public static Item STRIPPED_OAK_WOOD_STAIRS;
@@ -61,6 +66,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_WOOD_STAIRS;
     public static Item STRIPPED_ACACIA_WOOD_STAIRS;
     public static Item STRIPPED_DARK_OAK_WOOD_STAIRS;
+    public static Item STRIPPED_MANGROVE_WOOD_STAIRS;
     public static Item STRIPPED_CRIMSON_HYPHAE_STAIRS;
     public static Item STRIPPED_WARPED_HYPHAE_STAIRS;
     public static Item OAK_WOOD_STAIRS;
@@ -69,6 +75,7 @@ public class Items
     public static Item JUNGLE_WOOD_STAIRS;
     public static Item ACACIA_WOOD_STAIRS;
     public static Item DARK_OAK_WOOD_STAIRS;
+    public static Item MANGROVE_WOOD_STAIRS;
     public static Item CRIMSON_HYPHAE_STAIRS;
     public static Item WARPED_HYPHAE_STAIRS;
     public static Item GLASS_STAIRS;
@@ -107,6 +114,7 @@ public class Items
     public static Item GLOWSTONE_STAIRS;
     public static Item CRACKED_STONE_BRICKS_STAIRS;
     public static Item CHISELED_STONE_BRICKS_STAIRS;
+    public static Item PACKED_MUD_STAIRS;
     public static Item CRACKED_DEEPSLATE_BRICKS_STAIRS;
     public static Item CRACKED_DEEPSLATE_TILES_STAIRS;
     public static Item CHISELED_DEEPSLATE_STAIRS;
@@ -195,14 +203,19 @@ public class Items
     public static Item JUNGLE_LEAVES_STAIRS;
     public static Item ACACIA_LEAVES_STAIRS;
     public static Item DARK_OAK_LEAVES_STAIRS;
+    public static Item MANGROVE_LEAVES_STAIRS;
     public static Item AZALEA_LEAVES_STAIRS;
     public static Item FLOWERING_AZALEA_LEAVES_STAIRS;
     public static Item MOSS_BLOCK_STAIRS;
     public static Item BROWN_MUSHROOM_BLOCK_STAIRS;
     public static Item RED_MUSHROOM_BLOCK_STAIRS;
     public static Item MUSHROOM_STEM_STAIRS;
+    public static Item SCULK_STAIRS;
     public static Item SHROOMLIGHT_STAIRS;
     public static Item HONEYCOMB_BLOCK_STAIRS;
+    public static Item OCHRE_FROGLIGHT_STAIRS;
+    public static Item VERDANT_FROGLIGHT_STAIRS;
+    public static Item PEARLESCENT_FROGLIGHT_STAIRS;
 
     /**
      * List of new Minecraft variants of vertical stairs blocks.
@@ -222,6 +235,7 @@ public class Items
     public static Item TUFF_STAIRS_VERTICAL;
     public static Item DRIPSTONE_BLOCK_STAIRS_VERTICAL;
     public static Item ROOTED_DIRT_STAIRS_VERTICAL;
+    public static Item MUD_STAIRS_VERTICAL;
     public static Item COBBLESTONE_STAIRS_VERTICAL;
     public static Item OAK_PLANKS_STAIRS_VERTICAL;
     public static Item SPRUCE_PLANKS_STAIRS_VERTICAL;
@@ -229,6 +243,7 @@ public class Items
     public static Item JUNGLE_PLANKS_STAIRS_VERTICAL;
     public static Item ACACIA_PLANKS_STAIRS_VERTICAL;
     public static Item DARK_OAK_PLANKS_STAIRS_VERTICAL;
+    public static Item MANGROVE_PLANKS_STAIRS_VERTICAL;
     public static Item CRIMSON_PLANKS_STAIRS_VERTICAL;
     public static Item WARPED_PLANKS_STAIRS_VERTICAL;
     public static Item BEDROCK_STAIRS_VERTICAL;
@@ -265,6 +280,9 @@ public class Items
     public static Item JUNGLE_LOG_STAIRS_VERTICAL;
     public static Item ACACIA_LOG_STAIRS_VERTICAL;
     public static Item DARK_OAK_LOG_STAIRS_VERTICAL;
+    public static Item MANGROVE_LOG_STAIRS_VERTICAL;
+    public static Item MANGROVE_ROOTS_STAIRS_VERTICAL;
+    public static Item MUDDY_MANGROVE_ROOTS_STAIRS_VERTICAL;
     public static Item CRIMSON_STEM_STAIRS_VERTICAL;
     public static Item WARPED_STEM_STAIRS_VERTICAL;
     public static Item STRIPPED_OAK_LOG_STAIRS_VERTICAL;
@@ -273,6 +291,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_LOG_STAIRS_VERTICAL;
     public static Item STRIPPED_ACACIA_LOG_STAIRS_VERTICAL;
     public static Item STRIPPED_DARK_OAK_LOG_STAIRS_VERTICAL;
+    public static Item STRIPPED_MANGROVE_LOG_STAIRS_VERTICAL;
     public static Item STRIPPED_CRIMSON_STEM_STAIRS_VERTICAL;
     public static Item STRIPPED_WARPED_STEM_STAIRS_VERTICAL;
     public static Item STRIPPED_OAK_WOOD_STAIRS_VERTICAL;
@@ -281,6 +300,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_WOOD_STAIRS_VERTICAL;
     public static Item STRIPPED_ACACIA_WOOD_STAIRS_VERTICAL;
     public static Item STRIPPED_DARK_OAK_WOOD_STAIRS_VERTICAL;
+    public static Item STRIPPED_MANGROVE_WOOD_STAIRS_VERTICAL;
     public static Item STRIPPED_CRIMSON_HYPHAE_STAIRS_VERTICAL;
     public static Item STRIPPED_WARPED_HYPHAE_STAIRS_VERTICAL;
     public static Item OAK_WOOD_STAIRS_VERTICAL;
@@ -289,6 +309,7 @@ public class Items
     public static Item JUNGLE_WOOD_STAIRS_VERTICAL;
     public static Item ACACIA_WOOD_STAIRS_VERTICAL;
     public static Item DARK_OAK_WOOD_STAIRS_VERTICAL;
+    public static Item MANGROVE_WOOD_STAIRS_VERTICAL;
     public static Item CRIMSON_HYPHAE_STAIRS_VERTICAL;
     public static Item WARPED_HYPHAE_STAIRS_VERTICAL;
     public static Item GLASS_STAIRS_VERTICAL;
@@ -336,6 +357,8 @@ public class Items
     public static Item MOSSY_STONE_BRICKS_STAIRS_VERTICAL;
     public static Item CRACKED_STONE_BRICKS_STAIRS_VERTICAL;
     public static Item CHISELED_STONE_BRICKS_STAIRS_VERTICAL;
+    public static Item PACKED_MUD_STAIRS_VERTICAL;
+    public static Item MUD_BRICKS_STAIRS_VERTICAL;
     public static Item DEEPSLATE_BRICKS_STAIRS_VERTICAL;
     public static Item CRACKED_DEEPSLATE_BRICKS_STAIRS_VERTICAL;
     public static Item DEEPSLATE_TILES_STAIRS_VERTICAL;
@@ -437,14 +460,19 @@ public class Items
     public static Item JUNGLE_LEAVES_STAIRS_VERTICAL;
     public static Item ACACIA_LEAVES_STAIRS_VERTICAL;
     public static Item DARK_OAK_LEAVES_STAIRS_VERTICAL;
+    public static Item MANGROVE_LEAVES_STAIRS_VERTICAL;
     public static Item AZALEA_LEAVES_STAIRS_VERTICAL;
     public static Item FLOWERING_AZALEA_LEAVES_STAIRS_VERTICAL;
     public static Item MOSS_BLOCK_STAIRS_VERTICAL;
     public static Item BROWN_MUSHROOM_BLOCK_STAIRS_VERTICAL;
     public static Item RED_MUSHROOM_BLOCK_STAIRS_VERTICAL;
     public static Item MUSHROOM_STEM_STAIRS_VERTICAL;
+    public static Item SCULK_STAIRS_VERTICAL;
     public static Item SHROOMLIGHT_STAIRS_VERTICAL;
     public static Item HONEYCOMB_BLOCK_STAIRS_VERTICAL;
+    public static Item OCHRE_FROGLIGHT_STAIRS_VERTICAL;
+    public static Item VERDANT_FROGLIGHT_STAIRS_VERTICAL;
+    public static Item PEARLESCENT_FROGLIGHT_STAIRS_VERTICAL;
 
     /**
      * List of new Minecraft variants of slab blocks.
@@ -459,6 +487,7 @@ public class Items
     public static Item COARSE_DIRT_SLAB;
     public static Item PODZOL_SLAB;
     public static Item ROOTED_DIRT_SLAB;
+    public static Item MUD_SLAB;
     public static Item CRIMSON_NYLIUM_SLAB;
     public static Item WARPED_NYLIUM_SLAB;
     public static Item BEDROCK_SLAB;
@@ -490,6 +519,9 @@ public class Items
     public static Item JUNGLE_LOG_SLAB;
     public static Item ACACIA_LOG_SLAB;
     public static Item DARK_OAK_LOG_SLAB;
+    public static Item MANGROVE_LOG_SLAB;
+    public static Item MANGROVE_ROOTS_SLAB;
+    public static Item MUDDY_MANGROVE_ROOTS_SLAB;
     public static Item CRIMSON_STEM_SLAB;
     public static Item WARPED_STEM_SLAB;
     public static Item STRIPPED_OAK_LOG_SLAB;
@@ -498,6 +530,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_LOG_SLAB;
     public static Item STRIPPED_ACACIA_LOG_SLAB;
     public static Item STRIPPED_DARK_OAK_LOG_SLAB;
+    public static Item STRIPPED_MANGROVE_LOG_SLAB;
     public static Item STRIPPED_CRIMSON_STEM_SLAB;
     public static Item STRIPPED_WARPED_STEM_SLAB;
     public static Item STRIPPED_OAK_WOOD_SLAB;
@@ -506,6 +539,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_WOOD_SLAB;
     public static Item STRIPPED_ACACIA_WOOD_SLAB;
     public static Item STRIPPED_DARK_OAK_WOOD_SLAB;
+    public static Item STRIPPED_MANGROVE_WOOD_SLAB;
     public static Item STRIPPED_CRIMSON_HYPHAE_SLAB;
     public static Item STRIPPED_WARPED_HYPHAE_SLAB;
     public static Item OAK_WOOD_SLAB;
@@ -514,6 +548,7 @@ public class Items
     public static Item JUNGLE_WOOD_SLAB;
     public static Item ACACIA_WOOD_SLAB;
     public static Item DARK_OAK_WOOD_SLAB;
+    public static Item MANGROVE_WOOD_SLAB;
     public static Item CRIMSON_HYPHAE_SLAB;
     public static Item WARPED_HYPHAE_SLAB;
     public static Item GLASS_SLAB;
@@ -550,6 +585,7 @@ public class Items
     public static Item GLOWSTONE_SLAB;
     public static Item CRACKED_STONE_BRICKS_SLAB;
     public static Item CHISELED_STONE_BRICKS_SLAB;
+    public static Item PACKED_MUD_SLAB;
     public static Item CRACKED_DEEPSLATE_BRICKS_SLAB;
     public static Item CRACKED_DEEPSLATE_TILES_SLAB;
     public static Item CHISELED_DEEPSLATE_SLAB;
@@ -638,16 +674,21 @@ public class Items
     public static Item JUNGLE_LEAVES_SLAB;
     public static Item ACACIA_LEAVES_SLAB;
     public static Item DARK_OAK_LEAVES_SLAB;
+    public static Item MANGROVE_LEAVES_SLAB;
     public static Item AZALEA_LEAVES_SLAB;
     public static Item FLOWERING_AZALEA_LEAVES_SLAB;
     public static Item MOSS_BLOCK_SLAB;
     public static Item BROWN_MUSHROOM_BLOCK_SLAB;
     public static Item RED_MUSHROOM_BLOCK_SLAB;
     public static Item MUSHROOM_STEM_SLAB;
+    public static Item SCULK_SLAB;
     public static Item FARMLAND_SLAB;
     public static Item DIRT_PATH_SLAB;
     public static Item SHROOMLIGHT_SLAB;
     public static Item HONEYCOMB_BLOCK_SLAB;
+    public static Item OCHRE_FROGLIGHT_SLAB;
+    public static Item VERDANT_FROGLIGHT_SLAB;
+    public static Item PEARLESCENT_FROGLIGHT_SLAB;
 
     /**
      * List of new Minecraft variants of vertical slab blocks.
@@ -667,6 +708,7 @@ public class Items
     public static Item TUFF_SLAB_VERTICAL;
     public static Item DRIPSTONE_BLOCK_SLAB_VERTICAL;
     public static Item ROOTED_DIRT_SLAB_VERTICAL;
+    public static Item MUD_SLAB_VERTICAL;
     public static Item COBBLESTONE_SLAB_VERTICAL;
     public static Item OAK_PLANKS_SLAB_VERTICAL;
     public static Item SPRUCE_PLANKS_SLAB_VERTICAL;
@@ -674,6 +716,7 @@ public class Items
     public static Item JUNGLE_PLANKS_SLAB_VERTICAL;
     public static Item ACACIA_PLANKS_SLAB_VERTICAL;
     public static Item DARK_OAK_PLANKS_SLAB_VERTICAL;
+    public static Item MANGROVE_PLANKS_SLAB_VERTICAL;
     public static Item CRIMSON_PLANKS_SLAB_VERTICAL;
     public static Item WARPED_PLANKS_SLAB_VERTICAL;
     public static Item BEDROCK_SLAB_VERTICAL;
@@ -710,6 +753,9 @@ public class Items
     public static Item JUNGLE_LOG_SLAB_VERTICAL;
     public static Item ACACIA_LOG_SLAB_VERTICAL;
     public static Item DARK_OAK_LOG_SLAB_VERTICAL;
+    public static Item MANGROVE_LOG_SLAB_VERTICAL;
+    public static Item MANGROVE_ROOTS_SLAB_VERTICAL;
+    public static Item MUDDY_MANGROVE_ROOTS_SLAB_VERTICAL;
     public static Item CRIMSON_STEM_SLAB_VERTICAL;
     public static Item WARPED_STEM_SLAB_VERTICAL;
     public static Item STRIPPED_OAK_LOG_SLAB_VERTICAL;
@@ -718,6 +764,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_LOG_SLAB_VERTICAL;
     public static Item STRIPPED_ACACIA_LOG_SLAB_VERTICAL;
     public static Item STRIPPED_DARK_OAK_LOG_SLAB_VERTICAL;
+    public static Item STRIPPED_MANGROVE_LOG_SLAB_VERTICAL;
     public static Item STRIPPED_CRIMSON_STEM_SLAB_VERTICAL;
     public static Item STRIPPED_WARPED_STEM_SLAB_VERTICAL;
     public static Item STRIPPED_OAK_WOOD_SLAB_VERTICAL;
@@ -726,6 +773,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_WOOD_SLAB_VERTICAL;
     public static Item STRIPPED_ACACIA_WOOD_SLAB_VERTICAL;
     public static Item STRIPPED_DARK_OAK_WOOD_SLAB_VERTICAL;
+    public static Item STRIPPED_MANGROVE_WOOD_SLAB_VERTICAL;
     public static Item STRIPPED_CRIMSON_HYPHAE_SLAB_VERTICAL;
     public static Item STRIPPED_WARPED_HYPHAE_SLAB_VERTICAL;
     public static Item OAK_WOOD_SLAB_VERTICAL;
@@ -734,6 +782,7 @@ public class Items
     public static Item JUNGLE_WOOD_SLAB_VERTICAL;
     public static Item ACACIA_WOOD_SLAB_VERTICAL;
     public static Item DARK_OAK_WOOD_SLAB_VERTICAL;
+    public static Item MANGROVE_WOOD_SLAB_VERTICAL;
     public static Item CRIMSON_HYPHAE_SLAB_VERTICAL;
     public static Item WARPED_HYPHAE_SLAB_VERTICAL;
     public static Item GLASS_SLAB_VERTICAL;
@@ -781,6 +830,8 @@ public class Items
     public static Item MOSSY_STONE_BRICKS_SLAB_VERTICAL;
     public static Item CRACKED_STONE_BRICKS_SLAB_VERTICAL;
     public static Item CHISELED_STONE_BRICKS_SLAB_VERTICAL;
+    public static Item PACKED_MUD_SLAB_VERTICAL;
+    public static Item MUD_BRICKS_SLAB_VERTICAL;
     public static Item DEEPSLATE_BRICKS_SLAB_VERTICAL;
     public static Item CRACKED_DEEPSLATE_BRICKS_SLAB_VERTICAL;
     public static Item DEEPSLATE_TILES_SLAB_VERTICAL;
@@ -882,14 +933,19 @@ public class Items
     public static Item JUNGLE_LEAVES_SLAB_VERTICAL;
     public static Item ACACIA_LEAVES_SLAB_VERTICAL;
     public static Item DARK_OAK_LEAVES_SLAB_VERTICAL;
+    public static Item MANGROVE_LEAVES_SLAB_VERTICAL;
     public static Item AZALEA_LEAVES_SLAB_VERTICAL;
     public static Item FLOWERING_AZALEA_LEAVES_SLAB_VERTICAL;
     public static Item MOSS_BLOCK_SLAB_VERTICAL;
     public static Item BROWN_MUSHROOM_BLOCK_SLAB_VERTICAL;
     public static Item RED_MUSHROOM_BLOCK_SLAB_VERTICAL;
     public static Item MUSHROOM_STEM_SLAB_VERTICAL;
+    public static Item SCULK_SLAB_VERTICAL;
     public static Item SHROOMLIGHT_SLAB_VERTICAL;
     public static Item HONEYCOMB_BLOCK_SLAB_VERTICAL;
+    public static Item OCHRE_FROGLIGHT_SLAB_VERTICAL;
+    public static Item VERDANT_FROGLIGHT_SLAB_VERTICAL;
+    public static Item PEARLESCENT_FROGLIGHT_SLAB_VERTICAL;
 
     /**
      * List of new Minecraft variants of quarter blocks.
@@ -909,6 +965,7 @@ public class Items
     public static Item TUFF_QUARTER;
     public static Item DRIPSTONE_BLOCK_QUARTER;
     public static Item ROOTED_DIRT_QUARTER;
+    public static Item MUD_QUARTER;
     public static Item COBBLESTONE_QUARTER;
     public static Item OAK_PLANKS_QUARTER;
     public static Item SPRUCE_PLANKS_QUARTER;
@@ -916,6 +973,7 @@ public class Items
     public static Item JUNGLE_PLANKS_QUARTER;
     public static Item ACACIA_PLANKS_QUARTER;
     public static Item DARK_OAK_PLANKS_QUARTER;
+    public static Item MANGROVE_PLANKS_QUARTER;
     public static Item CRIMSON_PLANKS_QUARTER;
     public static Item WARPED_PLANKS_QUARTER;
     public static Item BEDROCK_QUARTER;
@@ -952,6 +1010,9 @@ public class Items
     public static Item JUNGLE_LOG_QUARTER;
     public static Item ACACIA_LOG_QUARTER;
     public static Item DARK_OAK_LOG_QUARTER;
+    public static Item MANGROVE_LOG_QUARTER;
+    public static Item MANGROVE_ROOTS_QUARTER;
+    public static Item MUDDY_MANGROVE_ROOTS_QUARTER;
     public static Item CRIMSON_STEM_QUARTER;
     public static Item WARPED_STEM_QUARTER;
     public static Item STRIPPED_OAK_LOG_QUARTER;
@@ -960,6 +1021,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_LOG_QUARTER;
     public static Item STRIPPED_ACACIA_LOG_QUARTER;
     public static Item STRIPPED_DARK_OAK_LOG_QUARTER;
+    public static Item STRIPPED_MANGROVE_LOG_QUARTER;
     public static Item STRIPPED_CRIMSON_STEM_QUARTER;
     public static Item STRIPPED_WARPED_STEM_QUARTER;
     public static Item STRIPPED_OAK_WOOD_QUARTER;
@@ -968,6 +1030,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_WOOD_QUARTER;
     public static Item STRIPPED_ACACIA_WOOD_QUARTER;
     public static Item STRIPPED_DARK_OAK_WOOD_QUARTER;
+    public static Item STRIPPED_MANGROVE_WOOD_QUARTER;
     public static Item STRIPPED_CRIMSON_HYPHAE_QUARTER;
     public static Item STRIPPED_WARPED_HYPHAE_QUARTER;
     public static Item OAK_WOOD_QUARTER;
@@ -976,6 +1039,7 @@ public class Items
     public static Item JUNGLE_WOOD_QUARTER;
     public static Item ACACIA_WOOD_QUARTER;
     public static Item DARK_OAK_WOOD_QUARTER;
+    public static Item MANGROVE_WOOD_QUARTER;
     public static Item CRIMSON_HYPHAE_QUARTER;
     public static Item WARPED_HYPHAE_QUARTER;
     public static Item GLASS_QUARTER;
@@ -1023,6 +1087,8 @@ public class Items
     public static Item MOSSY_STONE_BRICKS_QUARTER;
     public static Item CRACKED_STONE_BRICKS_QUARTER;
     public static Item CHISELED_STONE_BRICKS_QUARTER;
+    public static Item PACKED_MUD_QUARTER;
+    public static Item MUD_BRICKS_QUARTER;
     public static Item DEEPSLATE_BRICKS_QUARTER;
     public static Item CRACKED_DEEPSLATE_BRICKS_QUARTER;
     public static Item DEEPSLATE_TILES_QUARTER;
@@ -1124,14 +1190,19 @@ public class Items
     public static Item JUNGLE_LEAVES_QUARTER;
     public static Item ACACIA_LEAVES_QUARTER;
     public static Item DARK_OAK_LEAVES_QUARTER;
+    public static Item MANGROVE_LEAVES_QUARTER;
     public static Item AZALEA_LEAVES_QUARTER;
     public static Item FLOWERING_AZALEA_LEAVES_QUARTER;
     public static Item MOSS_BLOCK_QUARTER;
     public static Item BROWN_MUSHROOM_BLOCK_QUARTER;
     public static Item RED_MUSHROOM_BLOCK_QUARTER;
     public static Item MUSHROOM_STEM_QUARTER;
+    public static Item SCULK_QUARTER;
     public static Item SHROOMLIGHT_QUARTER;
     public static Item HONEYCOMB_BLOCK_QUARTER;
+    public static Item OCHRE_FROGLIGHT_QUARTER;
+    public static Item VERDANT_FROGLIGHT_QUARTER;
+    public static Item PEARLESCENT_FROGLIGHT_QUARTER;
 
     /**
      * List of new Minecraft variants of vertical quarter blocks.
@@ -1151,6 +1222,7 @@ public class Items
     public static Item TUFF_QUARTER_VERTICAL;
     public static Item DRIPSTONE_BLOCK_QUARTER_VERTICAL;
     public static Item ROOTED_DIRT_QUARTER_VERTICAL;
+    public static Item MUD_QUARTER_VERTICAL;
     public static Item COBBLESTONE_QUARTER_VERTICAL;
     public static Item OAK_PLANKS_QUARTER_VERTICAL;
     public static Item SPRUCE_PLANKS_QUARTER_VERTICAL;
@@ -1158,6 +1230,7 @@ public class Items
     public static Item JUNGLE_PLANKS_QUARTER_VERTICAL;
     public static Item ACACIA_PLANKS_QUARTER_VERTICAL;
     public static Item DARK_OAK_PLANKS_QUARTER_VERTICAL;
+    public static Item MANGROVE_PLANKS_QUARTER_VERTICAL;
     public static Item CRIMSON_PLANKS_QUARTER_VERTICAL;
     public static Item WARPED_PLANKS_QUARTER_VERTICAL;
     public static Item BEDROCK_QUARTER_VERTICAL;
@@ -1194,6 +1267,9 @@ public class Items
     public static Item JUNGLE_LOG_QUARTER_VERTICAL;
     public static Item ACACIA_LOG_QUARTER_VERTICAL;
     public static Item DARK_OAK_LOG_QUARTER_VERTICAL;
+    public static Item MANGROVE_LOG_QUARTER_VERTICAL;
+    public static Item MANGROVE_ROOTS_QUARTER_VERTICAL;
+    public static Item MUDDY_MANGROVE_ROOTS_QUARTER_VERTICAL;
     public static Item CRIMSON_STEM_QUARTER_VERTICAL;
     public static Item WARPED_STEM_QUARTER_VERTICAL;
     public static Item STRIPPED_OAK_LOG_QUARTER_VERTICAL;
@@ -1202,6 +1278,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_LOG_QUARTER_VERTICAL;
     public static Item STRIPPED_ACACIA_LOG_QUARTER_VERTICAL;
     public static Item STRIPPED_DARK_OAK_LOG_QUARTER_VERTICAL;
+    public static Item STRIPPED_MANGROVE_LOG_QUARTER_VERTICAL;
     public static Item STRIPPED_CRIMSON_STEM_QUARTER_VERTICAL;
     public static Item STRIPPED_WARPED_STEM_QUARTER_VERTICAL;
     public static Item STRIPPED_OAK_WOOD_QUARTER_VERTICAL;
@@ -1210,6 +1287,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_WOOD_QUARTER_VERTICAL;
     public static Item STRIPPED_ACACIA_WOOD_QUARTER_VERTICAL;
     public static Item STRIPPED_DARK_OAK_WOOD_QUARTER_VERTICAL;
+    public static Item STRIPPED_MANGROVE_WOOD_QUARTER_VERTICAL;
     public static Item STRIPPED_CRIMSON_HYPHAE_QUARTER_VERTICAL;
     public static Item STRIPPED_WARPED_HYPHAE_QUARTER_VERTICAL;
     public static Item OAK_WOOD_QUARTER_VERTICAL;
@@ -1218,6 +1296,7 @@ public class Items
     public static Item JUNGLE_WOOD_QUARTER_VERTICAL;
     public static Item ACACIA_WOOD_QUARTER_VERTICAL;
     public static Item DARK_OAK_WOOD_QUARTER_VERTICAL;
+    public static Item MANGROVE_WOOD_QUARTER_VERTICAL;
     public static Item CRIMSON_HYPHAE_QUARTER_VERTICAL;
     public static Item WARPED_HYPHAE_QUARTER_VERTICAL;
     public static Item GLASS_QUARTER_VERTICAL;
@@ -1265,6 +1344,8 @@ public class Items
     public static Item MOSSY_STONE_BRICKS_QUARTER_VERTICAL;
     public static Item CRACKED_STONE_BRICKS_QUARTER_VERTICAL;
     public static Item CHISELED_STONE_BRICKS_QUARTER_VERTICAL;
+    public static Item PACKED_MUD_QUARTER_VERTICAL;
+    public static Item MUD_BRICKS_QUARTER_VERTICAL;
     public static Item DEEPSLATE_BRICKS_QUARTER_VERTICAL;
     public static Item CRACKED_DEEPSLATE_BRICKS_QUARTER_VERTICAL;
     public static Item DEEPSLATE_TILES_QUARTER_VERTICAL;
@@ -1366,14 +1447,19 @@ public class Items
     public static Item JUNGLE_LEAVES_QUARTER_VERTICAL;
     public static Item ACACIA_LEAVES_QUARTER_VERTICAL;
     public static Item DARK_OAK_LEAVES_QUARTER_VERTICAL;
+    public static Item MANGROVE_LEAVES_QUARTER_VERTICAL;
     public static Item AZALEA_LEAVES_QUARTER_VERTICAL;
     public static Item FLOWERING_AZALEA_LEAVES_QUARTER_VERTICAL;
     public static Item MOSS_BLOCK_QUARTER_VERTICAL;
     public static Item BROWN_MUSHROOM_BLOCK_QUARTER_VERTICAL;
     public static Item RED_MUSHROOM_BLOCK_QUARTER_VERTICAL;
     public static Item MUSHROOM_STEM_QUARTER_VERTICAL;
+    public static Item SCULK_QUARTER_VERTICAL;
     public static Item SHROOMLIGHT_QUARTER_VERTICAL;
     public static Item HONEYCOMB_BLOCK_QUARTER_VERTICAL;
+    public static Item OCHRE_FROGLIGHT_QUARTER_VERTICAL;
+    public static Item VERDANT_FROGLIGHT_QUARTER_VERTICAL;
+    public static Item PEARLESCENT_FROGLIGHT_QUARTER_VERTICAL;
 
     /**
      * List of new Minecraft variants of eighth blocks.
@@ -1393,6 +1479,7 @@ public class Items
     public static Item TUFF_EIGHTH;
     public static Item DRIPSTONE_BLOCK_EIGHTH;
     public static Item ROOTED_DIRT_EIGHTH;
+    public static Item MUD_EIGHTH;
     public static Item COBBLESTONE_EIGHTH;
     public static Item OAK_PLANKS_EIGHTH;
     public static Item SPRUCE_PLANKS_EIGHTH;
@@ -1400,6 +1487,7 @@ public class Items
     public static Item JUNGLE_PLANKS_EIGHTH;
     public static Item ACACIA_PLANKS_EIGHTH;
     public static Item DARK_OAK_PLANKS_EIGHTH;
+    public static Item MANGROVE_PLANKS_EIGHTH;
     public static Item CRIMSON_PLANKS_EIGHTH;
     public static Item WARPED_PLANKS_EIGHTH;
     public static Item BEDROCK_EIGHTH;
@@ -1436,6 +1524,9 @@ public class Items
     public static Item JUNGLE_LOG_EIGHTH;
     public static Item ACACIA_LOG_EIGHTH;
     public static Item DARK_OAK_LOG_EIGHTH;
+    public static Item MANGROVE_LOG_EIGHTH;
+    public static Item MANGROVE_ROOTS_EIGHTH;
+    public static Item MUDDY_MANGROVE_ROOTS_EIGHTH;
     public static Item CRIMSON_STEM_EIGHTH;
     public static Item WARPED_STEM_EIGHTH;
     public static Item STRIPPED_OAK_LOG_EIGHTH;
@@ -1444,6 +1535,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_LOG_EIGHTH;
     public static Item STRIPPED_ACACIA_LOG_EIGHTH;
     public static Item STRIPPED_DARK_OAK_LOG_EIGHTH;
+    public static Item STRIPPED_MANGROVE_LOG_EIGHTH;
     public static Item STRIPPED_CRIMSON_STEM_EIGHTH;
     public static Item STRIPPED_WARPED_STEM_EIGHTH;
     public static Item STRIPPED_OAK_WOOD_EIGHTH;
@@ -1452,6 +1544,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_WOOD_EIGHTH;
     public static Item STRIPPED_ACACIA_WOOD_EIGHTH;
     public static Item STRIPPED_DARK_OAK_WOOD_EIGHTH;
+    public static Item STRIPPED_MANGROVE_WOOD_EIGHTH;
     public static Item STRIPPED_CRIMSON_HYPHAE_EIGHTH;
     public static Item STRIPPED_WARPED_HYPHAE_EIGHTH;
     public static Item OAK_WOOD_EIGHTH;
@@ -1460,6 +1553,7 @@ public class Items
     public static Item JUNGLE_WOOD_EIGHTH;
     public static Item ACACIA_WOOD_EIGHTH;
     public static Item DARK_OAK_WOOD_EIGHTH;
+    public static Item MANGROVE_WOOD_EIGHTH;
     public static Item CRIMSON_HYPHAE_EIGHTH;
     public static Item WARPED_HYPHAE_EIGHTH;
     public static Item GLASS_EIGHTH;
@@ -1507,6 +1601,8 @@ public class Items
     public static Item MOSSY_STONE_BRICKS_EIGHTH;
     public static Item CRACKED_STONE_BRICKS_EIGHTH;
     public static Item CHISELED_STONE_BRICKS_EIGHTH;
+    public static Item PACKED_MUD_EIGHTH;
+    public static Item MUD_BRICKS_EIGHTH;
     public static Item DEEPSLATE_BRICKS_EIGHTH;
     public static Item CRACKED_DEEPSLATE_BRICKS_EIGHTH;
     public static Item DEEPSLATE_TILES_EIGHTH;
@@ -1608,14 +1704,19 @@ public class Items
     public static Item JUNGLE_LEAVES_EIGHTH;
     public static Item ACACIA_LEAVES_EIGHTH;
     public static Item DARK_OAK_LEAVES_EIGHTH;
+    public static Item MANGROVE_LEAVES_EIGHTH;
     public static Item AZALEA_LEAVES_EIGHTH;
     public static Item FLOWERING_AZALEA_LEAVES_EIGHTH;
     public static Item MOSS_BLOCK_EIGHTH;
     public static Item BROWN_MUSHROOM_BLOCK_EIGHTH;
     public static Item RED_MUSHROOM_BLOCK_EIGHTH;
     public static Item MUSHROOM_STEM_EIGHTH;
+    public static Item SCULK_EIGHTH;
     public static Item SHROOMLIGHT_EIGHTH;
     public static Item HONEYCOMB_BLOCK_EIGHTH;
+    public static Item OCHRE_FROGLIGHT_EIGHTH;
+    public static Item VERDANT_FROGLIGHT_EIGHTH;
+    public static Item PEARLESCENT_FROGLIGHT_EIGHTH;
 
     /**
      * List of MineGate blocks. (Building Blocks)
@@ -1650,6 +1751,7 @@ public class Items
     public static Item JUNGLE_PLANKS_SMOOTH;
     public static Item ACACIA_PLANKS_SMOOTH;
     public static Item DARK_OAK_PLANKS_SMOOTH;
+    public static Item MANGROVE_PLANKS_SMOOTH;
     public static Item CRIMSON_PLANKS_SMOOTH;
     public static Item WARPED_PLANKS_SMOOTH;
     public static Item OAK_PLANKS_HERRINGBONE;
@@ -1658,6 +1760,7 @@ public class Items
     public static Item JUNGLE_PLANKS_HERRINGBONE;
     public static Item ACACIA_PLANKS_HERRINGBONE;
     public static Item DARK_OAK_PLANKS_HERRINGBONE;
+    public static Item MANGROVE_PLANKS_HERRINGBONE;
     public static Item CRIMSON_PLANKS_HERRINGBONE;
     public static Item WARPED_PLANKS_HERRINGBONE;
     public static Item OAK_PLANKS_LARGE;
@@ -1666,6 +1769,7 @@ public class Items
     public static Item JUNGLE_PLANKS_LARGE;
     public static Item ACACIA_PLANKS_LARGE;
     public static Item DARK_OAK_PLANKS_LARGE;
+    public static Item MANGROVE_PLANKS_LARGE;
     public static Item CRIMSON_PLANKS_LARGE;
     public static Item WARPED_PLANKS_LARGE;
     public static Item WHITE_TERRACOTTA_BRICKS;
@@ -1785,6 +1889,7 @@ public class Items
     public static Item JUNGLE_PLANKS_SMOOTH_STAIRS;
     public static Item ACACIA_PLANKS_SMOOTH_STAIRS;
     public static Item DARK_OAK_PLANKS_SMOOTH_STAIRS;
+    public static Item MANGROVE_PLANKS_SMOOTH_STAIRS;
     public static Item CRIMSON_PLANKS_SMOOTH_STAIRS;
     public static Item WARPED_PLANKS_SMOOTH_STAIRS;
     public static Item OAK_PLANKS_HERRINGBONE_STAIRS;
@@ -1793,6 +1898,7 @@ public class Items
     public static Item JUNGLE_PLANKS_HERRINGBONE_STAIRS;
     public static Item ACACIA_PLANKS_HERRINGBONE_STAIRS;
     public static Item DARK_OAK_PLANKS_HERRINGBONE_STAIRS;
+    public static Item MANGROVE_PLANKS_HERRINGBONE_STAIRS;
     public static Item CRIMSON_PLANKS_HERRINGBONE_STAIRS;
     public static Item WARPED_PLANKS_HERRINGBONE_STAIRS;
     public static Item OAK_PLANKS_LARGE_STAIRS;
@@ -1801,6 +1907,7 @@ public class Items
     public static Item JUNGLE_PLANKS_LARGE_STAIRS;
     public static Item ACACIA_PLANKS_LARGE_STAIRS;
     public static Item DARK_OAK_PLANKS_LARGE_STAIRS;
+    public static Item MANGROVE_PLANKS_LARGE_STAIRS;
     public static Item CRIMSON_PLANKS_LARGE_STAIRS;
     public static Item WARPED_PLANKS_LARGE_STAIRS;
     public static Item WHITE_TERRACOTTA_BRICKS_STAIRS;
@@ -1920,6 +2027,7 @@ public class Items
     public static Item JUNGLE_PLANKS_SMOOTH_STAIRS_VERTICAL;
     public static Item ACACIA_PLANKS_SMOOTH_STAIRS_VERTICAL;
     public static Item DARK_OAK_PLANKS_SMOOTH_STAIRS_VERTICAL;
+    public static Item MANGROVE_PLANKS_SMOOTH_STAIRS_VERTICAL;
     public static Item CRIMSON_PLANKS_SMOOTH_STAIRS_VERTICAL;
     public static Item WARPED_PLANKS_SMOOTH_STAIRS_VERTICAL;
     public static Item OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
@@ -1928,6 +2036,7 @@ public class Items
     public static Item JUNGLE_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
     public static Item ACACIA_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
     public static Item DARK_OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
+    public static Item MANGROVE_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
     public static Item CRIMSON_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
     public static Item WARPED_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
     public static Item OAK_PLANKS_LARGE_STAIRS_VERTICAL;
@@ -1936,6 +2045,7 @@ public class Items
     public static Item JUNGLE_PLANKS_LARGE_STAIRS_VERTICAL;
     public static Item ACACIA_PLANKS_LARGE_STAIRS_VERTICAL;
     public static Item DARK_OAK_PLANKS_LARGE_STAIRS_VERTICAL;
+    public static Item MANGROVE_PLANKS_LARGE_STAIRS_VERTICAL;
     public static Item CRIMSON_PLANKS_LARGE_STAIRS_VERTICAL;
     public static Item WARPED_PLANKS_LARGE_STAIRS_VERTICAL;
     public static Item WHITE_TERRACOTTA_BRICKS_STAIRS_VERTICAL;
@@ -2055,6 +2165,7 @@ public class Items
     public static Item JUNGLE_PLANKS_SMOOTH_SLAB;
     public static Item ACACIA_PLANKS_SMOOTH_SLAB;
     public static Item DARK_OAK_PLANKS_SMOOTH_SLAB;
+    public static Item MANGROVE_PLANKS_SMOOTH_SLAB;
     public static Item CRIMSON_PLANKS_SMOOTH_SLAB;
     public static Item WARPED_PLANKS_SMOOTH_SLAB;
     public static Item OAK_PLANKS_HERRINGBONE_SLAB;
@@ -2063,6 +2174,7 @@ public class Items
     public static Item JUNGLE_PLANKS_HERRINGBONE_SLAB;
     public static Item ACACIA_PLANKS_HERRINGBONE_SLAB;
     public static Item DARK_OAK_PLANKS_HERRINGBONE_SLAB;
+    public static Item MANGROVE_PLANKS_HERRINGBONE_SLAB;
     public static Item CRIMSON_PLANKS_HERRINGBONE_SLAB;
     public static Item WARPED_PLANKS_HERRINGBONE_SLAB;
     public static Item OAK_PLANKS_LARGE_SLAB;
@@ -2071,6 +2183,7 @@ public class Items
     public static Item JUNGLE_PLANKS_LARGE_SLAB;
     public static Item ACACIA_PLANKS_LARGE_SLAB;
     public static Item DARK_OAK_PLANKS_LARGE_SLAB;
+    public static Item MANGROVE_PLANKS_LARGE_SLAB;
     public static Item CRIMSON_PLANKS_LARGE_SLAB;
     public static Item WARPED_PLANKS_LARGE_SLAB;
     public static Item WHITE_TERRACOTTA_BRICKS_SLAB;
@@ -2190,6 +2303,7 @@ public class Items
     public static Item JUNGLE_PLANKS_SMOOTH_SLAB_VERTICAL;
     public static Item ACACIA_PLANKS_SMOOTH_SLAB_VERTICAL;
     public static Item DARK_OAK_PLANKS_SMOOTH_SLAB_VERTICAL;
+    public static Item MANGROVE_PLANKS_SMOOTH_SLAB_VERTICAL;
     public static Item CRIMSON_PLANKS_SMOOTH_SLAB_VERTICAL;
     public static Item WARPED_PLANKS_SMOOTH_SLAB_VERTICAL;
     public static Item OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL;
@@ -2198,6 +2312,7 @@ public class Items
     public static Item JUNGLE_PLANKS_HERRINGBONE_SLAB_VERTICAL;
     public static Item ACACIA_PLANKS_HERRINGBONE_SLAB_VERTICAL;
     public static Item DARK_OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL;
+    public static Item MANGROVE_PLANKS_HERRINGBONE_SLAB_VERTICAL;
     public static Item CRIMSON_PLANKS_HERRINGBONE_SLAB_VERTICAL;
     public static Item WARPED_PLANKS_HERRINGBONE_SLAB_VERTICAL;
     public static Item OAK_PLANKS_LARGE_SLAB_VERTICAL;
@@ -2206,6 +2321,7 @@ public class Items
     public static Item JUNGLE_PLANKS_LARGE_SLAB_VERTICAL;
     public static Item ACACIA_PLANKS_LARGE_SLAB_VERTICAL;
     public static Item DARK_OAK_PLANKS_LARGE_SLAB_VERTICAL;
+    public static Item MANGROVE_PLANKS_LARGE_SLAB_VERTICAL;
     public static Item CRIMSON_PLANKS_LARGE_SLAB_VERTICAL;
     public static Item WARPED_PLANKS_LARGE_SLAB_VERTICAL;
     public static Item WHITE_TERRACOTTA_BRICKS_SLAB_VERTICAL;
@@ -2325,6 +2441,7 @@ public class Items
     public static Item JUNGLE_PLANKS_SMOOTH_QUARTER;
     public static Item ACACIA_PLANKS_SMOOTH_QUARTER;
     public static Item DARK_OAK_PLANKS_SMOOTH_QUARTER;
+    public static Item MANGROVE_PLANKS_SMOOTH_QUARTER;
     public static Item CRIMSON_PLANKS_SMOOTH_QUARTER;
     public static Item WARPED_PLANKS_SMOOTH_QUARTER;
     public static Item OAK_PLANKS_HERRINGBONE_QUARTER;
@@ -2333,6 +2450,7 @@ public class Items
     public static Item JUNGLE_PLANKS_HERRINGBONE_QUARTER;
     public static Item ACACIA_PLANKS_HERRINGBONE_QUARTER;
     public static Item DARK_OAK_PLANKS_HERRINGBONE_QUARTER;
+    public static Item MANGROVE_PLANKS_HERRINGBONE_QUARTER;
     public static Item CRIMSON_PLANKS_HERRINGBONE_QUARTER;
     public static Item WARPED_PLANKS_HERRINGBONE_QUARTER;
     public static Item OAK_PLANKS_LARGE_QUARTER;
@@ -2341,6 +2459,7 @@ public class Items
     public static Item JUNGLE_PLANKS_LARGE_QUARTER;
     public static Item ACACIA_PLANKS_LARGE_QUARTER;
     public static Item DARK_OAK_PLANKS_LARGE_QUARTER;
+    public static Item MANGROVE_PLANKS_LARGE_QUARTER;
     public static Item CRIMSON_PLANKS_LARGE_QUARTER;
     public static Item WARPED_PLANKS_LARGE_QUARTER;
     public static Item WHITE_TERRACOTTA_BRICKS_QUARTER;
@@ -2460,6 +2579,7 @@ public class Items
     public static Item JUNGLE_PLANKS_SMOOTH_QUARTER_VERTICAL;
     public static Item ACACIA_PLANKS_SMOOTH_QUARTER_VERTICAL;
     public static Item DARK_OAK_PLANKS_SMOOTH_QUARTER_VERTICAL;
+    public static Item MANGROVE_PLANKS_SMOOTH_QUARTER_VERTICAL;
     public static Item CRIMSON_PLANKS_SMOOTH_QUARTER_VERTICAL;
     public static Item WARPED_PLANKS_SMOOTH_QUARTER_VERTICAL;
     public static Item OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
@@ -2468,6 +2588,7 @@ public class Items
     public static Item JUNGLE_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
     public static Item ACACIA_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
     public static Item DARK_OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
+    public static Item MANGROVE_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
     public static Item CRIMSON_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
     public static Item WARPED_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
     public static Item OAK_PLANKS_LARGE_QUARTER_VERTICAL;
@@ -2476,6 +2597,7 @@ public class Items
     public static Item JUNGLE_PLANKS_LARGE_QUARTER_VERTICAL;
     public static Item ACACIA_PLANKS_LARGE_QUARTER_VERTICAL;
     public static Item DARK_OAK_PLANKS_LARGE_QUARTER_VERTICAL;
+    public static Item MANGROVE_PLANKS_LARGE_QUARTER_VERTICAL;
     public static Item CRIMSON_PLANKS_LARGE_QUARTER_VERTICAL;
     public static Item WARPED_PLANKS_LARGE_QUARTER_VERTICAL;
     public static Item WHITE_TERRACOTTA_BRICKS_QUARTER_VERTICAL;
@@ -2595,6 +2717,7 @@ public class Items
     public static Item JUNGLE_PLANKS_SMOOTH_EIGHTH;
     public static Item ACACIA_PLANKS_SMOOTH_EIGHTH;
     public static Item DARK_OAK_PLANKS_SMOOTH_EIGHTH;
+    public static Item MANGROVE_PLANKS_SMOOTH_EIGHTH;
     public static Item CRIMSON_PLANKS_SMOOTH_EIGHTH;
     public static Item WARPED_PLANKS_SMOOTH_EIGHTH;
     public static Item OAK_PLANKS_HERRINGBONE_EIGHTH;
@@ -2603,6 +2726,7 @@ public class Items
     public static Item JUNGLE_PLANKS_HERRINGBONE_EIGHTH;
     public static Item ACACIA_PLANKS_HERRINGBONE_EIGHTH;
     public static Item DARK_OAK_PLANKS_HERRINGBONE_EIGHTH;
+    public static Item MANGROVE_PLANKS_HERRINGBONE_EIGHTH;
     public static Item CRIMSON_PLANKS_HERRINGBONE_EIGHTH;
     public static Item WARPED_PLANKS_HERRINGBONE_EIGHTH;
     public static Item OAK_PLANKS_LARGE_EIGHTH;
@@ -2611,6 +2735,7 @@ public class Items
     public static Item JUNGLE_PLANKS_LARGE_EIGHTH;
     public static Item ACACIA_PLANKS_LARGE_EIGHTH;
     public static Item DARK_OAK_PLANKS_LARGE_EIGHTH;
+    public static Item MANGROVE_PLANKS_LARGE_EIGHTH;
     public static Item CRIMSON_PLANKS_LARGE_EIGHTH;
     public static Item WARPED_PLANKS_LARGE_EIGHTH;
     public static Item WHITE_TERRACOTTA_BRICKS_EIGHTH;
@@ -2713,6 +2838,7 @@ public class Items
     public static Item JUNGLE_WOOD_CHAIR;
     public static Item ACACIA_WOOD_CHAIR;
     public static Item DARK_OAK_WOOD_CHAIR;
+    public static Item MANGROVE_WOOD_CHAIR;
     public static Item CRIMSON_WOOD_CHAIR;
     public static Item WARPED_WOOD_CHAIR;
     public static Item OAK_WOOD_BENCH;
@@ -2721,6 +2847,7 @@ public class Items
     public static Item JUNGLE_WOOD_BENCH;
     public static Item ACACIA_WOOD_BENCH;
     public static Item DARK_OAK_WOOD_BENCH;
+    public static Item MANGROVE_WOOD_BENCH;
     public static Item CRIMSON_WOOD_BENCH;
     public static Item WARPED_WOOD_BENCH;
     public static Item OAK_WOOD_STOOL;
@@ -2729,6 +2856,7 @@ public class Items
     public static Item JUNGLE_WOOD_STOOL;
     public static Item ACACIA_WOOD_STOOL;
     public static Item DARK_OAK_WOOD_STOOL;
+    public static Item MANGROVE_WOOD_STOOL;
     public static Item CRIMSON_WOOD_STOOL;
     public static Item WARPED_WOOD_STOOL;
     public static Item OAK_WOOD_STOOL_HIGH;
@@ -2737,6 +2865,7 @@ public class Items
     public static Item JUNGLE_WOOD_STOOL_HIGH;
     public static Item ACACIA_WOOD_STOOL_HIGH;
     public static Item DARK_OAK_WOOD_STOOL_HIGH;
+    public static Item MANGROVE_WOOD_STOOL_HIGH;
     public static Item CRIMSON_WOOD_STOOL_HIGH;
     public static Item WARPED_WOOD_STOOL_HIGH;
     public static Item OAK_WOOD_TABLE;
@@ -2745,6 +2874,7 @@ public class Items
     public static Item JUNGLE_WOOD_TABLE;
     public static Item ACACIA_WOOD_TABLE;
     public static Item DARK_OAK_WOOD_TABLE;
+    public static Item MANGROVE_WOOD_TABLE;
     public static Item CRIMSON_WOOD_TABLE;
     public static Item WARPED_WOOD_TABLE;
     public static Item OAK_WOOD_TABLE_HIGH;
@@ -2753,6 +2883,7 @@ public class Items
     public static Item JUNGLE_WOOD_TABLE_HIGH;
     public static Item ACACIA_WOOD_TABLE_HIGH;
     public static Item DARK_OAK_WOOD_TABLE_HIGH;
+    public static Item MANGROVE_WOOD_TABLE_HIGH;
     public static Item CRIMSON_WOOD_TABLE_HIGH;
     public static Item WARPED_WOOD_TABLE_HIGH;
     public static Item OAK_WOOD_TABLE_SMALL;
@@ -2761,6 +2892,7 @@ public class Items
     public static Item JUNGLE_WOOD_TABLE_SMALL;
     public static Item ACACIA_WOOD_TABLE_SMALL;
     public static Item DARK_OAK_WOOD_TABLE_SMALL;
+    public static Item MANGROVE_WOOD_TABLE_SMALL;
     public static Item CRIMSON_WOOD_TABLE_SMALL;
     public static Item WARPED_WOOD_TABLE_SMALL;
     public static Item OAK_BOOKSHELF;
@@ -2769,6 +2901,7 @@ public class Items
     public static Item JUNGLE_BOOKSHELF;
     public static Item ACACIA_BOOKSHELF;
     public static Item DARK_OAK_BOOKSHELF;
+    public static Item MANGROVE_BOOKSHELF;
     public static Item CRIMSON_BOOKSHELF;
     public static Item WARPED_BOOKSHELF;
     public static Item SPRUCE_LADDER;
@@ -2776,6 +2909,7 @@ public class Items
     public static Item JUNGLE_LADDER;
     public static Item ACACIA_LADDER;
     public static Item DARK_OAK_LADDER;
+    public static Item MANGROVE_LADDER;
     public static Item CRIMSON_LADDER;
     public static Item WARPED_LADDER;
     public static Item IRON_FENCE;
@@ -2817,6 +2951,7 @@ public class Items
     public static Item JUNGLE_LANTERN;
     public static Item ACACIA_LANTERN;
     public static Item DARK_OAK_LANTERN;
+    public static Item MANGROVE_LANTERN;
     public static Item CRIMSON_LANTERN;
     public static Item WARPED_LANTERN;
     public static Item OAK_LANTERN_ROD;
@@ -2825,6 +2960,7 @@ public class Items
     public static Item JUNGLE_LANTERN_ROD;
     public static Item ACACIA_LANTERN_ROD;
     public static Item DARK_OAK_LANTERN_ROD;
+    public static Item MANGROVE_LANTERN_ROD;
     public static Item CRIMSON_LANTERN_ROD;
     public static Item WARPED_LANTERN_ROD;
     public static Item IRON_WALL;
@@ -2853,6 +2989,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_WOOD_VASE;
     public static Item STRIPPED_ACACIA_WOOD_VASE;
     public static Item STRIPPED_DARK_OAK_WOOD_VASE;
+    public static Item STRIPPED_MANGROVE_WOOD_VASE;
     public static Item STRIPPED_CRIMSON_HYPHAE_VASE;
     public static Item STRIPPED_WARPED_HYPHAE_VASE;
     public static Item POLISHED_GRANITE_VASE_HIGH;
@@ -2865,6 +3002,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_WOOD_VASE_HIGH;
     public static Item STRIPPED_ACACIA_WOOD_VASE_HIGH;
     public static Item STRIPPED_DARK_OAK_WOOD_VASE_HIGH;
+    public static Item STRIPPED_MANGROVE_WOOD_VASE_HIGH;
     public static Item STRIPPED_CRIMSON_HYPHAE_VASE_HIGH;
     public static Item STRIPPED_WARPED_HYPHAE_VASE_HIGH;
     public static Item POLISHED_GRANITE_VASE_SMALL;
@@ -2877,6 +3015,7 @@ public class Items
     public static Item STRIPPED_JUNGLE_WOOD_VASE_SMALL;
     public static Item STRIPPED_ACACIA_WOOD_VASE_SMALL;
     public static Item STRIPPED_DARK_OAK_WOOD_VASE_SMALL;
+    public static Item STRIPPED_MANGROVE_WOOD_VASE_SMALL;
     public static Item STRIPPED_CRIMSON_HYPHAE_VASE_SMALL;
     public static Item STRIPPED_WARPED_HYPHAE_VASE_SMALL;
 
@@ -2972,6 +3111,7 @@ public class Items
     public static Item JUNGLE_STICK;
     public static Item ACACIA_STICK;
     public static Item DARK_OAK_STICK;
+    public static Item MANGROVE_STICK;
     public static Item CRIMSON_STICK;
     public static Item WARPED_STICK;
     public static Item TILE;
@@ -3150,6 +3290,7 @@ public class Items
         JUNGLE_PLANKS_SMOOTH = MGBlockRegister("jungle_planks_smooth", new BlockItem(Blocks.JUNGLE_PLANKS_SMOOTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_SMOOTH = MGBlockRegister("acacia_planks_smooth", new BlockItem(Blocks.ACACIA_PLANKS_SMOOTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_SMOOTH = MGBlockRegister("dark_oak_planks_smooth", new BlockItem(Blocks.DARK_OAK_PLANKS_SMOOTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_SMOOTH = MGBlockRegister("mangrove_planks_smooth", new BlockItem(Blocks.MANGROVE_PLANKS_SMOOTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_SMOOTH = MGBlockRegister("crimson_planks_smooth", new BlockItem(Blocks.CRIMSON_PLANKS_SMOOTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_SMOOTH = MGBlockRegister("warped_planks_smooth", new BlockItem(Blocks.WARPED_PLANKS_SMOOTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_HERRINGBONE = MGBlockRegister("oak_planks_herringbone", new BlockItem(Blocks.OAK_PLANKS_HERRINGBONE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3158,6 +3299,7 @@ public class Items
         JUNGLE_PLANKS_HERRINGBONE = MGBlockRegister("jungle_planks_herringbone", new BlockItem(Blocks.JUNGLE_PLANKS_HERRINGBONE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_HERRINGBONE = MGBlockRegister("acacia_planks_herringbone", new BlockItem(Blocks.ACACIA_PLANKS_HERRINGBONE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_HERRINGBONE = MGBlockRegister("dark_oak_planks_herringbone", new BlockItem(Blocks.DARK_OAK_PLANKS_HERRINGBONE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_HERRINGBONE = MGBlockRegister("mangrove_planks_herringbone", new BlockItem(Blocks.MANGROVE_PLANKS_HERRINGBONE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_HERRINGBONE = MGBlockRegister("crimson_planks_herringbone", new BlockItem(Blocks.CRIMSON_PLANKS_HERRINGBONE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_HERRINGBONE = MGBlockRegister("warped_planks_herringbone", new BlockItem(Blocks.WARPED_PLANKS_HERRINGBONE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_LARGE = MGBlockRegister("oak_planks_large", new BlockItem(Blocks.OAK_PLANKS_LARGE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3166,6 +3308,7 @@ public class Items
         JUNGLE_PLANKS_LARGE = MGBlockRegister("jungle_planks_large", new BlockItem(Blocks.JUNGLE_PLANKS_LARGE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_LARGE = MGBlockRegister("acacia_planks_large", new BlockItem(Blocks.ACACIA_PLANKS_LARGE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_LARGE = MGBlockRegister("dark_oak_planks_large", new BlockItem(Blocks.DARK_OAK_PLANKS_LARGE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_LARGE = MGBlockRegister("mangrove_planks_large", new BlockItem(Blocks.MANGROVE_PLANKS_LARGE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_LARGE = MGBlockRegister("crimson_planks_large", new BlockItem(Blocks.CRIMSON_PLANKS_LARGE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_LARGE = MGBlockRegister("warped_planks_large", new BlockItem(Blocks.WARPED_PLANKS_LARGE, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WHITE_TERRACOTTA_BRICKS = MGBlockRegister("white_terracotta_bricks", new BlockItem(Blocks.WHITE_TERRACOTTA_BRICKS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3280,6 +3423,7 @@ public class Items
         JUNGLE_PLANKS_SMOOTH_STAIRS = MGBlockRegister("jungle_planks_smooth_stairs", new BlockItem(Blocks.JUNGLE_PLANKS_SMOOTH_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_SMOOTH_STAIRS = MGBlockRegister("acacia_planks_smooth_stairs", new BlockItem(Blocks.ACACIA_PLANKS_SMOOTH_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_SMOOTH_STAIRS = MGBlockRegister("dark_oak_planks_smooth_stairs", new BlockItem(Blocks.DARK_OAK_PLANKS_SMOOTH_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_SMOOTH_STAIRS = MGBlockRegister("mangrove_planks_smooth_stairs", new BlockItem(Blocks.MANGROVE_PLANKS_SMOOTH_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_SMOOTH_STAIRS = MGBlockRegister("crimson_planks_smooth_stairs", new BlockItem(Blocks.CRIMSON_PLANKS_SMOOTH_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_SMOOTH_STAIRS = MGBlockRegister("warped_planks_smooth_stairs", new BlockItem(Blocks.WARPED_PLANKS_SMOOTH_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("oak_planks_herringbone_stairs", new BlockItem(Blocks.OAK_PLANKS_HERRINGBONE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3288,6 +3432,7 @@ public class Items
         JUNGLE_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("jungle_planks_herringbone_stairs", new BlockItem(Blocks.JUNGLE_PLANKS_HERRINGBONE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("acacia_planks_herringbone_stairs", new BlockItem(Blocks.ACACIA_PLANKS_HERRINGBONE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("dark_oak_planks_herringbone_stairs", new BlockItem(Blocks.DARK_OAK_PLANKS_HERRINGBONE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("mangrove_planks_herringbone_stairs", new BlockItem(Blocks.MANGROVE_PLANKS_HERRINGBONE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("crimson_planks_herringbone_stairs", new BlockItem(Blocks.CRIMSON_PLANKS_HERRINGBONE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("warped_planks_herringbone_stairs", new BlockItem(Blocks.WARPED_PLANKS_HERRINGBONE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_LARGE_STAIRS = MGBlockRegister("oak_planks_large_stairs", new BlockItem(Blocks.OAK_PLANKS_LARGE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3296,6 +3441,7 @@ public class Items
         JUNGLE_PLANKS_LARGE_STAIRS = MGBlockRegister("jungle_planks_large_stairs", new BlockItem(Blocks.JUNGLE_PLANKS_LARGE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_LARGE_STAIRS = MGBlockRegister("acacia_planks_large_stairs", new BlockItem(Blocks.ACACIA_PLANKS_LARGE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_LARGE_STAIRS = MGBlockRegister("dark_oak_planks_large_stairs", new BlockItem(Blocks.DARK_OAK_PLANKS_LARGE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_LARGE_STAIRS = MGBlockRegister("mangrove_planks_large_stairs", new BlockItem(Blocks.MANGROVE_PLANKS_LARGE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_LARGE_STAIRS = MGBlockRegister("crimson_planks_large_stairs", new BlockItem(Blocks.CRIMSON_PLANKS_LARGE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_LARGE_STAIRS = MGBlockRegister("warped_planks_large_stairs", new BlockItem(Blocks.WARPED_PLANKS_LARGE_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WHITE_TERRACOTTA_BRICKS_STAIRS = MGBlockRegister("white_terracotta_bricks_stairs", new BlockItem(Blocks.WHITE_TERRACOTTA_BRICKS_STAIRS, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3410,6 +3556,7 @@ public class Items
         JUNGLE_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("jungle_planks_smooth_stairs_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_SMOOTH_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("acacia_planks_smooth_stairs_vertical", new BlockItem(Blocks.ACACIA_PLANKS_SMOOTH_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("dark_oak_planks_smooth_stairs_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_SMOOTH_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("mangrove_planks_smooth_stairs_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_SMOOTH_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("crimson_planks_smooth_stairs_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_SMOOTH_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("warped_planks_smooth_stairs_vertical", new BlockItem(Blocks.WARPED_PLANKS_SMOOTH_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("oak_planks_herringbone_stairs_vertical", new BlockItem(Blocks.OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3418,6 +3565,7 @@ public class Items
         JUNGLE_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("jungle_planks_herringbone_stairs_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_HERRINGBONE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("acacia_planks_herringbone_stairs_vertical", new BlockItem(Blocks.ACACIA_PLANKS_HERRINGBONE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("dark_oak_planks_herringbone_stairs_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("mangrove_planks_herringbone_stairs_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_HERRINGBONE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("crimson_planks_herringbone_stairs_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_HERRINGBONE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("warped_planks_herringbone_stairs_vertical", new BlockItem(Blocks.WARPED_PLANKS_HERRINGBONE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("oak_planks_large_stairs_vertical", new BlockItem(Blocks.OAK_PLANKS_LARGE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3426,6 +3574,7 @@ public class Items
         JUNGLE_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("jungle_planks_large_stairs_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_LARGE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("acacia_planks_large_stairs_vertical", new BlockItem(Blocks.ACACIA_PLANKS_LARGE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("dark_oak_planks_large_stairs_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_LARGE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("mangrove_planks_large_stairs_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_LARGE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("crimson_planks_large_stairs_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_LARGE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("warped_planks_large_stairs_vertical", new BlockItem(Blocks.WARPED_PLANKS_LARGE_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WHITE_TERRACOTTA_BRICKS_STAIRS_VERTICAL = MGBlockRegister("white_terracotta_bricks_stairs_vertical", new BlockItem(Blocks.WHITE_TERRACOTTA_BRICKS_STAIRS_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3540,6 +3689,7 @@ public class Items
         JUNGLE_PLANKS_SMOOTH_SLAB = MGBlockRegister("jungle_planks_smooth_slab", new BlockItem(Blocks.JUNGLE_PLANKS_SMOOTH_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_SMOOTH_SLAB = MGBlockRegister("acacia_planks_smooth_slab", new BlockItem(Blocks.ACACIA_PLANKS_SMOOTH_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_SMOOTH_SLAB = MGBlockRegister("dark_oak_planks_smooth_slab", new BlockItem(Blocks.DARK_OAK_PLANKS_SMOOTH_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_SMOOTH_SLAB = MGBlockRegister("mangrove_planks_smooth_slab", new BlockItem(Blocks.MANGROVE_PLANKS_SMOOTH_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_SMOOTH_SLAB = MGBlockRegister("crimson_planks_smooth_slab", new BlockItem(Blocks.CRIMSON_PLANKS_SMOOTH_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_SMOOTH_SLAB = MGBlockRegister("warped_planks_smooth_slab", new BlockItem(Blocks.WARPED_PLANKS_SMOOTH_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("oak_planks_herringbone_slab", new BlockItem(Blocks.OAK_PLANKS_HERRINGBONE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3548,6 +3698,7 @@ public class Items
         JUNGLE_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("jungle_planks_herringbone_slab", new BlockItem(Blocks.JUNGLE_PLANKS_HERRINGBONE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("acacia_planks_herringbone_slab", new BlockItem(Blocks.ACACIA_PLANKS_HERRINGBONE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("dark_oak_planks_herringbone_slab", new BlockItem(Blocks.DARK_OAK_PLANKS_HERRINGBONE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("mangrove_planks_herringbone_slab", new BlockItem(Blocks.MANGROVE_PLANKS_HERRINGBONE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("crimson_planks_herringbone_slab", new BlockItem(Blocks.CRIMSON_PLANKS_HERRINGBONE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("warped_planks_herringbone_slab", new BlockItem(Blocks.WARPED_PLANKS_HERRINGBONE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_LARGE_SLAB = MGBlockRegister("oak_planks_large_slab", new BlockItem(Blocks.OAK_PLANKS_LARGE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3556,6 +3707,7 @@ public class Items
         JUNGLE_PLANKS_LARGE_SLAB = MGBlockRegister("jungle_planks_large_slab", new BlockItem(Blocks.JUNGLE_PLANKS_LARGE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_LARGE_SLAB = MGBlockRegister("acacia_planks_large_slab", new BlockItem(Blocks.ACACIA_PLANKS_LARGE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_LARGE_SLAB = MGBlockRegister("dark_oak_planks_large_slab", new BlockItem(Blocks.DARK_OAK_PLANKS_LARGE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_LARGE_SLAB = MGBlockRegister("mangrove_planks_large_slab", new BlockItem(Blocks.MANGROVE_PLANKS_LARGE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_LARGE_SLAB = MGBlockRegister("crimson_planks_large_slab", new BlockItem(Blocks.CRIMSON_PLANKS_LARGE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_LARGE_SLAB = MGBlockRegister("warped_planks_large_slab", new BlockItem(Blocks.WARPED_PLANKS_LARGE_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WHITE_TERRACOTTA_BRICKS_SLAB = MGBlockRegister("white_terracotta_bricks_slab", new BlockItem(Blocks.WHITE_TERRACOTTA_BRICKS_SLAB, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3670,6 +3822,7 @@ public class Items
         JUNGLE_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("jungle_planks_smooth_slab_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_SMOOTH_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("acacia_planks_smooth_slab_vertical", new BlockItem(Blocks.ACACIA_PLANKS_SMOOTH_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("dark_oak_planks_smooth_slab_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_SMOOTH_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("mangrove_planks_smooth_slab_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_SMOOTH_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("crimson_planks_smooth_slab_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_SMOOTH_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("warped_planks_smooth_slab_vertical", new BlockItem(Blocks.WARPED_PLANKS_SMOOTH_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("oak_planks_herringbone_slab_vertical", new BlockItem(Blocks.OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3678,6 +3831,7 @@ public class Items
         JUNGLE_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("jungle_planks_herringbone_slab_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_HERRINGBONE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("acacia_planks_herringbone_slab_vertical", new BlockItem(Blocks.ACACIA_PLANKS_HERRINGBONE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("dark_oak_planks_herringbone_slab_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("mangrove_planks_herringbone_slab_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_HERRINGBONE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("crimson_planks_herringbone_slab_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_HERRINGBONE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("warped_planks_herringbone_slab_vertical", new BlockItem(Blocks.WARPED_PLANKS_HERRINGBONE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("oak_planks_large_slab_vertical", new BlockItem(Blocks.OAK_PLANKS_LARGE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3686,6 +3840,7 @@ public class Items
         JUNGLE_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("jungle_planks_large_slab_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_LARGE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("acacia_planks_large_slab_vertical", new BlockItem(Blocks.ACACIA_PLANKS_LARGE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("dark_oak_planks_large_slab_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_LARGE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("mangrove_planks_large_slab_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_LARGE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("crimson_planks_large_slab_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_LARGE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("warped_planks_large_slab_vertical", new BlockItem(Blocks.WARPED_PLANKS_LARGE_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WHITE_TERRACOTTA_BRICKS_SLAB_VERTICAL = MGBlockRegister("white_terracotta_bricks_slab_vertical", new BlockItem(Blocks.WHITE_TERRACOTTA_BRICKS_SLAB_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3800,6 +3955,7 @@ public class Items
         JUNGLE_PLANKS_SMOOTH_QUARTER = MGBlockRegister("jungle_planks_smooth_quarter", new BlockItem(Blocks.JUNGLE_PLANKS_SMOOTH_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_SMOOTH_QUARTER = MGBlockRegister("acacia_planks_smooth_quarter", new BlockItem(Blocks.ACACIA_PLANKS_SMOOTH_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_SMOOTH_QUARTER = MGBlockRegister("dark_oak_planks_smooth_quarter", new BlockItem(Blocks.DARK_OAK_PLANKS_SMOOTH_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_SMOOTH_QUARTER = MGBlockRegister("mangrove_planks_smooth_quarter", new BlockItem(Blocks.MANGROVE_PLANKS_SMOOTH_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_SMOOTH_QUARTER = MGBlockRegister("crimson_planks_smooth_quarter", new BlockItem(Blocks.CRIMSON_PLANKS_SMOOTH_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_SMOOTH_QUARTER = MGBlockRegister("warped_planks_smooth_quarter", new BlockItem(Blocks.WARPED_PLANKS_SMOOTH_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("oak_planks_herringbone_quarter", new BlockItem(Blocks.OAK_PLANKS_HERRINGBONE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3808,6 +3964,7 @@ public class Items
         JUNGLE_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("jungle_planks_herringbone_quarter", new BlockItem(Blocks.JUNGLE_PLANKS_HERRINGBONE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("acacia_planks_herringbone_quarter", new BlockItem(Blocks.ACACIA_PLANKS_HERRINGBONE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("dark_oak_planks_herringbone_quarter", new BlockItem(Blocks.DARK_OAK_PLANKS_HERRINGBONE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("mangrove_planks_herringbone_quarter", new BlockItem(Blocks.MANGROVE_PLANKS_HERRINGBONE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("crimson_planks_herringbone_quarter", new BlockItem(Blocks.CRIMSON_PLANKS_HERRINGBONE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("warped_planks_herringbone_quarter", new BlockItem(Blocks.WARPED_PLANKS_HERRINGBONE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_LARGE_QUARTER = MGBlockRegister("oak_planks_large_quarter", new BlockItem(Blocks.OAK_PLANKS_LARGE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3816,6 +3973,7 @@ public class Items
         JUNGLE_PLANKS_LARGE_QUARTER = MGBlockRegister("jungle_planks_large_quarter", new BlockItem(Blocks.JUNGLE_PLANKS_LARGE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_LARGE_QUARTER = MGBlockRegister("acacia_planks_large_quarter", new BlockItem(Blocks.ACACIA_PLANKS_LARGE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_LARGE_QUARTER = MGBlockRegister("dark_oak_planks_large_quarter", new BlockItem(Blocks.DARK_OAK_PLANKS_LARGE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_LARGE_QUARTER = MGBlockRegister("mangrove_planks_large_quarter", new BlockItem(Blocks.MANGROVE_PLANKS_LARGE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_LARGE_QUARTER = MGBlockRegister("crimson_planks_large_quarter", new BlockItem(Blocks.CRIMSON_PLANKS_LARGE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_LARGE_QUARTER = MGBlockRegister("warped_planks_large_quarter", new BlockItem(Blocks.WARPED_PLANKS_LARGE_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WHITE_TERRACOTTA_BRICKS_QUARTER = MGBlockRegister("white_terracotta_bricks_quarter", new BlockItem(Blocks.WHITE_TERRACOTTA_BRICKS_QUARTER, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3930,6 +4088,7 @@ public class Items
         JUNGLE_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("jungle_planks_smooth_quarter_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_SMOOTH_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("acacia_planks_smooth_quarter_vertical", new BlockItem(Blocks.ACACIA_PLANKS_SMOOTH_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("dark_oak_planks_smooth_quarter_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_SMOOTH_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("mangrove_planks_smooth_quarter_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_SMOOTH_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("crimson_planks_smooth_quarter_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_SMOOTH_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("warped_planks_smooth_quarter_vertical", new BlockItem(Blocks.WARPED_PLANKS_SMOOTH_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("oak_planks_herringbone_quarter_vertical", new BlockItem(Blocks.OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3938,6 +4097,7 @@ public class Items
         JUNGLE_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("jungle_planks_herringbone_quarter_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_HERRINGBONE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("acacia_planks_herringbone_quarter_vertical", new BlockItem(Blocks.ACACIA_PLANKS_HERRINGBONE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("dark_oak_planks_herringbone_quarter_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("mangrove_planks_herringbone_quarter_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_HERRINGBONE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("crimson_planks_herringbone_quarter_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_HERRINGBONE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("warped_planks_herringbone_quarter_vertical", new BlockItem(Blocks.WARPED_PLANKS_HERRINGBONE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("oak_planks_large_quarter_vertical", new BlockItem(Blocks.OAK_PLANKS_LARGE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -3946,6 +4106,7 @@ public class Items
         JUNGLE_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("jungle_planks_large_quarter_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_LARGE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("acacia_planks_large_quarter_vertical", new BlockItem(Blocks.ACACIA_PLANKS_LARGE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("dark_oak_planks_large_quarter_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_LARGE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("mangrove_planks_large_quarter_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_LARGE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("crimson_planks_large_quarter_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_LARGE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("warped_planks_large_quarter_vertical", new BlockItem(Blocks.WARPED_PLANKS_LARGE_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WHITE_TERRACOTTA_BRICKS_QUARTER_VERTICAL = MGBlockRegister("white_terracotta_bricks_quarter_vertical", new BlockItem(Blocks.WHITE_TERRACOTTA_BRICKS_QUARTER_VERTICAL, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -4060,6 +4221,7 @@ public class Items
         JUNGLE_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("jungle_planks_smooth_eighth", new BlockItem(Blocks.JUNGLE_PLANKS_SMOOTH_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("acacia_planks_smooth_eighth", new BlockItem(Blocks.ACACIA_PLANKS_SMOOTH_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("dark_oak_planks_smooth_eighth", new BlockItem(Blocks.DARK_OAK_PLANKS_SMOOTH_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("mangrove_planks_smooth_eighth", new BlockItem(Blocks.MANGROVE_PLANKS_SMOOTH_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("crimson_planks_smooth_eighth", new BlockItem(Blocks.CRIMSON_PLANKS_SMOOTH_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("warped_planks_smooth_eighth", new BlockItem(Blocks.WARPED_PLANKS_SMOOTH_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("oak_planks_herringbone_eighth", new BlockItem(Blocks.OAK_PLANKS_HERRINGBONE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -4068,6 +4230,7 @@ public class Items
         JUNGLE_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("jungle_planks_herringbone_eighth", new BlockItem(Blocks.JUNGLE_PLANKS_HERRINGBONE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("acacia_planks_herringbone_eighth", new BlockItem(Blocks.ACACIA_PLANKS_HERRINGBONE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("dark_oak_planks_herringbone_eighth", new BlockItem(Blocks.DARK_OAK_PLANKS_HERRINGBONE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("mangrove_planks_herringbone_eighth", new BlockItem(Blocks.MANGROVE_PLANKS_HERRINGBONE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("crimson_planks_herringbone_eighth", new BlockItem(Blocks.CRIMSON_PLANKS_HERRINGBONE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("warped_planks_herringbone_eighth", new BlockItem(Blocks.WARPED_PLANKS_HERRINGBONE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         OAK_PLANKS_LARGE_EIGHTH = MGBlockRegister("oak_planks_large_eighth", new BlockItem(Blocks.OAK_PLANKS_LARGE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -4076,6 +4239,7 @@ public class Items
         JUNGLE_PLANKS_LARGE_EIGHTH = MGBlockRegister("jungle_planks_large_eighth", new BlockItem(Blocks.JUNGLE_PLANKS_LARGE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         ACACIA_PLANKS_LARGE_EIGHTH = MGBlockRegister("acacia_planks_large_eighth", new BlockItem(Blocks.ACACIA_PLANKS_LARGE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         DARK_OAK_PLANKS_LARGE_EIGHTH = MGBlockRegister("dark_oak_planks_large_eighth", new BlockItem(Blocks.DARK_OAK_PLANKS_LARGE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
+        MANGROVE_PLANKS_LARGE_EIGHTH = MGBlockRegister("mangrove_planks_large_eighth", new BlockItem(Blocks.MANGROVE_PLANKS_LARGE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         CRIMSON_PLANKS_LARGE_EIGHTH = MGBlockRegister("crimson_planks_large_eighth", new BlockItem(Blocks.CRIMSON_PLANKS_LARGE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WARPED_PLANKS_LARGE_EIGHTH = MGBlockRegister("warped_planks_large_eighth", new BlockItem(Blocks.WARPED_PLANKS_LARGE_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
         WHITE_TERRACOTTA_BRICKS_EIGHTH = MGBlockRegister("white_terracotta_bricks_eighth", new BlockItem(Blocks.WHITE_TERRACOTTA_BRICKS_EIGHTH, new FabricItemSettings().group(ItemGroups.GROUP_BUILDINGBLOCKS)));
@@ -4173,6 +4337,7 @@ public class Items
         JUNGLE_WOOD_CHAIR = MGBlockRegister("jungle_wood_chair", new BlockItem(Blocks.JUNGLE_WOOD_CHAIR, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         ACACIA_WOOD_CHAIR = MGBlockRegister("acacia_wood_chair", new BlockItem(Blocks.ACACIA_WOOD_CHAIR, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         DARK_OAK_WOOD_CHAIR = MGBlockRegister("dark_oak_wood_chair", new BlockItem(Blocks.DARK_OAK_WOOD_CHAIR, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        MANGROVE_WOOD_CHAIR = MGBlockRegister("mangrove_wood_chair", new BlockItem(Blocks.MANGROVE_WOOD_CHAIR, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         CRIMSON_WOOD_CHAIR = MGBlockRegister("crimson_wood_chair", new BlockItem(Blocks.CRIMSON_WOOD_CHAIR, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         WARPED_WOOD_CHAIR = MGBlockRegister("warped_wood_chair", new BlockItem(Blocks.WARPED_WOOD_CHAIR, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         OAK_WOOD_BENCH = MGBlockRegister("oak_wood_bench", new BlockItem(Blocks.OAK_WOOD_BENCH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4181,6 +4346,7 @@ public class Items
         JUNGLE_WOOD_BENCH = MGBlockRegister("jungle_wood_bench", new BlockItem(Blocks.JUNGLE_WOOD_BENCH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         ACACIA_WOOD_BENCH = MGBlockRegister("acacia_wood_bench", new BlockItem(Blocks.ACACIA_WOOD_BENCH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         DARK_OAK_WOOD_BENCH = MGBlockRegister("dark_oak_wood_bench", new BlockItem(Blocks.DARK_OAK_WOOD_BENCH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        MANGROVE_WOOD_BENCH = MGBlockRegister("mangrove_wood_bench", new BlockItem(Blocks.MANGROVE_WOOD_BENCH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         CRIMSON_WOOD_BENCH = MGBlockRegister("crimson_wood_bench", new BlockItem(Blocks.CRIMSON_WOOD_BENCH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         WARPED_WOOD_BENCH = MGBlockRegister("warped_wood_bench", new BlockItem(Blocks.WARPED_WOOD_BENCH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         OAK_WOOD_STOOL = MGBlockRegister("oak_wood_stool", new BlockItem(Blocks.OAK_WOOD_STOOL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4189,6 +4355,7 @@ public class Items
         JUNGLE_WOOD_STOOL = MGBlockRegister("jungle_wood_stool", new BlockItem(Blocks.JUNGLE_WOOD_STOOL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         ACACIA_WOOD_STOOL = MGBlockRegister("acacia_wood_stool", new BlockItem(Blocks.ACACIA_WOOD_STOOL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         DARK_OAK_WOOD_STOOL = MGBlockRegister("dark_oak_wood_stool", new BlockItem(Blocks.DARK_OAK_WOOD_STOOL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        MANGROVE_WOOD_STOOL = MGBlockRegister("mangrove_wood_stool", new BlockItem(Blocks.MANGROVE_WOOD_STOOL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         CRIMSON_WOOD_STOOL = MGBlockRegister("crimson_wood_stool", new BlockItem(Blocks.CRIMSON_WOOD_STOOL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         WARPED_WOOD_STOOL = MGBlockRegister("warped_wood_stool", new BlockItem(Blocks.WARPED_WOOD_STOOL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         OAK_WOOD_STOOL_HIGH = MGBlockRegister("oak_wood_stool_high", new BlockItem(Blocks.OAK_WOOD_STOOL_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4197,6 +4364,7 @@ public class Items
         JUNGLE_WOOD_STOOL_HIGH = MGBlockRegister("jungle_wood_stool_high", new BlockItem(Blocks.JUNGLE_WOOD_STOOL_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         ACACIA_WOOD_STOOL_HIGH = MGBlockRegister("acacia_wood_stool_high", new BlockItem(Blocks.ACACIA_WOOD_STOOL_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         DARK_OAK_WOOD_STOOL_HIGH = MGBlockRegister("dark_oak_wood_stool_high", new BlockItem(Blocks.DARK_OAK_WOOD_STOOL_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        MANGROVE_WOOD_STOOL_HIGH = MGBlockRegister("mangrove_wood_stool_high", new BlockItem(Blocks.MANGROVE_WOOD_STOOL_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         CRIMSON_WOOD_STOOL_HIGH = MGBlockRegister("crimson_wood_stool_high", new BlockItem(Blocks.CRIMSON_WOOD_STOOL_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         WARPED_WOOD_STOOL_HIGH = MGBlockRegister("warped_wood_stool_high", new BlockItem(Blocks.WARPED_WOOD_STOOL_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         OAK_WOOD_TABLE = MGBlockRegister("oak_wood_table", new BlockItem(Blocks.OAK_WOOD_TABLE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4205,6 +4373,7 @@ public class Items
         JUNGLE_WOOD_TABLE = MGBlockRegister("jungle_wood_table", new BlockItem(Blocks.JUNGLE_WOOD_TABLE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         ACACIA_WOOD_TABLE = MGBlockRegister("acacia_wood_table", new BlockItem(Blocks.ACACIA_WOOD_TABLE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         DARK_OAK_WOOD_TABLE = MGBlockRegister("dark_oak_wood_table", new BlockItem(Blocks.DARK_OAK_WOOD_TABLE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        MANGROVE_WOOD_TABLE = MGBlockRegister("mangrove_wood_table", new BlockItem(Blocks.MANGROVE_WOOD_TABLE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         CRIMSON_WOOD_TABLE = MGBlockRegister("crimson_wood_table", new BlockItem(Blocks.CRIMSON_WOOD_TABLE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         WARPED_WOOD_TABLE = MGBlockRegister("warped_wood_table", new BlockItem(Blocks.WARPED_WOOD_TABLE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         OAK_WOOD_TABLE_HIGH = MGBlockRegister("oak_wood_table_high", new BlockItem(Blocks.OAK_WOOD_TABLE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4213,6 +4382,7 @@ public class Items
         JUNGLE_WOOD_TABLE_HIGH = MGBlockRegister("jungle_wood_table_high", new BlockItem(Blocks.JUNGLE_WOOD_TABLE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         ACACIA_WOOD_TABLE_HIGH = MGBlockRegister("acacia_wood_table_high", new BlockItem(Blocks.ACACIA_WOOD_TABLE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         DARK_OAK_WOOD_TABLE_HIGH = MGBlockRegister("dark_oak_wood_table_high", new BlockItem(Blocks.DARK_OAK_WOOD_TABLE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        MANGROVE_WOOD_TABLE_HIGH = MGBlockRegister("mangrove_wood_table_high", new BlockItem(Blocks.MANGROVE_WOOD_TABLE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         CRIMSON_WOOD_TABLE_HIGH = MGBlockRegister("crimson_wood_table_high", new BlockItem(Blocks.CRIMSON_WOOD_TABLE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         WARPED_WOOD_TABLE_HIGH = MGBlockRegister("warped_wood_table_high", new BlockItem(Blocks.WARPED_WOOD_TABLE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         OAK_WOOD_TABLE_SMALL = MGBlockRegister("oak_wood_table_small", new BlockItem(Blocks.OAK_WOOD_TABLE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4221,6 +4391,7 @@ public class Items
         JUNGLE_WOOD_TABLE_SMALL = MGBlockRegister("jungle_wood_table_small", new BlockItem(Blocks.JUNGLE_WOOD_TABLE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         ACACIA_WOOD_TABLE_SMALL = MGBlockRegister("acacia_wood_table_small", new BlockItem(Blocks.ACACIA_WOOD_TABLE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         DARK_OAK_WOOD_TABLE_SMALL = MGBlockRegister("dark_oak_wood_table_small", new BlockItem(Blocks.DARK_OAK_WOOD_TABLE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        MANGROVE_WOOD_TABLE_SMALL = MGBlockRegister("mangrove_wood_table_small", new BlockItem(Blocks.MANGROVE_WOOD_TABLE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         CRIMSON_WOOD_TABLE_SMALL = MGBlockRegister("crimson_wood_table_small", new BlockItem(Blocks.CRIMSON_WOOD_TABLE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         WARPED_WOOD_TABLE_SMALL = MGBlockRegister("warped_wood_table_small", new BlockItem(Blocks.WARPED_WOOD_TABLE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         OAK_BOOKSHELF = MGBlockRegister("oak_bookshelf", new BlockItem(Blocks.OAK_BOOKSHELF, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4229,6 +4400,7 @@ public class Items
         JUNGLE_BOOKSHELF = MGBlockRegister("jungle_bookshelf", new BlockItem(Blocks.JUNGLE_BOOKSHELF, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         ACACIA_BOOKSHELF = MGBlockRegister("acacia_bookshelf", new BlockItem(Blocks.ACACIA_BOOKSHELF, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         DARK_OAK_BOOKSHELF = MGBlockRegister("dark_oak_bookshelf", new BlockItem(Blocks.DARK_OAK_BOOKSHELF, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        MANGROVE_BOOKSHELF = MGBlockRegister("mangrove_bookshelf", new BlockItem(Blocks.MANGROVE_BOOKSHELF, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         CRIMSON_BOOKSHELF = MGBlockRegister("crimson_bookshelf", new BlockItem(Blocks.CRIMSON_BOOKSHELF, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         WARPED_BOOKSHELF = MGBlockRegister("warped_bookshelf", new BlockItem(Blocks.WARPED_BOOKSHELF, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         SPRUCE_LADDER = MGBlockRegister("spruce_ladder", new BlockItem(Blocks.SPRUCE_LADDER, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4236,6 +4408,7 @@ public class Items
         JUNGLE_LADDER = MGBlockRegister("jungle_ladder", new BlockItem(Blocks.JUNGLE_LADDER, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         ACACIA_LADDER = MGBlockRegister("acacia_ladder", new BlockItem(Blocks.ACACIA_LADDER, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         DARK_OAK_LADDER = MGBlockRegister("dark_oak_ladder", new BlockItem(Blocks.DARK_OAK_LADDER, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        MANGROVE_LADDER = MGBlockRegister("mangrove_ladder", new BlockItem(Blocks.MANGROVE_LADDER, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         CRIMSON_LADDER = MGBlockRegister("crimson_ladder", new BlockItem(Blocks.CRIMSON_LADDER, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         WARPED_LADDER = MGBlockRegister("warped_ladder", new BlockItem(Blocks.WARPED_LADDER, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         IRON_FENCE = MGBlockRegister("iron_fence", new BlockItem(Blocks.IRON_FENCE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4277,6 +4450,7 @@ public class Items
         JUNGLE_LANTERN = MGBlockRegister("jungle_lantern", new BlockItem(Blocks.JUNGLE_LANTERN, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         ACACIA_LANTERN = MGBlockRegister("acacia_lantern", new BlockItem(Blocks.ACACIA_LANTERN, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         DARK_OAK_LANTERN = MGBlockRegister("dark_oak_lantern", new BlockItem(Blocks.DARK_OAK_LANTERN, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        MANGROVE_LANTERN = MGBlockRegister("mangrove_lantern", new BlockItem(Blocks.MANGROVE_LANTERN, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         CRIMSON_LANTERN = MGBlockRegister("crimson_lantern", new BlockItem(Blocks.CRIMSON_LANTERN, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         WARPED_LANTERN = MGBlockRegister("warped_lantern", new BlockItem(Blocks.WARPED_LANTERN, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         OAK_LANTERN_ROD = MGBlockRegister("oak_lantern_rod", new BlockItem(Blocks.OAK_LANTERN_ROD, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4285,6 +4459,7 @@ public class Items
         JUNGLE_LANTERN_ROD = MGBlockRegister("jungle_lantern_rod", new BlockItem(Blocks.JUNGLE_LANTERN_ROD, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         ACACIA_LANTERN_ROD = MGBlockRegister("acacia_lantern_rod", new BlockItem(Blocks.ACACIA_LANTERN_ROD, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         DARK_OAK_LANTERN_ROD = MGBlockRegister("dark_oak_lantern_rod", new BlockItem(Blocks.DARK_OAK_LANTERN_ROD, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        MANGROVE_LANTERN_ROD = MGBlockRegister("mangrove_lantern_rod", new BlockItem(Blocks.MANGROVE_LANTERN_ROD, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         CRIMSON_LANTERN_ROD = MGBlockRegister("crimson_lantern_rod", new BlockItem(Blocks.CRIMSON_LANTERN_ROD, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         WARPED_LANTERN_ROD = MGBlockRegister("warped_lantern_rod", new BlockItem(Blocks.WARPED_LANTERN_ROD, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         IRON_WALL = MGBlockRegister("iron_wall", new BlockItem(Blocks.IRON_WALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4313,6 +4488,7 @@ public class Items
         STRIPPED_JUNGLE_WOOD_VASE = MGBlockRegister("stripped_jungle_wood_vase", new BlockItem(Blocks.STRIPPED_JUNGLE_WOOD_VASE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_ACACIA_WOOD_VASE = MGBlockRegister("stripped_acacia_wood_vase", new BlockItem(Blocks.STRIPPED_ACACIA_WOOD_VASE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_DARK_OAK_WOOD_VASE = MGBlockRegister("stripped_dark_oak_wood_vase", new BlockItem(Blocks.STRIPPED_DARK_OAK_WOOD_VASE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        STRIPPED_MANGROVE_WOOD_VASE = MGBlockRegister("stripped_mangrove_wood_vase", new BlockItem(Blocks.STRIPPED_MANGROVE_WOOD_VASE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_CRIMSON_HYPHAE_VASE = MGBlockRegister("stripped_crimson_hyphae_vase", new BlockItem(Blocks.STRIPPED_CRIMSON_HYPHAE_VASE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_WARPED_HYPHAE_VASE = MGBlockRegister("stripped_warped_hyphae_vase", new BlockItem(Blocks.STRIPPED_WARPED_HYPHAE_VASE, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         POLISHED_GRANITE_VASE_HIGH = MGBlockRegister("polished_granite_vase_high", new BlockItem(Blocks.POLISHED_GRANITE_VASE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4325,6 +4501,7 @@ public class Items
         STRIPPED_JUNGLE_WOOD_VASE_HIGH = MGBlockRegister("stripped_jungle_wood_vase_high", new BlockItem(Blocks.STRIPPED_JUNGLE_WOOD_VASE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_ACACIA_WOOD_VASE_HIGH = MGBlockRegister("stripped_acacia_wood_vase_high", new BlockItem(Blocks.STRIPPED_ACACIA_WOOD_VASE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_DARK_OAK_WOOD_VASE_HIGH = MGBlockRegister("stripped_dark_oak_wood_vase_high", new BlockItem(Blocks.STRIPPED_DARK_OAK_WOOD_VASE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        STRIPPED_MANGROVE_WOOD_VASE_HIGH = MGBlockRegister("stripped_mangrove_wood_vase_high", new BlockItem(Blocks.STRIPPED_MANGROVE_WOOD_VASE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_CRIMSON_HYPHAE_VASE_HIGH = MGBlockRegister("stripped_crimson_hyphae_vase_high", new BlockItem(Blocks.STRIPPED_CRIMSON_HYPHAE_VASE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_WARPED_HYPHAE_VASE_HIGH = MGBlockRegister("stripped_warped_hyphae_vase_high", new BlockItem(Blocks.STRIPPED_WARPED_HYPHAE_VASE_HIGH, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         POLISHED_GRANITE_VASE_SMALL = MGBlockRegister("polished_granite_vase_small", new BlockItem(Blocks.POLISHED_GRANITE_VASE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
@@ -4337,6 +4514,7 @@ public class Items
         STRIPPED_JUNGLE_WOOD_VASE_SMALL = MGBlockRegister("stripped_jungle_wood_vase_small", new BlockItem(Blocks.STRIPPED_JUNGLE_WOOD_VASE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_ACACIA_WOOD_VASE_SMALL = MGBlockRegister("stripped_acacia_wood_vase_small", new BlockItem(Blocks.STRIPPED_ACACIA_WOOD_VASE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_DARK_OAK_WOOD_VASE_SMALL = MGBlockRegister("stripped_dark_oak_wood_vase_small", new BlockItem(Blocks.STRIPPED_DARK_OAK_WOOD_VASE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
+        STRIPPED_MANGROVE_WOOD_VASE_SMALL = MGBlockRegister("stripped_mangrove_wood_vase_small", new BlockItem(Blocks.STRIPPED_MANGROVE_WOOD_VASE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_CRIMSON_HYPHAE_VASE_SMALL = MGBlockRegister("stripped_crimson_hyphae_vase_small", new BlockItem(Blocks.STRIPPED_CRIMSON_HYPHAE_VASE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         STRIPPED_WARPED_HYPHAE_VASE_SMALL = MGBlockRegister("stripped_warped_hyphae_vase_small", new BlockItem(Blocks.STRIPPED_WARPED_HYPHAE_VASE_SMALL, new FabricItemSettings().group(ItemGroups.GROUP_DECORATIONS)));
         IRON_BUTTON = MGBlockRegister("iron_button", new BlockItem(Blocks.IRON_BUTTON, new FabricItemSettings().group(ItemGroups.GROUP_REDSTONE)));
@@ -4429,6 +4607,7 @@ public class Items
         JUNGLE_STICK = MGItemRegister("jungle_stick", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
         ACACIA_STICK = MGItemRegister("acacia_stick", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
         DARK_OAK_STICK = MGItemRegister("dark_oak_stick", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
+        MANGROVE_STICK = MGItemRegister("mangrove_stick", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
         CRIMSON_STICK = MGItemRegister("crimson_stick", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
         WARPED_STICK = MGItemRegister("warped_stick", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
         TILE = MGItemRegister("tile", new Item(new FabricItemSettings().group(ItemGroups.GROUP_VARIOUS)));
@@ -4502,6 +4681,7 @@ public class Items
         TUFF_STAIRS = MCBlockRegister("tuff_stairs", new BlockItem(Blocks.TUFF_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DRIPSTONE_BLOCK_STAIRS = MCBlockRegister("dripstone_block_stairs", new BlockItem(Blocks.DRIPSTONE_BLOCK_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ROOTED_DIRT_STAIRS = MCBlockRegister("rooted_dirt_stairs", new BlockItem(Blocks.ROOTED_DIRT_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_STAIRS = MCBlockRegister("mud_stairs", new BlockItem(Blocks.MUD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         BEDROCK_STAIRS = MCBlockRegister("bedrock_stairs", new BlockItem(Blocks.BEDROCK_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ANCIENT_DEBRIS_STAIRS = MCBlockRegister("ancient_debris_stairs", new BlockItem(Blocks.ANCIENT_DEBRIS_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         COAL_BLOCK_STAIRS = MCBlockRegister("coal_block_stairs", new BlockItem(Blocks.COAL_BLOCK_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4528,6 +4708,9 @@ public class Items
         JUNGLE_LOG_STAIRS = MCBlockRegister("jungle_log_stairs", new BlockItem(Blocks.JUNGLE_LOG_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_LOG_STAIRS = MCBlockRegister("acacia_log_stairs", new BlockItem(Blocks.ACACIA_LOG_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_LOG_STAIRS = MCBlockRegister("dark_oak_log_stairs", new BlockItem(Blocks.DARK_OAK_LOG_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_LOG_STAIRS = MCBlockRegister("mangrove_log_stairs", new BlockItem(Blocks.MANGROVE_LOG_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_ROOTS_STAIRS = MCBlockRegister("mangrove_roots_stairs", new BlockItem(Blocks.MANGROVE_ROOTS_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUDDY_MANGROVE_ROOTS_STAIRS = MCBlockRegister("muddy_mangrove_roots_stairs", new BlockItem(Blocks.MUDDY_MANGROVE_ROOTS_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_STEM_STAIRS = MCBlockRegister("crimson_stem_stairs", new BlockItem(Blocks.CRIMSON_STEM_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_STEM_STAIRS = MCBlockRegister("warped_stem_stairs", new BlockItem(Blocks.WARPED_STEM_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_LOG_STAIRS = MCBlockRegister("stripped_oak_log_stairs", new BlockItem(Blocks.STRIPPED_OAK_LOG_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4536,6 +4719,7 @@ public class Items
         STRIPPED_JUNGLE_LOG_STAIRS = MCBlockRegister("stripped_jungle_log_stairs", new BlockItem(Blocks.STRIPPED_JUNGLE_LOG_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_LOG_STAIRS = MCBlockRegister("stripped_acacia_log_stairs", new BlockItem(Blocks.STRIPPED_ACACIA_LOG_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_LOG_STAIRS = MCBlockRegister("stripped_dark_oak_log_stairs", new BlockItem(Blocks.STRIPPED_DARK_OAK_LOG_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_LOG_STAIRS = MCBlockRegister("stripped_mangrove_log_stairs", new BlockItem(Blocks.STRIPPED_MANGROVE_LOG_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_STEM_STAIRS = MCBlockRegister("stripped_crimson_stem_stairs", new BlockItem(Blocks.STRIPPED_CRIMSON_STEM_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_STEM_STAIRS = MCBlockRegister("stripped_warped_stem_stairs", new BlockItem(Blocks.STRIPPED_WARPED_STEM_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_WOOD_STAIRS = MCBlockRegister("stripped_oak_wood_stairs", new BlockItem(Blocks.STRIPPED_OAK_WOOD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4544,6 +4728,7 @@ public class Items
         STRIPPED_JUNGLE_WOOD_STAIRS = MCBlockRegister("stripped_jungle_wood_stairs", new BlockItem(Blocks.STRIPPED_JUNGLE_WOOD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_WOOD_STAIRS = MCBlockRegister("stripped_acacia_wood_stairs", new BlockItem(Blocks.STRIPPED_ACACIA_WOOD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_WOOD_STAIRS = MCBlockRegister("stripped_dark_oak_wood_stairs", new BlockItem(Blocks.STRIPPED_DARK_OAK_WOOD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_WOOD_STAIRS = MCBlockRegister("stripped_mangrove_wood_stairs", new BlockItem(Blocks.STRIPPED_MANGROVE_WOOD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_HYPHAE_STAIRS = MCBlockRegister("stripped_crimson_hyphae_stairs", new BlockItem(Blocks.STRIPPED_CRIMSON_HYPHAE_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_HYPHAE_STAIRS = MCBlockRegister("stripped_warped_hyphae_stairs", new BlockItem(Blocks.STRIPPED_WARPED_HYPHAE_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_WOOD_STAIRS = MCBlockRegister("oak_wood_stairs", new BlockItem(Blocks.OAK_WOOD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4552,6 +4737,7 @@ public class Items
         JUNGLE_WOOD_STAIRS = MCBlockRegister("jungle_wood_stairs", new BlockItem(Blocks.JUNGLE_WOOD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_WOOD_STAIRS = MCBlockRegister("acacia_wood_stairs", new BlockItem(Blocks.ACACIA_WOOD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_WOOD_STAIRS = MCBlockRegister("dark_oak_wood_stairs", new BlockItem(Blocks.DARK_OAK_WOOD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_WOOD_STAIRS = MCBlockRegister("mangrove_wood_stairs", new BlockItem(Blocks.MANGROVE_WOOD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_HYPHAE_STAIRS = MCBlockRegister("crimson_hyphae_stairs", new BlockItem(Blocks.CRIMSON_HYPHAE_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_HYPHAE_STAIRS = MCBlockRegister("warped_hyphae_stairs", new BlockItem(Blocks.WARPED_HYPHAE_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GLASS_STAIRS = MCBlockRegister("glass_stairs", new BlockItem(Blocks.GLASS_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4590,6 +4776,7 @@ public class Items
         GLOWSTONE_STAIRS = MCBlockRegister("glowstone_stairs", new BlockItem(Blocks.GLOWSTONE_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_STONE_BRICKS_STAIRS = MCBlockRegister("cracked_stone_bricks_stairs", new BlockItem(Blocks.CRACKED_STONE_BRICKS_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CHISELED_STONE_BRICKS_STAIRS = MCBlockRegister("chiseled_stone_bricks_stairs", new BlockItem(Blocks.CHISELED_STONE_BRICKS_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        PACKED_MUD_STAIRS = MCBlockRegister("packed_mud_stairs", new BlockItem(Blocks.PACKED_MUD_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_DEEPSLATE_BRICKS_STAIRS = MCBlockRegister("cracked_deepslate_bricks_stairs", new BlockItem(Blocks.CRACKED_DEEPSLATE_BRICKS_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_DEEPSLATE_TILES_STAIRS = MCBlockRegister("cracked_deepslate_tiles_stairs", new BlockItem(Blocks.CRACKED_DEEPSLATE_TILES_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CHISELED_DEEPSLATE_STAIRS = MCBlockRegister("chiseled_deepslate_stairs", new BlockItem(Blocks.CHISELED_DEEPSLATE_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4678,14 +4865,19 @@ public class Items
         JUNGLE_LEAVES_STAIRS = MCBlockRegister("jungle_leaves_stairs", new BlockItem(Blocks.JUNGLE_LEAVES_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         ACACIA_LEAVES_STAIRS = MCBlockRegister("acacia_leaves_stairs", new BlockItem(Blocks.ACACIA_LEAVES_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         DARK_OAK_LEAVES_STAIRS = MCBlockRegister("dark_oak_leaves_stairs", new BlockItem(Blocks.DARK_OAK_LEAVES_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        MANGROVE_LEAVES_STAIRS = MCBlockRegister("mangrove_leaves_stairs", new BlockItem(Blocks.MANGROVE_LEAVES_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         AZALEA_LEAVES_STAIRS = MCBlockRegister("azalea_leaves_stairs", new BlockItem(Blocks.AZALEA_LEAVES_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         FLOWERING_AZALEA_LEAVES_STAIRS = MCBlockRegister("flowering_azalea_leaves_stairs", new BlockItem(Blocks.FLOWERING_AZALEA_LEAVES_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MOSS_BLOCK_STAIRS = MCBlockRegister("moss_block_stairs", new BlockItem(Blocks.MOSS_BLOCK_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         BROWN_MUSHROOM_BLOCK_STAIRS = MCBlockRegister("brown_mushroom_block_stairs", new BlockItem(Blocks.BROWN_MUSHROOM_BLOCK_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         RED_MUSHROOM_BLOCK_STAIRS = MCBlockRegister("red_mushroom_block_stairs", new BlockItem(Blocks.RED_MUSHROOM_BLOCK_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MUSHROOM_STEM_STAIRS = MCBlockRegister("mushroom_stem_stairs", new BlockItem(Blocks.MUSHROOM_STEM_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        SCULK_STAIRS = MCBlockRegister("sculk_stairs", new BlockItem(Blocks.SCULK_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         SHROOMLIGHT_STAIRS = MCBlockRegister("shroomlight_stairs", new BlockItem(Blocks.SHROOMLIGHT_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         HONEYCOMB_BLOCK_STAIRS = MCBlockRegister("honeycomb_block_stairs", new BlockItem(Blocks.HONEYCOMB_BLOCK_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        OCHRE_FROGLIGHT_STAIRS = MCBlockRegister("ochre_froglight_stairs", new BlockItem(Blocks.OCHRE_FROGLIGHT_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        VERDANT_FROGLIGHT_STAIRS = MCBlockRegister("verdant_froglight_stairs", new BlockItem(Blocks.VERDANT_FROGLIGHT_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        PEARLESCENT_FROGLIGHT_STAIRS = MCBlockRegister("pearlescent_froglight_stairs", new BlockItem(Blocks.PEARLESCENT_FROGLIGHT_STAIRS, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         STONE_STAIRS_VERTICAL = MCBlockRegister("stone_stairs_vertical", new BlockItem(Blocks.STONE_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GRANITE_STAIRS_VERTICAL = MCBlockRegister("granite_stairs_vertical", new BlockItem(Blocks.GRANITE_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         POLISHED_GRANITE_STAIRS_VERTICAL = MCBlockRegister("polished_granite_stairs_vertical", new BlockItem(Blocks.POLISHED_GRANITE_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4700,6 +4892,7 @@ public class Items
         TUFF_STAIRS_VERTICAL = MCBlockRegister("tuff_stairs_vertical", new BlockItem(Blocks.TUFF_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DRIPSTONE_BLOCK_STAIRS_VERTICAL = MCBlockRegister("dripstone_block_stairs_vertical", new BlockItem(Blocks.DRIPSTONE_BLOCK_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ROOTED_DIRT_STAIRS_VERTICAL = MCBlockRegister("rooted_dirt_stairs_vertical", new BlockItem(Blocks.ROOTED_DIRT_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_STAIRS_VERTICAL = MCBlockRegister("mud_stairs_vertical", new BlockItem(Blocks.MUD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         COBBLESTONE_STAIRS_VERTICAL = MCBlockRegister("cobblestone_stairs_vertical", new BlockItem(Blocks.COBBLESTONE_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_PLANKS_STAIRS_VERTICAL = MCBlockRegister("oak_planks_stairs_vertical", new BlockItem(Blocks.OAK_PLANKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         SPRUCE_PLANKS_STAIRS_VERTICAL = MCBlockRegister("spruce_planks_stairs_vertical", new BlockItem(Blocks.SPRUCE_PLANKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4707,6 +4900,7 @@ public class Items
         JUNGLE_PLANKS_STAIRS_VERTICAL = MCBlockRegister("jungle_planks_stairs_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_PLANKS_STAIRS_VERTICAL = MCBlockRegister("acacia_planks_stairs_vertical", new BlockItem(Blocks.ACACIA_PLANKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_PLANKS_STAIRS_VERTICAL = MCBlockRegister("dark_oak_planks_stairs_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_PLANKS_STAIRS_VERTICAL = MCBlockRegister("mangrove_planks_stairs_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_PLANKS_STAIRS_VERTICAL = MCBlockRegister("crimson_planks_stairs_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_PLANKS_STAIRS_VERTICAL = MCBlockRegister("warped_planks_stairs_vertical", new BlockItem(Blocks.WARPED_PLANKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         BEDROCK_STAIRS_VERTICAL = MCBlockRegister("bedrock_stairs_vertical", new BlockItem(Blocks.BEDROCK_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4743,6 +4937,9 @@ public class Items
         JUNGLE_LOG_STAIRS_VERTICAL = MCBlockRegister("jungle_log_stairs_vertical", new BlockItem(Blocks.JUNGLE_LOG_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_LOG_STAIRS_VERTICAL = MCBlockRegister("acacia_log_stairs_vertical", new BlockItem(Blocks.ACACIA_LOG_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_LOG_STAIRS_VERTICAL = MCBlockRegister("dark_oak_log_stairs_vertical", new BlockItem(Blocks.DARK_OAK_LOG_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_LOG_STAIRS_VERTICAL = MCBlockRegister("mangrove_log_stairs_vertical", new BlockItem(Blocks.MANGROVE_LOG_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_ROOTS_STAIRS_VERTICAL = MCBlockRegister("mangrove_roots_stairs_vertical", new BlockItem(Blocks.MANGROVE_ROOTS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUDDY_MANGROVE_ROOTS_STAIRS_VERTICAL = MCBlockRegister("muddy_mangrove_roots_stairs_vertical", new BlockItem(Blocks.MUDDY_MANGROVE_ROOTS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_STEM_STAIRS_VERTICAL = MCBlockRegister("crimson_stem_stairs_vertical", new BlockItem(Blocks.CRIMSON_STEM_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_STEM_STAIRS_VERTICAL = MCBlockRegister("warped_stem_stairs_vertical", new BlockItem(Blocks.WARPED_STEM_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_LOG_STAIRS_VERTICAL = MCBlockRegister("stripped_oak_log_stairs_vertical", new BlockItem(Blocks.STRIPPED_OAK_LOG_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4751,6 +4948,7 @@ public class Items
         STRIPPED_JUNGLE_LOG_STAIRS_VERTICAL = MCBlockRegister("stripped_jungle_log_stairs_vertical", new BlockItem(Blocks.STRIPPED_JUNGLE_LOG_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_LOG_STAIRS_VERTICAL = MCBlockRegister("stripped_acacia_log_stairs_vertical", new BlockItem(Blocks.STRIPPED_ACACIA_LOG_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_LOG_STAIRS_VERTICAL = MCBlockRegister("stripped_dark_oak_log_stairs_vertical", new BlockItem(Blocks.STRIPPED_DARK_OAK_LOG_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_LOG_STAIRS_VERTICAL = MCBlockRegister("stripped_mangrove_log_stairs_vertical", new BlockItem(Blocks.STRIPPED_MANGROVE_LOG_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_STEM_STAIRS_VERTICAL = MCBlockRegister("stripped_crimson_stem_stairs_vertical", new BlockItem(Blocks.STRIPPED_CRIMSON_STEM_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_STEM_STAIRS_VERTICAL = MCBlockRegister("stripped_warped_stem_stairs_vertical", new BlockItem(Blocks.STRIPPED_WARPED_STEM_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_WOOD_STAIRS_VERTICAL = MCBlockRegister("stripped_oak_wood_stairs_vertical", new BlockItem(Blocks.STRIPPED_OAK_WOOD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4759,6 +4957,7 @@ public class Items
         STRIPPED_JUNGLE_WOOD_STAIRS_VERTICAL = MCBlockRegister("stripped_jungle_wood_stairs_vertical", new BlockItem(Blocks.STRIPPED_JUNGLE_WOOD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_WOOD_STAIRS_VERTICAL = MCBlockRegister("stripped_acacia_wood_stairs_vertical", new BlockItem(Blocks.STRIPPED_ACACIA_WOOD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_WOOD_STAIRS_VERTICAL = MCBlockRegister("stripped_dark_oak_wood_stairs_vertical", new BlockItem(Blocks.STRIPPED_DARK_OAK_WOOD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_WOOD_STAIRS_VERTICAL = MCBlockRegister("stripped_mangrove_wood_stairs_vertical", new BlockItem(Blocks.STRIPPED_MANGROVE_WOOD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_HYPHAE_STAIRS_VERTICAL = MCBlockRegister("stripped_crimson_hyphae_stairs_vertical", new BlockItem(Blocks.STRIPPED_CRIMSON_HYPHAE_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_HYPHAE_STAIRS_VERTICAL = MCBlockRegister("stripped_warped_hyphae_stairs_vertical", new BlockItem(Blocks.STRIPPED_WARPED_HYPHAE_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_WOOD_STAIRS_VERTICAL = MCBlockRegister("oak_wood_stairs_vertical", new BlockItem(Blocks.OAK_WOOD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4767,6 +4966,7 @@ public class Items
         JUNGLE_WOOD_STAIRS_VERTICAL = MCBlockRegister("jungle_wood_stairs_vertical", new BlockItem(Blocks.JUNGLE_WOOD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_WOOD_STAIRS_VERTICAL = MCBlockRegister("acacia_wood_stairs_vertical", new BlockItem(Blocks.ACACIA_WOOD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_WOOD_STAIRS_VERTICAL = MCBlockRegister("dark_oak_wood_stairs_vertical", new BlockItem(Blocks.DARK_OAK_WOOD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_WOOD_STAIRS_VERTICAL = MCBlockRegister("mangrove_wood_stairs_vertical", new BlockItem(Blocks.MANGROVE_WOOD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_HYPHAE_STAIRS_VERTICAL = MCBlockRegister("crimson_hyphae_stairs_vertical", new BlockItem(Blocks.CRIMSON_HYPHAE_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_HYPHAE_STAIRS_VERTICAL = MCBlockRegister("warped_hyphae_stairs_vertical", new BlockItem(Blocks.WARPED_HYPHAE_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GLASS_STAIRS_VERTICAL = MCBlockRegister("glass_stairs_vertical", new BlockItem(Blocks.GLASS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4814,6 +5014,8 @@ public class Items
         MOSSY_STONE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("mossy_stone_bricks_stairs_vertical", new BlockItem(Blocks.MOSSY_STONE_BRICKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_STONE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("cracked_stone_bricks_stairs_vertical", new BlockItem(Blocks.CRACKED_STONE_BRICKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CHISELED_STONE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("chiseled_stone_bricks_stairs_vertical", new BlockItem(Blocks.CHISELED_STONE_BRICKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        PACKED_MUD_STAIRS_VERTICAL = MCBlockRegister("packed_mud_stairs_vertical", new BlockItem(Blocks.PACKED_MUD_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_BRICKS_STAIRS_VERTICAL = MCBlockRegister("mud_bricks_stairs_vertical", new BlockItem(Blocks.MUD_BRICKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DEEPSLATE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("deepslate_bricks_stairs_vertical", new BlockItem(Blocks.DEEPSLATE_BRICKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_DEEPSLATE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("cracked_deepslate_bricks_stairs_vertical", new BlockItem(Blocks.CRACKED_DEEPSLATE_BRICKS_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DEEPSLATE_TILES_STAIRS_VERTICAL = MCBlockRegister("deepslate_tiles_stairs_vertical", new BlockItem(Blocks.DEEPSLATE_TILES_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4915,14 +5117,19 @@ public class Items
         JUNGLE_LEAVES_STAIRS_VERTICAL = MCBlockRegister("jungle_leaves_stairs_vertical", new BlockItem(Blocks.JUNGLE_LEAVES_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         ACACIA_LEAVES_STAIRS_VERTICAL = MCBlockRegister("acacia_leaves_stairs_vertical", new BlockItem(Blocks.ACACIA_LEAVES_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         DARK_OAK_LEAVES_STAIRS_VERTICAL = MCBlockRegister("dark_oak_leaves_stairs_vertical", new BlockItem(Blocks.DARK_OAK_LEAVES_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        MANGROVE_LEAVES_STAIRS_VERTICAL = MCBlockRegister("mangrove_leaves_stairs_vertical", new BlockItem(Blocks.MANGROVE_LEAVES_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         AZALEA_LEAVES_STAIRS_VERTICAL = MCBlockRegister("azalea_leaves_stairs_vertical", new BlockItem(Blocks.AZALEA_LEAVES_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         FLOWERING_AZALEA_LEAVES_STAIRS_VERTICAL = MCBlockRegister("flowering_azalea_leaves_stairs_vertical", new BlockItem(Blocks.FLOWERING_AZALEA_LEAVES_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MOSS_BLOCK_STAIRS_VERTICAL = MCBlockRegister("moss_block_stairs_vertical", new BlockItem(Blocks.MOSS_BLOCK_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         BROWN_MUSHROOM_BLOCK_STAIRS_VERTICAL = MCBlockRegister("brown_mushroom_block_stairs_vertical", new BlockItem(Blocks.BROWN_MUSHROOM_BLOCK_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         RED_MUSHROOM_BLOCK_STAIRS_VERTICAL = MCBlockRegister("red_mushroom_block_stairs_vertical", new BlockItem(Blocks.RED_MUSHROOM_BLOCK_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MUSHROOM_STEM_STAIRS_VERTICAL = MCBlockRegister("mushroom_stem_stairs_vertical", new BlockItem(Blocks.MUSHROOM_STEM_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        SCULK_STAIRS_VERTICAL = MCBlockRegister("sculk_stairs_vertical", new BlockItem(Blocks.SCULK_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         SHROOMLIGHT_STAIRS_VERTICAL = MCBlockRegister("shroomlight_stairs_vertical", new BlockItem(Blocks.SHROOMLIGHT_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         HONEYCOMB_BLOCK_STAIRS_VERTICAL = MCBlockRegister("honeycomb_block_stairs_vertical", new BlockItem(Blocks.HONEYCOMB_BLOCK_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        OCHRE_FROGLIGHT_STAIRS_VERTICAL = MCBlockRegister("ochre_froglight_stairs_vertical", new BlockItem(Blocks.OCHRE_FROGLIGHT_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        VERDANT_FROGLIGHT_STAIRS_VERTICAL = MCBlockRegister("verdant_froglight_stairs_vertical", new BlockItem(Blocks.VERDANT_FROGLIGHT_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        PEARLESCENT_FROGLIGHT_STAIRS_VERTICAL = MCBlockRegister("pearlescent_froglight_stairs_vertical", new BlockItem(Blocks.PEARLESCENT_FROGLIGHT_STAIRS_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         DEEPSLATE_SLAB = MCBlockRegister("deepslate_slab", new BlockItem(Blocks.DEEPSLATE_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GRASS_BLOCK_SLAB = MCBlockRegister("grass_block_slab", new BlockItem(Blocks.GRASS_BLOCK_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DIRT_SLAB = MCBlockRegister("dirt_slab", new BlockItem(Blocks.DIRT_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4932,6 +5139,7 @@ public class Items
         TUFF_SLAB = MCBlockRegister("tuff_slab", new BlockItem(Blocks.TUFF_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DRIPSTONE_BLOCK_SLAB = MCBlockRegister("dripstone_block_slab", new BlockItem(Blocks.DRIPSTONE_BLOCK_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ROOTED_DIRT_SLAB = MCBlockRegister("rooted_dirt_slab", new BlockItem(Blocks.ROOTED_DIRT_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_SLAB = MCBlockRegister("mud_slab", new BlockItem(Blocks.MUD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_NYLIUM_SLAB = MCBlockRegister("crimson_nylium_slab", new BlockItem(Blocks.CRIMSON_NYLIUM_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_NYLIUM_SLAB = MCBlockRegister("warped_nylium_slab", new BlockItem(Blocks.WARPED_NYLIUM_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         BEDROCK_SLAB = MCBlockRegister("bedrock_slab", new BlockItem(Blocks.BEDROCK_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4963,6 +5171,9 @@ public class Items
         JUNGLE_LOG_SLAB = MCBlockRegister("jungle_log_slab", new BlockItem(Blocks.JUNGLE_LOG_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_LOG_SLAB = MCBlockRegister("acacia_log_slab", new BlockItem(Blocks.ACACIA_LOG_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_LOG_SLAB = MCBlockRegister("dark_oak_log_slab", new BlockItem(Blocks.DARK_OAK_LOG_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_LOG_SLAB = MCBlockRegister("mangrove_log_slab", new BlockItem(Blocks.MANGROVE_LOG_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_ROOTS_SLAB = MCBlockRegister("mangrove_roots_slab", new BlockItem(Blocks.MANGROVE_ROOTS_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUDDY_MANGROVE_ROOTS_SLAB = MCBlockRegister("muddy_mangrove_roots_slab", new BlockItem(Blocks.MUDDY_MANGROVE_ROOTS_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_STEM_SLAB = MCBlockRegister("crimson_stem_slab", new BlockItem(Blocks.CRIMSON_STEM_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_STEM_SLAB = MCBlockRegister("warped_stem_slab", new BlockItem(Blocks.WARPED_STEM_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_LOG_SLAB = MCBlockRegister("stripped_oak_log_slab", new BlockItem(Blocks.STRIPPED_OAK_LOG_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4971,6 +5182,7 @@ public class Items
         STRIPPED_JUNGLE_LOG_SLAB = MCBlockRegister("stripped_jungle_log_slab", new BlockItem(Blocks.STRIPPED_JUNGLE_LOG_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_LOG_SLAB = MCBlockRegister("stripped_acacia_log_slab", new BlockItem(Blocks.STRIPPED_ACACIA_LOG_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_LOG_SLAB = MCBlockRegister("stripped_dark_oak_log_slab", new BlockItem(Blocks.STRIPPED_DARK_OAK_LOG_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_LOG_SLAB = MCBlockRegister("stripped_mangrove_log_slab", new BlockItem(Blocks.STRIPPED_MANGROVE_LOG_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_STEM_SLAB = MCBlockRegister("stripped_crimson_stem_slab", new BlockItem(Blocks.STRIPPED_CRIMSON_STEM_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_STEM_SLAB = MCBlockRegister("stripped_warped_stem_slab", new BlockItem(Blocks.STRIPPED_WARPED_STEM_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_WOOD_SLAB = MCBlockRegister("stripped_oak_wood_slab", new BlockItem(Blocks.STRIPPED_OAK_WOOD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4979,6 +5191,7 @@ public class Items
         STRIPPED_JUNGLE_WOOD_SLAB = MCBlockRegister("stripped_jungle_wood_slab", new BlockItem(Blocks.STRIPPED_JUNGLE_WOOD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_WOOD_SLAB = MCBlockRegister("stripped_acacia_wood_slab", new BlockItem(Blocks.STRIPPED_ACACIA_WOOD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_WOOD_SLAB = MCBlockRegister("stripped_dark_oak_wood_slab", new BlockItem(Blocks.STRIPPED_DARK_OAK_WOOD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_WOOD_SLAB = MCBlockRegister("stripped_mangrove_wood_slab", new BlockItem(Blocks.STRIPPED_MANGROVE_WOOD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_HYPHAE_SLAB = MCBlockRegister("stripped_crimson_hyphae_slab", new BlockItem(Blocks.STRIPPED_CRIMSON_HYPHAE_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_HYPHAE_SLAB = MCBlockRegister("stripped_warped_hyphae_slab", new BlockItem(Blocks.STRIPPED_WARPED_HYPHAE_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_WOOD_SLAB = MCBlockRegister("oak_wood_slab", new BlockItem(Blocks.OAK_WOOD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -4987,6 +5200,7 @@ public class Items
         JUNGLE_WOOD_SLAB = MCBlockRegister("jungle_wood_slab", new BlockItem(Blocks.JUNGLE_WOOD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_WOOD_SLAB = MCBlockRegister("acacia_wood_slab", new BlockItem(Blocks.ACACIA_WOOD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_WOOD_SLAB = MCBlockRegister("dark_oak_wood_slab", new BlockItem(Blocks.DARK_OAK_WOOD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_WOOD_SLAB = MCBlockRegister("mangrove_wood_slab", new BlockItem(Blocks.MANGROVE_WOOD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_HYPHAE_SLAB = MCBlockRegister("crimson_hyphae_slab", new BlockItem(Blocks.CRIMSON_HYPHAE_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_HYPHAE_SLAB = MCBlockRegister("warped_hyphae_slab", new BlockItem(Blocks.WARPED_HYPHAE_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GLASS_SLAB = MCBlockRegister("glass_slab", new BlockItem(Blocks.GLASS_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5023,6 +5237,7 @@ public class Items
         GLOWSTONE_SLAB = MCBlockRegister("glowstone_slab", new BlockItem(Blocks.GLOWSTONE_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_STONE_BRICKS_SLAB = MCBlockRegister("cracked_stone_bricks_slab", new BlockItem(Blocks.CRACKED_STONE_BRICKS_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CHISELED_STONE_BRICKS_SLAB = MCBlockRegister("chiseled_stone_bricks_slab", new BlockItem(Blocks.CHISELED_STONE_BRICKS_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        PACKED_MUD_SLAB = MCBlockRegister("packed_mud_slab", new BlockItem(Blocks.PACKED_MUD_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_DEEPSLATE_BRICKS_SLAB = MCBlockRegister("cracked_deepslate_bricks_slab", new BlockItem(Blocks.CRACKED_DEEPSLATE_BRICKS_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_DEEPSLATE_TILES_SLAB = MCBlockRegister("cracked_deepslate_tiles_slab", new BlockItem(Blocks.CRACKED_DEEPSLATE_TILES_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CHISELED_DEEPSLATE_SLAB = MCBlockRegister("chiseled_deepslate_slab", new BlockItem(Blocks.CHISELED_DEEPSLATE_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5111,16 +5326,21 @@ public class Items
         JUNGLE_LEAVES_SLAB = MCBlockRegister("jungle_leaves_slab", new BlockItem(Blocks.JUNGLE_LEAVES_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         ACACIA_LEAVES_SLAB = MCBlockRegister("acacia_leaves_slab", new BlockItem(Blocks.ACACIA_LEAVES_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         DARK_OAK_LEAVES_SLAB = MCBlockRegister("dark_oak_leaves_slab", new BlockItem(Blocks.DARK_OAK_LEAVES_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        MANGROVE_LEAVES_SLAB = MCBlockRegister("mangrove_leaves_slab", new BlockItem(Blocks.MANGROVE_LEAVES_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         AZALEA_LEAVES_SLAB = MCBlockRegister("azalea_leaves_slab", new BlockItem(Blocks.AZALEA_LEAVES_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         FLOWERING_AZALEA_LEAVES_SLAB = MCBlockRegister("flowering_azalea_leaves_slab", new BlockItem(Blocks.FLOWERING_AZALEA_LEAVES_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MOSS_BLOCK_SLAB = MCBlockRegister("moss_block_slab", new BlockItem(Blocks.MOSS_BLOCK_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         BROWN_MUSHROOM_BLOCK_SLAB = MCBlockRegister("brown_mushroom_block_slab", new BlockItem(Blocks.BROWN_MUSHROOM_BLOCK_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         RED_MUSHROOM_BLOCK_SLAB = MCBlockRegister("red_mushroom_block_slab", new BlockItem(Blocks.RED_MUSHROOM_BLOCK_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MUSHROOM_STEM_SLAB = MCBlockRegister("mushroom_stem_slab", new BlockItem(Blocks.MUSHROOM_STEM_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        SCULK_SLAB = MCBlockRegister("sculk_slab", new BlockItem(Blocks.SCULK_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         FARMLAND_SLAB = MCBlockRegister("farmland_slab", new BlockItem(Blocks.FARMLAND_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         DIRT_PATH_SLAB = MCBlockRegister("dirt_path_slab", new BlockItem(Blocks.DIRT_PATH_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         SHROOMLIGHT_SLAB = MCBlockRegister("shroomlight_slab", new BlockItem(Blocks.SHROOMLIGHT_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         HONEYCOMB_BLOCK_SLAB = MCBlockRegister("honeycomb_block_slab", new BlockItem(Blocks.HONEYCOMB_BLOCK_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        OCHRE_FROGLIGHT_SLAB = MCBlockRegister("ochre_froglight_slab", new BlockItem(Blocks.OCHRE_FROGLIGHT_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        VERDANT_FROGLIGHT_SLAB = MCBlockRegister("verdant_froglight_slab", new BlockItem(Blocks.VERDANT_FROGLIGHT_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        PEARLESCENT_FROGLIGHT_SLAB = MCBlockRegister("pearlescent_froglight_slab", new BlockItem(Blocks.PEARLESCENT_FROGLIGHT_SLAB, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         STONE_SLAB_VERTICAL = MCBlockRegister("stone_slab_vertical", new BlockItem(Blocks.STONE_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GRANITE_SLAB_VERTICAL = MCBlockRegister("granite_slab_vertical", new BlockItem(Blocks.GRANITE_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         POLISHED_GRANITE_SLAB_VERTICAL = MCBlockRegister("polished_granite_slab_vertical", new BlockItem(Blocks.POLISHED_GRANITE_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5135,6 +5355,7 @@ public class Items
         TUFF_SLAB_VERTICAL = MCBlockRegister("tuff_slab_vertical", new BlockItem(Blocks.TUFF_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DRIPSTONE_BLOCK_SLAB_VERTICAL = MCBlockRegister("dripstone_block_slab_vertical", new BlockItem(Blocks.DRIPSTONE_BLOCK_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ROOTED_DIRT_SLAB_VERTICAL = MCBlockRegister("rooted_dirt_slab_vertical", new BlockItem(Blocks.ROOTED_DIRT_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_SLAB_VERTICAL = MCBlockRegister("mud_slab_vertical", new BlockItem(Blocks.MUD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         COBBLESTONE_SLAB_VERTICAL = MCBlockRegister("cobblestone_slab_vertical", new BlockItem(Blocks.COBBLESTONE_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_PLANKS_SLAB_VERTICAL = MCBlockRegister("oak_planks_slab_vertical", new BlockItem(Blocks.OAK_PLANKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         SPRUCE_PLANKS_SLAB_VERTICAL = MCBlockRegister("spruce_planks_slab_vertical", new BlockItem(Blocks.SPRUCE_PLANKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5142,6 +5363,7 @@ public class Items
         JUNGLE_PLANKS_SLAB_VERTICAL = MCBlockRegister("jungle_planks_slab_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_PLANKS_SLAB_VERTICAL = MCBlockRegister("acacia_planks_slab_vertical", new BlockItem(Blocks.ACACIA_PLANKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_PLANKS_SLAB_VERTICAL = MCBlockRegister("dark_oak_planks_slab_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_PLANKS_SLAB_VERTICAL = MCBlockRegister("mangrove_planks_slab_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_PLANKS_SLAB_VERTICAL = MCBlockRegister("crimson_planks_slab_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_PLANKS_SLAB_VERTICAL = MCBlockRegister("warped_planks_slab_vertical", new BlockItem(Blocks.WARPED_PLANKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         BEDROCK_SLAB_VERTICAL = MCBlockRegister("bedrock_slab_vertical", new BlockItem(Blocks.BEDROCK_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5178,6 +5400,9 @@ public class Items
         JUNGLE_LOG_SLAB_VERTICAL = MCBlockRegister("jungle_log_slab_vertical", new BlockItem(Blocks.JUNGLE_LOG_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_LOG_SLAB_VERTICAL = MCBlockRegister("acacia_log_slab_vertical", new BlockItem(Blocks.ACACIA_LOG_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_LOG_SLAB_VERTICAL = MCBlockRegister("dark_oak_log_slab_vertical", new BlockItem(Blocks.DARK_OAK_LOG_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_LOG_SLAB_VERTICAL = MCBlockRegister("mangrove_log_slab_vertical", new BlockItem(Blocks.MANGROVE_LOG_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_ROOTS_SLAB_VERTICAL = MCBlockRegister("mangrove_roots_slab_vertical", new BlockItem(Blocks.MANGROVE_ROOTS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUDDY_MANGROVE_ROOTS_SLAB_VERTICAL = MCBlockRegister("muddy_mangrove_roots_slab_vertical", new BlockItem(Blocks.MUDDY_MANGROVE_ROOTS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_STEM_SLAB_VERTICAL = MCBlockRegister("crimson_stem_slab_vertical", new BlockItem(Blocks.CRIMSON_STEM_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_STEM_SLAB_VERTICAL = MCBlockRegister("warped_stem_slab_vertical", new BlockItem(Blocks.WARPED_STEM_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_LOG_SLAB_VERTICAL = MCBlockRegister("stripped_oak_log_slab_vertical", new BlockItem(Blocks.STRIPPED_OAK_LOG_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5186,6 +5411,7 @@ public class Items
         STRIPPED_JUNGLE_LOG_SLAB_VERTICAL = MCBlockRegister("stripped_jungle_log_slab_vertical", new BlockItem(Blocks.STRIPPED_JUNGLE_LOG_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_LOG_SLAB_VERTICAL = MCBlockRegister("stripped_acacia_log_slab_vertical", new BlockItem(Blocks.STRIPPED_ACACIA_LOG_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_LOG_SLAB_VERTICAL = MCBlockRegister("stripped_dark_oak_log_slab_vertical", new BlockItem(Blocks.STRIPPED_DARK_OAK_LOG_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_LOG_SLAB_VERTICAL = MCBlockRegister("stripped_mangrove_log_slab_vertical", new BlockItem(Blocks.STRIPPED_MANGROVE_LOG_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_STEM_SLAB_VERTICAL = MCBlockRegister("stripped_crimson_stem_slab_vertical", new BlockItem(Blocks.STRIPPED_CRIMSON_STEM_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_STEM_SLAB_VERTICAL = MCBlockRegister("stripped_warped_stem_slab_vertical", new BlockItem(Blocks.STRIPPED_WARPED_STEM_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_WOOD_SLAB_VERTICAL = MCBlockRegister("stripped_oak_wood_slab_vertical", new BlockItem(Blocks.STRIPPED_OAK_WOOD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5194,6 +5420,7 @@ public class Items
         STRIPPED_JUNGLE_WOOD_SLAB_VERTICAL = MCBlockRegister("stripped_jungle_wood_slab_vertical", new BlockItem(Blocks.STRIPPED_JUNGLE_WOOD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_WOOD_SLAB_VERTICAL = MCBlockRegister("stripped_acacia_wood_slab_vertical", new BlockItem(Blocks.STRIPPED_ACACIA_WOOD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_WOOD_SLAB_VERTICAL = MCBlockRegister("stripped_dark_oak_wood_slab_vertical", new BlockItem(Blocks.STRIPPED_DARK_OAK_WOOD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_WOOD_SLAB_VERTICAL = MCBlockRegister("stripped_mangrove_wood_slab_vertical", new BlockItem(Blocks.STRIPPED_MANGROVE_WOOD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_HYPHAE_SLAB_VERTICAL = MCBlockRegister("stripped_crimson_hyphae_slab_vertical", new BlockItem(Blocks.STRIPPED_CRIMSON_HYPHAE_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_HYPHAE_SLAB_VERTICAL = MCBlockRegister("stripped_warped_hyphae_slab_vertical", new BlockItem(Blocks.STRIPPED_WARPED_HYPHAE_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_WOOD_SLAB_VERTICAL = MCBlockRegister("oak_wood_slab_vertical", new BlockItem(Blocks.OAK_WOOD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5202,6 +5429,7 @@ public class Items
         JUNGLE_WOOD_SLAB_VERTICAL = MCBlockRegister("jungle_wood_slab_vertical", new BlockItem(Blocks.JUNGLE_WOOD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_WOOD_SLAB_VERTICAL = MCBlockRegister("acacia_wood_slab_vertical", new BlockItem(Blocks.ACACIA_WOOD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_WOOD_SLAB_VERTICAL = MCBlockRegister("dark_oak_wood_slab_vertical", new BlockItem(Blocks.DARK_OAK_WOOD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_WOOD_SLAB_VERTICAL = MCBlockRegister("mangrove_wood_slab_vertical", new BlockItem(Blocks.MANGROVE_WOOD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_HYPHAE_SLAB_VERTICAL = MCBlockRegister("crimson_hyphae_slab_vertical", new BlockItem(Blocks.CRIMSON_HYPHAE_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_HYPHAE_SLAB_VERTICAL = MCBlockRegister("warped_hyphae_slab_vertical", new BlockItem(Blocks.WARPED_HYPHAE_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GLASS_SLAB_VERTICAL = MCBlockRegister("glass_slab_vertical", new BlockItem(Blocks.GLASS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5249,6 +5477,8 @@ public class Items
         MOSSY_STONE_BRICKS_SLAB_VERTICAL = MCBlockRegister("mossy_stone_bricks_slab_vertical", new BlockItem(Blocks.MOSSY_STONE_BRICKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_STONE_BRICKS_SLAB_VERTICAL = MCBlockRegister("cracked_stone_bricks_slab_vertical", new BlockItem(Blocks.CRACKED_STONE_BRICKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CHISELED_STONE_BRICKS_SLAB_VERTICAL = MCBlockRegister("chiseled_stone_bricks_slab_vertical", new BlockItem(Blocks.CHISELED_STONE_BRICKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        PACKED_MUD_SLAB_VERTICAL = MCBlockRegister("packed_mud_slab_vertical", new BlockItem(Blocks.PACKED_MUD_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_BRICKS_SLAB_VERTICAL = MCBlockRegister("mud_bricks_slab_vertical", new BlockItem(Blocks.MUD_BRICKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DEEPSLATE_BRICKS_SLAB_VERTICAL = MCBlockRegister("deepslate_bricks_slab_vertical", new BlockItem(Blocks.DEEPSLATE_BRICKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_DEEPSLATE_BRICKS_SLAB_VERTICAL = MCBlockRegister("cracked_deepslate_bricks_slab_vertical", new BlockItem(Blocks.CRACKED_DEEPSLATE_BRICKS_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DEEPSLATE_TILES_SLAB_VERTICAL = MCBlockRegister("deepslate_tiles_slab_vertical", new BlockItem(Blocks.DEEPSLATE_TILES_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5350,14 +5580,19 @@ public class Items
         JUNGLE_LEAVES_SLAB_VERTICAL = MCBlockRegister("jungle_leaves_slab_vertical", new BlockItem(Blocks.JUNGLE_LEAVES_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         ACACIA_LEAVES_SLAB_VERTICAL = MCBlockRegister("acacia_leaves_slab_vertical", new BlockItem(Blocks.ACACIA_LEAVES_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         DARK_OAK_LEAVES_SLAB_VERTICAL = MCBlockRegister("dark_oak_leaves_slab_vertical", new BlockItem(Blocks.DARK_OAK_LEAVES_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        MANGROVE_LEAVES_SLAB_VERTICAL = MCBlockRegister("mangrove_leaves_slab_vertical", new BlockItem(Blocks.MANGROVE_LEAVES_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         AZALEA_LEAVES_SLAB_VERTICAL = MCBlockRegister("azalea_leaves_slab_vertical", new BlockItem(Blocks.AZALEA_LEAVES_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         FLOWERING_AZALEA_LEAVES_SLAB_VERTICAL = MCBlockRegister("flowering_azalea_leaves_slab_vertical", new BlockItem(Blocks.FLOWERING_AZALEA_LEAVES_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MOSS_BLOCK_SLAB_VERTICAL = MCBlockRegister("moss_block_slab_vertical", new BlockItem(Blocks.MOSS_BLOCK_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         BROWN_MUSHROOM_BLOCK_SLAB_VERTICAL = MCBlockRegister("brown_mushroom_block_slab_vertical", new BlockItem(Blocks.BROWN_MUSHROOM_BLOCK_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         RED_MUSHROOM_BLOCK_SLAB_VERTICAL = MCBlockRegister("red_mushroom_block_slab_vertical", new BlockItem(Blocks.RED_MUSHROOM_BLOCK_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MUSHROOM_STEM_SLAB_VERTICAL = MCBlockRegister("mushroom_stem_slab_vertical", new BlockItem(Blocks.MUSHROOM_STEM_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        SCULK_SLAB_VERTICAL = MCBlockRegister("sculk_slab_vertical", new BlockItem(Blocks.SCULK_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         SHROOMLIGHT_SLAB_VERTICAL = MCBlockRegister("shroomlight_slab_vertical", new BlockItem(Blocks.SHROOMLIGHT_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         HONEYCOMB_BLOCK_SLAB_VERTICAL = MCBlockRegister("honeycomb_block_slab_vertical", new BlockItem(Blocks.HONEYCOMB_BLOCK_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        OCHRE_FROGLIGHT_SLAB_VERTICAL = MCBlockRegister("ochre_froglight_slab_vertical", new BlockItem(Blocks.OCHRE_FROGLIGHT_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        VERDANT_FROGLIGHT_SLAB_VERTICAL = MCBlockRegister("verdant_froglight_slab_vertical", new BlockItem(Blocks.VERDANT_FROGLIGHT_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        PEARLESCENT_FROGLIGHT_SLAB_VERTICAL = MCBlockRegister("pearlescent_froglight_slab_vertical", new BlockItem(Blocks.PEARLESCENT_FROGLIGHT_SLAB_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         STONE_QUARTER = MCBlockRegister("stone_quarter", new BlockItem(Blocks.STONE_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GRANITE_QUARTER = MCBlockRegister("granite_quarter", new BlockItem(Blocks.GRANITE_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         POLISHED_GRANITE_QUARTER = MCBlockRegister("polished_granite_quarter", new BlockItem(Blocks.POLISHED_GRANITE_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5372,6 +5607,7 @@ public class Items
         TUFF_QUARTER = MCBlockRegister("tuff_quarter", new BlockItem(Blocks.TUFF_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DRIPSTONE_BLOCK_QUARTER = MCBlockRegister("dripstone_block_quarter", new BlockItem(Blocks.DRIPSTONE_BLOCK_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ROOTED_DIRT_QUARTER = MCBlockRegister("rooted_dirt_quarter", new BlockItem(Blocks.ROOTED_DIRT_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_QUARTER = MCBlockRegister("mud_quarter", new BlockItem(Blocks.MUD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         COBBLESTONE_QUARTER = MCBlockRegister("cobblestone_quarter", new BlockItem(Blocks.COBBLESTONE_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_PLANKS_QUARTER = MCBlockRegister("oak_planks_quarter", new BlockItem(Blocks.OAK_PLANKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         SPRUCE_PLANKS_QUARTER = MCBlockRegister("spruce_planks_quarter", new BlockItem(Blocks.SPRUCE_PLANKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5379,6 +5615,7 @@ public class Items
         JUNGLE_PLANKS_QUARTER = MCBlockRegister("jungle_planks_quarter", new BlockItem(Blocks.JUNGLE_PLANKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_PLANKS_QUARTER = MCBlockRegister("acacia_planks_quarter", new BlockItem(Blocks.ACACIA_PLANKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_PLANKS_QUARTER = MCBlockRegister("dark_oak_planks_quarter", new BlockItem(Blocks.DARK_OAK_PLANKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_PLANKS_QUARTER = MCBlockRegister("mangrove_planks_quarter", new BlockItem(Blocks.MANGROVE_PLANKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_PLANKS_QUARTER = MCBlockRegister("crimson_planks_quarter", new BlockItem(Blocks.CRIMSON_PLANKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_PLANKS_QUARTER = MCBlockRegister("warped_planks_quarter", new BlockItem(Blocks.WARPED_PLANKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         BEDROCK_QUARTER = MCBlockRegister("bedrock_quarter", new BlockItem(Blocks.BEDROCK_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5415,6 +5652,9 @@ public class Items
         JUNGLE_LOG_QUARTER = MCBlockRegister("jungle_log_quarter", new BlockItem(Blocks.JUNGLE_LOG_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_LOG_QUARTER = MCBlockRegister("acacia_log_quarter", new BlockItem(Blocks.ACACIA_LOG_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_LOG_QUARTER = MCBlockRegister("dark_oak_log_quarter", new BlockItem(Blocks.DARK_OAK_LOG_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_LOG_QUARTER = MCBlockRegister("mangrove_log_quarter", new BlockItem(Blocks.MANGROVE_LOG_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_ROOTS_QUARTER = MCBlockRegister("mangrove_roots_quarter", new BlockItem(Blocks.MANGROVE_ROOTS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUDDY_MANGROVE_ROOTS_QUARTER = MCBlockRegister("muddy_mangrove_roots_quarter", new BlockItem(Blocks.MUDDY_MANGROVE_ROOTS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_STEM_QUARTER = MCBlockRegister("crimson_stem_quarter", new BlockItem(Blocks.CRIMSON_STEM_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_STEM_QUARTER = MCBlockRegister("warped_stem_quarter", new BlockItem(Blocks.WARPED_STEM_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_LOG_QUARTER = MCBlockRegister("stripped_oak_log_quarter", new BlockItem(Blocks.STRIPPED_OAK_LOG_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5423,6 +5663,7 @@ public class Items
         STRIPPED_JUNGLE_LOG_QUARTER = MCBlockRegister("stripped_jungle_log_quarter", new BlockItem(Blocks.STRIPPED_JUNGLE_LOG_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_LOG_QUARTER = MCBlockRegister("stripped_acacia_log_quarter", new BlockItem(Blocks.STRIPPED_ACACIA_LOG_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_LOG_QUARTER = MCBlockRegister("stripped_dark_oak_log_quarter", new BlockItem(Blocks.STRIPPED_DARK_OAK_LOG_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_LOG_QUARTER = MCBlockRegister("stripped_mangrove_log_quarter", new BlockItem(Blocks.STRIPPED_MANGROVE_LOG_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_STEM_QUARTER = MCBlockRegister("stripped_crimson_stem_quarter", new BlockItem(Blocks.STRIPPED_CRIMSON_STEM_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_STEM_QUARTER = MCBlockRegister("stripped_warped_stem_quarter", new BlockItem(Blocks.STRIPPED_WARPED_STEM_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_WOOD_QUARTER = MCBlockRegister("stripped_oak_wood_quarter", new BlockItem(Blocks.STRIPPED_OAK_WOOD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5431,6 +5672,7 @@ public class Items
         STRIPPED_JUNGLE_WOOD_QUARTER = MCBlockRegister("stripped_jungle_wood_quarter", new BlockItem(Blocks.STRIPPED_JUNGLE_WOOD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_WOOD_QUARTER = MCBlockRegister("stripped_acacia_wood_quarter", new BlockItem(Blocks.STRIPPED_ACACIA_WOOD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_WOOD_QUARTER = MCBlockRegister("stripped_dark_oak_wood_quarter", new BlockItem(Blocks.STRIPPED_DARK_OAK_WOOD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_WOOD_QUARTER = MCBlockRegister("stripped_mangrove_wood_quarter", new BlockItem(Blocks.STRIPPED_MANGROVE_WOOD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_HYPHAE_QUARTER = MCBlockRegister("stripped_crimson_hyphae_quarter", new BlockItem(Blocks.STRIPPED_CRIMSON_HYPHAE_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_HYPHAE_QUARTER = MCBlockRegister("stripped_warped_hyphae_quarter", new BlockItem(Blocks.STRIPPED_WARPED_HYPHAE_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_WOOD_QUARTER = MCBlockRegister("oak_wood_quarter", new BlockItem(Blocks.OAK_WOOD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5439,6 +5681,7 @@ public class Items
         JUNGLE_WOOD_QUARTER = MCBlockRegister("jungle_wood_quarter", new BlockItem(Blocks.JUNGLE_WOOD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_WOOD_QUARTER = MCBlockRegister("acacia_wood_quarter", new BlockItem(Blocks.ACACIA_WOOD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_WOOD_QUARTER = MCBlockRegister("dark_oak_wood_quarter", new BlockItem(Blocks.DARK_OAK_WOOD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_WOOD_QUARTER = MCBlockRegister("mangrove_wood_quarter", new BlockItem(Blocks.MANGROVE_WOOD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_HYPHAE_QUARTER = MCBlockRegister("crimson_hyphae_quarter", new BlockItem(Blocks.CRIMSON_HYPHAE_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_HYPHAE_QUARTER = MCBlockRegister("warped_hyphae_quarter", new BlockItem(Blocks.WARPED_HYPHAE_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GLASS_QUARTER = MCBlockRegister("glass_quarter", new BlockItem(Blocks.GLASS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5486,6 +5729,8 @@ public class Items
         MOSSY_STONE_BRICKS_QUARTER = MCBlockRegister("mossy_stone_bricks_quarter", new BlockItem(Blocks.MOSSY_STONE_BRICKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_STONE_BRICKS_QUARTER = MCBlockRegister("cracked_stone_bricks_quarter", new BlockItem(Blocks.CRACKED_STONE_BRICKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CHISELED_STONE_BRICKS_QUARTER = MCBlockRegister("chiseled_stone_bricks_quarter", new BlockItem(Blocks.CHISELED_STONE_BRICKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        PACKED_MUD_QUARTER = MCBlockRegister("packed_mud_quarter", new BlockItem(Blocks.PACKED_MUD_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_BRICKS_QUARTER = MCBlockRegister("mud_bricks_quarter", new BlockItem(Blocks.MUD_BRICKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DEEPSLATE_BRICKS_QUARTER = MCBlockRegister("deepslate_bricks_quarter", new BlockItem(Blocks.DEEPSLATE_BRICKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_DEEPSLATE_BRICKS_QUARTER = MCBlockRegister("cracked_deepslate_bricks_quarter", new BlockItem(Blocks.CRACKED_DEEPSLATE_BRICKS_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DEEPSLATE_TILES_QUARTER = MCBlockRegister("deepslate_tiles_quarter", new BlockItem(Blocks.DEEPSLATE_TILES_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5587,14 +5832,19 @@ public class Items
         JUNGLE_LEAVES_QUARTER = MCBlockRegister("jungle_leaves_quarter", new BlockItem(Blocks.JUNGLE_LEAVES_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         ACACIA_LEAVES_QUARTER = MCBlockRegister("acacia_leaves_quarter", new BlockItem(Blocks.ACACIA_LEAVES_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         DARK_OAK_LEAVES_QUARTER = MCBlockRegister("dark_oak_leaves_quarter", new BlockItem(Blocks.DARK_OAK_LEAVES_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        MANGROVE_LEAVES_QUARTER = MCBlockRegister("mangrove_leaves_quarter", new BlockItem(Blocks.MANGROVE_LEAVES_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         AZALEA_LEAVES_QUARTER = MCBlockRegister("azalea_leaves_quarter", new BlockItem(Blocks.AZALEA_LEAVES_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         FLOWERING_AZALEA_LEAVES_QUARTER = MCBlockRegister("flowering_azalea_leaves_quarter", new BlockItem(Blocks.FLOWERING_AZALEA_LEAVES_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MOSS_BLOCK_QUARTER = MCBlockRegister("moss_block_quarter", new BlockItem(Blocks.MOSS_BLOCK_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         BROWN_MUSHROOM_BLOCK_QUARTER = MCBlockRegister("brown_mushroom_block_quarter", new BlockItem(Blocks.BROWN_MUSHROOM_BLOCK_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         RED_MUSHROOM_BLOCK_QUARTER = MCBlockRegister("red_mushroom_block_quarter", new BlockItem(Blocks.RED_MUSHROOM_BLOCK_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MUSHROOM_STEM_QUARTER = MCBlockRegister("mushroom_stem_quarter", new BlockItem(Blocks.MUSHROOM_STEM_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        SCULK_QUARTER = MCBlockRegister("sculk_quarter", new BlockItem(Blocks.SCULK_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         SHROOMLIGHT_QUARTER = MCBlockRegister("shroomlight_quarter", new BlockItem(Blocks.SHROOMLIGHT_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         HONEYCOMB_BLOCK_QUARTER = MCBlockRegister("honeycomb_block_quarter", new BlockItem(Blocks.HONEYCOMB_BLOCK_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        OCHRE_FROGLIGHT_QUARTER = MCBlockRegister("ochre_froglight_quarter", new BlockItem(Blocks.OCHRE_FROGLIGHT_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        VERDANT_FROGLIGHT_QUARTER = MCBlockRegister("verdant_froglight_quarter", new BlockItem(Blocks.VERDANT_FROGLIGHT_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        PEARLESCENT_FROGLIGHT_QUARTER = MCBlockRegister("pearlescent_froglight_quarter", new BlockItem(Blocks.PEARLESCENT_FROGLIGHT_QUARTER, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         STONE_QUARTER_VERTICAL = MCBlockRegister("stone_quarter_vertical", new BlockItem(Blocks.STONE_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GRANITE_QUARTER_VERTICAL = MCBlockRegister("granite_quarter_vertical", new BlockItem(Blocks.GRANITE_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         POLISHED_GRANITE_QUARTER_VERTICAL = MCBlockRegister("polished_granite_quarter_vertical", new BlockItem(Blocks.POLISHED_GRANITE_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5609,6 +5859,7 @@ public class Items
         TUFF_QUARTER_VERTICAL = MCBlockRegister("tuff_quarter_vertical", new BlockItem(Blocks.TUFF_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DRIPSTONE_BLOCK_QUARTER_VERTICAL = MCBlockRegister("dripstone_block_quarter_vertical", new BlockItem(Blocks.DRIPSTONE_BLOCK_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ROOTED_DIRT_QUARTER_VERTICAL = MCBlockRegister("rooted_dirt_quarter_vertical", new BlockItem(Blocks.ROOTED_DIRT_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_QUARTER_VERTICAL = MCBlockRegister("mud_quarter_vertical", new BlockItem(Blocks.MUD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         COBBLESTONE_QUARTER_VERTICAL = MCBlockRegister("cobblestone_quarter_vertical", new BlockItem(Blocks.COBBLESTONE_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_PLANKS_QUARTER_VERTICAL = MCBlockRegister("oak_planks_quarter_vertical", new BlockItem(Blocks.OAK_PLANKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         SPRUCE_PLANKS_QUARTER_VERTICAL = MCBlockRegister("spruce_planks_quarter_vertical", new BlockItem(Blocks.SPRUCE_PLANKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5616,6 +5867,7 @@ public class Items
         JUNGLE_PLANKS_QUARTER_VERTICAL = MCBlockRegister("jungle_planks_quarter_vertical", new BlockItem(Blocks.JUNGLE_PLANKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_PLANKS_QUARTER_VERTICAL = MCBlockRegister("acacia_planks_quarter_vertical", new BlockItem(Blocks.ACACIA_PLANKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_PLANKS_QUARTER_VERTICAL = MCBlockRegister("dark_oak_planks_quarter_vertical", new BlockItem(Blocks.DARK_OAK_PLANKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_PLANKS_QUARTER_VERTICAL = MCBlockRegister("mangrove_planks_quarter_vertical", new BlockItem(Blocks.MANGROVE_PLANKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_PLANKS_QUARTER_VERTICAL = MCBlockRegister("crimson_planks_quarter_vertical", new BlockItem(Blocks.CRIMSON_PLANKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_PLANKS_QUARTER_VERTICAL = MCBlockRegister("warped_planks_quarter_vertical", new BlockItem(Blocks.WARPED_PLANKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         BEDROCK_QUARTER_VERTICAL = MCBlockRegister("bedrock_quarter_vertical", new BlockItem(Blocks.BEDROCK_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5652,6 +5904,9 @@ public class Items
         JUNGLE_LOG_QUARTER_VERTICAL = MCBlockRegister("jungle_log_quarter_vertical", new BlockItem(Blocks.JUNGLE_LOG_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_LOG_QUARTER_VERTICAL = MCBlockRegister("acacia_log_quarter_vertical", new BlockItem(Blocks.ACACIA_LOG_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_LOG_QUARTER_VERTICAL = MCBlockRegister("dark_oak_log_quarter_vertical", new BlockItem(Blocks.DARK_OAK_LOG_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_LOG_QUARTER_VERTICAL = MCBlockRegister("mangrove_log_quarter_vertical", new BlockItem(Blocks.MANGROVE_LOG_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_ROOTS_QUARTER_VERTICAL = MCBlockRegister("mangrove_roots_quarter_vertical", new BlockItem(Blocks.MANGROVE_ROOTS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUDDY_MANGROVE_ROOTS_QUARTER_VERTICAL = MCBlockRegister("muddy_mangrove_roots_quarter_vertical", new BlockItem(Blocks.MUDDY_MANGROVE_ROOTS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_STEM_QUARTER_VERTICAL = MCBlockRegister("crimson_stem_quarter_vertical", new BlockItem(Blocks.CRIMSON_STEM_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_STEM_QUARTER_VERTICAL = MCBlockRegister("warped_stem_quarter_vertical", new BlockItem(Blocks.WARPED_STEM_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_LOG_QUARTER_VERTICAL = MCBlockRegister("stripped_oak_log_quarter_vertical", new BlockItem(Blocks.STRIPPED_OAK_LOG_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5660,6 +5915,7 @@ public class Items
         STRIPPED_JUNGLE_LOG_QUARTER_VERTICAL = MCBlockRegister("stripped_jungle_log_quarter_vertical", new BlockItem(Blocks.STRIPPED_JUNGLE_LOG_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_LOG_QUARTER_VERTICAL = MCBlockRegister("stripped_acacia_log_quarter_vertical", new BlockItem(Blocks.STRIPPED_ACACIA_LOG_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_LOG_QUARTER_VERTICAL = MCBlockRegister("stripped_dark_oak_log_quarter_vertical", new BlockItem(Blocks.STRIPPED_DARK_OAK_LOG_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_LOG_QUARTER_VERTICAL = MCBlockRegister("stripped_mangrove_log_quarter_vertical", new BlockItem(Blocks.STRIPPED_MANGROVE_LOG_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_STEM_QUARTER_VERTICAL = MCBlockRegister("stripped_crimson_stem_quarter_vertical", new BlockItem(Blocks.STRIPPED_CRIMSON_STEM_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_STEM_QUARTER_VERTICAL = MCBlockRegister("stripped_warped_stem_quarter_vertical", new BlockItem(Blocks.STRIPPED_WARPED_STEM_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_WOOD_QUARTER_VERTICAL = MCBlockRegister("stripped_oak_wood_quarter_vertical", new BlockItem(Blocks.STRIPPED_OAK_WOOD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5668,6 +5924,7 @@ public class Items
         STRIPPED_JUNGLE_WOOD_QUARTER_VERTICAL = MCBlockRegister("stripped_jungle_wood_quarter_vertical", new BlockItem(Blocks.STRIPPED_JUNGLE_WOOD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_WOOD_QUARTER_VERTICAL = MCBlockRegister("stripped_acacia_wood_quarter_vertical", new BlockItem(Blocks.STRIPPED_ACACIA_WOOD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_WOOD_QUARTER_VERTICAL = MCBlockRegister("stripped_dark_oak_wood_quarter_vertical", new BlockItem(Blocks.STRIPPED_DARK_OAK_WOOD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_WOOD_QUARTER_VERTICAL = MCBlockRegister("stripped_mangrove_wood_quarter_vertical", new BlockItem(Blocks.STRIPPED_MANGROVE_WOOD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_HYPHAE_QUARTER_VERTICAL = MCBlockRegister("stripped_crimson_hyphae_quarter_vertical", new BlockItem(Blocks.STRIPPED_CRIMSON_HYPHAE_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_HYPHAE_QUARTER_VERTICAL = MCBlockRegister("stripped_warped_hyphae_quarter_vertical", new BlockItem(Blocks.STRIPPED_WARPED_HYPHAE_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_WOOD_QUARTER_VERTICAL = MCBlockRegister("oak_wood_quarter_vertical", new BlockItem(Blocks.OAK_WOOD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5676,6 +5933,7 @@ public class Items
         JUNGLE_WOOD_QUARTER_VERTICAL = MCBlockRegister("jungle_wood_quarter_vertical", new BlockItem(Blocks.JUNGLE_WOOD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_WOOD_QUARTER_VERTICAL = MCBlockRegister("acacia_wood_quarter_vertical", new BlockItem(Blocks.ACACIA_WOOD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_WOOD_QUARTER_VERTICAL = MCBlockRegister("dark_oak_wood_quarter_vertical", new BlockItem(Blocks.DARK_OAK_WOOD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_WOOD_QUARTER_VERTICAL = MCBlockRegister("mangrove_wood_quarter_vertical", new BlockItem(Blocks.MANGROVE_WOOD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_HYPHAE_QUARTER_VERTICAL = MCBlockRegister("crimson_hyphae_quarter_vertical", new BlockItem(Blocks.CRIMSON_HYPHAE_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_HYPHAE_QUARTER_VERTICAL = MCBlockRegister("warped_hyphae_quarter_vertical", new BlockItem(Blocks.WARPED_HYPHAE_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GLASS_QUARTER_VERTICAL = MCBlockRegister("glass_quarter_vertical", new BlockItem(Blocks.GLASS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5723,6 +5981,8 @@ public class Items
         MOSSY_STONE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("mossy_stone_bricks_quarter_vertical", new BlockItem(Blocks.MOSSY_STONE_BRICKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_STONE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("cracked_stone_bricks_quarter_vertical", new BlockItem(Blocks.CRACKED_STONE_BRICKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CHISELED_STONE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("chiseled_stone_bricks_quarter_vertical", new BlockItem(Blocks.CHISELED_STONE_BRICKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        PACKED_MUD_QUARTER_VERTICAL = MCBlockRegister("packed_mud_quarter_vertical", new BlockItem(Blocks.PACKED_MUD_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_BRICKS_QUARTER_VERTICAL = MCBlockRegister("mud_bricks_quarter_vertical", new BlockItem(Blocks.MUD_BRICKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DEEPSLATE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("deepslate_bricks_quarter_vertical", new BlockItem(Blocks.DEEPSLATE_BRICKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_DEEPSLATE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("cracked_deepslate_bricks_quarter_vertical", new BlockItem(Blocks.CRACKED_DEEPSLATE_BRICKS_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DEEPSLATE_TILES_QUARTER_VERTICAL = MCBlockRegister("deepslate_tiles_quarter_vertical", new BlockItem(Blocks.DEEPSLATE_TILES_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5824,14 +6084,19 @@ public class Items
         JUNGLE_LEAVES_QUARTER_VERTICAL = MCBlockRegister("jungle_leaves_quarter_vertical", new BlockItem(Blocks.JUNGLE_LEAVES_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         ACACIA_LEAVES_QUARTER_VERTICAL = MCBlockRegister("acacia_leaves_quarter_vertical", new BlockItem(Blocks.ACACIA_LEAVES_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         DARK_OAK_LEAVES_QUARTER_VERTICAL = MCBlockRegister("dark_oak_leaves_quarter_vertical", new BlockItem(Blocks.DARK_OAK_LEAVES_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        MANGROVE_LEAVES_QUARTER_VERTICAL = MCBlockRegister("mangrove_leaves_quarter_vertical", new BlockItem(Blocks.MANGROVE_LEAVES_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         AZALEA_LEAVES_QUARTER_VERTICAL = MCBlockRegister("azalea_leaves_quarter_vertical", new BlockItem(Blocks.AZALEA_LEAVES_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         FLOWERING_AZALEA_LEAVES_QUARTER_VERTICAL = MCBlockRegister("flowering_azalea_leaves_quarter_vertical", new BlockItem(Blocks.FLOWERING_AZALEA_LEAVES_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MOSS_BLOCK_QUARTER_VERTICAL = MCBlockRegister("moss_block_quarter_vertical", new BlockItem(Blocks.MOSS_BLOCK_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         BROWN_MUSHROOM_BLOCK_QUARTER_VERTICAL = MCBlockRegister("brown_mushroom_block_quarter_vertical", new BlockItem(Blocks.BROWN_MUSHROOM_BLOCK_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         RED_MUSHROOM_BLOCK_QUARTER_VERTICAL = MCBlockRegister("red_mushroom_block_quarter_vertical", new BlockItem(Blocks.RED_MUSHROOM_BLOCK_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MUSHROOM_STEM_QUARTER_VERTICAL = MCBlockRegister("mushroom_stem_quarter_vertical", new BlockItem(Blocks.MUSHROOM_STEM_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        SCULK_QUARTER_VERTICAL = MCBlockRegister("sculk_quarter_vertical", new BlockItem(Blocks.SCULK_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         SHROOMLIGHT_QUARTER_VERTICAL = MCBlockRegister("shroomlight_quarter_vertical", new BlockItem(Blocks.SHROOMLIGHT_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         HONEYCOMB_BLOCK_QUARTER_VERTICAL = MCBlockRegister("honeycomb_block_quarter_vertical", new BlockItem(Blocks.HONEYCOMB_BLOCK_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        OCHRE_FROGLIGHT_QUARTER_VERTICAL = MCBlockRegister("ochre_froglight_quarter_vertical", new BlockItem(Blocks.OCHRE_FROGLIGHT_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        VERDANT_FROGLIGHT_QUARTER_VERTICAL = MCBlockRegister("verdant_froglight_quarter_vertical", new BlockItem(Blocks.VERDANT_FROGLIGHT_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        PEARLESCENT_FROGLIGHT_QUARTER_VERTICAL = MCBlockRegister("pearlescent_froglight_quarter_vertical", new BlockItem(Blocks.PEARLESCENT_FROGLIGHT_QUARTER_VERTICAL, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         STONE_EIGHTH = MCBlockRegister("stone_eighth", new BlockItem(Blocks.STONE_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GRANITE_EIGHTH = MCBlockRegister("granite_eighth", new BlockItem(Blocks.GRANITE_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         POLISHED_GRANITE_EIGHTH = MCBlockRegister("polished_granite_eighth", new BlockItem(Blocks.POLISHED_GRANITE_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5846,6 +6111,7 @@ public class Items
         TUFF_EIGHTH = MCBlockRegister("tuff_eighth", new BlockItem(Blocks.TUFF_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DRIPSTONE_BLOCK_EIGHTH = MCBlockRegister("dripstone_block_eighth", new BlockItem(Blocks.DRIPSTONE_BLOCK_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ROOTED_DIRT_EIGHTH = MCBlockRegister("rooted_dirt_eighth", new BlockItem(Blocks.ROOTED_DIRT_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_EIGHTH = MCBlockRegister("mud_eighth", new BlockItem(Blocks.MUD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         COBBLESTONE_EIGHTH = MCBlockRegister("cobblestone_eighth", new BlockItem(Blocks.COBBLESTONE_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_PLANKS_EIGHTH = MCBlockRegister("oak_planks_eighth", new BlockItem(Blocks.OAK_PLANKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         SPRUCE_PLANKS_EIGHTH = MCBlockRegister("spruce_planks_eighth", new BlockItem(Blocks.SPRUCE_PLANKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5853,6 +6119,7 @@ public class Items
         JUNGLE_PLANKS_EIGHTH = MCBlockRegister("jungle_planks_eighth", new BlockItem(Blocks.JUNGLE_PLANKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_PLANKS_EIGHTH = MCBlockRegister("acacia_planks_eighth", new BlockItem(Blocks.ACACIA_PLANKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_PLANKS_EIGHTH = MCBlockRegister("dark_oak_planks_eighth", new BlockItem(Blocks.DARK_OAK_PLANKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_PLANKS_EIGHTH = MCBlockRegister("mangrove_planks_eighth", new BlockItem(Blocks.MANGROVE_PLANKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_PLANKS_EIGHTH = MCBlockRegister("crimson_planks_eighth", new BlockItem(Blocks.CRIMSON_PLANKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_PLANKS_EIGHTH = MCBlockRegister("warped_planks_eighth", new BlockItem(Blocks.WARPED_PLANKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         BEDROCK_EIGHTH = MCBlockRegister("bedrock_eighth", new BlockItem(Blocks.BEDROCK_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5889,6 +6156,9 @@ public class Items
         JUNGLE_LOG_EIGHTH = MCBlockRegister("jungle_log_eighth", new BlockItem(Blocks.JUNGLE_LOG_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_LOG_EIGHTH = MCBlockRegister("acacia_log_eighth", new BlockItem(Blocks.ACACIA_LOG_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_LOG_EIGHTH = MCBlockRegister("dark_oak_log_eighth", new BlockItem(Blocks.DARK_OAK_LOG_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_LOG_EIGHTH = MCBlockRegister("mangrove_log_eighth", new BlockItem(Blocks.MANGROVE_LOG_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_ROOTS_EIGHTH = MCBlockRegister("mangrove_roots_eighth", new BlockItem(Blocks.MANGROVE_ROOTS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUDDY_MANGROVE_ROOTS_EIGHTH = MCBlockRegister("muddy_mangrove_roots_eighth", new BlockItem(Blocks.MUDDY_MANGROVE_ROOTS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_STEM_EIGHTH = MCBlockRegister("crimson_stem_eighth", new BlockItem(Blocks.CRIMSON_STEM_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_STEM_EIGHTH = MCBlockRegister("warped_stem_eighth", new BlockItem(Blocks.WARPED_STEM_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_LOG_EIGHTH = MCBlockRegister("stripped_oak_log_eighth", new BlockItem(Blocks.STRIPPED_OAK_LOG_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5897,6 +6167,7 @@ public class Items
         STRIPPED_JUNGLE_LOG_EIGHTH = MCBlockRegister("stripped_jungle_log_eighth", new BlockItem(Blocks.STRIPPED_JUNGLE_LOG_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_LOG_EIGHTH = MCBlockRegister("stripped_acacia_log_eighth", new BlockItem(Blocks.STRIPPED_ACACIA_LOG_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_LOG_EIGHTH = MCBlockRegister("stripped_dark_oak_log_eighth", new BlockItem(Blocks.STRIPPED_DARK_OAK_LOG_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_LOG_EIGHTH = MCBlockRegister("stripped_mangrove_log_eighth", new BlockItem(Blocks.STRIPPED_MANGROVE_LOG_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_STEM_EIGHTH = MCBlockRegister("stripped_crimson_stem_eighth", new BlockItem(Blocks.STRIPPED_CRIMSON_STEM_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_STEM_EIGHTH = MCBlockRegister("stripped_warped_stem_eighth", new BlockItem(Blocks.STRIPPED_WARPED_STEM_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_OAK_WOOD_EIGHTH = MCBlockRegister("stripped_oak_wood_eighth", new BlockItem(Blocks.STRIPPED_OAK_WOOD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5905,6 +6176,7 @@ public class Items
         STRIPPED_JUNGLE_WOOD_EIGHTH = MCBlockRegister("stripped_jungle_wood_eighth", new BlockItem(Blocks.STRIPPED_JUNGLE_WOOD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_ACACIA_WOOD_EIGHTH = MCBlockRegister("stripped_acacia_wood_eighth", new BlockItem(Blocks.STRIPPED_ACACIA_WOOD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_DARK_OAK_WOOD_EIGHTH = MCBlockRegister("stripped_dark_oak_wood_eighth", new BlockItem(Blocks.STRIPPED_DARK_OAK_WOOD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        STRIPPED_MANGROVE_WOOD_EIGHTH = MCBlockRegister("stripped_mangrove_wood_eighth", new BlockItem(Blocks.STRIPPED_MANGROVE_WOOD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_CRIMSON_HYPHAE_EIGHTH = MCBlockRegister("stripped_crimson_hyphae_eighth", new BlockItem(Blocks.STRIPPED_CRIMSON_HYPHAE_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         STRIPPED_WARPED_HYPHAE_EIGHTH = MCBlockRegister("stripped_warped_hyphae_eighth", new BlockItem(Blocks.STRIPPED_WARPED_HYPHAE_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         OAK_WOOD_EIGHTH = MCBlockRegister("oak_wood_eighth", new BlockItem(Blocks.OAK_WOOD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5913,6 +6185,7 @@ public class Items
         JUNGLE_WOOD_EIGHTH = MCBlockRegister("jungle_wood_eighth", new BlockItem(Blocks.JUNGLE_WOOD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         ACACIA_WOOD_EIGHTH = MCBlockRegister("acacia_wood_eighth", new BlockItem(Blocks.ACACIA_WOOD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DARK_OAK_WOOD_EIGHTH = MCBlockRegister("dark_oak_wood_eighth", new BlockItem(Blocks.DARK_OAK_WOOD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MANGROVE_WOOD_EIGHTH = MCBlockRegister("mangrove_wood_eighth", new BlockItem(Blocks.MANGROVE_WOOD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRIMSON_HYPHAE_EIGHTH = MCBlockRegister("crimson_hyphae_eighth", new BlockItem(Blocks.CRIMSON_HYPHAE_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         WARPED_HYPHAE_EIGHTH = MCBlockRegister("warped_hyphae_eighth", new BlockItem(Blocks.WARPED_HYPHAE_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         GLASS_EIGHTH = MCBlockRegister("glass_eighth", new BlockItem(Blocks.GLASS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -5960,6 +6233,8 @@ public class Items
         MOSSY_STONE_BRICKS_EIGHTH = MCBlockRegister("mossy_stone_bricks_eighth", new BlockItem(Blocks.MOSSY_STONE_BRICKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_STONE_BRICKS_EIGHTH = MCBlockRegister("cracked_stone_bricks_eighth", new BlockItem(Blocks.CRACKED_STONE_BRICKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CHISELED_STONE_BRICKS_EIGHTH = MCBlockRegister("chiseled_stone_bricks_eighth", new BlockItem(Blocks.CHISELED_STONE_BRICKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        PACKED_MUD_EIGHTH = MCBlockRegister("packed_mud_eighth", new BlockItem(Blocks.PACKED_MUD_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
+        MUD_BRICKS_EIGHTH = MCBlockRegister("mud_bricks_eighth", new BlockItem(Blocks.MUD_BRICKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DEEPSLATE_BRICKS_EIGHTH = MCBlockRegister("deepslate_bricks_eighth", new BlockItem(Blocks.DEEPSLATE_BRICKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         CRACKED_DEEPSLATE_BRICKS_EIGHTH = MCBlockRegister("cracked_deepslate_bricks_eighth", new BlockItem(Blocks.CRACKED_DEEPSLATE_BRICKS_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
         DEEPSLATE_TILES_EIGHTH = MCBlockRegister("deepslate_tiles_eighth", new BlockItem(Blocks.DEEPSLATE_TILES_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.BUILDING_BLOCKS)));
@@ -6061,14 +6336,19 @@ public class Items
         JUNGLE_LEAVES_EIGHTH = MCBlockRegister("jungle_leaves_eighth", new BlockItem(Blocks.JUNGLE_LEAVES_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         ACACIA_LEAVES_EIGHTH = MCBlockRegister("acacia_leaves_eighth", new BlockItem(Blocks.ACACIA_LEAVES_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         DARK_OAK_LEAVES_EIGHTH = MCBlockRegister("dark_oak_leaves_eighth", new BlockItem(Blocks.DARK_OAK_LEAVES_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        MANGROVE_LEAVES_EIGHTH = MCBlockRegister("mangrove_leaves_eighth", new BlockItem(Blocks.MANGROVE_LEAVES_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         AZALEA_LEAVES_EIGHTH = MCBlockRegister("azalea_leaves_eighth", new BlockItem(Blocks.AZALEA_LEAVES_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         FLOWERING_AZALEA_LEAVES_EIGHTH = MCBlockRegister("flowering_azalea_leaves_eighth", new BlockItem(Blocks.FLOWERING_AZALEA_LEAVES_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MOSS_BLOCK_EIGHTH = MCBlockRegister("moss_block_eighth", new BlockItem(Blocks.MOSS_BLOCK_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         BROWN_MUSHROOM_BLOCK_EIGHTH = MCBlockRegister("brown_mushroom_block_eighth", new BlockItem(Blocks.BROWN_MUSHROOM_BLOCK_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         RED_MUSHROOM_BLOCK_EIGHTH = MCBlockRegister("red_mushroom_block_eighth", new BlockItem(Blocks.RED_MUSHROOM_BLOCK_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         MUSHROOM_STEM_EIGHTH = MCBlockRegister("mushroom_stem_eighth", new BlockItem(Blocks.MUSHROOM_STEM_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        SCULK_EIGHTH = MCBlockRegister("sculk_eighth", new BlockItem(Blocks.SCULK_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         SHROOMLIGHT_EIGHTH = MCBlockRegister("shroomlight_eighth", new BlockItem(Blocks.SHROOMLIGHT_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
         HONEYCOMB_BLOCK_EIGHTH = MCBlockRegister("honeycomb_block_eighth", new BlockItem(Blocks.HONEYCOMB_BLOCK_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        OCHRE_FROGLIGHT_EIGHTH = MCBlockRegister("ochre_froglight_eighth", new BlockItem(Blocks.OCHRE_FROGLIGHT_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        VERDANT_FROGLIGHT_EIGHTH = MCBlockRegister("verdant_froglight_eighth", new BlockItem(Blocks.VERDANT_FROGLIGHT_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
+        PEARLESCENT_FROGLIGHT_EIGHTH = MCBlockRegister("pearlescent_froglight_eighth", new BlockItem(Blocks.PEARLESCENT_FROGLIGHT_EIGHTH, new FabricItemSettings().group(net.minecraft.item.ItemGroup.DECORATIONS)));
     }
 
     /**

@@ -1,0 +1,10 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/slab_vertical",
+    "textures":
+    {
+        "bottom": "minecraft:block/sculk",
+        "top": "minecraft:block/sculk",
+        "side": "minecraft:block/sculk"
+    }
+}

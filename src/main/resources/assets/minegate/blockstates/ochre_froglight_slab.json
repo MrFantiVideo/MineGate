@@ -1,0 +1,18 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "variants":
+    {
+        "type=bottom":
+        {
+            "model": "minegate:block/ochre_froglight_slab"
+        },
+        "type=top":
+        {
+            "model": "minegate:block/ochre_froglight_slab_top"
+        },
+        "type=double":
+        {
+            "model": "minecraft:block/ochre_froglight"
+        }
+    }
+}

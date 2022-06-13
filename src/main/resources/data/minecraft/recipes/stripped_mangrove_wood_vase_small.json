@@ -1,0 +1,23 @@
+﻿{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "DD",
+        "VV"
+    ],
+    "key":
+    {
+        "D":
+        {
+            "item": "minecraft:dirt"
+        },
+        "V":
+        {
+            "item": "minecraft:stripped_mangrove_wood"
+        }
+    },
+    "result":
+    {
+        "item": "minegate:stripped_mangrove_wood_vase_small"
+    }
+}

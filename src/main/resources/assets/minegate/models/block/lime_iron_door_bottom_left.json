@@ -1,0 +1,7 @@
+﻿{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "minegate:block/lime_iron_door_bottom",
+    "top": "minegate:block/lime_iron_door_top"
+  }
+}

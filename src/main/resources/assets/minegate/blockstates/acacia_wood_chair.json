@@ -6,17 +6,17 @@
         {
             "model": "minegate:block/acacia_wood_chair"
         },
-        "facing=south":
-        {
-            "model": "minegate:block/acacia_wood_chair", "uvlock": true, "y": 180
-        },
         "facing=east":
         {
-            "model": "minegate:block/acacia_wood_chair_vertical", "y": 180
+            "model": "minegate:block/acacia_wood_chair", "y": 90
+        },
+        "facing=south":
+        {
+            "model": "minegate:block/acacia_wood_chair", "y": 180
         },
         "facing=west":
         {
-            "model": "minegate:block/acacia_wood_chair_vertical", "uvlock": true
+            "model": "minegate:block/acacia_wood_chair", "y": 270
         }
     }
 }

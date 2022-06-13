@@ -1,0 +1,8 @@
+﻿{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:packed_mud"
+  },
+  "result": "minegate:packed_mud_stairs_vertical",
+  "count": 1
+}

@@ -23,6 +23,7 @@ public class Blocks
     public static Block TUFF_STAIRS;
     public static Block DRIPSTONE_BLOCK_STAIRS;
     public static Block ROOTED_DIRT_STAIRS;
+    public static Block MUD_STAIRS;
     public static Block BEDROCK_STAIRS;
     public static Block ANCIENT_DEBRIS_STAIRS;
     public static Block COAL_BLOCK_STAIRS;
@@ -49,6 +50,9 @@ public class Blocks
     public static Block JUNGLE_LOG_STAIRS;
     public static Block ACACIA_LOG_STAIRS;
     public static Block DARK_OAK_LOG_STAIRS;
+    public static Block MANGROVE_LOG_STAIRS;
+    public static Block MANGROVE_ROOTS_STAIRS;
+    public static Block MUDDY_MANGROVE_ROOTS_STAIRS;
     public static Block CRIMSON_STEM_STAIRS;
     public static Block WARPED_STEM_STAIRS;
     public static Block STRIPPED_OAK_LOG_STAIRS;
@@ -57,6 +61,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_LOG_STAIRS;
     public static Block STRIPPED_ACACIA_LOG_STAIRS;
     public static Block STRIPPED_DARK_OAK_LOG_STAIRS;
+    public static Block STRIPPED_MANGROVE_LOG_STAIRS;
     public static Block STRIPPED_CRIMSON_STEM_STAIRS;
     public static Block STRIPPED_WARPED_STEM_STAIRS;
     public static Block STRIPPED_OAK_WOOD_STAIRS;
@@ -65,6 +70,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_WOOD_STAIRS;
     public static Block STRIPPED_ACACIA_WOOD_STAIRS;
     public static Block STRIPPED_DARK_OAK_WOOD_STAIRS;
+    public static Block STRIPPED_MANGROVE_WOOD_STAIRS;
     public static Block STRIPPED_CRIMSON_HYPHAE_STAIRS;
     public static Block STRIPPED_WARPED_HYPHAE_STAIRS;
     public static Block OAK_WOOD_STAIRS;
@@ -73,6 +79,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_STAIRS;
     public static Block ACACIA_WOOD_STAIRS;
     public static Block DARK_OAK_WOOD_STAIRS;
+    public static Block MANGROVE_WOOD_STAIRS;
     public static Block CRIMSON_HYPHAE_STAIRS;
     public static Block WARPED_HYPHAE_STAIRS;
     public static Block GLASS_STAIRS;
@@ -111,6 +118,7 @@ public class Blocks
     public static Block GLOWSTONE_STAIRS;
     public static Block CRACKED_STONE_BRICKS_STAIRS;
     public static Block CHISELED_STONE_BRICKS_STAIRS;
+    public static Block PACKED_MUD_STAIRS;
     public static Block CRACKED_DEEPSLATE_BRICKS_STAIRS;
     public static Block CRACKED_DEEPSLATE_TILES_STAIRS;
     public static Block CHISELED_DEEPSLATE_STAIRS;
@@ -199,14 +207,19 @@ public class Blocks
     public static Block JUNGLE_LEAVES_STAIRS;
     public static Block ACACIA_LEAVES_STAIRS;
     public static Block DARK_OAK_LEAVES_STAIRS;
+    public static Block MANGROVE_LEAVES_STAIRS;
     public static Block AZALEA_LEAVES_STAIRS;
     public static Block FLOWERING_AZALEA_LEAVES_STAIRS;
     public static Block MOSS_BLOCK_STAIRS;
     public static Block BROWN_MUSHROOM_BLOCK_STAIRS;
     public static Block RED_MUSHROOM_BLOCK_STAIRS;
     public static Block MUSHROOM_STEM_STAIRS;
+    public static Block SCULK_STAIRS;
     public static Block SHROOMLIGHT_STAIRS;
     public static Block HONEYCOMB_BLOCK_STAIRS;
+    public static Block OCHRE_FROGLIGHT_STAIRS;
+    public static Block VERDANT_FROGLIGHT_STAIRS;
+    public static Block PEARLESCENT_FROGLIGHT_STAIRS;
 
     /**
      * List of new Minecraft variants of vertical stairs blocks.
@@ -226,6 +239,7 @@ public class Blocks
     public static Block TUFF_STAIRS_VERTICAL;
     public static Block DRIPSTONE_BLOCK_STAIRS_VERTICAL;
     public static Block ROOTED_DIRT_STAIRS_VERTICAL;
+    public static Block MUD_STAIRS_VERTICAL;
     public static Block COBBLESTONE_STAIRS_VERTICAL;
     public static Block OAK_PLANKS_STAIRS_VERTICAL;
     public static Block SPRUCE_PLANKS_STAIRS_VERTICAL;
@@ -233,6 +247,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_STAIRS_VERTICAL;
     public static Block ACACIA_PLANKS_STAIRS_VERTICAL;
     public static Block DARK_OAK_PLANKS_STAIRS_VERTICAL;
+    public static Block MANGROVE_PLANKS_STAIRS_VERTICAL;
     public static Block CRIMSON_PLANKS_STAIRS_VERTICAL;
     public static Block WARPED_PLANKS_STAIRS_VERTICAL;
     public static Block BEDROCK_STAIRS_VERTICAL;
@@ -269,6 +284,9 @@ public class Blocks
     public static Block JUNGLE_LOG_STAIRS_VERTICAL;
     public static Block ACACIA_LOG_STAIRS_VERTICAL;
     public static Block DARK_OAK_LOG_STAIRS_VERTICAL;
+    public static Block MANGROVE_LOG_STAIRS_VERTICAL;
+    public static Block MANGROVE_ROOTS_STAIRS_VERTICAL;
+    public static Block MUDDY_MANGROVE_ROOTS_STAIRS_VERTICAL;
     public static Block CRIMSON_STEM_STAIRS_VERTICAL;
     public static Block WARPED_STEM_STAIRS_VERTICAL;
     public static Block STRIPPED_OAK_LOG_STAIRS_VERTICAL;
@@ -277,6 +295,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_LOG_STAIRS_VERTICAL;
     public static Block STRIPPED_ACACIA_LOG_STAIRS_VERTICAL;
     public static Block STRIPPED_DARK_OAK_LOG_STAIRS_VERTICAL;
+    public static Block STRIPPED_MANGROVE_LOG_STAIRS_VERTICAL;
     public static Block STRIPPED_CRIMSON_STEM_STAIRS_VERTICAL;
     public static Block STRIPPED_WARPED_STEM_STAIRS_VERTICAL;
     public static Block STRIPPED_OAK_WOOD_STAIRS_VERTICAL;
@@ -285,6 +304,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_WOOD_STAIRS_VERTICAL;
     public static Block STRIPPED_ACACIA_WOOD_STAIRS_VERTICAL;
     public static Block STRIPPED_DARK_OAK_WOOD_STAIRS_VERTICAL;
+    public static Block STRIPPED_MANGROVE_WOOD_STAIRS_VERTICAL;
     public static Block STRIPPED_CRIMSON_HYPHAE_STAIRS_VERTICAL;
     public static Block STRIPPED_WARPED_HYPHAE_STAIRS_VERTICAL;
     public static Block OAK_WOOD_STAIRS_VERTICAL;
@@ -293,6 +313,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_STAIRS_VERTICAL;
     public static Block ACACIA_WOOD_STAIRS_VERTICAL;
     public static Block DARK_OAK_WOOD_STAIRS_VERTICAL;
+    public static Block MANGROVE_WOOD_STAIRS_VERTICAL;
     public static Block CRIMSON_HYPHAE_STAIRS_VERTICAL;
     public static Block WARPED_HYPHAE_STAIRS_VERTICAL;
     public static Block GLASS_STAIRS_VERTICAL;
@@ -340,6 +361,8 @@ public class Blocks
     public static Block MOSSY_STONE_BRICKS_STAIRS_VERTICAL;
     public static Block CRACKED_STONE_BRICKS_STAIRS_VERTICAL;
     public static Block CHISELED_STONE_BRICKS_STAIRS_VERTICAL;
+    public static Block PACKED_MUD_STAIRS_VERTICAL;
+    public static Block MUD_BRICKS_STAIRS_VERTICAL;
     public static Block DEEPSLATE_BRICKS_STAIRS_VERTICAL;
     public static Block CRACKED_DEEPSLATE_BRICKS_STAIRS_VERTICAL;
     public static Block DEEPSLATE_TILES_STAIRS_VERTICAL;
@@ -441,14 +464,19 @@ public class Blocks
     public static Block JUNGLE_LEAVES_STAIRS_VERTICAL;
     public static Block ACACIA_LEAVES_STAIRS_VERTICAL;
     public static Block DARK_OAK_LEAVES_STAIRS_VERTICAL;
+    public static Block MANGROVE_LEAVES_STAIRS_VERTICAL;
     public static Block AZALEA_LEAVES_STAIRS_VERTICAL;
     public static Block FLOWERING_AZALEA_LEAVES_STAIRS_VERTICAL;
     public static Block MOSS_BLOCK_STAIRS_VERTICAL;
     public static Block BROWN_MUSHROOM_BLOCK_STAIRS_VERTICAL;
     public static Block RED_MUSHROOM_BLOCK_STAIRS_VERTICAL;
     public static Block MUSHROOM_STEM_STAIRS_VERTICAL;
+    public static Block SCULK_STAIRS_VERTICAL;
     public static Block SHROOMLIGHT_STAIRS_VERTICAL;
     public static Block HONEYCOMB_BLOCK_STAIRS_VERTICAL;
+    public static Block OCHRE_FROGLIGHT_STAIRS_VERTICAL;
+    public static Block VERDANT_FROGLIGHT_STAIRS_VERTICAL;
+    public static Block PEARLESCENT_FROGLIGHT_STAIRS_VERTICAL;
 
     /**
      * List of new Minecraft variants of slab blocks.
@@ -463,6 +491,7 @@ public class Blocks
     public static Block COARSE_DIRT_SLAB;
     public static Block PODZOL_SLAB;
     public static Block ROOTED_DIRT_SLAB;
+    public static Block MUD_SLAB;
     public static Block CRIMSON_NYLIUM_SLAB;
     public static Block WARPED_NYLIUM_SLAB;
     public static Block BEDROCK_SLAB;
@@ -494,6 +523,9 @@ public class Blocks
     public static Block JUNGLE_LOG_SLAB;
     public static Block ACACIA_LOG_SLAB;
     public static Block DARK_OAK_LOG_SLAB;
+    public static Block MANGROVE_LOG_SLAB;
+    public static Block MANGROVE_ROOTS_SLAB;
+    public static Block MUDDY_MANGROVE_ROOTS_SLAB;
     public static Block CRIMSON_STEM_SLAB;
     public static Block WARPED_STEM_SLAB;
     public static Block STRIPPED_OAK_LOG_SLAB;
@@ -502,6 +534,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_LOG_SLAB;
     public static Block STRIPPED_ACACIA_LOG_SLAB;
     public static Block STRIPPED_DARK_OAK_LOG_SLAB;
+    public static Block STRIPPED_MANGROVE_LOG_SLAB;
     public static Block STRIPPED_CRIMSON_STEM_SLAB;
     public static Block STRIPPED_WARPED_STEM_SLAB;
     public static Block STRIPPED_OAK_WOOD_SLAB;
@@ -510,6 +543,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_WOOD_SLAB;
     public static Block STRIPPED_ACACIA_WOOD_SLAB;
     public static Block STRIPPED_DARK_OAK_WOOD_SLAB;
+    public static Block STRIPPED_MANGROVE_WOOD_SLAB;
     public static Block STRIPPED_CRIMSON_HYPHAE_SLAB;
     public static Block STRIPPED_WARPED_HYPHAE_SLAB;
     public static Block OAK_WOOD_SLAB;
@@ -518,6 +552,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_SLAB;
     public static Block ACACIA_WOOD_SLAB;
     public static Block DARK_OAK_WOOD_SLAB;
+    public static Block MANGROVE_WOOD_SLAB;
     public static Block CRIMSON_HYPHAE_SLAB;
     public static Block WARPED_HYPHAE_SLAB;
     public static Block GLASS_SLAB;
@@ -554,6 +589,7 @@ public class Blocks
     public static Block GLOWSTONE_SLAB;
     public static Block CRACKED_STONE_BRICKS_SLAB;
     public static Block CHISELED_STONE_BRICKS_SLAB;
+    public static Block PACKED_MUD_SLAB;
     public static Block CRACKED_DEEPSLATE_BRICKS_SLAB;
     public static Block CRACKED_DEEPSLATE_TILES_SLAB;
     public static Block CHISELED_DEEPSLATE_SLAB;
@@ -642,16 +678,21 @@ public class Blocks
     public static Block JUNGLE_LEAVES_SLAB;
     public static Block ACACIA_LEAVES_SLAB;
     public static Block DARK_OAK_LEAVES_SLAB;
+    public static Block MANGROVE_LEAVES_SLAB;
     public static Block AZALEA_LEAVES_SLAB;
     public static Block FLOWERING_AZALEA_LEAVES_SLAB;
     public static Block MOSS_BLOCK_SLAB;
     public static Block BROWN_MUSHROOM_BLOCK_SLAB;
     public static Block RED_MUSHROOM_BLOCK_SLAB;
     public static Block MUSHROOM_STEM_SLAB;
+    public static Block SCULK_SLAB;
     public static Block FARMLAND_SLAB;
     public static Block DIRT_PATH_SLAB;
     public static Block SHROOMLIGHT_SLAB;
     public static Block HONEYCOMB_BLOCK_SLAB;
+    public static Block OCHRE_FROGLIGHT_SLAB;
+    public static Block VERDANT_FROGLIGHT_SLAB;
+    public static Block PEARLESCENT_FROGLIGHT_SLAB;
 
     /**
      * List of new Minecraft variants of vertical slab blocks.
@@ -671,6 +712,7 @@ public class Blocks
     public static Block TUFF_SLAB_VERTICAL;
     public static Block DRIPSTONE_BLOCK_SLAB_VERTICAL;
     public static Block ROOTED_DIRT_SLAB_VERTICAL;
+    public static Block MUD_SLAB_VERTICAL;
     public static Block COBBLESTONE_SLAB_VERTICAL;
     public static Block OAK_PLANKS_SLAB_VERTICAL;
     public static Block SPRUCE_PLANKS_SLAB_VERTICAL;
@@ -678,6 +720,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_SLAB_VERTICAL;
     public static Block ACACIA_PLANKS_SLAB_VERTICAL;
     public static Block DARK_OAK_PLANKS_SLAB_VERTICAL;
+    public static Block MANGROVE_PLANKS_SLAB_VERTICAL;
     public static Block CRIMSON_PLANKS_SLAB_VERTICAL;
     public static Block WARPED_PLANKS_SLAB_VERTICAL;
     public static Block BEDROCK_SLAB_VERTICAL;
@@ -714,6 +757,9 @@ public class Blocks
     public static Block JUNGLE_LOG_SLAB_VERTICAL;
     public static Block ACACIA_LOG_SLAB_VERTICAL;
     public static Block DARK_OAK_LOG_SLAB_VERTICAL;
+    public static Block MANGROVE_LOG_SLAB_VERTICAL;
+    public static Block MANGROVE_ROOTS_SLAB_VERTICAL;
+    public static Block MUDDY_MANGROVE_ROOTS_SLAB_VERTICAL;
     public static Block CRIMSON_STEM_SLAB_VERTICAL;
     public static Block WARPED_STEM_SLAB_VERTICAL;
     public static Block STRIPPED_OAK_LOG_SLAB_VERTICAL;
@@ -722,6 +768,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_LOG_SLAB_VERTICAL;
     public static Block STRIPPED_ACACIA_LOG_SLAB_VERTICAL;
     public static Block STRIPPED_DARK_OAK_LOG_SLAB_VERTICAL;
+    public static Block STRIPPED_MANGROVE_LOG_SLAB_VERTICAL;
     public static Block STRIPPED_CRIMSON_STEM_SLAB_VERTICAL;
     public static Block STRIPPED_WARPED_STEM_SLAB_VERTICAL;
     public static Block STRIPPED_OAK_WOOD_SLAB_VERTICAL;
@@ -730,6 +777,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_WOOD_SLAB_VERTICAL;
     public static Block STRIPPED_ACACIA_WOOD_SLAB_VERTICAL;
     public static Block STRIPPED_DARK_OAK_WOOD_SLAB_VERTICAL;
+    public static Block STRIPPED_MANGROVE_WOOD_SLAB_VERTICAL;
     public static Block STRIPPED_CRIMSON_HYPHAE_SLAB_VERTICAL;
     public static Block STRIPPED_WARPED_HYPHAE_SLAB_VERTICAL;
     public static Block OAK_WOOD_SLAB_VERTICAL;
@@ -738,6 +786,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_SLAB_VERTICAL;
     public static Block ACACIA_WOOD_SLAB_VERTICAL;
     public static Block DARK_OAK_WOOD_SLAB_VERTICAL;
+    public static Block MANGROVE_WOOD_SLAB_VERTICAL;
     public static Block CRIMSON_HYPHAE_SLAB_VERTICAL;
     public static Block WARPED_HYPHAE_SLAB_VERTICAL;
     public static Block GLASS_SLAB_VERTICAL;
@@ -785,6 +834,8 @@ public class Blocks
     public static Block MOSSY_STONE_BRICKS_SLAB_VERTICAL;
     public static Block CRACKED_STONE_BRICKS_SLAB_VERTICAL;
     public static Block CHISELED_STONE_BRICKS_SLAB_VERTICAL;
+    public static Block PACKED_MUD_SLAB_VERTICAL;
+    public static Block MUD_BRICKS_SLAB_VERTICAL;
     public static Block DEEPSLATE_BRICKS_SLAB_VERTICAL;
     public static Block CRACKED_DEEPSLATE_BRICKS_SLAB_VERTICAL;
     public static Block DEEPSLATE_TILES_SLAB_VERTICAL;
@@ -886,14 +937,19 @@ public class Blocks
     public static Block JUNGLE_LEAVES_SLAB_VERTICAL;
     public static Block ACACIA_LEAVES_SLAB_VERTICAL;
     public static Block DARK_OAK_LEAVES_SLAB_VERTICAL;
+    public static Block MANGROVE_LEAVES_SLAB_VERTICAL;
     public static Block AZALEA_LEAVES_SLAB_VERTICAL;
     public static Block FLOWERING_AZALEA_LEAVES_SLAB_VERTICAL;
     public static Block MOSS_BLOCK_SLAB_VERTICAL;
     public static Block BROWN_MUSHROOM_BLOCK_SLAB_VERTICAL;
     public static Block RED_MUSHROOM_BLOCK_SLAB_VERTICAL;
     public static Block MUSHROOM_STEM_SLAB_VERTICAL;
+    public static Block SCULK_SLAB_VERTICAL;
     public static Block SHROOMLIGHT_SLAB_VERTICAL;
     public static Block HONEYCOMB_BLOCK_SLAB_VERTICAL;
+    public static Block OCHRE_FROGLIGHT_SLAB_VERTICAL;
+    public static Block VERDANT_FROGLIGHT_SLAB_VERTICAL;
+    public static Block PEARLESCENT_FROGLIGHT_SLAB_VERTICAL;
 
     /**
      * List of new Minecraft variants of quarter blocks.
@@ -913,6 +969,7 @@ public class Blocks
     public static Block TUFF_QUARTER;
     public static Block DRIPSTONE_BLOCK_QUARTER;
     public static Block ROOTED_DIRT_QUARTER;
+    public static Block MUD_QUARTER;
     public static Block COBBLESTONE_QUARTER;
     public static Block OAK_PLANKS_QUARTER;
     public static Block SPRUCE_PLANKS_QUARTER;
@@ -920,6 +977,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_QUARTER;
     public static Block ACACIA_PLANKS_QUARTER;
     public static Block DARK_OAK_PLANKS_QUARTER;
+    public static Block MANGROVE_PLANKS_QUARTER;
     public static Block CRIMSON_PLANKS_QUARTER;
     public static Block WARPED_PLANKS_QUARTER;
     public static Block BEDROCK_QUARTER;
@@ -956,6 +1014,9 @@ public class Blocks
     public static Block JUNGLE_LOG_QUARTER;
     public static Block ACACIA_LOG_QUARTER;
     public static Block DARK_OAK_LOG_QUARTER;
+    public static Block MANGROVE_LOG_QUARTER;
+    public static Block MANGROVE_ROOTS_QUARTER;
+    public static Block MUDDY_MANGROVE_ROOTS_QUARTER;
     public static Block CRIMSON_STEM_QUARTER;
     public static Block WARPED_STEM_QUARTER;
     public static Block STRIPPED_OAK_LOG_QUARTER;
@@ -964,6 +1025,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_LOG_QUARTER;
     public static Block STRIPPED_ACACIA_LOG_QUARTER;
     public static Block STRIPPED_DARK_OAK_LOG_QUARTER;
+    public static Block STRIPPED_MANGROVE_LOG_QUARTER;
     public static Block STRIPPED_CRIMSON_STEM_QUARTER;
     public static Block STRIPPED_WARPED_STEM_QUARTER;
     public static Block STRIPPED_OAK_WOOD_QUARTER;
@@ -972,6 +1034,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_WOOD_QUARTER;
     public static Block STRIPPED_ACACIA_WOOD_QUARTER;
     public static Block STRIPPED_DARK_OAK_WOOD_QUARTER;
+    public static Block STRIPPED_MANGROVE_WOOD_QUARTER;
     public static Block STRIPPED_CRIMSON_HYPHAE_QUARTER;
     public static Block STRIPPED_WARPED_HYPHAE_QUARTER;
     public static Block OAK_WOOD_QUARTER;
@@ -980,6 +1043,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_QUARTER;
     public static Block ACACIA_WOOD_QUARTER;
     public static Block DARK_OAK_WOOD_QUARTER;
+    public static Block MANGROVE_WOOD_QUARTER;
     public static Block CRIMSON_HYPHAE_QUARTER;
     public static Block WARPED_HYPHAE_QUARTER;
     public static Block GLASS_QUARTER;
@@ -1027,6 +1091,8 @@ public class Blocks
     public static Block MOSSY_STONE_BRICKS_QUARTER;
     public static Block CRACKED_STONE_BRICKS_QUARTER;
     public static Block CHISELED_STONE_BRICKS_QUARTER;
+    public static Block PACKED_MUD_QUARTER;
+    public static Block MUD_BRICKS_QUARTER;
     public static Block DEEPSLATE_BRICKS_QUARTER;
     public static Block CRACKED_DEEPSLATE_BRICKS_QUARTER;
     public static Block DEEPSLATE_TILES_QUARTER;
@@ -1128,14 +1194,19 @@ public class Blocks
     public static Block JUNGLE_LEAVES_QUARTER;
     public static Block ACACIA_LEAVES_QUARTER;
     public static Block DARK_OAK_LEAVES_QUARTER;
+    public static Block MANGROVE_LEAVES_QUARTER;
     public static Block AZALEA_LEAVES_QUARTER;
     public static Block FLOWERING_AZALEA_LEAVES_QUARTER;
     public static Block MOSS_BLOCK_QUARTER;
     public static Block BROWN_MUSHROOM_BLOCK_QUARTER;
     public static Block RED_MUSHROOM_BLOCK_QUARTER;
     public static Block MUSHROOM_STEM_QUARTER;
+    public static Block SCULK_QUARTER;
     public static Block SHROOMLIGHT_QUARTER;
     public static Block HONEYCOMB_BLOCK_QUARTER;
+    public static Block OCHRE_FROGLIGHT_QUARTER;
+    public static Block VERDANT_FROGLIGHT_QUARTER;
+    public static Block PEARLESCENT_FROGLIGHT_QUARTER;
 
     /**
      * List of new Minecraft variants of vertical quarter blocks.
@@ -1155,6 +1226,7 @@ public class Blocks
     public static Block TUFF_QUARTER_VERTICAL;
     public static Block DRIPSTONE_BLOCK_QUARTER_VERTICAL;
     public static Block ROOTED_DIRT_QUARTER_VERTICAL;
+    public static Block MUD_QUARTER_VERTICAL;
     public static Block COBBLESTONE_QUARTER_VERTICAL;
     public static Block OAK_PLANKS_QUARTER_VERTICAL;
     public static Block SPRUCE_PLANKS_QUARTER_VERTICAL;
@@ -1162,6 +1234,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_QUARTER_VERTICAL;
     public static Block ACACIA_PLANKS_QUARTER_VERTICAL;
     public static Block DARK_OAK_PLANKS_QUARTER_VERTICAL;
+    public static Block MANGROVE_PLANKS_QUARTER_VERTICAL;
     public static Block CRIMSON_PLANKS_QUARTER_VERTICAL;
     public static Block WARPED_PLANKS_QUARTER_VERTICAL;
     public static Block BEDROCK_QUARTER_VERTICAL;
@@ -1198,6 +1271,9 @@ public class Blocks
     public static Block JUNGLE_LOG_QUARTER_VERTICAL;
     public static Block ACACIA_LOG_QUARTER_VERTICAL;
     public static Block DARK_OAK_LOG_QUARTER_VERTICAL;
+    public static Block MANGROVE_LOG_QUARTER_VERTICAL;
+    public static Block MANGROVE_ROOTS_QUARTER_VERTICAL;
+    public static Block MUDDY_MANGROVE_ROOTS_QUARTER_VERTICAL;
     public static Block CRIMSON_STEM_QUARTER_VERTICAL;
     public static Block WARPED_STEM_QUARTER_VERTICAL;
     public static Block STRIPPED_OAK_LOG_QUARTER_VERTICAL;
@@ -1206,6 +1282,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_LOG_QUARTER_VERTICAL;
     public static Block STRIPPED_ACACIA_LOG_QUARTER_VERTICAL;
     public static Block STRIPPED_DARK_OAK_LOG_QUARTER_VERTICAL;
+    public static Block STRIPPED_MANGROVE_LOG_QUARTER_VERTICAL;
     public static Block STRIPPED_CRIMSON_STEM_QUARTER_VERTICAL;
     public static Block STRIPPED_WARPED_STEM_QUARTER_VERTICAL;
     public static Block STRIPPED_OAK_WOOD_QUARTER_VERTICAL;
@@ -1214,6 +1291,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_WOOD_QUARTER_VERTICAL;
     public static Block STRIPPED_ACACIA_WOOD_QUARTER_VERTICAL;
     public static Block STRIPPED_DARK_OAK_WOOD_QUARTER_VERTICAL;
+    public static Block STRIPPED_MANGROVE_WOOD_QUARTER_VERTICAL;
     public static Block STRIPPED_CRIMSON_HYPHAE_QUARTER_VERTICAL;
     public static Block STRIPPED_WARPED_HYPHAE_QUARTER_VERTICAL;
     public static Block OAK_WOOD_QUARTER_VERTICAL;
@@ -1222,6 +1300,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_QUARTER_VERTICAL;
     public static Block ACACIA_WOOD_QUARTER_VERTICAL;
     public static Block DARK_OAK_WOOD_QUARTER_VERTICAL;
+    public static Block MANGROVE_WOOD_QUARTER_VERTICAL;
     public static Block CRIMSON_HYPHAE_QUARTER_VERTICAL;
     public static Block WARPED_HYPHAE_QUARTER_VERTICAL;
     public static Block GLASS_QUARTER_VERTICAL;
@@ -1269,6 +1348,8 @@ public class Blocks
     public static Block MOSSY_STONE_BRICKS_QUARTER_VERTICAL;
     public static Block CRACKED_STONE_BRICKS_QUARTER_VERTICAL;
     public static Block CHISELED_STONE_BRICKS_QUARTER_VERTICAL;
+    public static Block PACKED_MUD_QUARTER_VERTICAL;
+    public static Block MUD_BRICKS_QUARTER_VERTICAL;
     public static Block DEEPSLATE_BRICKS_QUARTER_VERTICAL;
     public static Block CRACKED_DEEPSLATE_BRICKS_QUARTER_VERTICAL;
     public static Block DEEPSLATE_TILES_QUARTER_VERTICAL;
@@ -1370,14 +1451,19 @@ public class Blocks
     public static Block JUNGLE_LEAVES_QUARTER_VERTICAL;
     public static Block ACACIA_LEAVES_QUARTER_VERTICAL;
     public static Block DARK_OAK_LEAVES_QUARTER_VERTICAL;
+    public static Block MANGROVE_LEAVES_QUARTER_VERTICAL;
     public static Block AZALEA_LEAVES_QUARTER_VERTICAL;
     public static Block FLOWERING_AZALEA_LEAVES_QUARTER_VERTICAL;
     public static Block MOSS_BLOCK_QUARTER_VERTICAL;
     public static Block BROWN_MUSHROOM_BLOCK_QUARTER_VERTICAL;
     public static Block RED_MUSHROOM_BLOCK_QUARTER_VERTICAL;
     public static Block MUSHROOM_STEM_QUARTER_VERTICAL;
+    public static Block SCULK_QUARTER_VERTICAL;
     public static Block SHROOMLIGHT_QUARTER_VERTICAL;
     public static Block HONEYCOMB_BLOCK_QUARTER_VERTICAL;
+    public static Block OCHRE_FROGLIGHT_QUARTER_VERTICAL;
+    public static Block VERDANT_FROGLIGHT_QUARTER_VERTICAL;
+    public static Block PEARLESCENT_FROGLIGHT_QUARTER_VERTICAL;
 
     /**
      * List of new Minecraft variants of eighth blocks.
@@ -1397,6 +1483,7 @@ public class Blocks
     public static Block TUFF_EIGHTH;
     public static Block DRIPSTONE_BLOCK_EIGHTH;
     public static Block ROOTED_DIRT_EIGHTH;
+    public static Block MUD_EIGHTH;
     public static Block COBBLESTONE_EIGHTH;
     public static Block OAK_PLANKS_EIGHTH;
     public static Block SPRUCE_PLANKS_EIGHTH;
@@ -1404,6 +1491,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_EIGHTH;
     public static Block ACACIA_PLANKS_EIGHTH;
     public static Block DARK_OAK_PLANKS_EIGHTH;
+    public static Block MANGROVE_PLANKS_EIGHTH;
     public static Block CRIMSON_PLANKS_EIGHTH;
     public static Block WARPED_PLANKS_EIGHTH;
     public static Block BEDROCK_EIGHTH;
@@ -1440,6 +1528,9 @@ public class Blocks
     public static Block JUNGLE_LOG_EIGHTH;
     public static Block ACACIA_LOG_EIGHTH;
     public static Block DARK_OAK_LOG_EIGHTH;
+    public static Block MANGROVE_LOG_EIGHTH;
+    public static Block MANGROVE_ROOTS_EIGHTH;
+    public static Block MUDDY_MANGROVE_ROOTS_EIGHTH;
     public static Block CRIMSON_STEM_EIGHTH;
     public static Block WARPED_STEM_EIGHTH;
     public static Block STRIPPED_OAK_LOG_EIGHTH;
@@ -1448,6 +1539,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_LOG_EIGHTH;
     public static Block STRIPPED_ACACIA_LOG_EIGHTH;
     public static Block STRIPPED_DARK_OAK_LOG_EIGHTH;
+    public static Block STRIPPED_MANGROVE_LOG_EIGHTH;
     public static Block STRIPPED_CRIMSON_STEM_EIGHTH;
     public static Block STRIPPED_WARPED_STEM_EIGHTH;
     public static Block STRIPPED_OAK_WOOD_EIGHTH;
@@ -1456,6 +1548,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_WOOD_EIGHTH;
     public static Block STRIPPED_ACACIA_WOOD_EIGHTH;
     public static Block STRIPPED_DARK_OAK_WOOD_EIGHTH;
+    public static Block STRIPPED_MANGROVE_WOOD_EIGHTH;
     public static Block STRIPPED_CRIMSON_HYPHAE_EIGHTH;
     public static Block STRIPPED_WARPED_HYPHAE_EIGHTH;
     public static Block OAK_WOOD_EIGHTH;
@@ -1464,6 +1557,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_EIGHTH;
     public static Block ACACIA_WOOD_EIGHTH;
     public static Block DARK_OAK_WOOD_EIGHTH;
+    public static Block MANGROVE_WOOD_EIGHTH;
     public static Block CRIMSON_HYPHAE_EIGHTH;
     public static Block WARPED_HYPHAE_EIGHTH;
     public static Block GLASS_EIGHTH;
@@ -1511,6 +1605,8 @@ public class Blocks
     public static Block MOSSY_STONE_BRICKS_EIGHTH;
     public static Block CRACKED_STONE_BRICKS_EIGHTH;
     public static Block CHISELED_STONE_BRICKS_EIGHTH;
+    public static Block PACKED_MUD_EIGHTH;
+    public static Block MUD_BRICKS_EIGHTH;
     public static Block DEEPSLATE_BRICKS_EIGHTH;
     public static Block CRACKED_DEEPSLATE_BRICKS_EIGHTH;
     public static Block DEEPSLATE_TILES_EIGHTH;
@@ -1612,14 +1708,19 @@ public class Blocks
     public static Block JUNGLE_LEAVES_EIGHTH;
     public static Block ACACIA_LEAVES_EIGHTH;
     public static Block DARK_OAK_LEAVES_EIGHTH;
+    public static Block MANGROVE_LEAVES_EIGHTH;
     public static Block AZALEA_LEAVES_EIGHTH;
     public static Block FLOWERING_AZALEA_LEAVES_EIGHTH;
     public static Block MOSS_BLOCK_EIGHTH;
     public static Block BROWN_MUSHROOM_BLOCK_EIGHTH;
     public static Block RED_MUSHROOM_BLOCK_EIGHTH;
     public static Block MUSHROOM_STEM_EIGHTH;
+    public static Block SCULK_EIGHTH;
     public static Block SHROOMLIGHT_EIGHTH;
     public static Block HONEYCOMB_BLOCK_EIGHTH;
+    public static Block OCHRE_FROGLIGHT_EIGHTH;
+    public static Block VERDANT_FROGLIGHT_EIGHTH;
+    public static Block PEARLESCENT_FROGLIGHT_EIGHTH;
 
     /**
      * List of MineGate blocks. (Building Blocks)
@@ -1654,6 +1755,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_SMOOTH;
     public static Block ACACIA_PLANKS_SMOOTH;
     public static Block DARK_OAK_PLANKS_SMOOTH;
+    public static Block MANGROVE_PLANKS_SMOOTH;
     public static Block CRIMSON_PLANKS_SMOOTH;
     public static Block WARPED_PLANKS_SMOOTH;
     public static Block OAK_PLANKS_HERRINGBONE;
@@ -1662,6 +1764,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_HERRINGBONE;
     public static Block ACACIA_PLANKS_HERRINGBONE;
     public static Block DARK_OAK_PLANKS_HERRINGBONE;
+    public static Block MANGROVE_PLANKS_HERRINGBONE;
     public static Block CRIMSON_PLANKS_HERRINGBONE;
     public static Block WARPED_PLANKS_HERRINGBONE;
     public static Block OAK_PLANKS_LARGE;
@@ -1670,6 +1773,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_LARGE;
     public static Block ACACIA_PLANKS_LARGE;
     public static Block DARK_OAK_PLANKS_LARGE;
+    public static Block MANGROVE_PLANKS_LARGE;
     public static Block CRIMSON_PLANKS_LARGE;
     public static Block WARPED_PLANKS_LARGE;
     public static Block WHITE_TERRACOTTA_BRICKS;
@@ -1789,6 +1893,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_SMOOTH_STAIRS;
     public static Block ACACIA_PLANKS_SMOOTH_STAIRS;
     public static Block DARK_OAK_PLANKS_SMOOTH_STAIRS;
+    public static Block MANGROVE_PLANKS_SMOOTH_STAIRS;
     public static Block CRIMSON_PLANKS_SMOOTH_STAIRS;
     public static Block WARPED_PLANKS_SMOOTH_STAIRS;
     public static Block OAK_PLANKS_HERRINGBONE_STAIRS;
@@ -1797,6 +1902,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_HERRINGBONE_STAIRS;
     public static Block ACACIA_PLANKS_HERRINGBONE_STAIRS;
     public static Block DARK_OAK_PLANKS_HERRINGBONE_STAIRS;
+    public static Block MANGROVE_PLANKS_HERRINGBONE_STAIRS;
     public static Block CRIMSON_PLANKS_HERRINGBONE_STAIRS;
     public static Block WARPED_PLANKS_HERRINGBONE_STAIRS;
     public static Block OAK_PLANKS_LARGE_STAIRS;
@@ -1805,6 +1911,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_LARGE_STAIRS;
     public static Block ACACIA_PLANKS_LARGE_STAIRS;
     public static Block DARK_OAK_PLANKS_LARGE_STAIRS;
+    public static Block MANGROVE_PLANKS_LARGE_STAIRS;
     public static Block CRIMSON_PLANKS_LARGE_STAIRS;
     public static Block WARPED_PLANKS_LARGE_STAIRS;
     public static Block WHITE_TERRACOTTA_BRICKS_STAIRS;
@@ -1924,6 +2031,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_SMOOTH_STAIRS_VERTICAL;
     public static Block ACACIA_PLANKS_SMOOTH_STAIRS_VERTICAL;
     public static Block DARK_OAK_PLANKS_SMOOTH_STAIRS_VERTICAL;
+    public static Block MANGROVE_PLANKS_SMOOTH_STAIRS_VERTICAL;
     public static Block CRIMSON_PLANKS_SMOOTH_STAIRS_VERTICAL;
     public static Block WARPED_PLANKS_SMOOTH_STAIRS_VERTICAL;
     public static Block OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
@@ -1932,6 +2040,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
     public static Block ACACIA_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
     public static Block DARK_OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
+    public static Block MANGROVE_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
     public static Block CRIMSON_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
     public static Block WARPED_PLANKS_HERRINGBONE_STAIRS_VERTICAL;
     public static Block OAK_PLANKS_LARGE_STAIRS_VERTICAL;
@@ -1940,6 +2049,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_LARGE_STAIRS_VERTICAL;
     public static Block ACACIA_PLANKS_LARGE_STAIRS_VERTICAL;
     public static Block DARK_OAK_PLANKS_LARGE_STAIRS_VERTICAL;
+    public static Block MANGROVE_PLANKS_LARGE_STAIRS_VERTICAL;
     public static Block CRIMSON_PLANKS_LARGE_STAIRS_VERTICAL;
     public static Block WARPED_PLANKS_LARGE_STAIRS_VERTICAL;
     public static Block WHITE_TERRACOTTA_BRICKS_STAIRS_VERTICAL;
@@ -2059,6 +2169,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_SMOOTH_SLAB;
     public static Block ACACIA_PLANKS_SMOOTH_SLAB;
     public static Block DARK_OAK_PLANKS_SMOOTH_SLAB;
+    public static Block MANGROVE_PLANKS_SMOOTH_SLAB;
     public static Block CRIMSON_PLANKS_SMOOTH_SLAB;
     public static Block WARPED_PLANKS_SMOOTH_SLAB;
     public static Block OAK_PLANKS_HERRINGBONE_SLAB;
@@ -2067,6 +2178,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_HERRINGBONE_SLAB;
     public static Block ACACIA_PLANKS_HERRINGBONE_SLAB;
     public static Block DARK_OAK_PLANKS_HERRINGBONE_SLAB;
+    public static Block MANGROVE_PLANKS_HERRINGBONE_SLAB;
     public static Block CRIMSON_PLANKS_HERRINGBONE_SLAB;
     public static Block WARPED_PLANKS_HERRINGBONE_SLAB;
     public static Block OAK_PLANKS_LARGE_SLAB;
@@ -2075,6 +2187,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_LARGE_SLAB;
     public static Block ACACIA_PLANKS_LARGE_SLAB;
     public static Block DARK_OAK_PLANKS_LARGE_SLAB;
+    public static Block MANGROVE_PLANKS_LARGE_SLAB;
     public static Block CRIMSON_PLANKS_LARGE_SLAB;
     public static Block WARPED_PLANKS_LARGE_SLAB;
     public static Block WHITE_TERRACOTTA_BRICKS_SLAB;
@@ -2194,6 +2307,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_SMOOTH_SLAB_VERTICAL;
     public static Block ACACIA_PLANKS_SMOOTH_SLAB_VERTICAL;
     public static Block DARK_OAK_PLANKS_SMOOTH_SLAB_VERTICAL;
+    public static Block MANGROVE_PLANKS_SMOOTH_SLAB_VERTICAL;
     public static Block CRIMSON_PLANKS_SMOOTH_SLAB_VERTICAL;
     public static Block WARPED_PLANKS_SMOOTH_SLAB_VERTICAL;
     public static Block OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL;
@@ -2202,6 +2316,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_HERRINGBONE_SLAB_VERTICAL;
     public static Block ACACIA_PLANKS_HERRINGBONE_SLAB_VERTICAL;
     public static Block DARK_OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL;
+    public static Block MANGROVE_PLANKS_HERRINGBONE_SLAB_VERTICAL;
     public static Block CRIMSON_PLANKS_HERRINGBONE_SLAB_VERTICAL;
     public static Block WARPED_PLANKS_HERRINGBONE_SLAB_VERTICAL;
     public static Block OAK_PLANKS_LARGE_SLAB_VERTICAL;
@@ -2210,6 +2325,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_LARGE_SLAB_VERTICAL;
     public static Block ACACIA_PLANKS_LARGE_SLAB_VERTICAL;
     public static Block DARK_OAK_PLANKS_LARGE_SLAB_VERTICAL;
+    public static Block MANGROVE_PLANKS_LARGE_SLAB_VERTICAL;
     public static Block CRIMSON_PLANKS_LARGE_SLAB_VERTICAL;
     public static Block WARPED_PLANKS_LARGE_SLAB_VERTICAL;
     public static Block WHITE_TERRACOTTA_BRICKS_SLAB_VERTICAL;
@@ -2329,6 +2445,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_SMOOTH_QUARTER;
     public static Block ACACIA_PLANKS_SMOOTH_QUARTER;
     public static Block DARK_OAK_PLANKS_SMOOTH_QUARTER;
+    public static Block MANGROVE_PLANKS_SMOOTH_QUARTER;
     public static Block CRIMSON_PLANKS_SMOOTH_QUARTER;
     public static Block WARPED_PLANKS_SMOOTH_QUARTER;
     public static Block OAK_PLANKS_HERRINGBONE_QUARTER;
@@ -2337,6 +2454,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_HERRINGBONE_QUARTER;
     public static Block ACACIA_PLANKS_HERRINGBONE_QUARTER;
     public static Block DARK_OAK_PLANKS_HERRINGBONE_QUARTER;
+    public static Block MANGROVE_PLANKS_HERRINGBONE_QUARTER;
     public static Block CRIMSON_PLANKS_HERRINGBONE_QUARTER;
     public static Block WARPED_PLANKS_HERRINGBONE_QUARTER;
     public static Block OAK_PLANKS_LARGE_QUARTER;
@@ -2345,6 +2463,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_LARGE_QUARTER;
     public static Block ACACIA_PLANKS_LARGE_QUARTER;
     public static Block DARK_OAK_PLANKS_LARGE_QUARTER;
+    public static Block MANGROVE_PLANKS_LARGE_QUARTER;
     public static Block CRIMSON_PLANKS_LARGE_QUARTER;
     public static Block WARPED_PLANKS_LARGE_QUARTER;
     public static Block WHITE_TERRACOTTA_BRICKS_QUARTER;
@@ -2464,6 +2583,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_SMOOTH_QUARTER_VERTICAL;
     public static Block ACACIA_PLANKS_SMOOTH_QUARTER_VERTICAL;
     public static Block DARK_OAK_PLANKS_SMOOTH_QUARTER_VERTICAL;
+    public static Block MANGROVE_PLANKS_SMOOTH_QUARTER_VERTICAL;
     public static Block CRIMSON_PLANKS_SMOOTH_QUARTER_VERTICAL;
     public static Block WARPED_PLANKS_SMOOTH_QUARTER_VERTICAL;
     public static Block OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
@@ -2472,6 +2592,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
     public static Block ACACIA_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
     public static Block DARK_OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
+    public static Block MANGROVE_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
     public static Block CRIMSON_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
     public static Block WARPED_PLANKS_HERRINGBONE_QUARTER_VERTICAL;
     public static Block OAK_PLANKS_LARGE_QUARTER_VERTICAL;
@@ -2480,6 +2601,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_LARGE_QUARTER_VERTICAL;
     public static Block ACACIA_PLANKS_LARGE_QUARTER_VERTICAL;
     public static Block DARK_OAK_PLANKS_LARGE_QUARTER_VERTICAL;
+    public static Block MANGROVE_PLANKS_LARGE_QUARTER_VERTICAL;
     public static Block CRIMSON_PLANKS_LARGE_QUARTER_VERTICAL;
     public static Block WARPED_PLANKS_LARGE_QUARTER_VERTICAL;
     public static Block WHITE_TERRACOTTA_BRICKS_QUARTER_VERTICAL;
@@ -2599,6 +2721,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_SMOOTH_EIGHTH;
     public static Block ACACIA_PLANKS_SMOOTH_EIGHTH;
     public static Block DARK_OAK_PLANKS_SMOOTH_EIGHTH;
+    public static Block MANGROVE_PLANKS_SMOOTH_EIGHTH;
     public static Block CRIMSON_PLANKS_SMOOTH_EIGHTH;
     public static Block WARPED_PLANKS_SMOOTH_EIGHTH;
     public static Block OAK_PLANKS_HERRINGBONE_EIGHTH;
@@ -2607,6 +2730,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_HERRINGBONE_EIGHTH;
     public static Block ACACIA_PLANKS_HERRINGBONE_EIGHTH;
     public static Block DARK_OAK_PLANKS_HERRINGBONE_EIGHTH;
+    public static Block MANGROVE_PLANKS_HERRINGBONE_EIGHTH;
     public static Block CRIMSON_PLANKS_HERRINGBONE_EIGHTH;
     public static Block WARPED_PLANKS_HERRINGBONE_EIGHTH;
     public static Block OAK_PLANKS_LARGE_EIGHTH;
@@ -2615,6 +2739,7 @@ public class Blocks
     public static Block JUNGLE_PLANKS_LARGE_EIGHTH;
     public static Block ACACIA_PLANKS_LARGE_EIGHTH;
     public static Block DARK_OAK_PLANKS_LARGE_EIGHTH;
+    public static Block MANGROVE_PLANKS_LARGE_EIGHTH;
     public static Block CRIMSON_PLANKS_LARGE_EIGHTH;
     public static Block WARPED_PLANKS_LARGE_EIGHTH;
     public static Block WHITE_TERRACOTTA_BRICKS_EIGHTH;
@@ -2719,6 +2844,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_CHAIR;
     public static Block ACACIA_WOOD_CHAIR;
     public static Block DARK_OAK_WOOD_CHAIR;
+    public static Block MANGROVE_WOOD_CHAIR;
     public static Block CRIMSON_WOOD_CHAIR;
     public static Block WARPED_WOOD_CHAIR;
     public static Block OAK_WOOD_BENCH;
@@ -2727,6 +2853,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_BENCH;
     public static Block ACACIA_WOOD_BENCH;
     public static Block DARK_OAK_WOOD_BENCH;
+    public static Block MANGROVE_WOOD_BENCH;
     public static Block CRIMSON_WOOD_BENCH;
     public static Block WARPED_WOOD_BENCH;
     public static Block OAK_WOOD_STOOL;
@@ -2735,6 +2862,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_STOOL;
     public static Block ACACIA_WOOD_STOOL;
     public static Block DARK_OAK_WOOD_STOOL;
+    public static Block MANGROVE_WOOD_STOOL;
     public static Block CRIMSON_WOOD_STOOL;
     public static Block WARPED_WOOD_STOOL;
     public static Block OAK_WOOD_STOOL_HIGH;
@@ -2743,6 +2871,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_STOOL_HIGH;
     public static Block ACACIA_WOOD_STOOL_HIGH;
     public static Block DARK_OAK_WOOD_STOOL_HIGH;
+    public static Block MANGROVE_WOOD_STOOL_HIGH;
     public static Block CRIMSON_WOOD_STOOL_HIGH;
     public static Block WARPED_WOOD_STOOL_HIGH;
     public static Block OAK_WOOD_TABLE;
@@ -2751,6 +2880,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_TABLE;
     public static Block ACACIA_WOOD_TABLE;
     public static Block DARK_OAK_WOOD_TABLE;
+    public static Block MANGROVE_WOOD_TABLE;
     public static Block CRIMSON_WOOD_TABLE;
     public static Block WARPED_WOOD_TABLE;
     public static Block OAK_WOOD_TABLE_HIGH;
@@ -2759,6 +2889,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_TABLE_HIGH;
     public static Block ACACIA_WOOD_TABLE_HIGH;
     public static Block DARK_OAK_WOOD_TABLE_HIGH;
+    public static Block MANGROVE_WOOD_TABLE_HIGH;
     public static Block CRIMSON_WOOD_TABLE_HIGH;
     public static Block WARPED_WOOD_TABLE_HIGH;
     public static Block OAK_WOOD_TABLE_SMALL;
@@ -2767,6 +2898,7 @@ public class Blocks
     public static Block JUNGLE_WOOD_TABLE_SMALL;
     public static Block ACACIA_WOOD_TABLE_SMALL;
     public static Block DARK_OAK_WOOD_TABLE_SMALL;
+    public static Block MANGROVE_WOOD_TABLE_SMALL;
     public static Block CRIMSON_WOOD_TABLE_SMALL;
     public static Block WARPED_WOOD_TABLE_SMALL;
     public static Block OAK_BOOKSHELF;
@@ -2775,6 +2907,7 @@ public class Blocks
     public static Block JUNGLE_BOOKSHELF;
     public static Block ACACIA_BOOKSHELF;
     public static Block DARK_OAK_BOOKSHELF;
+    public static Block MANGROVE_BOOKSHELF;
     public static Block CRIMSON_BOOKSHELF;
     public static Block WARPED_BOOKSHELF;
     public static Block SPRUCE_LADDER;
@@ -2782,6 +2915,7 @@ public class Blocks
     public static Block JUNGLE_LADDER;
     public static Block ACACIA_LADDER;
     public static Block DARK_OAK_LADDER;
+    public static Block MANGROVE_LADDER;
     public static Block CRIMSON_LADDER;
     public static Block WARPED_LADDER;
     public static Block IRON_FENCE;
@@ -2823,6 +2957,7 @@ public class Blocks
     public static Block JUNGLE_LANTERN;
     public static Block ACACIA_LANTERN;
     public static Block DARK_OAK_LANTERN;
+    public static Block MANGROVE_LANTERN;
     public static Block CRIMSON_LANTERN;
     public static Block WARPED_LANTERN;
     public static Block OAK_LANTERN_ROD;
@@ -2831,6 +2966,7 @@ public class Blocks
     public static Block JUNGLE_LANTERN_ROD;
     public static Block ACACIA_LANTERN_ROD;
     public static Block DARK_OAK_LANTERN_ROD;
+    public static Block MANGROVE_LANTERN_ROD;
     public static Block CRIMSON_LANTERN_ROD;
     public static Block WARPED_LANTERN_ROD;
     public static Block IRON_WALL;
@@ -2859,6 +2995,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_WOOD_VASE;
     public static Block STRIPPED_ACACIA_WOOD_VASE;
     public static Block STRIPPED_DARK_OAK_WOOD_VASE;
+    public static Block STRIPPED_MANGROVE_WOOD_VASE;
     public static Block STRIPPED_CRIMSON_HYPHAE_VASE;
     public static Block STRIPPED_WARPED_HYPHAE_VASE;
     public static Block POLISHED_GRANITE_VASE_HIGH;
@@ -2871,6 +3008,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_WOOD_VASE_HIGH;
     public static Block STRIPPED_ACACIA_WOOD_VASE_HIGH;
     public static Block STRIPPED_DARK_OAK_WOOD_VASE_HIGH;
+    public static Block STRIPPED_MANGROVE_WOOD_VASE_HIGH;
     public static Block STRIPPED_CRIMSON_HYPHAE_VASE_HIGH;
     public static Block STRIPPED_WARPED_HYPHAE_VASE_HIGH;
     public static Block POLISHED_GRANITE_VASE_SMALL;
@@ -2883,6 +3021,7 @@ public class Blocks
     public static Block STRIPPED_JUNGLE_WOOD_VASE_SMALL;
     public static Block STRIPPED_ACACIA_WOOD_VASE_SMALL;
     public static Block STRIPPED_DARK_OAK_WOOD_VASE_SMALL;
+    public static Block STRIPPED_MANGROVE_WOOD_VASE_SMALL;
     public static Block STRIPPED_CRIMSON_HYPHAE_VASE_SMALL;
     public static Block STRIPPED_WARPED_HYPHAE_VASE_SMALL;
 
@@ -3072,6 +3211,7 @@ public class Blocks
         JUNGLE_PLANKS_SMOOTH = MGBlockRegister("jungle_planks_smooth", new Block(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
         ACACIA_PLANKS_SMOOTH = MGBlockRegister("acacia_planks_smooth", new Block(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
         DARK_OAK_PLANKS_SMOOTH = MGBlockRegister("dark_oak_planks_smooth", new Block(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
+        MANGROVE_PLANKS_SMOOTH = MGBlockRegister("mangrove_planks_smooth", new Block(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
         CRIMSON_PLANKS_SMOOTH = MGBlockRegister("crimson_planks_smooth", new Block(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
         WARPED_PLANKS_SMOOTH = MGBlockRegister("warped_planks_smooth", new Block(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
         OAK_PLANKS_HERRINGBONE = MGBlockRegister("oak_planks_herringbone", new Block(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
@@ -3080,6 +3220,7 @@ public class Blocks
         JUNGLE_PLANKS_HERRINGBONE = MGBlockRegister("jungle_planks_herringbone", new Block(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
         ACACIA_PLANKS_HERRINGBONE = MGBlockRegister("acacia_planks_herringbone", new Block(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
         DARK_OAK_PLANKS_HERRINGBONE = MGBlockRegister("dark_oak_planks_herringbone", new Block(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
+        MANGROVE_PLANKS_HERRINGBONE = MGBlockRegister("mangrove_planks_herringbone", new Block(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
         CRIMSON_PLANKS_HERRINGBONE = MGBlockRegister("crimson_planks_herringbone", new Block(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
         WARPED_PLANKS_HERRINGBONE = MGBlockRegister("warped_planks_herringbone", new Block(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
         OAK_PLANKS_LARGE = MGBlockRegister("oak_planks_large", new Block(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
@@ -3088,6 +3229,7 @@ public class Blocks
         JUNGLE_PLANKS_LARGE = MGBlockRegister("jungle_planks_large", new Block(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
         ACACIA_PLANKS_LARGE = MGBlockRegister("acacia_planks_large", new Block(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
         DARK_OAK_PLANKS_LARGE = MGBlockRegister("dark_oak_planks_large", new Block(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
+        MANGROVE_PLANKS_LARGE = MGBlockRegister("mangrove_planks_large", new Block(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
         CRIMSON_PLANKS_LARGE = MGBlockRegister("crimson_planks_large", new Block(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
         WARPED_PLANKS_LARGE = MGBlockRegister("warped_planks_large", new Block(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
         WHITE_TERRACOTTA_BRICKS = MGBlockRegister("white_terracotta_bricks", new Block(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_WHITE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
@@ -3199,29 +3341,32 @@ public class Blocks
         HERRINGBONE_BRICKS_STAIRS = MGBlockRegister("herringbone_bricks_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         CUT_BRICKS_STAIRS = MGBlockRegister("cut_bricks_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         OAK_PLANKS_SMOOTH_STAIRS = MGBlockRegister("oak_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_SMOOTH_STAIRS = MGBlockRegister("spruce_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        BIRCH_PLANKS_SMOOTH_STAIRS = MGBlockRegister("birch_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        JUNGLE_PLANKS_SMOOTH_STAIRS = MGBlockRegister("jungle_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        ACACIA_PLANKS_SMOOTH_STAIRS = MGBlockRegister("acacia_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        DARK_OAK_PLANKS_SMOOTH_STAIRS = MGBlockRegister("dark_oak_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        CRIMSON_PLANKS_SMOOTH_STAIRS = MGBlockRegister("crimson_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        WARPED_PLANKS_SMOOTH_STAIRS = MGBlockRegister("warped_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
+        SPRUCE_PLANKS_SMOOTH_STAIRS = MGBlockRegister("spruce_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS)));
+        BIRCH_PLANKS_SMOOTH_STAIRS = MGBlockRegister("birch_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS)));
+        JUNGLE_PLANKS_SMOOTH_STAIRS = MGBlockRegister("jungle_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS)));
+        ACACIA_PLANKS_SMOOTH_STAIRS = MGBlockRegister("acacia_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS)));
+        DARK_OAK_PLANKS_SMOOTH_STAIRS = MGBlockRegister("dark_oak_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS)));
+        MANGROVE_PLANKS_SMOOTH_STAIRS = MGBlockRegister("mangrove_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS)));
+        CRIMSON_PLANKS_SMOOTH_STAIRS = MGBlockRegister("crimson_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS)));
+        WARPED_PLANKS_SMOOTH_STAIRS = MGBlockRegister("warped_planks_smooth_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS)));
         OAK_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("oak_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("spruce_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        BIRCH_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("birch_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        JUNGLE_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("jungle_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        ACACIA_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("acacia_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        DARK_OAK_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("dark_oak_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        CRIMSON_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("crimson_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        WARPED_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("warped_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
+        SPRUCE_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("spruce_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS)));
+        BIRCH_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("birch_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS)));
+        JUNGLE_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("jungle_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS)));
+        ACACIA_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("acacia_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS)));
+        DARK_OAK_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("dark_oak_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS)));
+        MANGROVE_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("mangrove_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS)));
+        CRIMSON_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("crimson_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS)));
+        WARPED_PLANKS_HERRINGBONE_STAIRS = MGBlockRegister("warped_planks_herringbone_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS)));
         OAK_PLANKS_LARGE_STAIRS = MGBlockRegister("oak_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_LARGE_STAIRS = MGBlockRegister("spruce_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        BIRCH_PLANKS_LARGE_STAIRS = MGBlockRegister("birch_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        JUNGLE_PLANKS_LARGE_STAIRS = MGBlockRegister("jungle_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        ACACIA_PLANKS_LARGE_STAIRS = MGBlockRegister("acacia_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        DARK_OAK_PLANKS_LARGE_STAIRS = MGBlockRegister("dark_oak_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        CRIMSON_PLANKS_LARGE_STAIRS = MGBlockRegister("crimson_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        WARPED_PLANKS_LARGE_STAIRS = MGBlockRegister("warped_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
+        SPRUCE_PLANKS_LARGE_STAIRS = MGBlockRegister("spruce_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS)));
+        BIRCH_PLANKS_LARGE_STAIRS = MGBlockRegister("birch_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS)));
+        JUNGLE_PLANKS_LARGE_STAIRS = MGBlockRegister("jungle_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS)));
+        ACACIA_PLANKS_LARGE_STAIRS = MGBlockRegister("acacia_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS)));
+        DARK_OAK_PLANKS_LARGE_STAIRS = MGBlockRegister("dark_oak_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS)));
+        MANGROVE_PLANKS_LARGE_STAIRS = MGBlockRegister("mangrove_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS)));
+        CRIMSON_PLANKS_LARGE_STAIRS = MGBlockRegister("crimson_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS)));
+        WARPED_PLANKS_LARGE_STAIRS = MGBlockRegister("warped_planks_large_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS)));
         WHITE_TERRACOTTA_BRICKS_STAIRS = MGBlockRegister("white_terracotta_bricks_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_WHITE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         ORANGE_TERRACOTTA_BRICKS_STAIRS = MGBlockRegister("orange_terracotta_bricks_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_ORANGE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         MAGENTA_TERRACOTTA_BRICKS_STAIRS = MGBlockRegister("magenta_terracotta_bricks_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_MAGENTA).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
@@ -3311,6 +3456,7 @@ public class Blocks
         BLACK_IRON_BLOCK_STAIRS = MGBlockRegister("black_iron_block_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.IRON_BLOCK)));
 
 
+
         BLACK_TILES_STAIRS_VERTICAL = MGBlockRegister("black_tiles_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.of(Material.STONE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.NETHER_BRICKS)));
         RED_TILES_STAIRS_VERTICAL = MGBlockRegister("red_tiles_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(BLACK_TILES)));
         BLUE_TILES_STAIRS_VERTICAL = MGBlockRegister("blue_tiles_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(BLACK_TILES)));
@@ -3331,29 +3477,32 @@ public class Blocks
         HERRINGBONE_BRICKS_STAIRS_VERTICAL = MGBlockRegister("herringbone_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         CUT_BRICKS_STAIRS_VERTICAL = MGBlockRegister("cut_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         OAK_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("oak_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("spruce_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        BIRCH_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("birch_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        JUNGLE_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("jungle_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        ACACIA_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("acacia_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        DARK_OAK_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("dark_oak_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        CRIMSON_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("crimson_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        WARPED_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("warped_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
+        SPRUCE_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("spruce_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS_VERTICAL)));
+        BIRCH_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("birch_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS_VERTICAL)));
+        JUNGLE_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("jungle_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS_VERTICAL)));
+        ACACIA_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("acacia_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS_VERTICAL)));
+        DARK_OAK_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("dark_oak_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS_VERTICAL)));
+        MANGROVE_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("mangrove_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS_VERTICAL)));
+        CRIMSON_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("crimson_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS_VERTICAL)));
+        WARPED_PLANKS_SMOOTH_STAIRS_VERTICAL = MGBlockRegister("warped_planks_smooth_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_STAIRS_VERTICAL)));
         OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("oak_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("spruce_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        BIRCH_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("birch_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        JUNGLE_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("jungle_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        ACACIA_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("acacia_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        DARK_OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("dark_oak_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        CRIMSON_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("crimson_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        WARPED_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("warped_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
+        SPRUCE_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("spruce_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL)));
+        BIRCH_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("birch_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL)));
+        JUNGLE_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("jungle_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL)));
+        ACACIA_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("acacia_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL)));
+        DARK_OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("dark_oak_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL)));
+        MANGROVE_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("mangrove_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL)));
+        CRIMSON_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("crimson_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL)));
+        WARPED_PLANKS_HERRINGBONE_STAIRS_VERTICAL = MGBlockRegister("warped_planks_herringbone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_STAIRS_VERTICAL)));
         OAK_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("oak_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("spruce_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        BIRCH_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("birch_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        JUNGLE_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("jungle_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        ACACIA_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("acacia_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        DARK_OAK_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("dark_oak_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        CRIMSON_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("crimson_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        WARPED_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("warped_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
+        SPRUCE_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("spruce_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS_VERTICAL)));
+        BIRCH_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("birch_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS_VERTICAL)));
+        JUNGLE_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("jungle_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS_VERTICAL)));
+        ACACIA_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("acacia_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS_VERTICAL)));
+        DARK_OAK_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("dark_oak_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS_VERTICAL)));
+        MANGROVE_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("mangrove_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS_VERTICAL)));
+        CRIMSON_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("crimson_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS_VERTICAL)));
+        WARPED_PLANKS_LARGE_STAIRS_VERTICAL = MGBlockRegister("warped_planks_large_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_STAIRS_VERTICAL)));
         WHITE_TERRACOTTA_BRICKS_STAIRS_VERTICAL = MGBlockRegister("white_terracotta_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_WHITE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         ORANGE_TERRACOTTA_BRICKS_STAIRS_VERTICAL = MGBlockRegister("orange_terracotta_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_ORANGE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         MAGENTA_TERRACOTTA_BRICKS_STAIRS_VERTICAL = MGBlockRegister("magenta_terracotta_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_MAGENTA).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
@@ -3463,29 +3612,32 @@ public class Blocks
         HERRINGBONE_BRICKS_SLAB = MGBlockRegister("herringbone_bricks_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         CUT_BRICKS_SLAB = MGBlockRegister("cut_bricks_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         OAK_PLANKS_SMOOTH_SLAB = MGBlockRegister("oak_planks_smooth_slab", new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_SMOOTH_SLAB = MGBlockRegister("spruce_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        BIRCH_PLANKS_SMOOTH_SLAB = MGBlockRegister("birch_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        JUNGLE_PLANKS_SMOOTH_SLAB = MGBlockRegister("jungle_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        ACACIA_PLANKS_SMOOTH_SLAB = MGBlockRegister("acacia_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        DARK_OAK_PLANKS_SMOOTH_SLAB = MGBlockRegister("dark_oak_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        CRIMSON_PLANKS_SMOOTH_SLAB = MGBlockRegister("crimson_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        WARPED_PLANKS_SMOOTH_SLAB = MGBlockRegister("warped_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
+        SPRUCE_PLANKS_SMOOTH_SLAB = MGBlockRegister("spruce_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB)));
+        BIRCH_PLANKS_SMOOTH_SLAB = MGBlockRegister("birch_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB)));
+        JUNGLE_PLANKS_SMOOTH_SLAB = MGBlockRegister("jungle_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB)));
+        ACACIA_PLANKS_SMOOTH_SLAB = MGBlockRegister("acacia_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB)));
+        DARK_OAK_PLANKS_SMOOTH_SLAB = MGBlockRegister("dark_oak_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB)));
+        MANGROVE_PLANKS_SMOOTH_SLAB = MGBlockRegister("mangrove_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB)));
+        CRIMSON_PLANKS_SMOOTH_SLAB = MGBlockRegister("crimson_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB)));
+        WARPED_PLANKS_SMOOTH_SLAB = MGBlockRegister("warped_planks_smooth_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB)));
         OAK_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("oak_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("spruce_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        BIRCH_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("birch_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        JUNGLE_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("jungle_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        ACACIA_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("acacia_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        DARK_OAK_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("dark_oak_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        CRIMSON_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("crimson_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        WARPED_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("warped_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
+        SPRUCE_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("spruce_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB)));
+        BIRCH_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("birch_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB)));
+        JUNGLE_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("jungle_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB)));
+        ACACIA_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("acacia_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB)));
+        DARK_OAK_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("dark_oak_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB)));
+        MANGROVE_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("mangrove_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB)));
+        CRIMSON_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("crimson_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB)));
+        WARPED_PLANKS_HERRINGBONE_SLAB = MGBlockRegister("warped_planks_herringbone_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB)));
         OAK_PLANKS_LARGE_SLAB = MGBlockRegister("oak_planks_large_slab", new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_LARGE_SLAB = MGBlockRegister("spruce_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        BIRCH_PLANKS_LARGE_SLAB = MGBlockRegister("birch_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        JUNGLE_PLANKS_LARGE_SLAB = MGBlockRegister("jungle_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        ACACIA_PLANKS_LARGE_SLAB = MGBlockRegister("acacia_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        DARK_OAK_PLANKS_LARGE_SLAB = MGBlockRegister("dark_oak_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        CRIMSON_PLANKS_LARGE_SLAB = MGBlockRegister("crimson_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        WARPED_PLANKS_LARGE_SLAB = MGBlockRegister("warped_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
+        SPRUCE_PLANKS_LARGE_SLAB = MGBlockRegister("spruce_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB)));
+        BIRCH_PLANKS_LARGE_SLAB = MGBlockRegister("birch_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB)));
+        JUNGLE_PLANKS_LARGE_SLAB = MGBlockRegister("jungle_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB)));
+        ACACIA_PLANKS_LARGE_SLAB = MGBlockRegister("acacia_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB)));
+        DARK_OAK_PLANKS_LARGE_SLAB = MGBlockRegister("dark_oak_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB)));
+        MANGROVE_PLANKS_LARGE_SLAB = MGBlockRegister("mangrove_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB)));
+        CRIMSON_PLANKS_LARGE_SLAB = MGBlockRegister("crimson_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB)));
+        WARPED_PLANKS_LARGE_SLAB = MGBlockRegister("warped_planks_large_slab", new SlabBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB)));
         WHITE_TERRACOTTA_BRICKS_SLAB = MGBlockRegister("white_terracotta_bricks_slab", new SlabBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_WHITE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         ORANGE_TERRACOTTA_BRICKS_SLAB = MGBlockRegister("orange_terracotta_bricks_slab", new SlabBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_ORANGE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         MAGENTA_TERRACOTTA_BRICKS_SLAB = MGBlockRegister("magenta_terracotta_bricks_slab", new SlabBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_MAGENTA).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
@@ -3595,29 +3747,32 @@ public class Blocks
         HERRINGBONE_BRICKS_SLAB_VERTICAL = MGBlockRegister("herringbone_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         CUT_BRICKS_SLAB_VERTICAL = MGBlockRegister("cut_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         OAK_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("oak_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("spruce_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        BIRCH_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("birch_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        JUNGLE_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("jungle_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        ACACIA_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("acacia_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        DARK_OAK_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("dark_oak_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        CRIMSON_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("crimson_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        WARPED_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("warped_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
+        SPRUCE_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("spruce_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB_VERTICAL)));
+        BIRCH_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("birch_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB_VERTICAL)));
+        JUNGLE_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("jungle_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB_VERTICAL)));
+        ACACIA_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("acacia_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB_VERTICAL)));
+        DARK_OAK_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("dark_oak_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB_VERTICAL)));
+        MANGROVE_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("mangrove_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB_VERTICAL)));
+        CRIMSON_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("crimson_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB_VERTICAL)));
+        WARPED_PLANKS_SMOOTH_SLAB_VERTICAL = MGBlockRegister("warped_planks_smooth_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_SLAB_VERTICAL)));
         OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("oak_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("spruce_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        BIRCH_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("birch_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        JUNGLE_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("jungle_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        ACACIA_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("acacia_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        DARK_OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("dark_oak_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        CRIMSON_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("crimson_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        WARPED_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("warped_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
+        SPRUCE_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("spruce_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL)));
+        BIRCH_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("birch_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL)));
+        JUNGLE_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("jungle_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL)));
+        ACACIA_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("acacia_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL)));
+        DARK_OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("dark_oak_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL)));
+        MANGROVE_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("mangrove_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL)));
+        CRIMSON_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("crimson_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL)));
+        WARPED_PLANKS_HERRINGBONE_SLAB_VERTICAL = MGBlockRegister("warped_planks_herringbone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_SLAB_VERTICAL)));
         OAK_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("oak_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("spruce_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        BIRCH_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("birch_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        JUNGLE_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("jungle_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        ACACIA_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("acacia_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        DARK_OAK_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("dark_oak_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        CRIMSON_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("crimson_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        WARPED_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("warped_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
+        SPRUCE_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("spruce_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB_VERTICAL)));
+        BIRCH_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("birch_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB_VERTICAL)));
+        JUNGLE_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("jungle_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB_VERTICAL)));
+        ACACIA_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("acacia_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB_VERTICAL)));
+        DARK_OAK_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("dark_oak_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB_VERTICAL)));
+        MANGROVE_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("mangrove_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB_VERTICAL)));
+        CRIMSON_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("crimson_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB_VERTICAL)));
+        WARPED_PLANKS_LARGE_SLAB_VERTICAL = MGBlockRegister("warped_planks_large_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_SLAB_VERTICAL)));
         WHITE_TERRACOTTA_BRICKS_SLAB_VERTICAL = MGBlockRegister("white_terracotta_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_WHITE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         ORANGE_TERRACOTTA_BRICKS_SLAB_VERTICAL = MGBlockRegister("orange_terracotta_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_ORANGE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         MAGENTA_TERRACOTTA_BRICKS_SLAB_VERTICAL = MGBlockRegister("magenta_terracotta_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_MAGENTA).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
@@ -3726,29 +3881,32 @@ public class Blocks
         HERRINGBONE_BRICKS_QUARTER = MGBlockRegister("herringbone_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         CUT_BRICKS_QUARTER = MGBlockRegister("cut_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         OAK_PLANKS_SMOOTH_QUARTER = MGBlockRegister("oak_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_SMOOTH_QUARTER = MGBlockRegister("spruce_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        BIRCH_PLANKS_SMOOTH_QUARTER = MGBlockRegister("birch_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        JUNGLE_PLANKS_SMOOTH_QUARTER = MGBlockRegister("jungle_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        ACACIA_PLANKS_SMOOTH_QUARTER = MGBlockRegister("acacia_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        DARK_OAK_PLANKS_SMOOTH_QUARTER = MGBlockRegister("dark_oak_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        CRIMSON_PLANKS_SMOOTH_QUARTER = MGBlockRegister("crimson_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        WARPED_PLANKS_SMOOTH_QUARTER = MGBlockRegister("warped_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
+        SPRUCE_PLANKS_SMOOTH_QUARTER = MGBlockRegister("spruce_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER)));
+        BIRCH_PLANKS_SMOOTH_QUARTER = MGBlockRegister("birch_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER)));
+        JUNGLE_PLANKS_SMOOTH_QUARTER = MGBlockRegister("jungle_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER)));
+        ACACIA_PLANKS_SMOOTH_QUARTER = MGBlockRegister("acacia_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER)));
+        DARK_OAK_PLANKS_SMOOTH_QUARTER = MGBlockRegister("dark_oak_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER)));
+        MANGROVE_PLANKS_SMOOTH_QUARTER = MGBlockRegister("mangrove_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER)));
+        CRIMSON_PLANKS_SMOOTH_QUARTER = MGBlockRegister("crimson_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER)));
+        WARPED_PLANKS_SMOOTH_QUARTER = MGBlockRegister("warped_planks_smooth_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER)));
         OAK_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("oak_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("spruce_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        BIRCH_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("birch_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        JUNGLE_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("jungle_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        ACACIA_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("acacia_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        DARK_OAK_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("dark_oak_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        CRIMSON_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("crimson_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        WARPED_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("warped_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
+        SPRUCE_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("spruce_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER)));
+        BIRCH_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("birch_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER)));
+        JUNGLE_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("jungle_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER)));
+        ACACIA_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("acacia_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER)));
+        DARK_OAK_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("dark_oak_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER)));
+        MANGROVE_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("mangrove_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER)));
+        CRIMSON_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("crimson_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER)));
+        WARPED_PLANKS_HERRINGBONE_QUARTER = MGBlockRegister("warped_planks_herringbone_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER)));
         OAK_PLANKS_LARGE_QUARTER = MGBlockRegister("oak_planks_large_quarter", new QuarterBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_LARGE_QUARTER = MGBlockRegister("spruce_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        BIRCH_PLANKS_LARGE_QUARTER = MGBlockRegister("birch_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        JUNGLE_PLANKS_LARGE_QUARTER = MGBlockRegister("jungle_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        ACACIA_PLANKS_LARGE_QUARTER = MGBlockRegister("acacia_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        DARK_OAK_PLANKS_LARGE_QUARTER = MGBlockRegister("dark_oak_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        CRIMSON_PLANKS_LARGE_QUARTER = MGBlockRegister("crimson_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        WARPED_PLANKS_LARGE_QUARTER = MGBlockRegister("warped_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
+        SPRUCE_PLANKS_LARGE_QUARTER = MGBlockRegister("spruce_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER)));
+        BIRCH_PLANKS_LARGE_QUARTER = MGBlockRegister("birch_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER)));
+        JUNGLE_PLANKS_LARGE_QUARTER = MGBlockRegister("jungle_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER)));
+        ACACIA_PLANKS_LARGE_QUARTER = MGBlockRegister("acacia_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER)));
+        DARK_OAK_PLANKS_LARGE_QUARTER = MGBlockRegister("dark_oak_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER)));
+        MANGROVE_PLANKS_LARGE_QUARTER = MGBlockRegister("mangrove_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER)));
+        CRIMSON_PLANKS_LARGE_QUARTER = MGBlockRegister("crimson_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER)));
+        WARPED_PLANKS_LARGE_QUARTER = MGBlockRegister("warped_planks_large_quarter", new QuarterBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER)));
         WHITE_TERRACOTTA_BRICKS_QUARTER = MGBlockRegister("white_terracotta_bricks_quarter", new QuarterBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_WHITE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         ORANGE_TERRACOTTA_BRICKS_QUARTER = MGBlockRegister("orange_terracotta_bricks_quarter", new QuarterBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_ORANGE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         MAGENTA_TERRACOTTA_BRICKS_QUARTER = MGBlockRegister("magenta_terracotta_bricks_quarter", new QuarterBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_MAGENTA).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
@@ -3857,29 +4015,32 @@ public class Blocks
         HERRINGBONE_BRICKS_QUARTER_VERTICAL = MGBlockRegister("herringbone_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         CUT_BRICKS_QUARTER_VERTICAL = MGBlockRegister("cut_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         OAK_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("oak_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("spruce_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        BIRCH_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("birch_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        JUNGLE_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("jungle_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        ACACIA_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("acacia_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        DARK_OAK_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("dark_oak_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        CRIMSON_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("crimson_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        WARPED_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("warped_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
+        SPRUCE_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("spruce_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER_VERTICAL)));
+        BIRCH_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("birch_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER_VERTICAL)));
+        JUNGLE_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("jungle_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER_VERTICAL)));
+        ACACIA_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("acacia_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER_VERTICAL)));
+        DARK_OAK_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("dark_oak_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER_VERTICAL)));
+        MANGROVE_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("mangrove_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER_VERTICAL)));
+        CRIMSON_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("crimson_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER_VERTICAL)));
+        WARPED_PLANKS_SMOOTH_QUARTER_VERTICAL = MGBlockRegister("warped_planks_smooth_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_QUARTER_VERTICAL)));
         OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("oak_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("spruce_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        BIRCH_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("birch_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        JUNGLE_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("jungle_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        ACACIA_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("acacia_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        DARK_OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("dark_oak_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        CRIMSON_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("crimson_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        WARPED_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("warped_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
+        SPRUCE_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("spruce_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL)));
+        BIRCH_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("birch_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL)));
+        JUNGLE_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("jungle_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL)));
+        ACACIA_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("acacia_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL)));
+        DARK_OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("dark_oak_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL)));
+        MANGROVE_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("mangrove_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL)));
+        CRIMSON_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("crimson_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL)));
+        WARPED_PLANKS_HERRINGBONE_QUARTER_VERTICAL = MGBlockRegister("warped_planks_herringbone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_QUARTER_VERTICAL)));
         OAK_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("oak_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("spruce_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        BIRCH_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("birch_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        JUNGLE_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("jungle_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        ACACIA_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("acacia_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        DARK_OAK_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("dark_oak_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        CRIMSON_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("crimson_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        WARPED_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("warped_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
+        SPRUCE_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("spruce_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER_VERTICAL)));
+        BIRCH_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("birch_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER_VERTICAL)));
+        JUNGLE_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("jungle_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER_VERTICAL)));
+        ACACIA_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("acacia_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER_VERTICAL)));
+        DARK_OAK_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("dark_oak_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER_VERTICAL)));
+        MANGROVE_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("mangrove_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER_VERTICAL)));
+        CRIMSON_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("crimson_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER_VERTICAL)));
+        WARPED_PLANKS_LARGE_QUARTER_VERTICAL = MGBlockRegister("warped_planks_large_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_QUARTER_VERTICAL)));
         WHITE_TERRACOTTA_BRICKS_QUARTER_VERTICAL = MGBlockRegister("white_terracotta_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_WHITE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         ORANGE_TERRACOTTA_BRICKS_QUARTER_VERTICAL = MGBlockRegister("orange_terracotta_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_ORANGE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         MAGENTA_TERRACOTTA_BRICKS_QUARTER_VERTICAL = MGBlockRegister("magenta_terracotta_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_MAGENTA).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
@@ -3989,29 +4150,32 @@ public class Blocks
         HERRINGBONE_BRICKS_EIGHTH = MGBlockRegister("herringbone_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         CUT_BRICKS_EIGHTH = MGBlockRegister("cut_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BRICKS)));
         OAK_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("oak_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("spruce_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        BIRCH_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("birch_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        JUNGLE_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("jungle_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        ACACIA_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("acacia_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        DARK_OAK_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("dark_oak_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        CRIMSON_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("crimson_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
-        WARPED_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("warped_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH)));
+        SPRUCE_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("spruce_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_EIGHTH)));
+        BIRCH_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("birch_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_EIGHTH)));
+        JUNGLE_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("jungle_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_EIGHTH)));
+        ACACIA_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("acacia_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_EIGHTH)));
+        DARK_OAK_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("dark_oak_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_EIGHTH)));
+        MANGROVE_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("mangrove_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_EIGHTH)));
+        CRIMSON_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("crimson_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_EIGHTH)));
+        WARPED_PLANKS_SMOOTH_EIGHTH = MGBlockRegister("warped_planks_smooth_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_SMOOTH_EIGHTH)));
         OAK_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("oak_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("spruce_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        BIRCH_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("birch_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        JUNGLE_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("jungle_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        ACACIA_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("acacia_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        DARK_OAK_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("dark_oak_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        CRIMSON_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("crimson_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
-        WARPED_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("warped_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE)));
+        SPRUCE_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("spruce_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_EIGHTH)));
+        BIRCH_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("birch_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_EIGHTH)));
+        JUNGLE_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("jungle_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_EIGHTH)));
+        ACACIA_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("acacia_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_EIGHTH)));
+        DARK_OAK_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("dark_oak_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_EIGHTH)));
+        MANGROVE_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("mangrove_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_EIGHTH)));
+        CRIMSON_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("crimson_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_EIGHTH)));
+        WARPED_PLANKS_HERRINGBONE_EIGHTH = MGBlockRegister("warped_planks_herringbone_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_HERRINGBONE_EIGHTH)));
         OAK_PLANKS_LARGE_EIGHTH = MGBlockRegister("oak_planks_large_eighth", new EighthBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
-        SPRUCE_PLANKS_LARGE_EIGHTH = MGBlockRegister("spruce_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        BIRCH_PLANKS_LARGE_EIGHTH = MGBlockRegister("birch_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        JUNGLE_PLANKS_LARGE_EIGHTH = MGBlockRegister("jungle_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        ACACIA_PLANKS_LARGE_EIGHTH = MGBlockRegister("acacia_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        DARK_OAK_PLANKS_LARGE_EIGHTH = MGBlockRegister("dark_oak_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        CRIMSON_PLANKS_LARGE_EIGHTH = MGBlockRegister("crimson_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
-        WARPED_PLANKS_LARGE_EIGHTH = MGBlockRegister("warped_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE)));
+        SPRUCE_PLANKS_LARGE_EIGHTH = MGBlockRegister("spruce_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_EIGHTH)));
+        BIRCH_PLANKS_LARGE_EIGHTH = MGBlockRegister("birch_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_EIGHTH)));
+        JUNGLE_PLANKS_LARGE_EIGHTH = MGBlockRegister("jungle_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_EIGHTH)));
+        ACACIA_PLANKS_LARGE_EIGHTH = MGBlockRegister("acacia_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_EIGHTH)));
+        DARK_OAK_PLANKS_LARGE_EIGHTH = MGBlockRegister("dark_oak_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_EIGHTH)));
+        MANGROVE_PLANKS_LARGE_EIGHTH = MGBlockRegister("mangrove_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_EIGHTH)));
+        CRIMSON_PLANKS_LARGE_EIGHTH = MGBlockRegister("crimson_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_EIGHTH)));
+        WARPED_PLANKS_LARGE_EIGHTH = MGBlockRegister("warped_planks_large_eighth", new EighthBlock(FabricBlockSettings.copy(OAK_PLANKS_LARGE_EIGHTH)));
         WHITE_TERRACOTTA_BRICKS_EIGHTH = MGBlockRegister("white_terracotta_bricks_eighth", new EighthBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_WHITE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         ORANGE_TERRACOTTA_BRICKS_EIGHTH = MGBlockRegister("orange_terracotta_bricks_eighth", new EighthBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_ORANGE).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
         MAGENTA_TERRACOTTA_BRICKS_EIGHTH = MGBlockRegister("magenta_terracotta_bricks_eighth", new EighthBlock(FabricBlockSettings.of(Material.STONE, MapColor.TERRACOTTA_MAGENTA).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE)));
@@ -4119,6 +4283,7 @@ public class Blocks
         JUNGLE_WOOD_CHAIR = MGBlockRegister("jungle_wood_chair", new ChairBlock(FabricBlockSettings.copy(OAK_WOOD_CHAIR)));
         ACACIA_WOOD_CHAIR = MGBlockRegister("acacia_wood_chair", new ChairBlock(FabricBlockSettings.copy(OAK_WOOD_CHAIR)));
         DARK_OAK_WOOD_CHAIR = MGBlockRegister("dark_oak_wood_chair", new ChairBlock(FabricBlockSettings.copy(OAK_WOOD_CHAIR)));
+        MANGROVE_WOOD_CHAIR = MGBlockRegister("mangrove_wood_chair", new ChairBlock(FabricBlockSettings.copy(OAK_WOOD_CHAIR)));
         CRIMSON_WOOD_CHAIR = MGBlockRegister("crimson_wood_chair", new ChairBlock(FabricBlockSettings.copy(OAK_WOOD_CHAIR)));
         WARPED_WOOD_CHAIR = MGBlockRegister("warped_wood_chair", new ChairBlock(FabricBlockSettings.copy(OAK_WOOD_CHAIR)));
         OAK_WOOD_BENCH = MGBlockRegister("oak_wood_bench", new BenchBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
@@ -4127,6 +4292,7 @@ public class Blocks
         JUNGLE_WOOD_BENCH = MGBlockRegister("jungle_wood_bench", new BenchBlock(FabricBlockSettings.copy(OAK_WOOD_BENCH)));
         ACACIA_WOOD_BENCH = MGBlockRegister("acacia_wood_bench", new BenchBlock(FabricBlockSettings.copy(OAK_WOOD_BENCH)));
         DARK_OAK_WOOD_BENCH = MGBlockRegister("dark_oak_wood_bench", new BenchBlock(FabricBlockSettings.copy(OAK_WOOD_BENCH)));
+        MANGROVE_WOOD_BENCH = MGBlockRegister("mangrove_wood_bench", new BenchBlock(FabricBlockSettings.copy(OAK_WOOD_BENCH)));
         CRIMSON_WOOD_BENCH = MGBlockRegister("crimson_wood_bench", new BenchBlock(FabricBlockSettings.copy(OAK_WOOD_BENCH)));
         WARPED_WOOD_BENCH = MGBlockRegister("warped_wood_bench", new BenchBlock(FabricBlockSettings.copy(OAK_WOOD_BENCH)));
         OAK_WOOD_STOOL = MGBlockRegister("oak_wood_stool", new StoolBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
@@ -4135,6 +4301,7 @@ public class Blocks
         JUNGLE_WOOD_STOOL = MGBlockRegister("jungle_wood_stool", new StoolBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL)));
         ACACIA_WOOD_STOOL = MGBlockRegister("acacia_wood_stool", new StoolBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL)));
         DARK_OAK_WOOD_STOOL = MGBlockRegister("dark_oak_wood_stool", new StoolBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL)));
+        MANGROVE_WOOD_STOOL = MGBlockRegister("mangrove_wood_stool", new StoolBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL)));
         CRIMSON_WOOD_STOOL = MGBlockRegister("crimson_wood_stool", new StoolBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL)));
         WARPED_WOOD_STOOL = MGBlockRegister("warped_wood_stool", new StoolBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL)));
         OAK_WOOD_STOOL_HIGH = MGBlockRegister("oak_wood_stool_high", new StoolHighBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
@@ -4143,6 +4310,7 @@ public class Blocks
         JUNGLE_WOOD_STOOL_HIGH = MGBlockRegister("jungle_wood_stool_high", new StoolHighBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL_HIGH)));
         ACACIA_WOOD_STOOL_HIGH = MGBlockRegister("acacia_wood_stool_high", new StoolHighBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL_HIGH)));
         DARK_OAK_WOOD_STOOL_HIGH = MGBlockRegister("dark_oak_wood_stool_high", new StoolHighBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL_HIGH)));
+        MANGROVE_WOOD_STOOL_HIGH = MGBlockRegister("mangrove_wood_stool_high", new StoolHighBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL_HIGH)));
         CRIMSON_WOOD_STOOL_HIGH = MGBlockRegister("crimson_wood_stool_high", new StoolHighBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL_HIGH)));
         WARPED_WOOD_STOOL_HIGH = MGBlockRegister("warped_wood_stool_high", new StoolHighBlock(FabricBlockSettings.copy(OAK_WOOD_STOOL_HIGH)));
         OAK_WOOD_TABLE = MGBlockRegister("oak_wood_table", new TableBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
@@ -4151,6 +4319,7 @@ public class Blocks
         JUNGLE_WOOD_TABLE = MGBlockRegister("jungle_wood_table", new TableBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE)));
         ACACIA_WOOD_TABLE = MGBlockRegister("acacia_wood_table", new TableBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE)));
         DARK_OAK_WOOD_TABLE = MGBlockRegister("dark_oak_wood_table", new TableBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE)));
+        MANGROVE_WOOD_TABLE = MGBlockRegister("mangrove_wood_table", new TableBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE)));
         CRIMSON_WOOD_TABLE = MGBlockRegister("crimson_wood_table", new TableBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE)));
         WARPED_WOOD_TABLE = MGBlockRegister("warped_wood_table", new TableBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE)));
         OAK_WOOD_TABLE_HIGH = MGBlockRegister("oak_wood_table_high", new TableHighBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
@@ -4159,6 +4328,7 @@ public class Blocks
         JUNGLE_WOOD_TABLE_HIGH = MGBlockRegister("jungle_wood_table_high", new TableHighBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_HIGH)));
         ACACIA_WOOD_TABLE_HIGH = MGBlockRegister("acacia_wood_table_high", new TableHighBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_HIGH)));
         DARK_OAK_WOOD_TABLE_HIGH = MGBlockRegister("dark_oak_wood_table_high", new TableHighBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_HIGH)));
+        MANGROVE_WOOD_TABLE_HIGH = MGBlockRegister("mangrove_wood_table_high", new TableHighBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_HIGH)));
         CRIMSON_WOOD_TABLE_HIGH = MGBlockRegister("crimson_wood_table_high", new TableHighBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_HIGH)));
         WARPED_WOOD_TABLE_HIGH = MGBlockRegister("warped_wood_table_high", new TableHighBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_HIGH)));
         OAK_WOOD_TABLE_SMALL = MGBlockRegister("oak_wood_table_small", new TableSmallBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
@@ -4167,6 +4337,7 @@ public class Blocks
         JUNGLE_WOOD_TABLE_SMALL = MGBlockRegister("jungle_wood_table_small", new TableSmallBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_SMALL)));
         ACACIA_WOOD_TABLE_SMALL = MGBlockRegister("acacia_wood_table_small", new TableSmallBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_SMALL)));
         DARK_OAK_WOOD_TABLE_SMALL = MGBlockRegister("dark_oak_wood_table_small", new TableSmallBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_SMALL)));
+        MANGROVE_WOOD_TABLE_SMALL = MGBlockRegister("mangrove_wood_table_small", new TableSmallBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_SMALL)));
         CRIMSON_WOOD_TABLE_SMALL = MGBlockRegister("crimson_wood_table_small", new TableSmallBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_SMALL)));
         WARPED_WOOD_TABLE_SMALL = MGBlockRegister("warped_wood_table_small", new TableSmallBlock(FabricBlockSettings.copy(OAK_WOOD_TABLE_SMALL)));
         OAK_BOOKSHELF = MGBlockRegister("oak_bookshelf", new BookshelfBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
@@ -4175,6 +4346,7 @@ public class Blocks
         JUNGLE_BOOKSHELF = MGBlockRegister("jungle_bookshelf", new BookshelfBlock(FabricBlockSettings.copy(OAK_BOOKSHELF)));
         ACACIA_BOOKSHELF = MGBlockRegister("acacia_bookshelf", new BookshelfBlock(FabricBlockSettings.copy(OAK_BOOKSHELF)));
         DARK_OAK_BOOKSHELF = MGBlockRegister("dark_oak_bookshelf", new BookshelfBlock(FabricBlockSettings.copy(OAK_BOOKSHELF)));
+        MANGROVE_BOOKSHELF = MGBlockRegister("mangrove_bookshelf", new BookshelfBlock(FabricBlockSettings.copy(OAK_BOOKSHELF)));
         CRIMSON_BOOKSHELF = MGBlockRegister("crimson_bookshelf", new BookshelfBlock(FabricBlockSettings.copy(OAK_BOOKSHELF)));
         WARPED_BOOKSHELF = MGBlockRegister("warped_bookshelf", new BookshelfBlock(FabricBlockSettings.copy(OAK_BOOKSHELF)));
         SPRUCE_LADDER = MGBlockRegister("spruce_ladder", new LadderBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.LADDER)));
@@ -4182,6 +4354,7 @@ public class Blocks
         JUNGLE_LADDER = MGBlockRegister("jungle_ladder", new LadderBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.LADDER)));
         ACACIA_LADDER = MGBlockRegister("acacia_ladder", new LadderBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.LADDER)));
         DARK_OAK_LADDER = MGBlockRegister("dark_oak_ladder", new LadderBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.LADDER)));
+        MANGROVE_LADDER = MGBlockRegister("mangrove_ladder", new LadderBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.LADDER)));
         CRIMSON_LADDER = MGBlockRegister("crimson_ladder", new LadderBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.LADDER)));
         WARPED_LADDER = MGBlockRegister("warped_ladder", new LadderBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.LADDER)));
         IRON_FENCE = MGBlockRegister("iron_fence", new FenceBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_FENCE).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
@@ -4223,6 +4396,7 @@ public class Blocks
         JUNGLE_LANTERN = MGBlockRegister("jungle_lantern", new LanternBlock(FabricBlockSettings.copy(OAK_LANTERN)));
         ACACIA_LANTERN = MGBlockRegister("acacia_lantern", new LanternBlock(FabricBlockSettings.copy(OAK_LANTERN)));
         DARK_OAK_LANTERN = MGBlockRegister("dark_oak_lantern", new LanternBlock(FabricBlockSettings.copy(OAK_LANTERN)));
+        MANGROVE_LANTERN = MGBlockRegister("mangrove_lantern", new LanternBlock(FabricBlockSettings.copy(OAK_LANTERN)));
         CRIMSON_LANTERN = MGBlockRegister("crimson_lantern", new LanternBlock(FabricBlockSettings.copy(OAK_LANTERN)));
         WARPED_LANTERN = MGBlockRegister("warped_lantern", new LanternBlock(FabricBlockSettings.copy(OAK_LANTERN)));
         OAK_LANTERN_ROD = MGBlockRegister("oak_lantern_rod", new LanternRodBlock(FabricBlockSettings.of(Material.WOOD).strength(1.5F, 6.0F).sounds(BlockSoundGroup.WOOD)));
@@ -4231,6 +4405,7 @@ public class Blocks
         JUNGLE_LANTERN_ROD = MGBlockRegister("jungle_lantern_rod", new LanternRodBlock(FabricBlockSettings.copy(OAK_LANTERN_ROD)));
         ACACIA_LANTERN_ROD = MGBlockRegister("acacia_lantern_rod", new LanternRodBlock(FabricBlockSettings.copy(OAK_LANTERN_ROD)));
         DARK_OAK_LANTERN_ROD = MGBlockRegister("dark_oak_lantern_rod", new LanternRodBlock(FabricBlockSettings.copy(OAK_LANTERN_ROD)));
+        MANGROVE_LANTERN_ROD = MGBlockRegister("mangrove_lantern_rod", new LanternRodBlock(FabricBlockSettings.copy(OAK_LANTERN_ROD)));
         CRIMSON_LANTERN_ROD = MGBlockRegister("crimson_lantern_rod", new LanternRodBlock(FabricBlockSettings.copy(OAK_LANTERN_ROD)));
         WARPED_LANTERN_ROD = MGBlockRegister("warped_lantern_rod", new LanternRodBlock(FabricBlockSettings.copy(OAK_LANTERN_ROD)));
         IRON_WALL = MGBlockRegister("iron_wall", new WallBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE_BRICK_WALL).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
@@ -4259,6 +4434,7 @@ public class Blocks
         STRIPPED_JUNGLE_WOOD_VASE = MGBlockRegister("stripped_jungle_wood_vase", new VaseBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD).breakInstantly().nonOpaque()));
         STRIPPED_ACACIA_WOOD_VASE = MGBlockRegister("stripped_acacia_wood_vase", new VaseBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD).breakInstantly().nonOpaque()));
         STRIPPED_DARK_OAK_WOOD_VASE = MGBlockRegister("stripped_dark_oak_wood_vase", new VaseBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD).breakInstantly().nonOpaque()));
+        STRIPPED_MANGROVE_WOOD_VASE = MGBlockRegister("stripped_mangrove_wood_vase", new VaseBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD).breakInstantly().nonOpaque()));
         STRIPPED_CRIMSON_HYPHAE_VASE = MGBlockRegister("stripped_crimson_hyphae_vase", new VaseBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE).breakInstantly().nonOpaque()));
         STRIPPED_WARPED_HYPHAE_VASE = MGBlockRegister("stripped_warped_hyphae_vase", new VaseBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE).breakInstantly().nonOpaque()));
         POLISHED_GRANITE_VASE_HIGH = MGBlockRegister("polished_granite_vase_high", new VaseHighBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_GRANITE).breakInstantly().nonOpaque()));
@@ -4271,6 +4447,7 @@ public class Blocks
         STRIPPED_JUNGLE_WOOD_VASE_HIGH = MGBlockRegister("stripped_jungle_wood_vase_high", new VaseHighBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD).breakInstantly().nonOpaque()));
         STRIPPED_ACACIA_WOOD_VASE_HIGH = MGBlockRegister("stripped_acacia_wood_vase_high", new VaseHighBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD).breakInstantly().nonOpaque()));
         STRIPPED_DARK_OAK_WOOD_VASE_HIGH = MGBlockRegister("stripped_dark_oak_wood_vase_high", new VaseHighBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD).breakInstantly().nonOpaque()));
+        STRIPPED_MANGROVE_WOOD_VASE_HIGH = MGBlockRegister("stripped_mangrove_wood_vase_high", new VaseHighBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD).breakInstantly().nonOpaque()));
         STRIPPED_CRIMSON_HYPHAE_VASE_HIGH = MGBlockRegister("stripped_crimson_hyphae_vase_high", new VaseHighBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE).breakInstantly().nonOpaque()));
         STRIPPED_WARPED_HYPHAE_VASE_HIGH = MGBlockRegister("stripped_warped_hyphae_vase_high", new VaseHighBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE).breakInstantly().nonOpaque()));
         POLISHED_GRANITE_VASE_SMALL = MGBlockRegister("polished_granite_vase_small", new VaseSmallBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_GRANITE).breakInstantly().nonOpaque()));
@@ -4283,6 +4460,7 @@ public class Blocks
         STRIPPED_JUNGLE_WOOD_VASE_SMALL = MGBlockRegister("stripped_jungle_wood_vase_small", new VaseSmallBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD).breakInstantly().nonOpaque()));
         STRIPPED_ACACIA_WOOD_VASE_SMALL = MGBlockRegister("stripped_acacia_wood_vase_small", new VaseSmallBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD).breakInstantly().nonOpaque()));
         STRIPPED_DARK_OAK_WOOD_VASE_SMALL = MGBlockRegister("stripped_dark_oak_wood_vase_small", new VaseSmallBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD).breakInstantly().nonOpaque()));
+        STRIPPED_MANGROVE_WOOD_VASE_SMALL = MGBlockRegister("stripped_mangrove_wood_vase_small", new VaseSmallBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD).breakInstantly().nonOpaque()));
         STRIPPED_CRIMSON_HYPHAE_VASE_SMALL = MGBlockRegister("stripped_crimson_hyphae_vase_small", new VaseSmallBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE).breakInstantly().nonOpaque()));
         STRIPPED_WARPED_HYPHAE_VASE_SMALL = MGBlockRegister("stripped_warped_hyphae_vase_small", new VaseSmallBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE).breakInstantly().nonOpaque()));
         IRON_BUTTON = MGBlockRegister("iron_button", new StoneButtonBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE_BUTTON).requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)));
@@ -4376,6 +4554,7 @@ public class Blocks
         TUFF_STAIRS = MCBlockRegister("tuff_stairs", new StairsBlock(net.minecraft.block.Blocks.TUFF.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.TUFF)));
         DRIPSTONE_BLOCK_STAIRS = MCBlockRegister("dripstone_block_stairs", new StairsBlock(net.minecraft.block.Blocks.DRIPSTONE_BLOCK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.DRIPSTONE_BLOCK)));
         ROOTED_DIRT_STAIRS = MCBlockRegister("rooted_dirt_stairs", new StairsBlock(net.minecraft.block.Blocks.ROOTED_DIRT.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.ROOTED_DIRT)));
+        MUD_STAIRS = MCBlockRegister("mud_stairs", new StairsBlock(net.minecraft.block.Blocks.MUD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD)));
         BEDROCK_STAIRS = MCBlockRegister("bedrock_stairs", new StairsBlock(net.minecraft.block.Blocks.BEDROCK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.BEDROCK)));
         ANCIENT_DEBRIS_STAIRS = MCBlockRegister("ancient_debris_stairs", new StairsBlock(net.minecraft.block.Blocks.ANCIENT_DEBRIS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.ANCIENT_DEBRIS)));
         COAL_BLOCK_STAIRS = MCBlockRegister("coal_block_stairs", new StairsBlock(net.minecraft.block.Blocks.COAL_BLOCK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.COAL_BLOCK)));
@@ -4402,6 +4581,9 @@ public class Blocks
         JUNGLE_LOG_STAIRS = MCBlockRegister("jungle_log_stairs", new StairsBlock(net.minecraft.block.Blocks.JUNGLE_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_LOG_STAIRS = MCBlockRegister("acacia_log_stairs", new StairsBlock(net.minecraft.block.Blocks.ACACIA_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_LOG_STAIRS = MCBlockRegister("dark_oak_log_stairs", new StairsBlock(net.minecraft.block.Blocks.DARK_OAK_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_LOG_STAIRS = MCBlockRegister("mangrove_log_stairs", new StairsBlock(net.minecraft.block.Blocks.MANGROVE_LOG.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
+        MANGROVE_ROOTS_STAIRS = MCBlockRegister("mangrove_roots_stairs", new StairsBlock(net.minecraft.block.Blocks.MANGROVE_ROOTS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_ROOTS)));
+        MUDDY_MANGROVE_ROOTS_STAIRS = MCBlockRegister("muddy_mangrove_roots_stairs", new StairsBlock(net.minecraft.block.Blocks.MUDDY_MANGROVE_ROOTS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.MUDDY_MANGROVE_ROOTS)));
         CRIMSON_STEM_STAIRS = MCBlockRegister("crimson_stem_stairs", new StairsBlock(net.minecraft.block.Blocks.CRIMSON_HYPHAE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_STEM_STAIRS = MCBlockRegister("warped_stem_stairs", new StairsBlock(net.minecraft.block.Blocks.WARPED_HYPHAE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         STRIPPED_OAK_LOG_STAIRS = MCBlockRegister("stripped_oak_log_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -4410,6 +4592,7 @@ public class Blocks
         STRIPPED_JUNGLE_LOG_STAIRS = MCBlockRegister("stripped_jungle_log_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_LOG_STAIRS = MCBlockRegister("stripped_acacia_log_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_LOG_STAIRS = MCBlockRegister("stripped_dark_oak_log_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_LOG_STAIRS = MCBlockRegister("stripped_mangrove_log_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_STEM_STAIRS = MCBlockRegister("stripped_crimson_stem_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_STEM_STAIRS = MCBlockRegister("stripped_warped_stem_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         STRIPPED_OAK_WOOD_STAIRS = MCBlockRegister("stripped_oak_wood_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -4418,6 +4601,7 @@ public class Blocks
         STRIPPED_JUNGLE_WOOD_STAIRS = MCBlockRegister("stripped_jungle_wood_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_WOOD_STAIRS = MCBlockRegister("stripped_acacia_wood_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_WOOD_STAIRS = MCBlockRegister("stripped_dark_oak_wood_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_WOOD_STAIRS = MCBlockRegister("stripped_mangrove_wood_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_HYPHAE_STAIRS = MCBlockRegister("stripped_crimson_hyphae_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_HYPHAE_STAIRS = MCBlockRegister("stripped_warped_hyphae_stairs", new StairsBlock(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         OAK_WOOD_STAIRS = MCBlockRegister("oak_wood_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_WOOD)));
@@ -4426,6 +4610,7 @@ public class Blocks
         JUNGLE_WOOD_STAIRS = MCBlockRegister("jungle_wood_stairs", new StairsBlock(net.minecraft.block.Blocks.JUNGLE_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_WOOD_STAIRS = MCBlockRegister("acacia_wood_stairs", new StairsBlock(net.minecraft.block.Blocks.ACACIA_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_WOOD_STAIRS = MCBlockRegister("dark_oak_wood_stairs", new StairsBlock(net.minecraft.block.Blocks.DARK_OAK_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_WOOD_STAIRS = MCBlockRegister("mangrove_wood_stairs", new StairsBlock(net.minecraft.block.Blocks.MANGROVE_WOOD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
         CRIMSON_HYPHAE_STAIRS = MCBlockRegister("crimson_hyphae_stairs", new StairsBlock(net.minecraft.block.Blocks.CRIMSON_HYPHAE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_HYPHAE_STAIRS = MCBlockRegister("warped_hyphae_stairs", new StairsBlock(net.minecraft.block.Blocks.WARPED_HYPHAE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         GLASS_STAIRS = MCBlockRegister("glass_stairs", new GlassStairsBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLASS)));
@@ -4464,6 +4649,7 @@ public class Blocks
         GLOWSTONE_STAIRS = MCBlockRegister("glowstone_stairs", new StairsBlock(net.minecraft.block.Blocks.GLOWSTONE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.GLOWSTONE)));
         CRACKED_STONE_BRICKS_STAIRS = MCBlockRegister("cracked_stone_bricks_stairs", new StairsBlock(net.minecraft.block.Blocks.CRACKED_STONE_BRICKS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_STONE_BRICKS)));
         CHISELED_STONE_BRICKS_STAIRS = MCBlockRegister("chiseled_stone_bricks_stairs", new StairsBlock(net.minecraft.block.Blocks.CHISELED_STONE_BRICKS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_STONE_BRICKS)));
+        PACKED_MUD_STAIRS = MCBlockRegister("packed_mud_stairs", new StairsBlock(net.minecraft.block.Blocks.PACKED_MUD.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.PACKED_MUD)));
         CRACKED_DEEPSLATE_BRICKS_STAIRS = MCBlockRegister("cracked_deepslate_bricks_stairs", new StairsBlock(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_BRICKS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_BRICKS)));
         CRACKED_DEEPSLATE_TILES_STAIRS = MCBlockRegister("cracked_deepslate_tiles_stairs", new StairsBlock(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_TILES.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_TILES)));
         CHISELED_DEEPSLATE_STAIRS = MCBlockRegister("chiseled_deepslate_stairs", new StairsBlock(net.minecraft.block.Blocks.CHISELED_DEEPSLATE.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_DEEPSLATE)));
@@ -4552,14 +4738,19 @@ public class Blocks
         JUNGLE_LEAVES_STAIRS = MCBlockRegister("jungle_leaves_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_LEAVES)));
         ACACIA_LEAVES_STAIRS = MCBlockRegister("acacia_leaves_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_LEAVES)));
         DARK_OAK_LEAVES_STAIRS = MCBlockRegister("dark_oak_leaves_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_LEAVES)));
+        MANGROVE_LEAVES_STAIRS = MCBlockRegister("mangrove_leaves_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_LEAVES)));
         AZALEA_LEAVES_STAIRS = MCBlockRegister("azalea_leaves_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.AZALEA_LEAVES)));
         FLOWERING_AZALEA_LEAVES_STAIRS = MCBlockRegister("flowering_azalea_leaves_stairs", new StairsBlock(net.minecraft.block.Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.FLOWERING_AZALEA_LEAVES)));
         MOSS_BLOCK_STAIRS = MCBlockRegister("moss_block_stairs", new StairsBlock(net.minecraft.block.Blocks.MOSS_BLOCK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSS_BLOCK)));
         BROWN_MUSHROOM_BLOCK_STAIRS = MCBlockRegister("brown_mushroom_block_stairs", new StairsBlock(net.minecraft.block.Blocks.BROWN_MUSHROOM_BLOCK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.BROWN_MUSHROOM_BLOCK)));
         RED_MUSHROOM_BLOCK_STAIRS = MCBlockRegister("red_mushroom_block_stairs", new StairsBlock(net.minecraft.block.Blocks.RED_MUSHROOM_BLOCK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_MUSHROOM_BLOCK)));
         MUSHROOM_STEM_STAIRS = MCBlockRegister("mushroom_stem_stairs", new StairsBlock(net.minecraft.block.Blocks.MUSHROOM_STEM.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.MUSHROOM_STEM)));
+        SCULK_STAIRS = MCBlockRegister("sculk_stairs", new StairsBlock(net.minecraft.block.Blocks.SCULK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.SCULK)));
         SHROOMLIGHT_STAIRS = MCBlockRegister("shroomlight_stairs", new StairsBlock(net.minecraft.block.Blocks.SHROOMLIGHT.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.SHROOMLIGHT)));
         HONEYCOMB_BLOCK_STAIRS = MCBlockRegister("honeycomb_block_stairs", new StairsBlock(net.minecraft.block.Blocks.HONEYCOMB_BLOCK.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.HONEYCOMB_BLOCK)));
+        OCHRE_FROGLIGHT_STAIRS = MCBlockRegister("ochre_froglight_stairs", new StairsBlock(net.minecraft.block.Blocks.OCHRE_FROGLIGHT.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.OCHRE_FROGLIGHT)));
+        VERDANT_FROGLIGHT_STAIRS = MCBlockRegister("verdant_froglight_stairs", new StairsBlock(net.minecraft.block.Blocks.VERDANT_FROGLIGHT.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.VERDANT_FROGLIGHT)));
+        PEARLESCENT_FROGLIGHT_STAIRS = MCBlockRegister("pearlescent_froglight_stairs", new StairsBlock(net.minecraft.block.Blocks.PEARLESCENT_FROGLIGHT.getDefaultState(), FabricBlockSettings.copy(net.minecraft.block.Blocks.PEARLESCENT_FROGLIGHT)));
         STONE_STAIRS_VERTICAL = MCBlockRegister("stone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE)));
         GRANITE_STAIRS_VERTICAL = MCBlockRegister("granite_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GRANITE)));
         POLISHED_GRANITE_STAIRS_VERTICAL = MCBlockRegister("polished_granite_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_GRANITE)));
@@ -4574,6 +4765,7 @@ public class Blocks
         TUFF_STAIRS_VERTICAL = MCBlockRegister("tuff_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.TUFF)));
         DRIPSTONE_BLOCK_STAIRS_VERTICAL = MCBlockRegister("dripstone_block_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DRIPSTONE_BLOCK)));
         ROOTED_DIRT_STAIRS_VERTICAL = MCBlockRegister("rooted_dirt_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ROOTED_DIRT)));
+        MUD_STAIRS_VERTICAL = MCBlockRegister("mud_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD)));
         COBBLESTONE_STAIRS_VERTICAL = MCBlockRegister("cobblestone_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.COBBLESTONE)));
         OAK_PLANKS_STAIRS_VERTICAL = MCBlockRegister("oak_planks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_PLANKS)));
         SPRUCE_PLANKS_STAIRS_VERTICAL = MCBlockRegister("spruce_planks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_PLANKS)));
@@ -4581,6 +4773,7 @@ public class Blocks
         JUNGLE_PLANKS_STAIRS_VERTICAL = MCBlockRegister("jungle_planks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_PLANKS)));
         ACACIA_PLANKS_STAIRS_VERTICAL = MCBlockRegister("acacia_planks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_PLANKS)));
         DARK_OAK_PLANKS_STAIRS_VERTICAL = MCBlockRegister("dark_oak_planks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_PLANKS)));
+        MANGROVE_PLANKS_STAIRS_VERTICAL = MCBlockRegister("mangrove_planks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_PLANKS)));
         CRIMSON_PLANKS_STAIRS_VERTICAL = MCBlockRegister("crimson_planks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_PLANKS)));
         WARPED_PLANKS_STAIRS_VERTICAL = MCBlockRegister("warped_planks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_PLANKS)));
         BEDROCK_STAIRS_VERTICAL = MCBlockRegister("bedrock_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BEDROCK)));
@@ -4617,6 +4810,9 @@ public class Blocks
         JUNGLE_LOG_STAIRS_VERTICAL = MCBlockRegister("jungle_log_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_LOG_STAIRS_VERTICAL = MCBlockRegister("acacia_log_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_LOG_STAIRS_VERTICAL = MCBlockRegister("dark_oak_log_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_LOG_STAIRS_VERTICAL = MCBlockRegister("mangrove_log_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
+        MANGROVE_ROOTS_STAIRS_VERTICAL = MCBlockRegister("mangrove_roots_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_ROOTS)));
+        MUDDY_MANGROVE_ROOTS_STAIRS_VERTICAL = MCBlockRegister("muddy_mangrove_roots_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUDDY_MANGROVE_ROOTS)));
         CRIMSON_STEM_STAIRS_VERTICAL = MCBlockRegister("crimson_stem_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_STEM_STAIRS_VERTICAL = MCBlockRegister("warped_stem_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         STRIPPED_OAK_LOG_STAIRS_VERTICAL = MCBlockRegister("stripped_oak_log_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -4625,6 +4821,7 @@ public class Blocks
         STRIPPED_JUNGLE_LOG_STAIRS_VERTICAL = MCBlockRegister("stripped_jungle_log_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_LOG_STAIRS_VERTICAL = MCBlockRegister("stripped_acacia_log_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_LOG_STAIRS_VERTICAL = MCBlockRegister("stripped_dark_oak_log_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_LOG_STAIRS_VERTICAL = MCBlockRegister("stripped_mangrove_log_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_STEM_STAIRS_VERTICAL = MCBlockRegister("stripped_crimson_stem_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_STEM_STAIRS_VERTICAL = MCBlockRegister("stripped_warped_stem_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         STRIPPED_OAK_WOOD_STAIRS_VERTICAL = MCBlockRegister("stripped_oak_wood_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -4633,6 +4830,7 @@ public class Blocks
         STRIPPED_JUNGLE_WOOD_STAIRS_VERTICAL = MCBlockRegister("stripped_jungle_wood_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_WOOD_STAIRS_VERTICAL = MCBlockRegister("stripped_acacia_wood_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_WOOD_STAIRS_VERTICAL = MCBlockRegister("stripped_dark_oak_wood_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_WOOD_STAIRS_VERTICAL = MCBlockRegister("stripped_mangrove_wood_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_HYPHAE_STAIRS_VERTICAL = MCBlockRegister("stripped_crimson_hyphae_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_HYPHAE_STAIRS_VERTICAL = MCBlockRegister("stripped_warped_hyphae_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         OAK_WOOD_STAIRS_VERTICAL = MCBlockRegister("oak_wood_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_WOOD)));
@@ -4641,6 +4839,7 @@ public class Blocks
         JUNGLE_WOOD_STAIRS_VERTICAL = MCBlockRegister("jungle_wood_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_WOOD_STAIRS_VERTICAL = MCBlockRegister("acacia_wood_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_WOOD_STAIRS_VERTICAL = MCBlockRegister("dark_oak_wood_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_WOOD_STAIRS_VERTICAL = MCBlockRegister("mangrove_wood_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
         CRIMSON_HYPHAE_STAIRS_VERTICAL = MCBlockRegister("crimson_hyphae_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_HYPHAE_STAIRS_VERTICAL = MCBlockRegister("warped_hyphae_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         GLASS_STAIRS_VERTICAL = MCBlockRegister("glass_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLASS)));
@@ -4688,6 +4887,8 @@ public class Blocks
         MOSSY_STONE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("mossy_stone_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSSY_STONE_BRICKS)));
         CRACKED_STONE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("cracked_stone_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_STONE_BRICKS)));
         CHISELED_STONE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("chiseled_stone_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_STONE_BRICKS)));
+        PACKED_MUD_STAIRS_VERTICAL = MCBlockRegister("packed_mud_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PACKED_MUD)));
+        MUD_BRICKS_STAIRS_VERTICAL = MCBlockRegister("mud_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD_BRICKS)));
         DEEPSLATE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("deepslate_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DEEPSLATE_BRICKS)));
         CRACKED_DEEPSLATE_BRICKS_STAIRS_VERTICAL = MCBlockRegister("cracked_deepslate_bricks_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_BRICKS)));
         DEEPSLATE_TILES_STAIRS_VERTICAL = MCBlockRegister("deepslate_tiles_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DEEPSLATE_TILES)));
@@ -4789,14 +4990,19 @@ public class Blocks
         JUNGLE_LEAVES_STAIRS_VERTICAL = MCBlockRegister("jungle_leaves_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_LEAVES)));
         ACACIA_LEAVES_STAIRS_VERTICAL = MCBlockRegister("acacia_leaves_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_LEAVES)));
         DARK_OAK_LEAVES_STAIRS_VERTICAL = MCBlockRegister("dark_oak_leaves_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_LEAVES)));
+        MANGROVE_LEAVES_STAIRS_VERTICAL = MCBlockRegister("mangrove_leaves_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_LEAVES)));
         AZALEA_LEAVES_STAIRS_VERTICAL = MCBlockRegister("azalea_leaves_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.AZALEA_LEAVES)));
         FLOWERING_AZALEA_LEAVES_STAIRS_VERTICAL = MCBlockRegister("flowering_azalea_leaves_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.FLOWERING_AZALEA_LEAVES)));
         MOSS_BLOCK_STAIRS_VERTICAL = MCBlockRegister("moss_block_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSS_BLOCK)));
         BROWN_MUSHROOM_BLOCK_STAIRS_VERTICAL = MCBlockRegister("brown_mushroom_block_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BROWN_MUSHROOM_BLOCK)));
         RED_MUSHROOM_BLOCK_STAIRS_VERTICAL = MCBlockRegister("red_mushroom_block_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_MUSHROOM_BLOCK)));
         MUSHROOM_STEM_STAIRS_VERTICAL = MCBlockRegister("mushroom_stem_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUSHROOM_STEM)));
+        SCULK_STAIRS_VERTICAL = MCBlockRegister("sculk_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SCULK)));
         SHROOMLIGHT_STAIRS_VERTICAL = MCBlockRegister("shroomlight_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SHROOMLIGHT)));
         HONEYCOMB_BLOCK_STAIRS_VERTICAL = MCBlockRegister("honeycomb_block_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.HONEYCOMB_BLOCK)));
+        OCHRE_FROGLIGHT_STAIRS_VERTICAL = MCBlockRegister("ochre_froglight_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OCHRE_FROGLIGHT)));
+        VERDANT_FROGLIGHT_STAIRS_VERTICAL = MCBlockRegister("verdant_froglight_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.VERDANT_FROGLIGHT)));
+        PEARLESCENT_FROGLIGHT_STAIRS_VERTICAL = MCBlockRegister("pearlescent_froglight_stairs_vertical", new StairsVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PEARLESCENT_FROGLIGHT)));
         DEEPSLATE_SLAB = MCBlockRegister("deepslate_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DEEPSLATE)));
         GRASS_BLOCK_SLAB = MCBlockRegister("grass_block_slab", new GrassSlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GRASS_BLOCK)));
         DIRT_SLAB = MCBlockRegister("dirt_slab", new PlantableSlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DIRT)));
@@ -4806,6 +5012,7 @@ public class Blocks
         TUFF_SLAB = MCBlockRegister("tuff_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.TUFF)));
         DRIPSTONE_BLOCK_SLAB = MCBlockRegister("dripstone_block_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DRIPSTONE_BLOCK)));
         ROOTED_DIRT_SLAB = MCBlockRegister("rooted_dirt_slab", new PlantableSlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ROOTED_DIRT)));
+        MUD_SLAB = MCBlockRegister("mud_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD)));
         CRIMSON_NYLIUM_SLAB = MCBlockRegister("crimson_nylium_slab", new PlantableSlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_NYLIUM)));
         WARPED_NYLIUM_SLAB = MCBlockRegister("warped_nylium_slab", new PlantableSlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_NYLIUM)));
         BEDROCK_SLAB = MCBlockRegister("bedrock_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BEDROCK)));
@@ -4837,6 +5044,9 @@ public class Blocks
         JUNGLE_LOG_SLAB = MCBlockRegister("jungle_log_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_LOG_SLAB = MCBlockRegister("acacia_log_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_LOG_SLAB = MCBlockRegister("dark_oak_log_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_LOG_SLAB = MCBlockRegister("mangrove_log_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
+        MANGROVE_ROOTS_SLAB = MCBlockRegister("mangrove_roots_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_ROOTS)));
+        MUDDY_MANGROVE_ROOTS_SLAB = MCBlockRegister("muddy_mangrove_roots_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUDDY_MANGROVE_ROOTS)));
         CRIMSON_STEM_SLAB = MCBlockRegister("crimson_stem_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_STEM_SLAB = MCBlockRegister("warped_stem_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         STRIPPED_OAK_LOG_SLAB = MCBlockRegister("stripped_oak_log_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -4845,6 +5055,7 @@ public class Blocks
         STRIPPED_JUNGLE_LOG_SLAB = MCBlockRegister("stripped_jungle_log_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_LOG_SLAB = MCBlockRegister("stripped_acacia_log_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_LOG_SLAB = MCBlockRegister("stripped_dark_oak_log_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_LOG_SLAB = MCBlockRegister("stripped_mangrove_log_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_STEM_SLAB = MCBlockRegister("stripped_crimson_stem_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_STEM_SLAB = MCBlockRegister("stripped_warped_stem_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         STRIPPED_OAK_WOOD_SLAB = MCBlockRegister("stripped_oak_wood_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -4853,6 +5064,7 @@ public class Blocks
         STRIPPED_JUNGLE_WOOD_SLAB = MCBlockRegister("stripped_jungle_wood_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_WOOD_SLAB = MCBlockRegister("stripped_acacia_wood_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_WOOD_SLAB = MCBlockRegister("stripped_dark_oak_wood_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_WOOD_SLAB = MCBlockRegister("stripped_mangrove_wood_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_HYPHAE_SLAB = MCBlockRegister("stripped_crimson_hyphae_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_HYPHAE_SLAB = MCBlockRegister("stripped_warped_hyphae_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         OAK_WOOD_SLAB = MCBlockRegister("oak_wood_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_WOOD)));
@@ -4861,6 +5073,7 @@ public class Blocks
         JUNGLE_WOOD_SLAB = MCBlockRegister("jungle_wood_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_WOOD_SLAB = MCBlockRegister("acacia_wood_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_WOOD_SLAB = MCBlockRegister("dark_oak_wood_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_WOOD_SLAB = MCBlockRegister("mangrove_wood_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
         CRIMSON_HYPHAE_SLAB = MCBlockRegister("crimson_hyphae_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_HYPHAE_SLAB = MCBlockRegister("warped_hyphae_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         GLASS_SLAB = MCBlockRegister("glass_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLASS)));
@@ -4897,6 +5110,7 @@ public class Blocks
         GLOWSTONE_SLAB = MCBlockRegister("glowstone_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLOWSTONE)));
         CRACKED_STONE_BRICKS_SLAB = MCBlockRegister("cracked_stone_bricks_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_STONE_BRICKS)));
         CHISELED_STONE_BRICKS_SLAB = MCBlockRegister("chiseled_stone_bricks_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_STONE_BRICKS)));
+        PACKED_MUD_SLAB = MCBlockRegister("packed_mud_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PACKED_MUD)));
         CRACKED_DEEPSLATE_BRICKS_SLAB = MCBlockRegister("cracked_deepslate_bricks_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_BRICKS)));
         CRACKED_DEEPSLATE_TILES_SLAB = MCBlockRegister("cracked_deepslate_tiles_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_TILES)));
         CHISELED_DEEPSLATE_SLAB = MCBlockRegister("chiseled_deepslate_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_DEEPSLATE)));
@@ -4985,16 +5199,21 @@ public class Blocks
         JUNGLE_LEAVES_SLAB = MCBlockRegister("jungle_leaves_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_LEAVES)));
         ACACIA_LEAVES_SLAB = MCBlockRegister("acacia_leaves_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_LEAVES)));
         DARK_OAK_LEAVES_SLAB = MCBlockRegister("dark_oak_leaves_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_LEAVES)));
+        MANGROVE_LEAVES_SLAB = MCBlockRegister("mangrove_leaves_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_LEAVES)));
         AZALEA_LEAVES_SLAB = MCBlockRegister("azalea_leaves_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.AZALEA_LEAVES)));
         FLOWERING_AZALEA_LEAVES_SLAB = MCBlockRegister("flowering_azalea_leaves_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.FLOWERING_AZALEA_LEAVES)));
         MOSS_BLOCK_SLAB = MCBlockRegister("moss_block_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSS_BLOCK)));
         BROWN_MUSHROOM_BLOCK_SLAB = MCBlockRegister("brown_mushroom_block_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BROWN_MUSHROOM_BLOCK)));
         RED_MUSHROOM_BLOCK_SLAB = MCBlockRegister("red_mushroom_block_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_MUSHROOM_BLOCK)));
         MUSHROOM_STEM_SLAB = MCBlockRegister("mushroom_stem_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUSHROOM_STEM)));
+        SCULK_SLAB = MCBlockRegister("sculk_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SCULK)));
         FARMLAND_SLAB = MCBlockRegister("farmland_slab", new FarmlandSlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.FARMLAND)));
         DIRT_PATH_SLAB = MCBlockRegister("dirt_path_slab", new DirtPathSlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DIRT_PATH)));
         SHROOMLIGHT_SLAB = MCBlockRegister("shroomlight_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SHROOMLIGHT)));
         HONEYCOMB_BLOCK_SLAB = MCBlockRegister("honeycomb_block_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.HONEYCOMB_BLOCK)));
+        OCHRE_FROGLIGHT_SLAB = MCBlockRegister("ochre_froglight_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OCHRE_FROGLIGHT)));
+        VERDANT_FROGLIGHT_SLAB = MCBlockRegister("verdant_froglight_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.VERDANT_FROGLIGHT)));
+        PEARLESCENT_FROGLIGHT_SLAB = MCBlockRegister("pearlescent_froglight_slab", new SlabBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PEARLESCENT_FROGLIGHT)));
         STONE_SLAB_VERTICAL = MCBlockRegister("stone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE)));
         GRANITE_SLAB_VERTICAL = MCBlockRegister("granite_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GRANITE)));
         POLISHED_GRANITE_SLAB_VERTICAL = MCBlockRegister("polished_granite_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_GRANITE)));
@@ -5009,6 +5228,7 @@ public class Blocks
         TUFF_SLAB_VERTICAL = MCBlockRegister("tuff_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.TUFF)));
         DRIPSTONE_BLOCK_SLAB_VERTICAL = MCBlockRegister("dripstone_block_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DRIPSTONE_BLOCK)));
         ROOTED_DIRT_SLAB_VERTICAL = MCBlockRegister("rooted_dirt_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ROOTED_DIRT)));
+        MUD_SLAB_VERTICAL = MCBlockRegister("mud_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD)));
         COBBLESTONE_SLAB_VERTICAL = MCBlockRegister("cobblestone_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.COBBLESTONE)));
         OAK_PLANKS_SLAB_VERTICAL = MCBlockRegister("oak_planks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_PLANKS)));
         SPRUCE_PLANKS_SLAB_VERTICAL = MCBlockRegister("spruce_planks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_PLANKS)));
@@ -5016,6 +5236,7 @@ public class Blocks
         JUNGLE_PLANKS_SLAB_VERTICAL = MCBlockRegister("jungle_planks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_PLANKS)));
         ACACIA_PLANKS_SLAB_VERTICAL = MCBlockRegister("acacia_planks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_PLANKS)));
         DARK_OAK_PLANKS_SLAB_VERTICAL = MCBlockRegister("dark_oak_planks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_PLANKS)));
+        MANGROVE_PLANKS_SLAB_VERTICAL = MCBlockRegister("mangrove_planks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_PLANKS)));
         CRIMSON_PLANKS_SLAB_VERTICAL = MCBlockRegister("crimson_planks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_PLANKS)));
         WARPED_PLANKS_SLAB_VERTICAL = MCBlockRegister("warped_planks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_PLANKS)));
         BEDROCK_SLAB_VERTICAL = MCBlockRegister("bedrock_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BEDROCK)));
@@ -5052,6 +5273,9 @@ public class Blocks
         JUNGLE_LOG_SLAB_VERTICAL = MCBlockRegister("jungle_log_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_LOG_SLAB_VERTICAL = MCBlockRegister("acacia_log_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_LOG_SLAB_VERTICAL = MCBlockRegister("dark_oak_log_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_LOG_SLAB_VERTICAL = MCBlockRegister("mangrove_log_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
+        MANGROVE_ROOTS_SLAB_VERTICAL = MCBlockRegister("mangrove_roots_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_ROOTS)));
+        MUDDY_MANGROVE_ROOTS_SLAB_VERTICAL = MCBlockRegister("muddy_mangrove_roots_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUDDY_MANGROVE_ROOTS)));
         CRIMSON_STEM_SLAB_VERTICAL = MCBlockRegister("crimson_stem_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_STEM_SLAB_VERTICAL = MCBlockRegister("warped_stem_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         STRIPPED_OAK_LOG_SLAB_VERTICAL = MCBlockRegister("stripped_oak_log_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -5060,6 +5284,7 @@ public class Blocks
         STRIPPED_JUNGLE_LOG_SLAB_VERTICAL = MCBlockRegister("stripped_jungle_log_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_LOG_SLAB_VERTICAL = MCBlockRegister("stripped_acacia_log_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_LOG_SLAB_VERTICAL = MCBlockRegister("stripped_dark_oak_log_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_LOG_SLAB_VERTICAL = MCBlockRegister("stripped_mangrove_log_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_STEM_SLAB_VERTICAL = MCBlockRegister("stripped_crimson_stem_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_STEM_SLAB_VERTICAL = MCBlockRegister("stripped_warped_stem_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         STRIPPED_OAK_WOOD_SLAB_VERTICAL = MCBlockRegister("stripped_oak_wood_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -5068,6 +5293,7 @@ public class Blocks
         STRIPPED_JUNGLE_WOOD_SLAB_VERTICAL = MCBlockRegister("stripped_jungle_wood_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_WOOD_SLAB_VERTICAL = MCBlockRegister("stripped_acacia_wood_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_WOOD_SLAB_VERTICAL = MCBlockRegister("stripped_dark_oak_wood_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_WOOD_SLAB_VERTICAL = MCBlockRegister("stripped_mangrove_wood_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_HYPHAE_SLAB_VERTICAL = MCBlockRegister("stripped_crimson_hyphae_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_HYPHAE_SLAB_VERTICAL = MCBlockRegister("stripped_warped_hyphae_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         OAK_WOOD_SLAB_VERTICAL = MCBlockRegister("oak_wood_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_WOOD)));
@@ -5076,6 +5302,7 @@ public class Blocks
         JUNGLE_WOOD_SLAB_VERTICAL = MCBlockRegister("jungle_wood_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_WOOD_SLAB_VERTICAL = MCBlockRegister("acacia_wood_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_WOOD_SLAB_VERTICAL = MCBlockRegister("dark_oak_wood_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_WOOD_SLAB_VERTICAL = MCBlockRegister("mangrove_wood_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
         CRIMSON_HYPHAE_SLAB_VERTICAL = MCBlockRegister("crimson_hyphae_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_HYPHAE_SLAB_VERTICAL = MCBlockRegister("warped_hyphae_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         GLASS_SLAB_VERTICAL = MCBlockRegister("glass_slab_vertical", new GlassSlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLASS)));
@@ -5123,6 +5350,8 @@ public class Blocks
         MOSSY_STONE_BRICKS_SLAB_VERTICAL = MCBlockRegister("mossy_stone_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSSY_STONE_BRICKS)));
         CRACKED_STONE_BRICKS_SLAB_VERTICAL = MCBlockRegister("cracked_stone_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_STONE_BRICKS)));
         CHISELED_STONE_BRICKS_SLAB_VERTICAL = MCBlockRegister("chiseled_stone_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_STONE_BRICKS)));
+        PACKED_MUD_SLAB_VERTICAL = MCBlockRegister("packed_mud_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PACKED_MUD)));
+        MUD_BRICKS_SLAB_VERTICAL = MCBlockRegister("mud_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD_BRICKS)));
         DEEPSLATE_BRICKS_SLAB_VERTICAL = MCBlockRegister("deepslate_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DEEPSLATE_BRICKS)));
         CRACKED_DEEPSLATE_BRICKS_SLAB_VERTICAL = MCBlockRegister("cracked_deepslate_bricks_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_BRICKS)));
         DEEPSLATE_TILES_SLAB_VERTICAL = MCBlockRegister("deepslate_tiles_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DEEPSLATE_TILES)));
@@ -5224,14 +5453,19 @@ public class Blocks
         JUNGLE_LEAVES_SLAB_VERTICAL = MCBlockRegister("jungle_leaves_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_LEAVES)));
         ACACIA_LEAVES_SLAB_VERTICAL = MCBlockRegister("acacia_leaves_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_LEAVES)));
         DARK_OAK_LEAVES_SLAB_VERTICAL = MCBlockRegister("dark_oak_leaves_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_LEAVES)));
+        MANGROVE_LEAVES_SLAB_VERTICAL = MCBlockRegister("mangrove_leaves_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_LEAVES)));
         AZALEA_LEAVES_SLAB_VERTICAL = MCBlockRegister("azalea_leaves_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.AZALEA_LEAVES)));
         FLOWERING_AZALEA_LEAVES_SLAB_VERTICAL = MCBlockRegister("flowering_azalea_leaves_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.FLOWERING_AZALEA_LEAVES)));
         MOSS_BLOCK_SLAB_VERTICAL = MCBlockRegister("moss_block_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSS_BLOCK)));
         BROWN_MUSHROOM_BLOCK_SLAB_VERTICAL = MCBlockRegister("brown_mushroom_block_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BROWN_MUSHROOM_BLOCK)));
         RED_MUSHROOM_BLOCK_SLAB_VERTICAL = MCBlockRegister("red_mushroom_block_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_MUSHROOM_BLOCK)));
         MUSHROOM_STEM_SLAB_VERTICAL = MCBlockRegister("mushroom_stem_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUSHROOM_STEM)));
+        SCULK_SLAB_VERTICAL = MCBlockRegister("sculk_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SCULK)));
         SHROOMLIGHT_SLAB_VERTICAL = MCBlockRegister("shroomlight_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SHROOMLIGHT)));
         HONEYCOMB_BLOCK_SLAB_VERTICAL = MCBlockRegister("honeycomb_block_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.HONEYCOMB_BLOCK)));
+        OCHRE_FROGLIGHT_SLAB_VERTICAL = MCBlockRegister("ochre_froglight_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OCHRE_FROGLIGHT)));
+        VERDANT_FROGLIGHT_SLAB_VERTICAL = MCBlockRegister("verdant_froglight_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.VERDANT_FROGLIGHT)));
+        PEARLESCENT_FROGLIGHT_SLAB_VERTICAL = MCBlockRegister("pearlescent_froglight_slab_vertical", new SlabVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PEARLESCENT_FROGLIGHT)));
         STONE_QUARTER = MCBlockRegister("stone_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE)));
         GRANITE_QUARTER = MCBlockRegister("granite_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GRANITE)));
         POLISHED_GRANITE_QUARTER = MCBlockRegister("polished_granite_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_GRANITE)));
@@ -5246,6 +5480,7 @@ public class Blocks
         TUFF_QUARTER = MCBlockRegister("tuff_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.TUFF)));
         DRIPSTONE_BLOCK_QUARTER = MCBlockRegister("dripstone_block_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DRIPSTONE_BLOCK)));
         ROOTED_DIRT_QUARTER = MCBlockRegister("rooted_dirt_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ROOTED_DIRT)));
+        MUD_QUARTER = MCBlockRegister("mud_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD)));
         COBBLESTONE_QUARTER = MCBlockRegister("cobblestone_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.COBBLESTONE)));
         OAK_PLANKS_QUARTER = MCBlockRegister("oak_planks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_PLANKS)));
         SPRUCE_PLANKS_QUARTER = MCBlockRegister("spruce_planks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_PLANKS)));
@@ -5253,6 +5488,7 @@ public class Blocks
         JUNGLE_PLANKS_QUARTER = MCBlockRegister("jungle_planks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_PLANKS)));
         ACACIA_PLANKS_QUARTER = MCBlockRegister("acacia_planks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_PLANKS)));
         DARK_OAK_PLANKS_QUARTER = MCBlockRegister("dark_oak_planks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_PLANKS)));
+        MANGROVE_PLANKS_QUARTER = MCBlockRegister("mangrove_planks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_PLANKS)));
         CRIMSON_PLANKS_QUARTER = MCBlockRegister("crimson_planks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_PLANKS)));
         WARPED_PLANKS_QUARTER = MCBlockRegister("warped_planks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_PLANKS)));
         BEDROCK_QUARTER = MCBlockRegister("bedrock_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BEDROCK)));
@@ -5289,6 +5525,9 @@ public class Blocks
         JUNGLE_LOG_QUARTER = MCBlockRegister("jungle_log_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_LOG_QUARTER = MCBlockRegister("acacia_log_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_LOG_QUARTER = MCBlockRegister("dark_oak_log_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_LOG_QUARTER = MCBlockRegister("mangrove_log_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
+        MANGROVE_ROOTS_QUARTER = MCBlockRegister("mangrove_roots_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_ROOTS)));
+        MUDDY_MANGROVE_ROOTS_QUARTER = MCBlockRegister("muddy_mangrove_roots_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUDDY_MANGROVE_ROOTS)));
         CRIMSON_STEM_QUARTER = MCBlockRegister("crimson_stem_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_STEM_QUARTER = MCBlockRegister("warped_stem_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         STRIPPED_OAK_LOG_QUARTER = MCBlockRegister("stripped_oak_log_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -5297,6 +5536,7 @@ public class Blocks
         STRIPPED_JUNGLE_LOG_QUARTER = MCBlockRegister("stripped_jungle_log_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_LOG_QUARTER = MCBlockRegister("stripped_acacia_log_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_LOG_QUARTER = MCBlockRegister("stripped_dark_oak_log_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_LOG_QUARTER = MCBlockRegister("stripped_mangrove_log_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_STEM_QUARTER = MCBlockRegister("stripped_crimson_stem_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_STEM_QUARTER = MCBlockRegister("stripped_warped_stem_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         STRIPPED_OAK_WOOD_QUARTER = MCBlockRegister("stripped_oak_wood_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -5305,6 +5545,7 @@ public class Blocks
         STRIPPED_JUNGLE_WOOD_QUARTER = MCBlockRegister("stripped_jungle_wood_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_WOOD_QUARTER = MCBlockRegister("stripped_acacia_wood_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_WOOD_QUARTER = MCBlockRegister("stripped_dark_oak_wood_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_WOOD_QUARTER = MCBlockRegister("stripped_mangrove_wood_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_HYPHAE_QUARTER = MCBlockRegister("stripped_crimson_hyphae_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_HYPHAE_QUARTER = MCBlockRegister("stripped_warped_hyphae_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         OAK_WOOD_QUARTER = MCBlockRegister("oak_wood_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_WOOD)));
@@ -5313,6 +5554,7 @@ public class Blocks
         JUNGLE_WOOD_QUARTER = MCBlockRegister("jungle_wood_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_WOOD_QUARTER = MCBlockRegister("acacia_wood_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_WOOD_QUARTER = MCBlockRegister("dark_oak_wood_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_WOOD_QUARTER = MCBlockRegister("mangrove_wood_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
         CRIMSON_HYPHAE_QUARTER = MCBlockRegister("crimson_hyphae_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_HYPHAE_QUARTER = MCBlockRegister("warped_hyphae_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         GLASS_QUARTER = MCBlockRegister("glass_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLASS)));
@@ -5360,6 +5602,8 @@ public class Blocks
         MOSSY_STONE_BRICKS_QUARTER = MCBlockRegister("mossy_stone_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSSY_STONE_BRICKS)));
         CRACKED_STONE_BRICKS_QUARTER = MCBlockRegister("cracked_stone_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_STONE_BRICKS)));
         CHISELED_STONE_BRICKS_QUARTER = MCBlockRegister("chiseled_stone_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_STONE_BRICKS)));
+        PACKED_MUD_QUARTER = MCBlockRegister("packed_mud_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PACKED_MUD)));
+        MUD_BRICKS_QUARTER = MCBlockRegister("mud_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD_BRICKS)));
         DEEPSLATE_BRICKS_QUARTER = MCBlockRegister("deepslate_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DEEPSLATE_BRICKS)));
         CRACKED_DEEPSLATE_BRICKS_QUARTER = MCBlockRegister("cracked_deepslate_bricks_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_BRICKS)));
         DEEPSLATE_TILES_QUARTER = MCBlockRegister("deepslate_tiles_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DEEPSLATE_TILES)));
@@ -5461,14 +5705,19 @@ public class Blocks
         JUNGLE_LEAVES_QUARTER = MCBlockRegister("jungle_leaves_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_LEAVES)));
         ACACIA_LEAVES_QUARTER = MCBlockRegister("acacia_leaves_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_LEAVES)));
         DARK_OAK_LEAVES_QUARTER = MCBlockRegister("dark_oak_leaves_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_LEAVES)));
+        MANGROVE_LEAVES_QUARTER = MCBlockRegister("mangrove_leaves_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_LEAVES)));
         AZALEA_LEAVES_QUARTER = MCBlockRegister("azalea_leaves_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.AZALEA_LEAVES)));
         FLOWERING_AZALEA_LEAVES_QUARTER = MCBlockRegister("flowering_azalea_leaves_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.FLOWERING_AZALEA_LEAVES)));
         MOSS_BLOCK_QUARTER = MCBlockRegister("moss_block_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSS_BLOCK)));
         BROWN_MUSHROOM_BLOCK_QUARTER = MCBlockRegister("brown_mushroom_block_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BROWN_MUSHROOM_BLOCK)));
         RED_MUSHROOM_BLOCK_QUARTER = MCBlockRegister("red_mushroom_block_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_MUSHROOM_BLOCK)));
         MUSHROOM_STEM_QUARTER = MCBlockRegister("mushroom_stem_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUSHROOM_STEM)));
+        SCULK_QUARTER = MCBlockRegister("sculk_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SCULK)));
         SHROOMLIGHT_QUARTER = MCBlockRegister("shroomlight_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SHROOMLIGHT)));
         HONEYCOMB_BLOCK_QUARTER = MCBlockRegister("honeycomb_block_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.HONEYCOMB_BLOCK)));
+        OCHRE_FROGLIGHT_QUARTER = MCBlockRegister("ochre_froglight_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OCHRE_FROGLIGHT)));
+        VERDANT_FROGLIGHT_QUARTER = MCBlockRegister("verdant_froglight_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.VERDANT_FROGLIGHT)));
+        PEARLESCENT_FROGLIGHT_QUARTER = MCBlockRegister("pearlescent_froglight_quarter", new QuarterBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PEARLESCENT_FROGLIGHT)));
         STONE_QUARTER_VERTICAL = MCBlockRegister("stone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE)));
         GRANITE_QUARTER_VERTICAL = MCBlockRegister("granite_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GRANITE)));
         POLISHED_GRANITE_QUARTER_VERTICAL = MCBlockRegister("polished_granite_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_GRANITE)));
@@ -5483,6 +5732,7 @@ public class Blocks
         TUFF_QUARTER_VERTICAL = MCBlockRegister("tuff_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.TUFF)));
         DRIPSTONE_BLOCK_QUARTER_VERTICAL = MCBlockRegister("dripstone_block_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DRIPSTONE_BLOCK)));
         ROOTED_DIRT_QUARTER_VERTICAL = MCBlockRegister("rooted_dirt_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ROOTED_DIRT)));
+        MUD_QUARTER_VERTICAL = MCBlockRegister("mud_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD)));
         COBBLESTONE_QUARTER_VERTICAL = MCBlockRegister("cobblestone_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.COBBLESTONE)));
         OAK_PLANKS_QUARTER_VERTICAL = MCBlockRegister("oak_planks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_PLANKS)));
         SPRUCE_PLANKS_QUARTER_VERTICAL = MCBlockRegister("spruce_planks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_PLANKS)));
@@ -5490,6 +5740,7 @@ public class Blocks
         JUNGLE_PLANKS_QUARTER_VERTICAL = MCBlockRegister("jungle_planks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_PLANKS)));
         ACACIA_PLANKS_QUARTER_VERTICAL = MCBlockRegister("acacia_planks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_PLANKS)));
         DARK_OAK_PLANKS_QUARTER_VERTICAL = MCBlockRegister("dark_oak_planks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_PLANKS)));
+        MANGROVE_PLANKS_QUARTER_VERTICAL = MCBlockRegister("mangrove_planks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_PLANKS)));
         CRIMSON_PLANKS_QUARTER_VERTICAL = MCBlockRegister("crimson_planks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_PLANKS)));
         WARPED_PLANKS_QUARTER_VERTICAL = MCBlockRegister("warped_planks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_PLANKS)));
         BEDROCK_QUARTER_VERTICAL = MCBlockRegister("bedrock_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BEDROCK)));
@@ -5526,6 +5777,9 @@ public class Blocks
         JUNGLE_LOG_QUARTER_VERTICAL = MCBlockRegister("jungle_log_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_LOG_QUARTER_VERTICAL = MCBlockRegister("acacia_log_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_LOG_QUARTER_VERTICAL = MCBlockRegister("dark_oak_log_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_LOG_QUARTER_VERTICAL = MCBlockRegister("mangrove_log_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
+        MANGROVE_ROOTS_QUARTER_VERTICAL = MCBlockRegister("mangrove_roots_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_ROOTS)));
+        MUDDY_MANGROVE_ROOTS_QUARTER_VERTICAL = MCBlockRegister("muddy_mangrove_roots_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUDDY_MANGROVE_ROOTS)));
         CRIMSON_STEM_QUARTER_VERTICAL = MCBlockRegister("crimson_stem_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_STEM_QUARTER_VERTICAL = MCBlockRegister("warped_stem_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         STRIPPED_OAK_LOG_QUARTER_VERTICAL = MCBlockRegister("stripped_oak_log_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -5534,6 +5788,7 @@ public class Blocks
         STRIPPED_JUNGLE_LOG_QUARTER_VERTICAL = MCBlockRegister("stripped_jungle_log_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_LOG_QUARTER_VERTICAL = MCBlockRegister("stripped_acacia_log_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_LOG_QUARTER_VERTICAL = MCBlockRegister("stripped_dark_oak_log_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_LOG_QUARTER_VERTICAL = MCBlockRegister("stripped_mangrove_log_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_STEM_QUARTER_VERTICAL = MCBlockRegister("stripped_crimson_stem_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_STEM_QUARTER_VERTICAL = MCBlockRegister("stripped_warped_stem_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         STRIPPED_OAK_WOOD_QUARTER_VERTICAL = MCBlockRegister("stripped_oak_wood_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -5542,6 +5797,7 @@ public class Blocks
         STRIPPED_JUNGLE_WOOD_QUARTER_VERTICAL = MCBlockRegister("stripped_jungle_wood_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_WOOD_QUARTER_VERTICAL = MCBlockRegister("stripped_acacia_wood_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_WOOD_QUARTER_VERTICAL = MCBlockRegister("stripped_dark_oak_wood_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_WOOD_QUARTER_VERTICAL = MCBlockRegister("stripped_mangrove_wood_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_HYPHAE_QUARTER_VERTICAL = MCBlockRegister("stripped_crimson_hyphae_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_HYPHAE_QUARTER_VERTICAL = MCBlockRegister("stripped_warped_hyphae_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         OAK_WOOD_QUARTER_VERTICAL = MCBlockRegister("oak_wood_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_WOOD)));
@@ -5550,6 +5806,7 @@ public class Blocks
         JUNGLE_WOOD_QUARTER_VERTICAL = MCBlockRegister("jungle_wood_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_WOOD_QUARTER_VERTICAL = MCBlockRegister("acacia_wood_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_WOOD_QUARTER_VERTICAL = MCBlockRegister("dark_oak_wood_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_WOOD_QUARTER_VERTICAL = MCBlockRegister("mangrove_wood_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
         CRIMSON_HYPHAE_QUARTER_VERTICAL = MCBlockRegister("crimson_hyphae_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_HYPHAE_QUARTER_VERTICAL = MCBlockRegister("warped_hyphae_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         GLASS_QUARTER_VERTICAL = MCBlockRegister("glass_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLASS)));
@@ -5597,6 +5854,8 @@ public class Blocks
         MOSSY_STONE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("mossy_stone_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSSY_STONE_BRICKS)));
         CRACKED_STONE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("cracked_stone_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_STONE_BRICKS)));
         CHISELED_STONE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("chiseled_stone_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_STONE_BRICKS)));
+        PACKED_MUD_QUARTER_VERTICAL = MCBlockRegister("packed_mud_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PACKED_MUD)));
+        MUD_BRICKS_QUARTER_VERTICAL = MCBlockRegister("mud_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD_BRICKS)));
         DEEPSLATE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("deepslate_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DEEPSLATE_BRICKS)));
         CRACKED_DEEPSLATE_BRICKS_QUARTER_VERTICAL = MCBlockRegister("cracked_deepslate_bricks_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_BRICKS)));
         DEEPSLATE_TILES_QUARTER_VERTICAL = MCBlockRegister("deepslate_tiles_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DEEPSLATE_TILES)));
@@ -5698,14 +5957,19 @@ public class Blocks
         JUNGLE_LEAVES_QUARTER_VERTICAL = MCBlockRegister("jungle_leaves_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_LEAVES)));
         ACACIA_LEAVES_QUARTER_VERTICAL = MCBlockRegister("acacia_leaves_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_LEAVES)));
         DARK_OAK_LEAVES_QUARTER_VERTICAL = MCBlockRegister("dark_oak_leaves_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_LEAVES)));
+        MANGROVE_LEAVES_QUARTER_VERTICAL = MCBlockRegister("mangrove_leaves_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_LEAVES)));
         AZALEA_LEAVES_QUARTER_VERTICAL = MCBlockRegister("azalea_leaves_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.AZALEA_LEAVES)));
         FLOWERING_AZALEA_LEAVES_QUARTER_VERTICAL = MCBlockRegister("flowering_azalea_leaves_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.FLOWERING_AZALEA_LEAVES)));
         MOSS_BLOCK_QUARTER_VERTICAL = MCBlockRegister("moss_block_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSS_BLOCK)));
         BROWN_MUSHROOM_BLOCK_QUARTER_VERTICAL = MCBlockRegister("brown_mushroom_block_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BROWN_MUSHROOM_BLOCK)));
         RED_MUSHROOM_BLOCK_QUARTER_VERTICAL = MCBlockRegister("red_mushroom_block_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_MUSHROOM_BLOCK)));
         MUSHROOM_STEM_QUARTER_VERTICAL = MCBlockRegister("mushroom_stem_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUSHROOM_STEM)));
+        SCULK_QUARTER_VERTICAL = MCBlockRegister("sculk_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SCULK)));
         SHROOMLIGHT_QUARTER_VERTICAL = MCBlockRegister("shroomlight_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SHROOMLIGHT)));
         HONEYCOMB_BLOCK_QUARTER_VERTICAL = MCBlockRegister("honeycomb_block_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.HONEYCOMB_BLOCK)));
+        OCHRE_FROGLIGHT_QUARTER_VERTICAL = MCBlockRegister("ochre_froglight_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OCHRE_FROGLIGHT)));
+        VERDANT_FROGLIGHT_QUARTER_VERTICAL = MCBlockRegister("verdant_froglight_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.VERDANT_FROGLIGHT)));
+        PEARLESCENT_FROGLIGHT_QUARTER_VERTICAL = MCBlockRegister("pearlescent_froglight_quarter_vertical", new QuarterVerticalBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PEARLESCENT_FROGLIGHT)));
         STONE_EIGHTH = MCBlockRegister("stone_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STONE)));
         GRANITE_EIGHTH = MCBlockRegister("granite_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GRANITE)));
         POLISHED_GRANITE_EIGHTH = MCBlockRegister("polished_granite_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.POLISHED_GRANITE)));
@@ -5720,6 +5984,7 @@ public class Blocks
         TUFF_EIGHTH = MCBlockRegister("tuff_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.TUFF)));
         DRIPSTONE_BLOCK_EIGHTH = MCBlockRegister("dripstone_block_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DRIPSTONE_BLOCK)));
         ROOTED_DIRT_EIGHTH = MCBlockRegister("rooted_dirt_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ROOTED_DIRT)));
+        MUD_EIGHTH = MCBlockRegister("mud_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD)));
         COBBLESTONE_EIGHTH = MCBlockRegister("cobblestone_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.COBBLESTONE)));
         OAK_PLANKS_EIGHTH = MCBlockRegister("oak_planks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_PLANKS)));
         SPRUCE_PLANKS_EIGHTH = MCBlockRegister("spruce_planks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SPRUCE_PLANKS)));
@@ -5727,6 +5992,7 @@ public class Blocks
         JUNGLE_PLANKS_EIGHTH = MCBlockRegister("jungle_planks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_PLANKS)));
         ACACIA_PLANKS_EIGHTH = MCBlockRegister("acacia_planks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_PLANKS)));
         DARK_OAK_PLANKS_EIGHTH = MCBlockRegister("dark_oak_planks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_PLANKS)));
+        MANGROVE_PLANKS_EIGHTH = MCBlockRegister("mangrove_planks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_PLANKS)));
         CRIMSON_PLANKS_EIGHTH = MCBlockRegister("crimson_planks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_PLANKS)));
         WARPED_PLANKS_EIGHTH = MCBlockRegister("warped_planks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_PLANKS)));
         BEDROCK_EIGHTH = MCBlockRegister("bedrock_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BEDROCK)));
@@ -5763,6 +6029,9 @@ public class Blocks
         JUNGLE_LOG_EIGHTH = MCBlockRegister("jungle_log_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_LOG_EIGHTH = MCBlockRegister("acacia_log_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_LOG_EIGHTH = MCBlockRegister("dark_oak_log_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_LOG_EIGHTH = MCBlockRegister("mangrove_log_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
+        MANGROVE_ROOTS_EIGHTH = MCBlockRegister("mangrove_roots_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_ROOTS)));
+        MUDDY_MANGROVE_ROOTS_EIGHTH = MCBlockRegister("muddy_mangrove_roots_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUDDY_MANGROVE_ROOTS)));
         CRIMSON_STEM_EIGHTH = MCBlockRegister("crimson_stem_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_STEM_EIGHTH = MCBlockRegister("warped_stem_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         STRIPPED_OAK_LOG_EIGHTH = MCBlockRegister("stripped_oak_log_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -5771,6 +6040,7 @@ public class Blocks
         STRIPPED_JUNGLE_LOG_EIGHTH = MCBlockRegister("stripped_jungle_log_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_LOG_EIGHTH = MCBlockRegister("stripped_acacia_log_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_LOG_EIGHTH = MCBlockRegister("stripped_dark_oak_log_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_LOG_EIGHTH = MCBlockRegister("stripped_mangrove_log_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_STEM_EIGHTH = MCBlockRegister("stripped_crimson_stem_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_STEM_EIGHTH = MCBlockRegister("stripped_warped_stem_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         STRIPPED_OAK_WOOD_EIGHTH = MCBlockRegister("stripped_oak_wood_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_OAK_WOOD)));
@@ -5779,6 +6049,7 @@ public class Blocks
         STRIPPED_JUNGLE_WOOD_EIGHTH = MCBlockRegister("stripped_jungle_wood_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_JUNGLE_WOOD)));
         STRIPPED_ACACIA_WOOD_EIGHTH = MCBlockRegister("stripped_acacia_wood_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_ACACIA_WOOD)));
         STRIPPED_DARK_OAK_WOOD_EIGHTH = MCBlockRegister("stripped_dark_oak_wood_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
+        STRIPPED_MANGROVE_WOOD_EIGHTH = MCBlockRegister("stripped_mangrove_wood_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_DARK_OAK_WOOD)));
         STRIPPED_CRIMSON_HYPHAE_EIGHTH = MCBlockRegister("stripped_crimson_hyphae_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_CRIMSON_HYPHAE)));
         STRIPPED_WARPED_HYPHAE_EIGHTH = MCBlockRegister("stripped_warped_hyphae_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.STRIPPED_WARPED_HYPHAE)));
         OAK_WOOD_EIGHTH = MCBlockRegister("oak_wood_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OAK_WOOD)));
@@ -5787,6 +6058,7 @@ public class Blocks
         JUNGLE_WOOD_EIGHTH = MCBlockRegister("jungle_wood_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_WOOD)));
         ACACIA_WOOD_EIGHTH = MCBlockRegister("acacia_wood_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_WOOD)));
         DARK_OAK_WOOD_EIGHTH = MCBlockRegister("dark_oak_wood_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_WOOD)));
+        MANGROVE_WOOD_EIGHTH = MCBlockRegister("mangrove_wood_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_WOOD)));
         CRIMSON_HYPHAE_EIGHTH = MCBlockRegister("crimson_hyphae_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRIMSON_HYPHAE)));
         WARPED_HYPHAE_EIGHTH = MCBlockRegister("warped_hyphae_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.WARPED_HYPHAE)));
         GLASS_EIGHTH = MCBlockRegister("glass_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.GLASS)));
@@ -5834,6 +6106,8 @@ public class Blocks
         MOSSY_STONE_BRICKS_EIGHTH = MCBlockRegister("mossy_stone_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSSY_STONE_BRICKS)));
         CRACKED_STONE_BRICKS_EIGHTH = MCBlockRegister("cracked_stone_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_STONE_BRICKS)));
         CHISELED_STONE_BRICKS_EIGHTH = MCBlockRegister("chiseled_stone_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CHISELED_STONE_BRICKS)));
+        PACKED_MUD_EIGHTH = MCBlockRegister("packed_mud_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PACKED_MUD)));
+        MUD_BRICKS_EIGHTH = MCBlockRegister("mud_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUD_BRICKS)));
         DEEPSLATE_BRICKS_EIGHTH = MCBlockRegister("deepslate_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DEEPSLATE_BRICKS)));
         CRACKED_DEEPSLATE_BRICKS_EIGHTH = MCBlockRegister("cracked_deepslate_bricks_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.CRACKED_DEEPSLATE_BRICKS)));
         DEEPSLATE_TILES_EIGHTH = MCBlockRegister("deepslate_tiles_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DEEPSLATE_TILES)));
@@ -5935,14 +6209,19 @@ public class Blocks
         JUNGLE_LEAVES_EIGHTH = MCBlockRegister("jungle_leaves_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.JUNGLE_LEAVES)));
         ACACIA_LEAVES_EIGHTH = MCBlockRegister("acacia_leaves_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.ACACIA_LEAVES)));
         DARK_OAK_LEAVES_EIGHTH = MCBlockRegister("dark_oak_leaves_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.DARK_OAK_LEAVES)));
+        MANGROVE_LEAVES_EIGHTH = MCBlockRegister("mangrove_leaves_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MANGROVE_LEAVES)));
         AZALEA_LEAVES_EIGHTH = MCBlockRegister("azalea_leaves_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.AZALEA_LEAVES)));
         FLOWERING_AZALEA_LEAVES_EIGHTH = MCBlockRegister("flowering_azalea_leaves_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.FLOWERING_AZALEA_LEAVES)));
         MOSS_BLOCK_EIGHTH = MCBlockRegister("moss_block_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MOSS_BLOCK)));
         BROWN_MUSHROOM_BLOCK_EIGHTH = MCBlockRegister("brown_mushroom_block_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.BROWN_MUSHROOM_BLOCK)));
         RED_MUSHROOM_BLOCK_EIGHTH = MCBlockRegister("red_mushroom_block_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.RED_MUSHROOM_BLOCK)));
         MUSHROOM_STEM_EIGHTH = MCBlockRegister("mushroom_stem_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.MUSHROOM_STEM)));
+        SCULK_EIGHTH = MCBlockRegister("sculk_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SCULK)));
         SHROOMLIGHT_EIGHTH = MCBlockRegister("shroomlight_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.SHROOMLIGHT)));
         HONEYCOMB_BLOCK_EIGHTH = MCBlockRegister("honeycomb_block_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.HONEYCOMB_BLOCK)));
+        OCHRE_FROGLIGHT_EIGHTH = MCBlockRegister("ochre_froglight_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.OCHRE_FROGLIGHT)));
+        VERDANT_FROGLIGHT_EIGHTH = MCBlockRegister("verdant_froglight_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.VERDANT_FROGLIGHT)));
+        PEARLESCENT_FROGLIGHT_EIGHTH = MCBlockRegister("pearlescent_froglight_eighth", new EighthBlock(FabricBlockSettings.copy(net.minecraft.block.Blocks.PEARLESCENT_FROGLIGHT)));
     }
 
     /**

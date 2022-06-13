@@ -74,7 +74,7 @@ public class IronFenceGateBlock extends FenceGateBlock
                 if (state.get(OPEN) != bl)
                 {
                     world.syncWorldEvent(null, bl ? 1005 : 1006, pos, 0);
-                    world.emitGameEvent(bl ? GameEvent.BLOCK_OPEN : GameEvent.BLOCK_CLOSE, pos);
+                    world.emitGameEvent(null, bl ? GameEvent.BLOCK_OPEN : GameEvent.BLOCK_CLOSE, pos);
                 }
             }
         }

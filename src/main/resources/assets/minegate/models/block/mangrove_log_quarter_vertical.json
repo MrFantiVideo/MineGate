@@ -1,0 +1,11 @@
+﻿{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/quarter_vertical",
+    "textures":
+    {
+        "particle": "minecraft:block/mangrove_log_top",
+        "bottom": "minecraft:block/mangrove_log_top",
+        "top": "minecraft:block/mangrove_log_top",
+        "side": "minecraft:block/mangrove_log"
+    }
+}

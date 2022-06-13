@@ -1,0 +1,8 @@
+{
+    "credit": "MineGate - Tous droits réservés.",
+    "parent": "minegate:block/vase_cross",
+    "textures":
+    {
+        "plant": "minecraft:block/mangrove_propagule"
+    }
+}

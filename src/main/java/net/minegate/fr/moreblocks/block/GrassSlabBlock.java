@@ -3,9 +3,9 @@ package net.minegate.fr.moreblocks.block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.Fertilizable;
-import net.minecraft.block.GrassBlock;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
@@ -16,7 +16,6 @@ import net.minecraft.world.gen.feature.RandomPatchFeatureConfig;
 import net.minecraft.world.gen.feature.VegetationPlacedFeatures;
 
 import java.util.List;
-import java.util.Random;
 
 public class GrassSlabBlock extends SpreadableSlabBlock implements Fertilizable
 {

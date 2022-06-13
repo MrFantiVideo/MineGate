@@ -46,7 +46,6 @@ public class Biomes
 
         return (new Biome.Builder())
                 .precipitation(Biome.Precipitation.SNOW)
-                .category(Biome.Category.NONE)
                 .temperature(1.0F)
                 .downfall(1.0F)
                 .effects((new BiomeEffects.Builder())

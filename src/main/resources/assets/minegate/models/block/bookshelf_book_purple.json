@@ -1,0 +1,9 @@
+﻿{
+	"credit": "MineGate - Tous droits réservés.",
+	"parent": "minegate:block/bookshelf_book",
+	"textures":
+	{
+        "book": "minegate:block/bookshelf_purple",
+		"particle": "minegate:block/bookshelf_purple"
+	}
+}
