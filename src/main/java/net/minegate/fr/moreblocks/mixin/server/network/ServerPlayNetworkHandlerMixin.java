@@ -35,7 +35,7 @@ public class ServerPlayNetworkHandlerMixin
      **/
 
     @Inject(method = "updateBookContent", at = @At("RETURN"))
-    private void updateBookContent(List<FilteredMessage<String>> pages, int slotId, CallbackInfo ci)
+    private void updateBookContent(List<FilteredMessage> pages, int slotId, CallbackInfo ci)
     {
         ItemStack itemStack = this.player.getInventory().getStack(slotId);
         if (itemStack.getItem() instanceof WritableBookItem)
@@ -49,7 +49,7 @@ public class ServerPlayNetworkHandlerMixin
      **/
 
     @Inject(method = "addBook", at = @At("RETURN"))
-    private void addBook(FilteredMessage<String> title, List<FilteredMessage<String>> pages, int slotId, CallbackInfo ci)
+    private void addBook(FilteredMessage title, List<FilteredMessage> pages, int slotId, CallbackInfo ci)
     {
         ItemStack itemStack = this.player.getInventory().getStack(slotId);
         if (itemStack.getItem() instanceof WritableBookItem)
@@ -65,11 +65,11 @@ public class ServerPlayNetworkHandlerMixin
             itemStack2.setSubNbt("author", NbtString.of(this.player.getName().getString()));
             if (this.player.shouldFilterText())
             {
-                itemStack2.setSubNbt("title", NbtString.of(title.filteredOrElse("")));
+                itemStack2.setSubNbt("title", NbtString.of(title.toString()));
             }
             else
             {
-                itemStack2.setSubNbt("filtered_title", NbtString.of(title.filteredOrElse("")));
+                itemStack2.setSubNbt("filtered_title", NbtString.of(title.toString()));
                 itemStack2.setSubNbt("title", NbtString.of(title.raw()));
             }
 
@@ -85,14 +85,14 @@ public class ServerPlayNetworkHandlerMixin
      * Required for addBook.
      **/
 
-    private void setTextToBook(List<FilteredMessage<String>> messages, UnaryOperator<String> postProcessor, ItemStack book)
+    private void setTextToBook(List<FilteredMessage> messages, UnaryOperator<String> postProcessor, ItemStack book)
     {
         NbtList nbtList = new NbtList();
         if (this.player.shouldFilterText())
         {
             Stream<NbtString> var10000 = messages.stream().map((message) ->
             {
-                return NbtString.of(postProcessor.apply(message.filteredOrElse("")));
+                return NbtString.of(postProcessor.apply(message.toString()));
             });
             Objects.requireNonNull(nbtList);
             var10000.forEach(nbtList::add);
@@ -104,12 +104,12 @@ public class ServerPlayNetworkHandlerMixin
 
             for (int j = messages.size(); i < j; ++i)
             {
-                FilteredMessage<String> filteredMessage = messages.get(i);
+                FilteredMessage filteredMessage = messages.get(i);
                 String string = filteredMessage.raw();
                 nbtList.add(NbtString.of(postProcessor.apply(string)));
                 if (filteredMessage.isFiltered())
                 {
-                    nbtCompound.putString(String.valueOf(i), postProcessor.apply(filteredMessage.filteredOrElse("")));
+                    nbtCompound.putString(String.valueOf(i), postProcessor.apply(filteredMessage.toString()));
                 }
             }
 
