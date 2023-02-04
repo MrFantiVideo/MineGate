@@ -2,7 +2,7 @@ package net.minegate.fr.moreblocks.client.gui.screen.options;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.minecraft.client.gui.screen.ConfirmChatLinkScreen;
+import net.minecraft.client.gui.screen.ConfirmLinkScreen;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.widget.ButtonListWidget;
 import net.minecraft.client.gui.widget.ButtonWidget;
@@ -42,7 +42,7 @@ public class OptionsScreen extends Screen
         buttonSizeChange = button("sizeChange", 48);
         addDrawableChild(new TexturedButtonWidget(this.width / 2 - 100, this.height / 6 + 72, 100, 20, 0, 0, 20, MINEGATE_TEXTURE, 100, 40, (buttonWidget) ->
         {
-            client.setScreen(new ConfirmChatLinkScreen((bl) ->
+            client.setScreen(new ConfirmLinkScreen((bl) ->
             {
                 if (bl)
                 {
@@ -85,7 +85,7 @@ public class OptionsScreen extends Screen
     {
         return addDrawableChild(new TexturedButtonWidget(this.width / 2 + 5 + placement, this.height / 6 + 72, 20, 20, 0, v, 20, SOCIAL_TEXTURE, 20, 160, (buttonWidget) ->
         {
-            client.setScreen(new ConfirmChatLinkScreen((bl) ->
+            client.setScreen(new ConfirmLinkScreen((bl) ->
             {
                 if (bl)
                 {
