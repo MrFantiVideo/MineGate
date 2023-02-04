@@ -147,7 +147,6 @@ public class SitEntity extends LivingEntity
     {
     }
 
-    @Override
     public boolean collides()
     {
         return false;
