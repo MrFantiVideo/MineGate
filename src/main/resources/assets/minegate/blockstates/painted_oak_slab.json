@@ -1,0 +1,13 @@
+﻿{
+  "variants": {
+    "type=bottom": {
+      "model": "minegate:block/painted_oak_slab"
+    },
+    "type=double": {
+      "model": "minegate:block/painted_oak_planks"
+    },
+    "type=top": {
+      "model": "minegate:block/painted_oak_slab_top"
+    }
+  }
+}

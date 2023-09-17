@@ -1,4 +1,3 @@
 ﻿{
-    "credit": "MineGate - Tous droits réservés.",
-    "parent": "minegate:block/christmas_hat"
+  "parent": "minegate:block/christmas_hat"
 }

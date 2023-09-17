@@ -1,18 +1,13 @@
 ﻿{
-    "credit": "MineGate - Tous droits réservés.",
-    "variants":
-    {
-        "type=bottom":
-        {
-            "model": "minegate:block/iron_block_slab"
-        },
-        "type=top":
-        {
-            "model": "minegate:block/iron_block_slab_top"
-        },
-        "type=double":
-        {
-            "model": "minecraft:block/iron_block"
-        }
+  "variants": {
+    "type=bottom": {
+      "model": "minegate:block/iron_block_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/iron_block"
+    },
+    "type=top": {
+      "model": "minegate:block/iron_block_slab_top"
     }
+  }
 }

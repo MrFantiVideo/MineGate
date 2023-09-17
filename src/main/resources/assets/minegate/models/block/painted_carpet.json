@@ -1,0 +1,6 @@
+{
+  "parent": "minegate:block/template/painted_carpet",
+  "textures": {
+    "wool": "minecraft:block/white_wool"
+  }
+}

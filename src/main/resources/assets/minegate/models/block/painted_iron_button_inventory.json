@@ -1,0 +1,6 @@
+{
+  "parent": "minegate:block/template/painted_button_inventory",
+  "textures": {
+    "texture": "minecraft:block/iron_block"
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "variants": {
+    "type=north": {
+      "model": "minegate:block/painted_iron_block_vertical_slab", "uvlock": true, "y": 180
+    },
+    "type=east": {
+      "model": "minegate:block/painted_iron_block_vertical_slab", "uvlock": true, "y": 270
+    },
+    "type=south": {
+      "model": "minegate:block/painted_iron_block_vertical_slab", "uvlock": true, "y": 0
+    },
+    "type=west": {
+      "model": "minegate:block/painted_iron_block_vertical_slab", "uvlock": true, "y": 90
+    },
+    "type=double": {
+      "model": "minegate:block/painted_iron_block"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+﻿{
+  "multipart":[
+    {
+      "apply":{
+        "model": "minegate:block/painted_lantern",
+        "uvlock": true
+      }
+    },
+    {
+      "when":{
+        "north": "true"
+      },
+      "apply":{
+        "model": "minegate:block/painted_lantern_rod_side",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when":{
+        "east": "true"
+      },
+      "apply":{
+        "model": "minegate:block/painted_lantern_rod_side",
+        "uvlock": true
+      }
+    },
+    {
+      "when":{
+        "south": "true"
+      },
+      "apply":{
+        "model": "minegate:block/painted_lantern_rod_side",
+        "y": 90,
+        "uvlock": true
+      }
+    },
+    {
+      "when":{
+        "west": "true"
+      },
+      "apply":{
+        "model": "minegate:block/painted_lantern_rod_side",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when":{
+        "OR":[
+          {
+            "up": "true"
+          },
+          {
+            "north": "true"
+          },
+          {
+            "east": "true"
+          },
+          {
+            "south": "true"
+          },
+          {
+            "west": "true"
+          }
+        ]
+      },
+      "apply":{
+        "model": "minegate:block/painted_lantern_rod_up",
+        "uvlock": true
+      }
+    },
+    {
+      "when":{
+        "down": "true"
+      },
+      "apply":{
+        "model": "minegate:block/painted_lantern_down",
+        "uvlock": true
+      }
+    },
+    {
+      "when":{
+        "candle": "true",
+        "lit": "false"
+      },
+      "apply":{
+        "model": "minegate:block/lantern_candle",
+        "uvlock": true
+      }
+    },
+    {
+      "when":{
+        "candle": "true",
+        "lit": "true"
+      },
+      "apply":{
+        "model": "minegate:block/lantern_candle_lit",
+        "uvlock": true
+      }
+    }
+  ]
+}

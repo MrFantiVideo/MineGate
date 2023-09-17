@@ -1,0 +1,10 @@
+﻿{
+    "parent": "minegate:block/quarter_middle",
+    "textures":
+    {
+        "particle": "minegate:block/painted/oak_planks",
+        "bottom": "minegate:block/painted/oak_planks",
+        "top": "minegate:block/painted/oak_planks",
+        "side": "minegate:block/painted/oak_planks"
+    }
+}

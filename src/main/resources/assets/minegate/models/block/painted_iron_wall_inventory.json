@@ -1,0 +1,6 @@
+{
+  "parent": "minegate:block/template/painted_wall_inventory",
+  "textures": {
+    "wall": "minecraft:block/iron_block"
+  }
+}

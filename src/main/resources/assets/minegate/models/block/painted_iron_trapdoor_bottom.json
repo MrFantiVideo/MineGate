@@ -1,0 +1,6 @@
+{
+  "parent": "minegate:block/template/painted_trapdoor_bottom",
+  "textures": {
+    "texture": "minecraft:block/iron_trapdoor"
+  }
+}

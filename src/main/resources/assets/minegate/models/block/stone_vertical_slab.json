@@ -1,0 +1,9 @@
+{
+  "parent": "minegate:block/template/vertical_slab",
+  "textures": {
+    "particle": "minecraft:block/stone",
+    "bottom": "minecraft:block/stone",
+    "top": "minecraft:block/stone",
+    "side": "minecraft:block/stone"
+  }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "variants":
+    {
+        "facing=north":
+        {
+           "model": "minegate:block/painted_oak_vertical_stairs", "y": 180, "uvlock": true
+        },
+        "facing=east":
+        {
+           "model": "minegate:block/painted_oak_vertical_stairs", "y": 270, "uvlock": true
+        },
+        "facing=south":
+        {
+            "model": "minegate:block/painted_oak_vertical_stairs", "y": 0, "uvlock": true
+        },
+        "facing=west":
+        {
+           "model": "minegate:block/painted_oak_vertical_stairs", "y": 90, "uvlock": true
+        }
+    }
+}

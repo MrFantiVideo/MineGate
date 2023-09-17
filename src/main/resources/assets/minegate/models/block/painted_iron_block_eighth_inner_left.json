@@ -1,0 +1,9 @@
+﻿{
+  "parent": "minegate:block/template/painted/inner_left_eighth",
+  "textures": {
+    "particle": "minecraft:block/iron_block",
+    "bottom": "minecraft:block/iron_block",
+    "top": "minecraft:block/iron_block",
+    "side": "minecraft:block/iron_block"
+  }
+}

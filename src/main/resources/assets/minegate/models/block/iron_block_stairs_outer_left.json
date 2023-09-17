@@ -1,0 +1,9 @@
+﻿{
+  "parent": "minegate:block/template/outer_left_stairs",
+  "textures": {
+    "particle": "minecraft:block/iron_block",
+    "bottom": "minecraft:block/iron_block",
+    "top": "minecraft:block/iron_block",
+    "side": "minecraft:block/iron_block"
+  }
+}

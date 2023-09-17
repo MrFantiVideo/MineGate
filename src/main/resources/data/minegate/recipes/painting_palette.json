@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ABC",
+      "DPE",
+      "FGH"
+    ],
+    "key": {
+      "P": {
+        "item": "minegate:empty_painting_palette"
+      },
+      "A": {
+        "item": "minecraft:blue_dye"
+      },
+      "B": {
+        "item": "minecraft:red_dye"
+      },
+      "C": {
+        "item": "minecraft:lime_dye"
+      },
+      "D": {
+        "item": "minecraft:white_dye"
+      },
+      "E": {
+        "item": "minecraft:black_dye"
+      },
+      "F": {
+        "item": "minecraft:light_blue_dye"
+      },
+      "G": {
+        "item": "minecraft:pink_dye"
+      },
+      "H": {
+        "item": "minecraft:yellow_dye"
+      }
+    },
+    "result": {
+      "item": "minegate:painting_palette",
+      "count": 1
+    }
+}

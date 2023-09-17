@@ -1,0 +1,8 @@
+﻿{
+  "parent": "minegate:block/lantern",
+  "textures":{
+    "0": "minegate:block/painted/oak_planks",
+    "1": "minecraft:block/glass",
+    "particle": "minegate:block/painted/oak_planks"
+  }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "parent": "minegate:block/template/painted/slab_top",
+  "textures": {
+    "bottom": "minegate:block/painted/oak_planks",
+    "side": "minegate:block/painted/oak_planks",
+    "top": "minegate:block/painted/oak_planks"
+  }
+}

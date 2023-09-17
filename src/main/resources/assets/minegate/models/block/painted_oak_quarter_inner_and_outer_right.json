@@ -1,0 +1,9 @@
+﻿{
+  "parent": "minegate:block/template/painted/inner_and_outer_right_quarter",
+  "textures": {
+    "particle": "minegate:block/painted/oak_planks",
+    "bottom": "minegate:block/painted/oak_planks",
+    "top": "minegate:block/painted/oak_planks",
+    "side": "minegate:block/painted/oak_planks"
+  }
+}

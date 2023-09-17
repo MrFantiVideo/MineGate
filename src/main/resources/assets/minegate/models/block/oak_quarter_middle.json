@@ -1,0 +1,10 @@
+﻿{
+    "parent": "minegate:block/quarter_middle",
+    "textures":
+    {
+        "particle": "minecraft:block/oak_planks",
+        "bottom": "minecraft:block/oak_planks",
+        "top": "minecraft:block/oak_planks",
+        "side": "minecraft:block/oak_planks"
+    }
+}

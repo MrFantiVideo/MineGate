@@ -1,62 +1,46 @@
 {
-  "schemaVersion": 1,
-  "id": "minegate-moreblocks",
-  "version": "1.2.5",
-  "name": "MineGate · MoreBlocks",
-  "description": "Add lots of blocks and new variations.",
-  "authors":
-  [
-    "Mr.FantiVideo"
-  ],
-  "contact":
-  {
-    "homepage": "https://minegate.fr",
-    "issues": "https://github.com/MrFantiVideo/MineGate/issues",
-    "sources": "https://github.com/MrFantiVideo/MineGate"
-  },
-  "license": "All Rights Reserved",
-  "icon": "pack.png",
-  "environment": "*",
-  "entrypoints":
-  {
-    "main":
-    [
-      "net.minegate.fr.moreblocks.MoreBlocks"
-    ],
-    "client":
-    [
-      "net.minegate.fr.moreblocks.MoreBlocksClient"
-    ],
-    "modmenu":
-    [
-      "net.minegate.fr.moreblocks.client.gui.screen.options.modmenu.ModMenuEntry"
-    ]
-  },
-  "mixins":
-  [
-    "minegate.mixins.json"
-  ],
-  "depends":
-  {
-    "fabricloader": ">=0.14.6",
-    "fabric": ">=0.55.2+1.19",
-    "minecraft": ">=1.19",
-    "java": ">=17"
-  },
-  "custom":
-  {
-    "modupdater":
-    {
-      "strategy": "curseforge",
-      "projectID": 411599,
-      "strict": false
-    },
-    "modmenu":
-    {
-      "links":
-      {
-        "Discord": "https://minegate.fr/discord"
-      }
-    }
-  }
+	"schemaVersion": 1,
+	"id": "minegate",
+	"version": "1.0.0",
+	"name": "MineGate",
+	"description": "French Minecraft client and server with lots of additions!",
+	"authors":
+	[
+		"Mr.FantiVideo"
+	],
+	"contact":
+	{
+		"homepage": "https://minegate.fr",
+		"issues": "https://github.com/MrFantiVideo/MineGate/issues",
+		"sources": "https://github.com/MrFantiVideo/MineGate"
+	},
+	"license": "All Rights Reserved",
+	"icon": "pack.png",
+	"environment": "*",
+	"entrypoints":
+	{
+		"main":
+		[
+			"fr.minegate.MineGate"
+		],
+		"client":
+		[
+			"fr.minegate.client.MineGateClient"
+		],
+		"server":
+		[
+			"fr.minegate.server.MineGateServer"
+		]
+	},
+	"mixins":
+	[
+		"minegate.mixins.json"
+	],
+	"depends":
+	{
+		"fabricloader": "*",
+		"fabric": "*",
+		"minecraft": "*",
+		"java": ">=17"
+	}
 }

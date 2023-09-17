@@ -1,0 +1,7 @@
+﻿{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minegate:item/book_pages_with_feather",
+    "layer1": "minegate:item/book_cover_with_feather"
+  }
+}

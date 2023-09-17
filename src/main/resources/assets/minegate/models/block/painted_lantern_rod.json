@@ -1,0 +1,7 @@
+﻿{
+  "parent": "minegate:block/lantern_rod",
+  "textures":{
+    "0": "minegate:block/painted/oak_planks",
+    "particle": "minegate:block/painted/oak_planks"
+  }
+}

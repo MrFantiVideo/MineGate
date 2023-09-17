@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " SS",
+      "SSS",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "tag": "minecraft:wooden_slabs"
+      }
+    },
+    "result": {
+      "item": "minegate:empty_painting_palette",
+      "count": 1
+    }
+}

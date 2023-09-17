@@ -1,0 +1,6 @@
+{
+  "parent": "minegate:block/template/painted_fence_gate_wall_open",
+  "textures": {
+    "texture": "minecraft:block/iron_block"
+  }
+}

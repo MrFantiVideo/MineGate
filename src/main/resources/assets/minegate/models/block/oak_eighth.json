@@ -1,0 +1,9 @@
+﻿{
+  "parent": "minegate:block/template/eighth",
+  "textures": {
+    "particle": "minecraft:block/oak_planks",
+    "bottom": "minecraft:block/oak_planks",
+    "top": "minecraft:block/oak_planks",
+    "side": "minecraft:block/oak_planks"
+  }
+}

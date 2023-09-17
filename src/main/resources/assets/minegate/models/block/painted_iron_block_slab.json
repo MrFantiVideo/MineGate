@@ -1,0 +1,8 @@
+﻿{
+  "parent": "minegate:block/template/painted/slab",
+  "textures": {
+    "bottom": "minecraft:block/iron_block",
+    "side": "minecraft:block/iron_block",
+    "top": "minecraft:block/iron_block"
+  }
+}

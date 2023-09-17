@@ -1,166 +1,165 @@
 ﻿{
-    "credit": "MineGate - Tous droits réservés.",
-    "variants":
-    {
-        "facing=east,half=bottom,shape=straight":
+    "multipart":
+    [
         {
-            "model": "minegate:block/iron_block_quarter"
+            "when": { "axis": "x", "north": "false", "east": "false", "south": "false", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter_middle", "uvlock": true, "x": 90 }
         },
-        "facing=west,half=bottom,shape=straight":
         {
-            "model": "minegate:block/iron_block_quarter", "y": 180, "uvlock": true
+            "when": { "axis": "y", "north": "false", "east": "false", "south": "false", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter_middle", "uvlock": true }
         },
-        "facing=south,half=bottom,shape=straight":
         {
-            "model": "minegate:block/iron_block_quarter", "y": 90, "uvlock": true
+            "when": { "axis": "z", "north": "false", "east": "false", "south": "false", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter_middle", "uvlock": true, "x": 90, "y": 90  }
         },
-        "facing=north,half=bottom,shape=straight":
         {
-            "model": "minegate:block/iron_block_quarter", "y": 270, "uvlock": true
+            "when": { "axis": "x", "north": "true", "east": "false", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "x": 90, "y": 270 }
         },
-        "facing=east,half=bottom,shape=outer_right":
         {
-            "model": "minegate:block/iron_block_quarter_outer"
+            "when": { "axis": "x", "north": "false", "east": "true", "south": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "x": 90, "y": 90 }
         },
-        "facing=west,half=bottom,shape=outer_right":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "y": 180, "uvlock": true
+            "when": { "axis": "x", "east": "false", "south": "true", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "x": 270, "y": 90 }
         },
-        "facing=south,half=bottom,shape=outer_right":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "y": 90, "uvlock": true
+            "when": { "axis": "x", "north": "false", "south": "false", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "x": 270, "y": 270 }
         },
-        "facing=north,half=bottom,shape=outer_right":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "y": 270, "uvlock": true
+            "when": { "axis": "y", "north": "true", "east": "false", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "y": 180 }
         },
-        "facing=east,half=bottom,shape=outer_left":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "y": 270, "uvlock": true
+            "when": { "axis": "y", "north": "false", "east": "true", "south": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "y": 270 }
         },
-        "facing=west,half=bottom,shape=outer_left":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "y": 90, "uvlock": true
+            "when": { "axis": "y", "east": "false", "south": "true", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "y": 0 }
         },
-        "facing=south,half=bottom,shape=outer_left":
         {
-            "model": "minegate:block/iron_block_quarter_outer"
+            "when": { "axis": "y", "north": "false", "south": "false", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "y": 90 }
         },
-        "facing=north,half=bottom,shape=outer_left":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "y": 180, "uvlock": true
+            "when": { "axis": "z", "north": "true", "east": "false", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "x": 270, "y": 180 }
         },
-        "facing=east,half=bottom,shape=inner_right":
         {
-            "model": "minegate:block/iron_block_quarter_inner"
+            "when": { "axis": "z", "north": "false", "east": "true", "south": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "x": 270 }
         },
-        "facing=west,half=bottom,shape=inner_right":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "y": 180, "uvlock": true
+            "when": { "axis": "z", "east": "false", "south": "true", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "x": 90}
         },
-        "facing=south,half=bottom,shape=inner_right":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "y": 90, "uvlock": true
+            "when": { "axis": "z", "north": "false", "south": "false", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_quarter", "uvlock": true, "x": 90, "y": 180  }
         },
-        "facing=north,half=bottom,shape=inner_right":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "y": 270, "uvlock": true
+            "when": { "axis": "x", "north": "true", "east": "true", "south": "false", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true, "x": 180 }
         },
-        "facing=east,half=bottom,shape=inner_left":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "y": 270, "uvlock": true
+            "when": { "axis": "x", "north": "false", "east": "true", "south": "true", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true, "x": 90 }
         },
-        "facing=west,half=bottom,shape=inner_left":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "y": 90, "uvlock": true
+            "when": { "axis": "x", "north": "false", "east": "false", "south": "true", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true }
         },
-        "facing=south,half=bottom,shape=inner_left":
         {
-            "model": "minegate:block/iron_block_quarter_inner"
+            "when": { "axis": "x", "north": "true", "east": "false", "south": "false", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true, "x": 90, "y": 180 }
         },
-        "facing=north,half=bottom,shape=inner_left":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "y": 180, "uvlock": true
+            "when": { "axis": "y", "north": "true", "east": "true", "south": "false", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true, "x": 270}
         },
-        "facing=east,half=top,shape=straight":
         {
-            "model": "minegate:block/iron_block_quarter", "x": 180, "uvlock": true
+            "when": { "axis": "y", "north": "false", "east": "true", "south": "true", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true, "x": 90, "y": 270 }
         },
-        "facing=west,half=top,shape=straight":
         {
-            "model": "minegate:block/iron_block_quarter", "x": 180, "y": 180, "uvlock": true
+            "when": { "axis": "y", "north": "false", "east": "false", "south": "true", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true, "x": 90 }
         },
-        "facing=south,half=top,shape=straight":
         {
-            "model": "minegate:block/iron_block_quarter", "x": 180, "y": 90, "uvlock": true
+            "when": { "axis": "y", "north": "true", "east": "false", "south": "false", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true, "x": 90, "y": 90 }
         },
-        "facing=north,half=top,shape=straight":
         {
-            "model": "minegate:block/iron_block_quarter", "x": 180, "y": 270, "uvlock": true 
+            "when": { "axis": "z", "north": "true", "east": "true", "south": "false", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true }
         },
-        "facing=east,half=top,shape=outer_right":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "x": 180, "y": 90, "uvlock": true
+            "when": { "axis": "z", "north": "false", "east": "true", "south": "true", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true, "x": 90, "y": 270 }
         },
-        "facing=west,half=top,shape=outer_right":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "x": 180, "y": 270, "uvlock": true
+            "when": { "axis": "z", "north": "false", "east": "false", "south": "true", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true, "x": 180 }
         },
-        "facing=south,half=top,shape=outer_right":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "x": 180, "y": 180, "uvlock": true
+            "when": { "axis": "z", "north": "true", "east": "false", "south": "false", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_slab", "uvlock": true, "x": 90, "y": 90 }
         },
-        "facing=north,half=top,shape=outer_right":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "x": 180, "uvlock": true
+            "when": { "axis": "x", "north": "true", "east": "true", "south": "false", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "x": 180, "y": 270 }
         },
-        "facing=east,half=top,shape=outer_left":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "x": 180, "uvlock": true
+            "when": { "axis": "x", "north": "true", "east": "true", "south": "true", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "x": 180, "y": 90 }
         },
-        "facing=west,half=top,shape=outer_left":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "x": 180, "y": 180, "uvlock": true
+            "when": { "axis": "x", "north": "false", "east": "true", "south": "true", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "y": 90 }
         },
-        "facing=south,half=top,shape=outer_left":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "x": 180, "y": 90, "uvlock": true
+            "when": { "axis": "x", "north": "true", "east": "false", "south": "true", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "y": 270 }
         },
-        "facing=north,half=top,shape=outer_left":
         {
-            "model": "minegate:block/iron_block_quarter_outer", "x": 180, "y": 270, "uvlock": true
+            "when": { "axis": "y", "north": "true", "east": "true", "south": "false", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "x": 90, "y": 180 }
         },
-        "facing=east,half=top,shape=inner_right":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "x": 180, "y": 90, "uvlock": true
+            "when": { "axis": "y", "north": "true", "east": "true", "south": "true", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "x": 90, "y": 270 }
         },
-        "facing=west,half=top,shape=inner_right":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "x": 180, "y": 270, "uvlock": true
+            "when": { "axis": "y", "north": "false", "east": "true", "south": "true", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "x": 90, "y": 0 }
         },
-        "facing=south,half=top,shape=inner_right":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "x": 180, "y": 180, "uvlock": true
+            "when": { "axis": "y", "north": "true", "east": "false", "south": "true", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "x": 90, "y": 90 }
         },
-        "facing=north,half=top,shape=inner_right":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "x": 180, "uvlock": true
+            "when": { "axis": "z", "north": "true", "east": "true", "south": "false", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "x": 0, "y": 180 }
         },
-        "facing=east,half=top,shape=inner_left":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "x": 180, "uvlock": true
+            "when": { "axis": "z", "north": "true", "east": "true", "south": "true", "west": "false" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "x": 0, "y": 0 }
         },
-        "facing=west,half=top,shape=inner_left":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "x": 180, "y": 180, "uvlock": true
+            "when": { "axis": "z", "north": "false", "east": "true", "south": "true", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "x": 180, "y": 0 }
         },
-        "facing=south,half=top,shape=inner_left":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "x": 180, "y": 90, "uvlock": true
+            "when": { "axis": "z", "north": "true", "east": "false", "south": "true", "west": "true" },
+            "apply": { "model": "minegate:block/iron_block_stairs", "uvlock": true, "x": 180, "y": 180 }
         },
-        "facing=north,half=top,shape=inner_left":
         {
-            "model": "minegate:block/iron_block_quarter_inner", "x": 180, "y": 270, "uvlock": true
+            "when": { "north": "true", "east": "true", "south": "true", "west": "true" },
+            "apply": { "model": "minecraft:block/iron_block", "uvlock": true }
         }
-    }
+    ]
 }

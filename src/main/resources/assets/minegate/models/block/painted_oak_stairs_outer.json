@@ -1,0 +1,8 @@
+﻿{
+  "parent": "minecraft:block/template/painted/outer_stairs",
+  "textures": {
+    "bottom": "minegate:block/painted/oak_planks",
+    "side": "minegate:block/painted/oak_planks",
+    "top": "minegate:block/painted/oak_planks"
+  }
+}

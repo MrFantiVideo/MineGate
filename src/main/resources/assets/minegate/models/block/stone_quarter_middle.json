@@ -1,0 +1,10 @@
+{
+    "parent": "minegate:block/quarter_middle",
+    "textures":
+    {
+        "particle": "minecraft:block/stone",
+        "bottom": "minecraft:block/stone",
+        "top": "minecraft:block/stone",
+        "side": "minecraft:block/stone"
+    }
+}

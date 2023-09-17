@@ -1,10 +1,9 @@
-﻿{
-    "credit": "MineGate - Tous droits réservés.",
-    "parent": "block/inner_stairs",
-    "textures":
-    {
-        "bottom": "minecraft:block/stone",
-        "top": "minecraft:block/stone",
-        "side": "minecraft:block/stone"
-    }
+{
+  "parent": "minegate:block/template/inner_stairs",
+  "textures": {
+    "particle": "minecraft:block/stone",
+    "bottom": "minecraft:block/stone",
+    "top": "minecraft:block/stone",
+    "side": "minecraft:block/stone"
+  }
 }

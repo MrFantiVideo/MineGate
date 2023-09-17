@@ -1,0 +1,13 @@
+﻿{
+  "variants": {
+    "type=bottom": {
+      "model": "minegate:block/oak_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/oak_planks"
+    },
+    "type=top": {
+      "model": "minegate:block/oak_slab_top"
+    }
+  }
+}

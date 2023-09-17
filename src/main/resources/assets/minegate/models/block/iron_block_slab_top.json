@@ -1,10 +1,8 @@
 ﻿{
-    "credit": "MineGate - Tous droits réservés.",
-    "parent": "block/slab_top",
-    "textures":
-    {
-        "bottom": "minecraft:block/iron_block",
-        "top": "minecraft:block/iron_block",
-        "side": "minecraft:block/iron_block"
-    }
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "minecraft:block/iron_block",
+    "side": "minecraft:block/iron_block",
+    "top": "minecraft:block/iron_block"
+  }
 }
